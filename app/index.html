@@ -6417,9 +6417,9 @@
                         name === "temario" ? "Temario — 81 temas · BOE 11-ago-2025" :
                             name === "plan" ? "Plan — 21 semanas · examen ~18 oct 2026" :
                                 name === "errores" ? "Cuaderno de errores — repasa lo que fallaste" :
-                                name === "ayuda" ? "Ayuda — cómo usar la app" :
-                                    name === "busqueda" ? "Buscar — temas, tips, flashcards y glosario" :
-                                        "Tu panel de estudio";
+                                    name === "ayuda" ? "Ayuda — cómo usar la app" :
+                                        name === "busqueda" ? "Buscar — temas, tips, flashcards y glosario" :
+                                            "Tu panel de estudio";
             }
             // sync hash without scrolling
             const h = "#" + name;
@@ -8555,13 +8555,13 @@
     </div>
 
     ${(() => {
-                const srsCounts = srsBoxCounts();
-                const srsTotal = srsCounts.reduce((a, b) => a + b, 0);
-                if (srsTotal === 0) return "";
-                const dueCls = dueCount === 0 ? "ok" : dueCount > 20 ? "bad" : dueCount >= 10 ? "warn" : "ok";
-                const max = Math.max(...srsCounts, 1);
-                const labels = ["1d", "3d", "7d", "14d", "30d"];
-                return `
+                    const srsCounts = srsBoxCounts();
+                    const srsTotal = srsCounts.reduce((a, b) => a + b, 0);
+                    if (srsTotal === 0) return "";
+                    const dueCls = dueCount === 0 ? "ok" : dueCount > 20 ? "bad" : dueCount >= 10 ? "warn" : "ok";
+                    const max = Math.max(...srsCounts, 1);
+                    const labels = ["1d", "3d", "7d", "14d", "30d"];
+                    return `
       <div class="srs-card">
         <div class="srs-head">
           <h3>🧠 Tu memoria</h3>
@@ -8571,21 +8571,21 @@
           <span class="due-lbl">Repasar hoy</span>
           <span class="due-n ${dueCls}">${dueCount}</span>
           ${dueCount > 0
-                        ? `<button class="due-go" data-go="srs">Empezar</button>`
-                        : `<span class="due-zero">Al día ✓</span>`}
+                            ? `<button class="due-go" data-go="srs">Empezar</button>`
+                            : `<span class="due-zero">Al día ✓</span>`}
         </div>
         <div class="srs-boxes">
           ${srsCounts.map((c, i) => {
-                            const h = Math.round((c / max) * 100);
-                            return `<div class="srs-box b${i + 1}">
+                                const h = Math.round((c / max) * 100);
+                                return `<div class="srs-box b${i + 1}">
               <div class="bx-track"><div class="bx-fill" style="height:${h}%"></div></div>
               <div class="bx-n">${c}</div>
               <div class="bx-lbl">Caja ${i + 1}<small>${labels[i]}</small></div>
             </div>`;
-                        }).join("")}
+                            }).join("")}
         </div>
       </div>`;
-            })()}
+                })()}
 
     ${bTotalSeen > 0 ? `
       <div class="bloque-stats">
@@ -8595,26 +8595,26 @@
         </div>
         <div class="bs-bars">
           ${["A", "B", "C"].map(k => {
-                const b = bStats[k];
-                const acc = bAcc(b);
-                const pct = Math.round(acc * 100);
-                const cls = b.seen === 0 ? "empty" : acc >= 0.7 ? "ok" : acc >= 0.5 ? "warn" : "bad";
-                return `
+                    const b = bStats[k];
+                    const acc = bAcc(b);
+                    const pct = Math.round(acc * 100);
+                    const cls = b.seen === 0 ? "empty" : acc >= 0.7 ? "ok" : acc >= 0.5 ? "warn" : "bad";
+                    return `
                   <div class="bs-row ${k} ${cls}">
                     <div class="bs-label"><b>${k}</b> · ${bLabel[k]}</div>
                     <div class="bs-track"><div class="bs-fill" style="width:${b.seen ? pct : 0}%"></div></div>
                     <div class="bs-val">${b.seen ? pct + "%" : "—"}<small>${b.seen}</small></div>
                   </div>`;
-            }).join("")}
+                }).join("")}
         </div>
         ${bAlerts.length ? `<div class="bs-alert">⚠️ ${escapeHtml(bAlerts[0])}</div>` : ""}
       </div>` : ""}
 
     ${(() => {
-                const st = badgeState();
-                const earned = BADGES.filter(b => b.check(st));
-                if (BADGES.length === 0) return "";
-                return `
+                    const st = badgeState();
+                    const earned = BADGES.filter(b => b.check(st));
+                    if (BADGES.length === 0) return "";
+                    return `
       <div class="badges-card">
         <div class="bd-head">
           <h3>🏆 Hitos</h3>
@@ -8622,21 +8622,21 @@
         </div>
         <div class="bd-grid">
           ${BADGES.map(b => {
-                    const ok = b.check(st);
-                    return `<div class="bd-item ${ok ? "on" : "off"}" title="${escapeHtml(b.desc)}">
+                        const ok = b.check(st);
+                        return `<div class="bd-item ${ok ? "on" : "off"}" title="${escapeHtml(b.desc)}">
               <div class="bd-icon">${b.icon}</div>
               <div class="bd-name">${escapeHtml(b.name)}</div>
             </div>`;
-                }).join("")}
+                    }).join("")}
         </div>
       </div>`;
-            })()}
+                })()}
 
     ${(() => {
-                const v = compareVsPast();
-                if (!v) return "";
-                if (v.then.tests === 0) {
-                    return `
+                    const v = compareVsPast();
+                    if (!v) return "";
+                    if (v.then.tests === 0) {
+                        return `
       <div class="vs-card">
         <div class="vs-head">
           <h3>📈 Tú vs tú</h3>
@@ -8644,11 +8644,11 @@
         </div>
         <div class="vs-empty">Aún no hay datos de hace 4 semanas para comparar. Vuelve en unas semanas y verás tu progreso aquí.</div>
       </div>`;
-                }
-                const delta = (a, b) => a - b;
-                const arrow = d => d > 0 ? `<span class="up">▲ +${Math.abs(d).toFixed(1)}</span>` : d < 0 ? `<span class="down">▼ -${Math.abs(d).toFixed(1)}</span>` : `<span class="flat">=</span>`;
-                const arrowPct = d => d > 0 ? `<span class="up">▲ +${Math.round(Math.abs(d))}%</span>` : d < 0 ? `<span class="down">▼ -${Math.round(Math.abs(d))}%</span>` : `<span class="flat">=</span>`;
-                return `
+                    }
+                    const delta = (a, b) => a - b;
+                    const arrow = d => d > 0 ? `<span class="up">▲ +${Math.abs(d).toFixed(1)}</span>` : d < 0 ? `<span class="down">▼ -${Math.abs(d).toFixed(1)}</span>` : `<span class="flat">=</span>`;
+                    const arrowPct = d => d > 0 ? `<span class="up">▲ +${Math.round(Math.abs(d))}%</span>` : d < 0 ? `<span class="down">▼ -${Math.round(Math.abs(d))}%</span>` : `<span class="flat">=</span>`;
+                    return `
       <div class="vs-card">
         <div class="vs-head">
           <h3>📈 Tú vs tú</h3>
@@ -8672,7 +8672,7 @@
           </div>
         </div>
       </div>`;
-            })()}
+                })()}
 
     <h3 class="home-section">Empezar ahora</h3>
     <div class="quick">
@@ -8685,8 +8685,8 @@
       <h3 class="home-section">Temas a reforzar</h3>
       <ul class="stats-list compact">
         ${weak.map(w => {
-                const t = TEMAS.find(x => x.n === w.n);
-                return `<li data-tema="${w.n}">
+                    const t = TEMAS.find(x => x.n === w.n);
+                    return `<li data-tema="${w.n}">
             <div class="num ${t.b}">${t.n}</div>
             <div class="info">
               <div class="title">${escapeHtml(t.t)}</div>
@@ -8694,7 +8694,7 @@
             </div>
             <div class="acc bad">${Math.round(w.acc * 100)}%</div>
           </li>`;
-            }).join("")}
+                }).join("")}
       </ul>` : ""}
 
     ${hist.length ? `
