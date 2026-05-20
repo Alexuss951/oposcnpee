@@ -1,7 +1,18 @@
+# Local-only: AI/Copilot context and tooling
+.github/
+AGENTS.md
+.vscode/
+.copilot/
+
+# Local-only: scripts (parsers, one-shots, helpers)
+scripts/
+
+# Python artefacts
+__pycache__/
+*.pyc
+
+# Editor / OS noise
 _chk.js
 .DS_Store
 Thumbs.db
 *.tmp
-
-__pycache__/
-*.pyc
