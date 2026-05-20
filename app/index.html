@@ -3464,10 +3464,28 @@
             min-height: 32px;
         }
 
-        .exam-tags .tag-btn:hover { color: var(--text); border-color: var(--text); }
-        .exam-tags .tag-btn.active.tag-ok { background: #16a34a; color: #fff; border-color: #16a34a; }
-        .exam-tags .tag-btn.active.tag-warn { background: #d97706; color: #fff; border-color: #d97706; }
-        .exam-tags .tag-btn.active.tag-hot { background: #dc2626; color: #fff; border-color: #dc2626; }
+        .exam-tags .tag-btn:hover {
+            color: var(--text);
+            border-color: var(--text);
+        }
+
+        .exam-tags .tag-btn.active.tag-ok {
+            background: #16a34a;
+            color: #fff;
+            border-color: #16a34a;
+        }
+
+        .exam-tags .tag-btn.active.tag-warn {
+            background: #d97706;
+            color: #fff;
+            border-color: #d97706;
+        }
+
+        .exam-tags .tag-btn.active.tag-hot {
+            background: #dc2626;
+            color: #fff;
+            border-color: #dc2626;
+        }
 
         /* Tag pill in marcadas list */
         .marked-list .tag-pill {
@@ -3478,9 +3496,21 @@
             font-weight: 700;
             margin-left: 4px;
         }
-        .marked-list .tag-pill.tag-ok { background: rgba(22,163,74,.18); color: #16a34a; }
-        .marked-list .tag-pill.tag-warn { background: rgba(217,119,6,.18); color: #d97706; }
-        .marked-list .tag-pill.tag-hot { background: rgba(220,38,38,.18); color: #dc2626; }
+
+        .marked-list .tag-pill.tag-ok {
+            background: rgba(22, 163, 74, .18);
+            color: #16a34a;
+        }
+
+        .marked-list .tag-pill.tag-warn {
+            background: rgba(217, 119, 6, .18);
+            color: #d97706;
+        }
+
+        .marked-list .tag-pill.tag-hot {
+            background: rgba(220, 38, 38, .18);
+            color: #dc2626;
+        }
 
         .marked-filters {
             display: flex;
@@ -3500,7 +3530,10 @@
             font-family: inherit;
         }
 
-        .marked-filters .filter-chip:hover { color: var(--text); }
+        .marked-filters .filter-chip:hover {
+            color: var(--text);
+        }
+
         .marked-filters .filter-chip.active {
             background: var(--accent2);
             color: var(--bg);
@@ -5996,7 +6029,8 @@
         // All 81 temas. Sourced from official BOE ANEXO II (Resolución 31-jul-2025).
         // Edit this array to extend or refine content; no build step needed.
         const TEMAS = [
-            { n: 1, b: "A", a: "Teoría del Derecho", t: "Ordenamiento jurídico y fuentes del Derecho", norma: "Código Civil (Título Preliminar)", keys: ["fuentes", "ley", "costumbre", "jurisprudencia", "TEDH", "TJUE"], rel: [4, 8, 9, 10], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Fuentes_del_Derecho",
+            {
+                n: 1, b: "A", a: "Teoría del Derecho", t: "Ordenamiento jurídico y fuentes del Derecho", norma: "Código Civil (Título Preliminar)", keys: ["fuentes", "ley", "costumbre", "jurisprudencia", "TEDH", "TJUE"], rel: [4, 8, 9, 10], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Fuentes_del_Derecho",
                 resumen: [
                     "Fuentes del ordenamiento jurídico español (art. 1.1 CC): la LEY, la COSTUMBRE y los PRINCIPIOS GENERALES DEL DERECHO. Jerarquía estricta: carecen de validez las disposiciones que contradigan otra de rango superior (art. 1.2 CC).",
                     "Costumbre (art. 1.3 CC): rige sólo en defecto de ley aplicable, siempre que no sea contraria a la moral o al orden público y resulte PROBADA. Los usos jurídicos que no sean meramente interpretativos de una declaración de voluntad tendrán consideración de costumbre.",
@@ -6012,8 +6046,10 @@
                     "Analogía (art. 4 CC): procederá la aplicación analógica cuando las normas no contemplen un supuesto específico, pero regulen otro semejante entre los que se aprecie identidad de razón. NO se aplican analógicamente las leyes penales, las excepcionales ni las de ámbito temporal.",
                     "Fraude de ley (art. 6.4 CC): los actos realizados al amparo del texto de una norma que persigan un resultado prohibido o contrario al ordenamiento se considerarán en fraude de ley y no impedirán la debida aplicación de la norma que se hubiere tratado de eludir.",
                     "Truco examen: distinguir IUS PUNIENDI (potestad sancionadora del Estado) vs IUS POENALE (conjunto de normas penales). Distinguir LEY (escrita, votada en Cortes) vs COSTUMBRE (no escrita, probada). La jurisprudencia COMPLEMENTA, no es fuente."
-                ] },
-            { n: 2, b: "A", a: "Derecho Civil — Persona", t: "La persona física y jurídica. Capacidad. Emancipación", norma: "Código Civil arts. 29-34, 314-324", keys: ["persona", "capacidad jurídica", "capacidad de obrar", "emancipación", "estado civil"], rel: [3], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Persona_(Derecho)",
+                ]
+            },
+            {
+                n: 2, b: "A", a: "Derecho Civil — Persona", t: "La persona física y jurídica. Capacidad. Emancipación", norma: "Código Civil arts. 29-34, 314-324", keys: ["persona", "capacidad jurídica", "capacidad de obrar", "emancipación", "estado civil"], rel: [3], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Persona_(Derecho)",
                 resumen: [
                     "Personalidad civil (art. 29 CC): se adquiere en el momento del NACIMIENTO. El concebido se tiene por nacido para todos los efectos que le sean favorables, siempre que nazca con las condiciones del art. 30.",
                     "Requisito del art. 30 CC (redacción tras Ley 20/2011): la personalidad se adquiere en el momento del NACIMIENTO CON VIDA, una vez producido el ENTERO DESPRENDIMIENTO del seno materno. (Eliminado el requisito de las 24 horas de la redacción anterior).",
@@ -6029,8 +6065,10 @@
                     "Efectos de la emancipación (art. 323 CC): habilita al menor para regir su persona y bienes COMO SI FUERA MAYOR, pero hasta los 18 años NO podrá: tomar dinero a préstamo, gravar o enajenar bienes inmuebles y establecimientos mercantiles o industriales u objetos de extraordinario valor sin consentimiento de sus padres y, a falta de ambos, del CURADOR.",
                     "Ley 8/2021 (apoyo a personas con discapacidad): reformó el CC. Desaparecen los términos 'incapacitación' y 'tutela del mayor'; se sustituyen por MEDIDAS DE APOYO (voluntarias, guarda de hecho, curatela, defensor judicial). La regla es la curatela ASISTENCIAL; sólo excepcionalmente representativa.",
                     "Truco examen: la emancipación NUNCA es por matrimonio desde 2021. Mayoría de edad = 18 cumplidos, computado el día del nacimiento ÍNTEGRO. Persona física nace al desprenderse vivo; jurídica nace según sus estatutos/leyes."
-                ] },
-            { n: 3, b: "A", a: "Derecho Civil — Persona", t: "Nacionalidad, vecindad, domicilio, ausencia, muerte", norma: "Código Civil arts. 17-28, 40-42, 181-198", keys: ["nacionalidad", "doble nacionalidad", "refugiado", "apátrida", "premoriencia"], rel: [2, 15, 17], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Nacionalidad_espa%C3%B1ola",
+                ]
+            },
+            {
+                n: 3, b: "A", a: "Derecho Civil — Persona", t: "Nacionalidad, vecindad, domicilio, ausencia, muerte", norma: "Código Civil arts. 17-28, 40-42, 181-198", keys: ["nacionalidad", "doble nacionalidad", "refugiado", "apátrida", "premoriencia"], rel: [2, 15, 17], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", rec: "https://es.wikipedia.org/wiki/Nacionalidad_espa%C3%B1ola",
                 resumen: [
                     "Nacionalidad española de ORIGEN (art. 17 CC): 1.º Nacidos de padre o madre españoles (IUS SANGUINIS); 2.º Nacidos en España de padres extranjeros si uno tiene también nacionalidad española; 3.º Nacidos en España de padres extranjeros si AMBOS carecen de nacionalidad o si la legislación de ninguno de ellos atribuye al hijo una nacionalidad (evita apatridia); 4.º Nacidos en España cuya filiación no resulte determinada (presunción IUS SOLI subsidiario).",
                     "Adopción (art. 19 CC): el extranjero menor de 18 años adoptado por español adquiere desde la adopción la nacionalidad española de origen. Si el adoptado es mayor de 18 podrá optar a la nacionalidad española de origen en el plazo de 2 AÑOS desde la adopción.",
@@ -6046,8 +6084,10 @@
                     "Obligados a promover la declaración de ausencia (art. 182 CC) — SIN orden de preferencia: 1.º El cónyuge del ausente no separado legalmente; 2.º Los parientes consanguíneos hasta el 4.º grado; 3.º El Ministerio Fiscal de oficio o en virtud de denuncia.",
                     "Declaración de FALLECIMIENTO (arts. 193-194 CC): procede transcurridos 10 AÑOS desde las últimas noticias o, a falta de éstas, desde su desaparición. Plazo de 5 AÑOS si al expirar el ausente hubiese cumplido 75. Plazos especiales: 1 año desde el riesgo (siniestro con violencia o presencia en zona de guerra; subversión de naves o aeronaves cuyos restos no se hubieren hallado), 3 meses si pasaje confirmado.",
                     "Truco examen: AUSENCIA legal = 1 año (sin apoderado) / 3 años (con). FALLECIMIENTO = 10 años regla / 5 años si mayor 75 / 1 año siniestro / 3 meses pasaje. Nacionalidad por residencia 10 / 5 / 2 / 1."
-                ] },
-            { n: 4, b: "A", a: "Derecho Constitucional", t: "La Constitución: concepto, clases y reforma", norma: "CE 1978", keys: ["Constitución", "reforma constitucional", "norma jurídica"], rel: [1, 5, 6, 7, 43], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.congreso.es/constitucion/constitucion/indice",
+                ]
+            },
+            {
+                n: 4, b: "A", a: "Derecho Constitucional", t: "La Constitución: concepto, clases y reforma", norma: "CE 1978", keys: ["Constitución", "reforma constitucional", "norma jurídica"], rel: [1, 5, 6, 7, 43], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.congreso.es/constitucion/constitucion/indice",
                 resumen: [
                     "CE 1978: aprobada por las Cortes el 31 oct 1978, ratificada en referéndum el 6 dic 1978, sancionada por el Rey el 27 dic 1978 y publicada en BOE el 29 dic 1978. Estructura: PREÁMBULO + 169 artículos (Título Preliminar + 10 Títulos) + 4 disposiciones adicionales + 9 transitorias + 1 derogatoria + 1 final.",
                     "Clases de Constituciones — por su FORMA: ESCRITAS (codificadas en un texto, como la española) vs CONSUETUDINARIAS (basadas en usos y costumbres, como la del Reino Unido; no recogidas en documento escrito formal).",
@@ -6061,8 +6101,10 @@
                     "Límites temporales (art. 169 CE): no podrá iniciarse la reforma constitucional en tiempo de GUERRA o de vigencia de alguno de los estados de ALARMA, EXCEPCIÓN o SITIO (art. 116).",
                     "Reformas efectuadas a la CE 1978: sólo DOS: (1) Art. 13.2 (1992, para permitir el sufragio pasivo de los extranjeros UE en municipales, tras Tratado de Maastricht); (2) Art. 135 (2011, estabilidad presupuestaria, prioridad absoluta del pago de la deuda pública).",
                     "Truco examen: la CE 1978 es RÍGIDA, ESCRITA y POPULAR. Reforma art. 168 = 2/3 + disolución + nuevas Cortes 2/3 + REFERÉNDUM OBLIGATORIO. Reforma art. 167 = 3/5 + referéndum si lo piden 1/10. Sólo 2 reformas: art. 13.2 y art. 135."
-                ] },
-            { n: 5, b: "A", a: "Derecho Constitucional", t: "Derechos fundamentales y libertades públicas", norma: "CE Título I (arts. 14-55)", keys: ["DDFF", "igualdad", "recurso amparo", "Defensor del Pueblo", "suspensión derechos"], rel: [4, 9, 43, 55], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.tribunalconstitucional.es/",
+                ]
+            },
+            {
+                n: 5, b: "A", a: "Derecho Constitucional", t: "Derechos fundamentales y libertades públicas", norma: "CE Título I (arts. 14-55)", keys: ["DDFF", "igualdad", "recurso amparo", "Defensor del Pueblo", "suspensión derechos"], rel: [4, 9, 43, 55], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.tribunalconstitucional.es/",
                 resumen: [
                     "Título I CE 'De los derechos y deberes fundamentales' (arts. 10-55). Art. 10: dignidad de la persona, libre desarrollo de la personalidad, derechos inviolables, son fundamento del orden político. Interpretación conforme a la DUDH y Tratados internacionales ratificados.",
                     "Capítulo I (arts. 11-13) — DE LOS ESPAÑOLES Y LOS EXTRANJEROS: nacionalidad, mayoría de edad (18), derechos de los extranjeros (arts. 13.1 — gozan de las libertades del Título I en los términos de los tratados y la ley). Solo los españoles serán titulares del art. 23 (participación política), salvo el sufragio activo y pasivo en elecciones municipales por reciprocidad o tratado UE.",
@@ -6077,8 +6119,10 @@
                     "Recurso de amparo (art. 161.1.b CE + LOTC): protege los arts. 14-30 frente a violaciones por disposiciones, actos jurídicos, omisiones o simple vía de hecho de los poderes públicos. Plazo: 30 días desde la notificación de la resolución que ponga fin al proceso judicial. Subsidiario (agotar la vía judicial previa).",
                     "Reformas constitucionales (recordatorio): solo 2 — art. 13.2 (1992, sufragio pasivo UE) y art. 135 (2011, estabilidad presupuestaria).",
                     "Truco examen: ART. 14 (igualdad) está al inicio del Capítulo II pero NO en la Sección 1ª; pese a ello, sí tiene amparo por la remisión del art. 53.2. Suspensión COLECTIVA = excepción/sitio. Suspensión INDIVIDUAL = LO + terrorismo + intervención judicial. Defensor del Pueblo = Cortes, no Gobierno."
-                ] },
-            { n: 6, b: "A", a: "Derecho Constitucional", t: "Órganos constitucionales", norma: "CE Títulos II-IX", keys: ["Corona", "Cortes", "Gobierno", "CGPJ", "TC"], rel: [4, 11, 43], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.congreso.es/",
+                ]
+            },
+            {
+                n: 6, b: "A", a: "Derecho Constitucional", t: "Órganos constitucionales", norma: "CE Títulos II-IX", keys: ["Corona", "Cortes", "Gobierno", "CGPJ", "TC"], rel: [4, 11, 43], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://www.congreso.es/",
                 resumen: [
                     "TÍTULO II — DE LA CORONA (arts. 56-65). El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones, asume la más alta representación en las relaciones internacionales. Su persona es INVIOLABLE y no está sujeta a responsabilidad (art. 56.3); sus actos estarán siempre REFRENDADOS (art. 64) por el Presidente del Gobierno, los ministros o el Presidente del Congreso (proposición y nombramiento del Presidente del Gobierno y disolución de Cortes art. 99).",
                     "Sucesión a la Corona (art. 57 CE): la Corona es hereditaria en los sucesores de S.M. Don Juan Carlos I, siguiendo el orden regular de primogenitura y representación; en igual grado, preferirá la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el VARÓN A LA MUJER; en el mismo sexo, la persona de más edad a la de menos. El Príncipe heredero ostentará el título de PRÍNCIPE DE ASTURIAS.",
@@ -6094,8 +6138,10 @@
                     "TÍTULO IX — TRIBUNAL CONSTITUCIONAL (arts. 159-165). 12 magistrados nombrados por el Rey: 4 a propuesta del Congreso por 3/5; 4 del Senado por 3/5; 2 del Gobierno; 2 del CGPJ. Mandato 9 años, renovados por terceras partes cada 3 años. Competencias (art. 161): recurso y cuestión de INCONSTITUCIONALIDAD (LO, leyes, normas con fuerza de ley); recurso de AMPARO; conflictos de competencia Estado-CCAA o entre CCAA; otras atribuciones LO.",
                     "OTROS órganos constitucionales: TRIBUNAL DE CUENTAS (art. 136 — supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado; dependiente de las Cortes); CONSEJO DE ESTADO (art. 107 — supremo órgano consultivo del Gobierno); DEFENSOR DEL PUEBLO (art. 54 — alto comisionado de las Cortes).",
                     "Truco examen: Moción de censura es CONSTRUCTIVA y por MAYORÍA ABSOLUTA. TC = 12 magistrados / 9 años / 1/3 cada 3. CGPJ = 20 + Presidente TS / 5 años / 3/5 en cada Cámara. Refrendo del art. 64 SIEMPRE; sin refrendo carecen de validez."
-                ] },
-            { n: 7, b: "A", a: "Derecho Constitucional", t: "Organización territorial. Estado autonómico", norma: "CE Título VIII", keys: ["CCAA", "autonomía local", "Estado regional"], rel: [4, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_territorial_de_Espa%C3%B1a",
+                ]
+            },
+            {
+                n: 7, b: "A", a: "Derecho Constitucional", t: "Organización territorial. Estado autonómico", norma: "CE Título VIII", keys: ["CCAA", "autonomía local", "Estado regional"], rel: [4, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", rec: "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_territorial_de_Espa%C3%B1a",
                 resumen: [
                     "Título VIII CE 'De la organización territorial del Estado' (arts. 137-158). El Estado se organiza territorialmente en MUNICIPIOS, en PROVINCIAS y en las COMUNIDADES AUTÓNOMAS que se constituyan (art. 137). Todas estas entidades gozan de AUTONOMÍA para la gestión de sus respectivos intereses.",
                     "Principios constitucionales (arts. 138-139): garantía de la realización efectiva del principio de SOLIDARIDAD entre las CCAA. Igualdad de derechos y obligaciones de los españoles en cualquier parte del territorio. Las diferencias entre los Estatutos NO podrán implicar privilegios económicos o sociales. Libertad de circulación y establecimiento.",
@@ -6111,8 +6157,10 @@
                     "COMPETENCIAS EXCLUSIVAS DEL ESTADO (art. 149 CE): nacionalidad, inmigración, emigración, extranjería y derecho de asilo; relaciones internacionales; defensa y FFAA; Administración de Justicia; legislación mercantil, penal y penitenciaria, procesal; legislación laboral; legislación civil sin perjuicio de la conservación, modificación y desarrollo por las CCAA de los derechos civiles, forales o especiales; bases y coordinación de la planificación general de la actividad económica; régimen aduanero y arancelario; sistema monetario; Hacienda general y deuda del Estado; sanidad exterior; legislación básica y régimen económico de la Seguridad Social; bases del régimen jurídico de las AAPP; régimen electoral general; pesca marítima; marina mercante; ferrocarriles y transportes terrestres que transcurran por más de una CA; SEGURIDAD PÚBLICA, sin perjuicio de la posibilidad de creación de policías por las CCAA en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una LO.",
                     "Cláusula RESIDUAL (art. 149.3 CE): las materias no atribuidas EXPRESAMENTE al Estado por la Constitución podrán corresponder a las CCAA en virtud de sus respectivos Estatutos. La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado.",
                     "Truco examen: Estado AUTONÓMICO ≠ federal. Municipios elementos = TERRITORIO + POBLACIÓN + ORGANIZACIÓN. CCAA constitución via 143 (lenta) o 151 (rápida, referéndum). SEGURIDAD PÚBLICA es exclusiva del Estado (art. 149.1.29ª) pero los Estatutos + LO pueden crear policías autonómicas."
-                ] },
-            { n: 8, b: "A", a: "Derecho UE", t: "Unión Europea. Tratados, Derecho derivado, Schengen", norma: "TFUE, TUE", keys: ["UE", "tratados", "Schengen", "JAI"], rel: [1, 9, 17, 24], d: 3, boe: "https://eur-lex.europa.eu/collection/eu-law/treaties.html", rec: "https://european-union.europa.eu/index_es",
+                ]
+            },
+            {
+                n: 8, b: "A", a: "Derecho UE", t: "Unión Europea. Tratados, Derecho derivado, Schengen", norma: "TFUE, TUE", keys: ["UE", "tratados", "Schengen", "JAI"], rel: [1, 9, 17, 24], d: 3, boe: "https://eur-lex.europa.eu/collection/eu-law/treaties.html", rec: "https://european-union.europa.eu/index_es",
                 resumen: [
                     "UE — evolución de los tratados: TRATADO DE PARÍS 1951 (CECA, 6 países), TRATADOS DE ROMA 1957 (CEE + EURATOM), ACTA ÚNICA EUROPEA 1986 (mercado interior 1993), TRATADO DE MAASTRICHT 1992 (crea la UE, 3 pilares, ciudadanía europea, euro), TRATADO DE ÁMSTERDAM 1997, TRATADO DE NIZA 2001, TRATADO DE LISBOA 2007 (en vigor 1 dic 2009 — actual marco jurídico, da personalidad jurídica única a la UE, vincula la CDF).",
                     "DERECHO ORIGINARIO de la UE: los TRATADOS — Tratado de la Unión Europea (TUE) y Tratado de Funcionamiento de la UE (TFUE), junto con la Carta de Derechos Fundamentales (CDF, valor jurídico equivalente desde Lisboa) y los protocolos anexos.",
@@ -6127,8 +6175,10 @@
                     "COOPERACIÓN POLICIAL Y JUDICIAL (espacio de Libertad, Seguridad y Justicia — Título V TFUE): EUROPOL (Agencia UE para la cooperación policial, La Haya; coordinación y análisis), EUROJUST (Unidad de Cooperación Judicial Penal, La Haya; coordinación entre fiscales y jueces), FRONTEX (Agencia Europea de la Guardia de Fronteras y Costas, Varsovia), CEPOL (Agencia de la UE para la Formación Policial, Budapest).",
                     "PRINCIPIOS RECTORES (art. 5 TUE): atribución (la UE actúa dentro de los límites de las competencias que le atribuyen los Estados); SUBSIDIARIEDAD (en ámbitos no exclusivos, sólo si los objetivos no pueden ser alcanzados de manera suficiente por los Estados); PROPORCIONALIDAD (el contenido y forma no excederá lo necesario).",
                     "Truco examen: REGLAMENTO se aplica directamente; DIRECTIVA exige transposición. Competencias EXCLUSIVAS (mnemo 'UCA-MAR'): Unión aduanera, Competencia, Acuerdos internacionales, Monetaria euro, comercio Arancelario, Recursos marinos. SCHENGEN integrado en UE por Ámsterdam 1997. Comisión = 'guardiana de los tratados' y única con INICIATIVA legislativa."
-                ] },
-            { n: 9, b: "A", a: "Derecho UE", t: "TEDH, TJUE y Fiscalía Europea", norma: "CEDH; Reglamento UE 2017/1939", keys: ["TEDH", "TJUE", "Fiscalía Europea", "CEDH"], rel: [1, 5, 8, 24], d: 3, boe: "https://www.echr.coe.int/", rec: "https://curia.europa.eu/",
+                ]
+            },
+            {
+                n: 9, b: "A", a: "Derecho UE", t: "TEDH, TJUE y Fiscalía Europea", norma: "CEDH; Reglamento UE 2017/1939", keys: ["TEDH", "TJUE", "Fiscalía Europea", "CEDH"], rel: [1, 5, 8, 24], d: 3, boe: "https://www.echr.coe.int/", rec: "https://curia.europa.eu/",
                 resumen: [
                     "OJO — distinguir TRES instituciones distintas, no confundirlas: CONSEJO DE EUROPA (Estrasburgo, 46 Estados — NO es UE; creó el CEDH y el TEDH); UNIÓN EUROPEA (Bruselas/Luxemburgo, 27 Estados; tiene el TJUE); y el CONSEJO EUROPEO (institución de la UE, jefes de Estado o Gobierno, Bruselas — distinto del Consejo de la UE).",
                     "CONVENIO EUROPEO DE DERECHOS HUMANOS (CEDH 1950): tratado del Consejo de Europa firmado en Roma. Protege derechos civiles y políticos. España lo ratificó en 1979. Es referencia interpretativa de los DDFF de la CE por el art. 10.2 CE.",
@@ -6143,8 +6193,10 @@
                     "RELACIÓN entre los tres tribunales: ante la VIOLACIÓN DE UN DDFF de la CE, primero la vía judicial ordinaria → recurso de AMPARO ante el TC español → demanda ante el TEDH (Estrasburgo) si el DDFF está en el CEDH. Las cuestiones de aplicación del DERECHO UE se ventilan vía cuestión prejudicial al TJUE (Luxemburgo).",
                     "INTERPOL ≠ EUROPOL: INTERPOL es una organización INTERGUBERNAMENTAL global (196 países; sede Lyon, Francia; 1923; ICPO-INTERPOL). EUROPOL es una AGENCIA DE LA UE (La Haya, 1998). INTERPOL coordina mediante Notificaciones (Roja, Azul, Verde, Amarilla, Negra, Naranja, Morada, Especial). NO tiene poder ejecutivo.",
                     "Truco examen: TEDH = Consejo de Europa = Estrasburgo = CEDH = 46 jueces / 9 años. TJUE = UE = Luxemburgo = 27 jueces + 11 AG / 6 años. Fiscalía Europea = Luxemburgo = 22 Estados = Rgto 2017/1939 = delitos contra intereses financieros UE. NO confundir Consejo de Europa (46) con Consejo Europeo (UE, jefes Estado) ni Consejo de la UE (ministros)."
-                ] },
-            { n: 10, b: "A", a: "Derecho Administrativo", t: "Derecho Administrativo. Acto y procedimiento", norma: "Ley 39/2015", keys: ["acto administrativo", "reglamento", "procedimiento", "nulidad"], rel: [1, 11, 12], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565", rec: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+                ]
+            },
+            {
+                n: 10, b: "A", a: "Derecho Administrativo", t: "Derecho Administrativo. Acto y procedimiento", norma: "Ley 39/2015", keys: ["acto administrativo", "reglamento", "procedimiento", "nulidad"], rel: [1, 11, 12], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565", rec: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
                 resumen: [
                     "DOS leyes complementarias de 1 oct 2015: LEY 39/2015 del Procedimiento Administrativo Común (LPAC) — regula las relaciones AAPP-ciudadano; y LEY 40/2015 de Régimen Jurídico del Sector Público (LRJSP) — regula la organización y funcionamiento interno de las AAPP. Sustituyen a la Ley 30/1992.",
                     "INTERESADOS (art. 4 LPAC): a) quienes lo promuevan como titulares de derechos o intereses legítimos individuales o colectivos; b) los que, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión; c) aquellos cuyos intereses legítimos, individuales o colectivos, puedan resultar afectados por la resolución y se personen en el procedimiento antes de que haya recaído resolución definitiva.",
@@ -6161,8 +6213,10 @@
                     "ANULABILIDAD (art. 48 LPAC): los demás actos que incurran en cualquier infracción del ordenamiento, incluso la desviación de poder. NO son anulables: defectos de forma sólo cuando carezca de los requisitos formales indispensables para alcanzar su fin o den lugar a la indefensión; ni la realización fuera de plazo (salvo que el término sea esencial).",
                     "RECURSOS ADMINISTRATIVOS (arts. 112-126 LPAC): RECURSO DE ALZADA (1 mes si el acto es expreso; 3 meses si presunto) ante el superior jerárquico del que lo dictó; resuelve en 3 meses; agota la vía administrativa. RECURSO POTESTATIVO DE REPOSICIÓN (1 mes acto expreso) ante el mismo órgano que dictó el acto que pone fin a la vía administrativa; resuelve en 1 mes. RECURSO EXTRAORDINARIO DE REVISIÓN (4 años desde la notificación si los documentos eran de valor esencial, error de hecho, o documentos esenciales que aparezcan) ante el órgano administrativo que lo dictó.",
                     "Truco examen: Plazos por DÍAS = hábiles (salvo si dice NATURALES). MES: prorroga al hábil siguiente si vence en inhábil. Silencio: regla en solicitud = POSITIVO; excepciones = ley, petición, dominio público, impugnación, responsabilidad patrimonial. Nulidad PLENO DERECHO = 7 supuestos del art. 47. Plazo máximo subsidiario = 3 meses."
-                ] },
-            { n: 11, b: "A", a: "Derecho Administrativo", t: "Gobierno y AGE", norma: "Ley 50/1997; Ley 40/2015", keys: ["Gobierno", "AGE", "órganos superiores y directivos"], rel: [6, 10, 12, 13], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-24902", rec: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+                ]
+            },
+            {
+                n: 11, b: "A", a: "Derecho Administrativo", t: "Gobierno y AGE", norma: "Ley 50/1997; Ley 40/2015", keys: ["Gobierno", "AGE", "órganos superiores y directivos"], rel: [6, 10, 12, 13], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-24902", rec: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
                 resumen: [
                     "DOS leyes básicas: LEY 50/1997 del Gobierno (regula composición, organización y funciones del Gobierno, su Presidente y Vicepresidentes); y LEY 40/2015 de Régimen Jurídico del Sector Público (LRJSP) (regula AGE, organismos públicos, sector público institucional, relaciones interadministrativas, responsabilidad patrimonial).",
                     "COMPOSICIÓN del Gobierno (art. 1 L 50/1997): el PRESIDENTE, el o los VICEPRESIDENTES (en su caso) y los MINISTROS. Funciones: dirige la política interior y exterior, la administración civil y militar y la defensa del Estado; ejerce la función ejecutiva y la potestad reglamentaria (art. 97 CE).",
@@ -6179,8 +6233,10 @@
                     "ÓRGANOS TERRITORIALES (arts. 69-79 LRJSP): DELEGADOS DEL GOBIERNO en cada CCAA (rango Subsecretario; dependen orgánicamente del Presidente del Gobierno y funcionalmente del Ministerio competente); SUBDELEGADOS del Gobierno en cada PROVINCIA (rango Subdirector General; dependen del Delegado); DIRECTORES INSULARES en las islas.",
                     "ESTADOS DE ALARMA, EXCEPCIÓN Y SITIO (art. 116 CE + LO 4/1981): ALARMA — declara el GOBIERNO por decreto del Consejo de Ministros, máximo 15 días (prórroga con autorización del Congreso). EXCEPCIÓN — declara el GOBIERNO previa autorización del Congreso, máximo 30 días (prorrogable 30 más). SITIO — declara la MAYORÍA ABSOLUTA del Congreso a propuesta exclusiva del Gobierno. NUNCA podrá disolverse el Congreso mientras estén declarados.",
                     "Truco examen: Gobierno cesa por 4 causas (elecciones, moción, cuestión perdida, dimisión/muerte). Gobierno EN FUNCIONES NO presenta proyectos de ley ni Presupuestos. Órganos SUPERIORES = Ministros + Secretarios de Estado (2). Órganos DIRECTIVOS = Subsecretarios, Secretarios Generales, SG Técnicos, DG, Subdirectores Generales. Alarma 15 días / Excepción 30+30 / Sitio mayoría absoluta Congreso."
-                ] },
-            { n: 12, b: "A", a: "Derecho Administrativo", t: "Empleados públicos. EBEP", norma: "RDLeg 5/2015 (EBEP)", keys: ["funcionario", "situaciones administrativas", "derechos y deberes"], rel: [10, 11, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719", rec: "https://www.mptfp.gob.es/",
+                ]
+            },
+            {
+                n: 12, b: "A", a: "Derecho Administrativo", t: "Empleados públicos. EBEP", norma: "RDLeg 5/2015 (EBEP)", keys: ["funcionario", "situaciones administrativas", "derechos y deberes"], rel: [10, 11, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719", rec: "https://www.mptfp.gob.es/",
                 resumen: [
                     "EBEP — Real Decreto Legislativo 5/2015, de 30 oct, por el que se aprueba el TEXTO REFUNDIDO de la Ley del Estatuto Básico del Empleado Público. Es legislación BÁSICA del Estado (art. 149.1.18ª CE) aplicable al personal de TODAS las AAPP. NO se aplica al personal docente y sanitario en lo no previsto en su legislación específica; FCS quedan fuera (LO 2/1986 propia).",
                     "CLASES DE EMPLEADOS PÚBLICOS (art. 8 EBEP) — 4 categorías: a) FUNCIONARIOS DE CARRERA (relación estatutaria, permanente, retribuida); b) FUNCIONARIOS INTERINOS (razones expresamente justificadas de necesidad y urgencia, para tareas de funcionarios de carrera); c) PERSONAL LABORAL (fijo, indefinido o temporal); d) PERSONAL EVENTUAL (sólo realiza FUNCIONES DE CONFIANZA O ASESORAMIENTO ESPECIAL, no permanente, nombramiento y cese libre del órgano que lo nombra).",
@@ -6197,8 +6253,10 @@
                     "PRESCRIPCIÓN (art. 97 EBEP): faltas MUY GRAVES — 3 AÑOS; GRAVES — 2 AÑOS; LEVES — 6 MESES. Las sanciones impuestas por faltas muy graves prescribirán a los 3 años; las impuestas por faltas graves, a los 2 años; y las impuestas por faltas leves, al año.",
                     "PÉRDIDA de la condición de funcionario (art. 63 EBEP): renuncia (escrita y aceptada); pérdida de la nacionalidad; jubilación total; SANCIÓN DISCIPLINARIA DE SEPARACIÓN DEL SERVICIO firme; pena principal o accesoria de inhabilitación absoluta o especial.",
                     "Truco examen: 4 clases empleados — carrera / interino / laboral / EVENTUAL (confianza, asesoramiento, libre cese). Provisión NORMAL = concurso (libre designación excepcional). CNP escala Ejecutiva = subgrupo A2; tras curso A1. Prescripción faltas: 3/2/0,5 años."
-                ] },
-            { n: 13, b: "A", a: "Organización policial", t: "Ministerio del Interior. SES. DGP. Seguridad Privada", norma: "RD 734/2020 estructura Ministerio Interior", keys: ["Interior", "SES", "DGP", "CNP", "seguridad privada"], rel: [11, 14, 18], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2020-9233", rec: "https://www.policia.es/_es/institucional_quienessomos.php",
+                ]
+            },
+            {
+                n: 13, b: "A", a: "Organización policial", t: "Ministerio del Interior. SES. DGP. Seguridad Privada", norma: "RD 734/2020 estructura Ministerio Interior", keys: ["Interior", "SES", "DGP", "CNP", "seguridad privada"], rel: [11, 14, 18], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2020-9233", rec: "https://www.policia.es/_es/institucional_quienessomos.php",
                 resumen: [
                     "REGULACIÓN: RD 734/2020, de 4 ago, por el que se desarrolla la estructura orgánica básica del MINISTERIO DEL INTERIOR. Tema MUY CAÍDO: la opositora debe conocer la estructura orgánica completa (Secretarías de Estado, Subsecretaría, Direcciones Generales) y la estructura interna de la POLICÍA NACIONAL.",
                     "ÓRGANOS SUPERIORES DEL MINISTERIO DEL INTERIOR: 1) MINISTRO DEL INTERIOR; 2) SECRETARÍA DE ESTADO DE SEGURIDAD (SES); 3) SECRETARÍA DE ESTADO DE MIGRACIONES (cuando exista); 4) SUBSECRETARÍA DEL INTERIOR.",
@@ -6214,8 +6272,10 @@
                     "SUBSECRETARÍA DEL INTERIOR: representa al Ministerio; ejerce la jefatura del personal; dirige los servicios comunes. De ella dependen entre otras la SECRETARÍA GENERAL TÉCNICA y la Dirección General de POLÍTICA INTERIOR (procesos electorales, partidos políticos, Registro de Partidos).",
                     "SEGURIDAD PRIVADA (Ley 5/2014, de 4 abr): se considera ACTIVIDAD COMPLEMENTARIA Y SUBORDINADA respecto de la seguridad pública. Las FCS supervisan, inspeccionan y controlan a las empresas, personal y servicios de seguridad privada. Competencia administrativa: UNIDAD CENTRAL DE SEGURIDAD PRIVADA (UCSP) en la CGSC del CNP; en las CCAA con policías propias, sus unidades correspondientes.",
                     "Truco examen: SES tiene 5 grandes DG (Policía, GC, Penitenciarias, Coordinación y Estudios, RRII y Extranjería). CITCO depende del SES, NO del DGP. BRIC = Extranjería y Fronteras. UIP = Seguridad Ciudadana. UDYCO = Policía Judicial. CNC = Planificación Estratégica. Escuela Nacional Policía = Ávila."
-                ] },
-            { n: 14, b: "A", a: "Organización policial", t: "LO 2/1986 Fuerzas y Cuerpos de Seguridad", norma: "LO 2/1986", keys: ["FCS", "CNP", "régimen disciplinario", "Consejo Policía"], rel: [7, 13, 18, 19], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859", rec: "https://www.policia.es/",
+                ]
+            },
+            {
+                n: 14, b: "A", a: "Organización policial", t: "LO 2/1986 Fuerzas y Cuerpos de Seguridad", norma: "LO 2/1986", keys: ["FCS", "CNP", "régimen disciplinario", "Consejo Policía"], rel: [7, 13, 18, 19], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1986-6859", rec: "https://www.policia.es/",
                 resumen: [
                     "LEY ORGÁNICA 2/1986, de 13 marzo, de Fuerzas y Cuerpos de Seguridad (LOFCS). Es la norma BÁSICA del temario — cae muchísimo. La SEGURIDAD PÚBLICA es competencia exclusiva del Estado (art. 149.1.29ª CE), pero las CCAA pueden crear policías propias en el marco de sus Estatutos y de una LO (ésta).",
                     "FUERZAS Y CUERPOS DE SEGURIDAD — 3 niveles (art. 2 LOFCS): a) Las del ESTADO — CUERPO NACIONAL DE POLICÍA (CNP) y GUARDIA CIVIL (GC); b) las de las COMUNIDADES AUTÓNOMAS — Ertzaintza (PV), Mossos d'Esquadra (Cataluña), Policía Foral de Navarra; c) las dependientes de las CORPORACIONES LOCALES — Policías Locales/Municipales.",
@@ -6231,8 +6291,10 @@
                     "DERECHOS de los miembros del CNP (LO 9/2015, arts. 26 y ss.): sindicación (con limitaciones — sindicatos exclusivos del CNP); negociación colectiva limitada; ASOCIACIÓN profesional. NO DERECHO DE HUELGA ni a acciones sustitutivas. CONSEJO DE POLICÍA (órgano de participación; paritario entre Administración y representantes elegidos por los funcionarios; lo preside el Ministro del Interior o persona en quien delegue).",
                     "RÉGIMEN DISCIPLINARIO del CNP (LO 4/2010, de 20 mayo): faltas MUY GRAVES (sanción: SEPARACIÓN DEL SERVICIO o suspensión de funciones de 3 meses y 1 día a 6 años); GRAVES (suspensión hasta 3 meses o pérdida de 5 a 20 días de remuneración y suspensión de funciones; traslado forzoso); LEVES (apercibimiento; suspensión de funciones hasta 5 días o pérdida de remuneración hasta 4 días). Prescripción: MG 3 años / G 2 años / L 1 MES.",
                     "Truco examen: CNP = civil + Ministerio Interior. GC = militar + Interior (servicio) + Defensa (militar). Principios básicos art. 5 caen LITERAL — memoriza el orden (1 Adecuación / 2 Relaciones / 3 Detenidos / 4 Dedicación / 5 Secreto / 6 Responsabilidad). DROGA = CNP exclusivo. ARMAS Y EXPLOSIVOS = GC exclusivo. TRÁFICO INTERURBANO = GC. URBANO = Policía Local."
-                ] },
-            { n: 15, b: "A", a: "Extranjería", t: "Entrada, circulación y residencia de extranjeros", norma: "LO 4/2000; RD 557/2011", keys: ["extranjería", "residencia", "reagrupación", "menores"], rel: [3, 16, 17], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544", rec: "https://extranjeros.inclusion.gob.es/",
+                ]
+            },
+            {
+                n: 15, b: "A", a: "Extranjería", t: "Entrada, circulación y residencia de extranjeros", norma: "LO 4/2000; RD 557/2011", keys: ["extranjería", "residencia", "reagrupación", "menores"], rel: [3, 16, 17], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544", rec: "https://extranjeros.inclusion.gob.es/",
                 resumen: [
                     "NORMATIVA: LO 4/2000, de 11 enero, sobre Derechos y Libertades de los Extranjeros en España y su Integración Social (modificada varias veces; la más relevante por LO 2/2009). Desarrollada por RD 557/2011 (Reglamento). Acervo Schengen: Reglamento (UE) 2016/399 — Código de Fronteras; Reglamento (CE) 810/2009 — Código de Visados.",
                     "ÁMBITO de aplicación (art. 1 LO 4/2000): son extranjeros los que CAREZCAN de la nacionalidad española. NO se aplica a los nacionales de Estados de la UE ni a aquellos a quienes sea de aplicación el régimen comunitario (RD 240/2007), salvo que sea más favorable. Tampoco al personal diplomático acreditado.",
@@ -6248,8 +6310,10 @@
                     "NIE — NÚMero de Identidad de Extranjero (art. 6 LO 4/2000 y RD 557/2011): todos los extranjeros a los que se expida un visado o autorización para permanecer en España por período superior a 6 meses, obtendrán una TARJETA DE IDENTIDAD DE EXTRANJERO (TIE), que deberá ser solicitada personalmente en el plazo de 1 MES desde su entrada en España o desde que se conceda la autorización.",
                     "DERECHOS Y LIBERTADES de los extranjeros (Título I LO 4/2000): los extranjeros gozarán en España de los derechos y libertades reconocidos en el Título I CE en los términos establecidos en los Tratados y en esta Ley. Derecho a la educación (obligatoria y gratuita para menores 16 años, incluidos en situación irregular). Derecho a la asistencia sanitaria. Derecho de reunión, asociación, sindicación y huelga. Derecho a la asistencia jurídica gratuita en procedimientos administrativos o judiciales que puedan llevar a la denegación de entrada, devolución o expulsión.",
                     "Truco examen: Visado C = hasta 90 días / Visado D = larga duración nacional / Visado A = tránsito aeroportuario. Biométricos = FOTO + 10 huellas dactilares. Residencia temporal = >90 días y <5 años. Larga duración = tras 5 años. Reagrupación ASCENDIENTES = sólo si mayores 65 y a su cargo. TIE = solicitar en 1 MES desde entrada/concesión."
-                ] },
-            { n: 16, b: "A", a: "Extranjería", t: "Sanciones y expulsión de extranjeros", norma: "LO 4/2000 Título III", keys: ["infracciones", "expulsión", "devolución", "trata"], rel: [15, 17, 19, 35], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544", rec: "https://extranjeros.inclusion.gob.es/",
+                ]
+            },
+            {
+                n: 16, b: "A", a: "Extranjería", t: "Sanciones y expulsión de extranjeros", norma: "LO 4/2000 Título III", keys: ["infracciones", "expulsión", "devolución", "trata"], rel: [15, 17, 19, 35], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544", rec: "https://extranjeros.inclusion.gob.es/",
                 resumen: [
                     "Régimen sancionador (Título III LO 4/2000, arts. 50-66). Tres categorías de infracciones: LEVES, GRAVES y MUY GRAVES (art. 51). Distinguir bien: las sanciones son MULTA (regla) o EXPULSIÓN (graves y muy graves, alternativa a la multa, motivada).",
                     "INFRACCIONES LEVES (art. 52): a) encontrarse trabajando en España sin haber solicitado autorización administrativa para trabajar por cuenta propia; b) encontrarse trabajando en una ocupación, sector de actividad o ámbito geográfico no contemplados; c) incurrir en demora, hasta 3 meses, en la solicitud de renovación de las autorizaciones una vez hayan caducado; d) las descritas en el art. 53 cuando concurran determinadas circunstancias; e) cualquier otro incumplimiento o vulneración de las disposiciones.",
@@ -6266,8 +6330,10 @@
                     "CENTROS DE INTERNAMIENTO DE EXTRANJEROS (CIE) (arts. 62 y ss.): incoado el expediente de expulsión, devolución o retorno, el instructor podrá solicitar al Juez de Instrucción el INTERNAMIENTO. El internamiento no podrá prolongarse por más tiempo del imprescindible y NO PODRÁ EXCEDER DE 60 DÍAS. CIE tienen carácter NO PENITENCIARIO; depende de la DGP (Comisaría General de Extranjería y Fronteras).",
                     "TRATA DE SERES HUMANOS (art. 59 bis LO 4/2000): la autoridad competente, en cuanto tenga indicios razonables de que un extranjero en situación irregular ha sido víctima de trata de seres humanos, le informará de sus derechos y le ofrecerá un PERÍODO DE RESTABLECIMIENTO Y REFLEXIÓN de al menos 90 DÍAS. Durante este período, se le AUTORIZARÁ LA ESTANCIA TEMPORAL Y SE SUSPENDERÁN EL EXPEDIENTE administrativo sancionador.",
                     "Truco examen: 3 niveles infracción con plazos prescriptivos LEVES 6 meses / GRAVES 2 años / MUY GRAVES 3 años. EXPULSIÓN: prohibición 5-10 años; alternativa a multa. DEVOLUCIÓN: no necesita expediente (entrada ilegal o quebrantamiento). REGRESO: denegación en frontera. CIE máximo 60 DÍAS. Trata = 90 días restablecimiento."
-                ] },
-            { n: 17, b: "A", a: "Extranjería", t: "Protección internacional. Asilo y apátridas", norma: "Ley 12/2009", keys: ["asilo", "refugiado", "apátrida", "protección temporal"], rel: [3, 15, 16], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242", rec: "https://www.acnur.org/es-es",
+                ]
+            },
+            {
+                n: 17, b: "A", a: "Extranjería", t: "Protección internacional. Asilo y apátridas", norma: "Ley 12/2009", keys: ["asilo", "refugiado", "apátrida", "protección temporal"], rel: [3, 15, 16], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242", rec: "https://www.acnur.org/es-es",
                 resumen: [
                     "REGULACIÓN: Ley 12/2009, de 30 oct, reguladora del DERECHO DE ASILO Y DE LA PROTECCIÓN SUBSIDIARIA. Marco internacional: Convención de Ginebra de 1951 y Protocolo de Nueva York de 1967 (Convención del Estatuto de los Refugiados). Marco UE: Directiva 2011/95/UE (cualificación), Reglamento Dublín III 604/2013 (Estado responsable).",
                     "ASILO (art. 2 L 12/2009): la protección dispensada a los nacionales no comunitarios o a los apátridas a quienes se reconozca la condición de REFUGIADO en los términos definidos en el art. 3.",
@@ -6283,8 +6349,10 @@
                     "APÁTRIDAS — régimen propio (RD 865/2001, Reglamento de Reconocimiento del Estatuto de Apátrida): persona que NO sea considerada como nacional suyo por ningún Estado conforme a su legislación. Reconocimiento del estatuto: solicitud ante la Oficina de Asilo y Refugio; resolución del Ministro del Interior; plazo máximo 3 MESES (silencio negativo).",
                     "REASENTAMIENTO (DA 1ª L 12/2009): el Gobierno, en colaboración con el ACNUR y, en su caso, otras organizaciones internacionales, podrá acordar programas anuales o plurianuales de reasentamiento de refugiados en cooperación con la UE. España aprueba cupo anual (ej. ucranianos, sirios, afganos).",
                     "Truco examen: REFUGIADO = temor fundado de persecución por 5 motivos clásicos + género + orientación sexual. PROTECCIÓN SUBSIDIARIA = sin requisitos de refugiado pero riesgo de muerte/tortura/conflicto. Solicitud: 1 MES desde entrada. Resolución: 6 meses ordinario / 3 urgente. CAR — estancia 6 meses. CIAR = Comisión Interministerial. Apátrida = RD 865/2001 (no Ley 12/2009)."
-                ] },
-            { n: 18, b: "A", a: "Seguridad Privada", t: "Seguridad Privada. Empresas, personal, control", norma: "Ley 5/2014", keys: ["seguridad privada", "vigilantes", "detectives", "habilitación"], rel: [13, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649", rec: "https://www.policia.es/_es/colaboracion_seguridadprivada.php",
+                ]
+            },
+            {
+                n: 18, b: "A", a: "Seguridad Privada", t: "Seguridad Privada. Empresas, personal, control", norma: "Ley 5/2014", keys: ["seguridad privada", "vigilantes", "detectives", "habilitación"], rel: [13, 14], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3649", rec: "https://www.policia.es/_es/colaboracion_seguridadprivada.php",
                 resumen: [
                     "REGULACIÓN: Ley 5/2014, de 4 abril, de SEGURIDAD PRIVADA + RD 2364/1994 Reglamento de Seguridad Privada (aún vigente en lo no contrario a la Ley 5/2014; un nuevo reglamento está anunciado pero no publicado al cierre de la convocatoria).",
                     "NATURALEZA (art. 2 Ley 5/2014): la seguridad privada es el conjunto de actividades, servicios, funciones y medidas de seguridad adoptadas, de forma VOLUNTARIA u OBLIGATORIA, por personas físicas o jurídicas, públicas o privadas, realizadas o prestadas por empresas de seguridad, despachos de detectives privados y personal de seguridad privada para hacer frente a actos delictivos o infracciones administrativas relacionadas con la seguridad. Es COMPLEMENTARIA y SUBORDINADA respecto de la seguridad pública.",
@@ -6301,8 +6369,10 @@
                     "Ejemplos de faltas LEVES del personal (art. 57.2.c): actuar SIN LA DEBIDA UNIFORMIDAD o medios que reglamentariamente sean exigibles; el trato incorrecto o desconsiderado con los ciudadanos o con quienes pretendan acceder; falta de respeto a los superiores. PRESCRIPCIÓN: MG 3 años / G 2 años / L 6 meses (igual que LO 4/2000).",
                     "CONTROL ADMINISTRATIVO: corresponde al MINISTERIO DEL INTERIOR a través de la SECRETARÍA DE ESTADO DE SEGURIDAD. Órgano operativo: UNIDAD CENTRAL DE SEGURIDAD PRIVADA (UCSP) integrada en la Comisaría General de Seguridad Ciudadana del CNP. En las CCAA con policías propias (PV, Cataluña, Navarra), las funciones de control corresponden a sus respectivas unidades.",
                     "Truco examen: 6 categorías de personal (vigilante, escolta, guarda rural, jefe seg., director seg., detective). UCSP en CGSC del CNP. Detectives sólo investigan delitos PERSEGUIBLES A INSTANCIA DE PARTE. Vigilante: SIN uniformidad reglamentaria = FALTA LEVE. Servicios COMPATIBLES seguridad pública = transporte e infraestructuras."
-                ] },
-            { n: 19, b: "A", a: "Seguridad Ciudadana", t: "LO 4/2015 Protección de la Seguridad Ciudadana", norma: "LO 4/2015", keys: ["identificación", "cacheo", "sanciones", "potestades policiales"], rel: [5, 14, 16, 44], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442", rec: "https://www.policia.es/",
+                ]
+            },
+            {
+                n: 19, b: "A", a: "Seguridad Ciudadana", t: "LO 4/2015 Protección de la Seguridad Ciudadana", norma: "LO 4/2015", keys: ["identificación", "cacheo", "sanciones", "potestades policiales"], rel: [5, 14, 16, 44], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442", rec: "https://www.policia.es/",
                 resumen: [
                     "REGULACIÓN: LEY ORGÁNICA 4/2015, de 30 marzo, de PROTECCIÓN DE LA SEGURIDAD CIUDADANA (LOPSC) — conocida coloquialmente como 'Ley Mordaza'. Deroga la LO 1/1992. CAE MUCHÍSIMO — imprescindible dominio absoluto del capítulo III (potestades) y V (régimen sancionador).",
                     "FINES (art. 3): protección del libre ejercicio de los DDFF y libertades públicas; garantía de la seguridad ciudadana; pacifica utilización de vías y espacios públicos; prevención de la comisión de delitos e infracciones administrativas; sanción de las infracciones penales o administrativas; transparencia en la actuación de los poderes públicos.",
@@ -6320,8 +6390,10 @@
                     "INICIO del cumplimiento (art. 47): el plazo para el cumplimiento de las sanciones de SUSPENSIÓN de las LICENCIAS, AUTORIZACIONES o PERMISOS comenzará a contar a partir de 1 MES desde que la sanción haya adquirido firmeza en vía administrativa.",
                     "COMPETENCIA SANCIONADORA (art. 32): el Ministro del Interior (muy graves >300.500 €); el Secretario de Estado de Seguridad (muy graves hasta 300.500); el Delegado del Gobierno (graves); el Subdelegado del Gobierno y Director Insular (leves).",
                     "Truco examen: Identificación art. 16: 2 supuestos (indicios o necesidad para prevenir delito), traslado máximo 6 HORAS. Cacheo art. 20 = mismo sexo + lugar reservado si requiere desnudo parcial. Multa empieza en grado MÍNIMO (regla). Suspensión licencias = inicio 1 MES desde firmeza. Prescripciones distintas a LO 4/2000: aquí GRAVES infracción = 1 año (no 2)."
-                ] },
-            { n: 20, b: "A", a: "Protección de datos", t: "Protección de datos: RGPD, LOPDGDD y LO 7/2021", norma: "Reglamento UE 2016/679; LO 3/2018; LO 7/2021", keys: ["RGPD", "LOPDGDD", "datos personales", "fines policiales"], rel: [5, 77], d: 4, boe: "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807", rec: "https://www.aepd.es/",
+                ]
+            },
+            {
+                n: 20, b: "A", a: "Protección de datos", t: "Protección de datos: RGPD, LOPDGDD y LO 7/2021", norma: "Reglamento UE 2016/679; LO 3/2018; LO 7/2021", keys: ["RGPD", "LOPDGDD", "datos personales", "fines policiales"], rel: [5, 77], d: 4, boe: "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807", rec: "https://www.aepd.es/",
                 resumen: [
                     "TRES normas convergen: 1) RGPD — Reglamento (UE) 2016/679 del Parlamento y Consejo, de 27 abril 2016, aplicable desde 25 mayo 2018; 2) LOPDGDD — LO 3/2018, de 5 diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales; 3) LO 7/2021, de 26 mayo, de protección de datos personales tratados para FINES DE PREVENCIÓN, DETECCIÓN, INVESTIGACIÓN Y ENJUICIAMIENTO DE INFRACCIONES PENALES y de EJECUCIÓN DE SANCIONES PENALES (transpone Directiva UE 2016/680).",
                     "DERECHO FUNDAMENTAL (art. 18.4 CE): la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar y el pleno ejercicio de sus derechos. STC 292/2000: la protección de datos es DERECHO FUNDAMENTAL AUTÓNOMO, distinto del derecho a la intimidad.",
@@ -6338,8 +6410,10 @@
                     "BRECHAS DE SEGURIDAD (arts. 33-34 RGPD): el responsable notificará a la AEPD las violaciones de seguridad SIN DILACIÓN INDEBIDA Y, DE SER POSIBLE, A MÁS TARDAR 72 HORAS después de que haya tenido constancia. Si supone alto riesgo para los derechos y libertades, COMUNICACIÓN AL INTERESADO sin dilación indebida.",
                     "USO POLICIAL DE CÁMARAS y DISPOSITIVOS DE IMAGEN Y SONIDO (LO 4/1997 + LO 7/2021): las FCS pueden utilizar dispositivos fijos previa autorización y comisión de garantías. Los dispositivos MÓVILES (cámaras corporales, drones) requieren autorización del responsable operativo y se sujetan a la GRABACIóN CONJUNTA Y SUPEDITADA, en todo caso, cuando concurra un PELIGRO o EVENTO CONCRETO. NO se podrá grabar el interior de viviendas ni lugares reservados (salvo consentimiento o autorización judicial).",
                     "Truco examen: Edad consentimiento menor = 14 años. Derechos ARCOPOL + decisiones automatizadas. DPD obligatorio en organismos públicos. Sanciones RGPD = hasta 20M€ o 4% facturación. Brecha = notificar AEPD en 72H. Cámaras móviles FCS = peligro o evento concreto. AEPD presidente = 5 años no renovable."
-                ] },
-            { n: 21, b: "A", a: "Infraestructuras críticas", t: "Protección de infraestructuras críticas y ciberseguridad", norma: "Ley 8/2011; RD 704/2011", keys: ["PIC", "CNPIC", "operador crítico", "ciberseguridad"], rel: [75, 77], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7630", rec: "https://www.cnpic.es/",
+                ]
+            },
+            {
+                n: 21, b: "A", a: "Infraestructuras críticas", t: "Protección de infraestructuras críticas y ciberseguridad", norma: "Ley 8/2011; RD 704/2011", keys: ["PIC", "CNPIC", "operador crítico", "ciberseguridad"], rel: [75, 77], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7630", rec: "https://www.cnpic.es/",
                 resumen: [
                     "REGULACIÓN: Ley 8/2011, de 28 abril, por la que se establecen MEDIDAS PARA LA PROTECCIÓN DE LAS INFRAESTRUCTURAS CRÍTICAS (PIC) + RD 704/2011, de 20 mayo, Reglamento de protección de las infraestructuras críticas. Transpone la Directiva 2008/114/CE. Complemento UE más reciente: Directiva (UE) 2022/2557 (Resiliencia de Entidades Críticas — CER), pendiente de transposición.",
                     "OBJETO (art. 1 Ley 8/2011): establecer estrategias y estructuras adecuadas que permitan dirigir y coordinar las actuaciones de los distintos órganos de las Administraciones Públicas en materia de protección de infraestructuras críticas, previa identificación y designación de las mismas.",
@@ -6355,8 +6429,10 @@
                     "ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019 (aprobada por Consejo de Seguridad Nacional el 12 abril 2019) y ESTRATEGIA DE SEGURIDAD NACIONAL 2021 (RD 1150/2021): definen la ciberseguridad como uno de los ámbitos de la Seguridad Nacional. CONSEJO NACIONAL DE CIBERSEGURIDAD (órgano de apoyo del Consejo de Seguridad Nacional).",
                     "ESQUEMA NACIONAL DE SEGURIDAD (ENS) — RD 311/2022: marco para crear las condiciones necesarias de confianza en el uso de los medios electrónicos en el ámbito de las AAPP. Categorías: BÁSICA / MEDIA / ALTA. Principios: seguridad integral, gestión de riesgos, prevención-detección-respuesta-conservación, línea de defensa, vigilancia continua, reevaluación periódica, diferenciación responsabilidades.",
                     "Truco examen: CNPIC = Centro Nacional de Protección de Infraestructuras Críticas Y CIBERSEGURIDAD (depende SES, Interior). 12 SECTORES estratégicos (memorizarlos). 4 planes de protección: PSO operador / PPE por infraestructura / PES sectorial / PAO de las FCS. CSIRTs: CCN-CERT (CNI/público), INCIBE-CERT (privado), CNPIC (críticos), ESPDEF-CERT (Defensa). ENS = RD 311/2022 con 3 categorías Básica/Media/Alta."
-                ] },
-            { n: 22, b: "A", a: "Penal — Parte General", t: "Concepto, principios y CP español", norma: "LO 10/1995 (CP)", keys: ["Derecho Penal", "legalidad", "mínima intervención"], rel: [23, 25, 33], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a",
+                ]
+            },
+            {
+                n: 22, b: "A", a: "Penal — Parte General", t: "Concepto, principios y CP español", norma: "LO 10/1995 (CP)", keys: ["Derecho Penal", "legalidad", "mínima intervención"], rel: [23, 25, 33], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a",
                 resumen: [
                     "CONCEPTO: el DERECHO PENAL es el conjunto de normas jurídicas que asocian a la realización de un delito como presupuesto la aplicación de penas y/o medidas de seguridad como principales consecuencias jurídicas. CÓDIGO PENAL vigente: LO 10/1995, de 23 noviembre. Estructura: Título Preliminar + LIBRO I (arts. 1-137, disposiciones generales) + LIBRO II (arts. 138-616 quater, delitos y sus penas) + LIBRO III (faltas DEROGADO por LO 1/2015, sustituidas por delitos leves). Reformas relevantes: LO 1/2015 (gran reforma + delitos leves + prisión permanente revisable); LO 10/2022 ('solo sí es sí'); LO 14/2022 (libertades digitales); LO 4/2023 (trans, derogación sedición y reforma malversación).",
                     "PRINCIPIO DE LEGALIDAD (art. 25.1 CE + arts. 1, 2, 4, 10 CP): no será castigada ninguna acción ni omisión que no esté prevista como delito por LEY ANTERIOR a su perpetración. Reserva de LO para penas privativas de libertad. Cuatro vertientes: LEX SCRIPTA (excluye costumbre); LEX PRAEVIA (irretroactividad); LEX STRICTA (prohibición analogía in malam partem, art. 4.1 CP); LEX CERTA (taxatividad, mandato de determinación).",
@@ -6373,8 +6449,10 @@
                     "NORMAS PENALES EN BLANCO: aquellas que para completar su tipo penal necesitan recurrir a otra norma extrapenal (administrativa). Ejemplo: art. 325 CP delito ecológico requiere infracción de leyes ambientales. STC 127/1990 declaró su constitucionalidad si el reenvío es expreso y justificado y la pena queda fijada en la propia ley penal.",
                     "INTERPRETACIÓN (art. 3 CC + jurisprudencia): gramatical, sistemática, histórica, teleológica. En Derecho Penal RIGE LA PROHIBICIÓN DE ANALOGÍA IN MALAM PARTEM (art. 4.1 CP — no se aplicarán a casos distintos las leyes penales). SÍ se admite analogía IN BONAM PARTEM (favorable al reo).",
                     "Truco examen: CP = LO 10/1995. Libro III FALTAS DEROGADO por LO 1/2015 (ahora delitos leves art. 13.4). Reservas LO + cuatro vertientes legalidad. Principios mnemotécnica L-IM-C-P-N-R-P-H-B (Legalidad, Intervención Mínima, Culpabilidad, Proporcionalidad, Non bis, Resocialización, Presunción, Hecho, Bien jurídico). Analogía PROHIBIDA in malam partem; permitida in bonam partem."
-                ] },
-            { n: 23, b: "A", a: "Penal — Parte General", t: "Ley penal: tiempo, espacio, personas. Extradición", norma: "CP arts. 1-9; LO 4/1985", keys: ["retroactividad", "extradición", "inmunidad"], rel: [22, 24], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/Extradici%C3%B3n",
+                ]
+            },
+            {
+                n: 23, b: "A", a: "Penal — Parte General", t: "Ley penal: tiempo, espacio, personas. Extradición", norma: "CP arts. 1-9; LO 4/1985", keys: ["retroactividad", "extradición", "inmunidad"], rel: [22, 24], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/Extradici%C3%B3n",
                 resumen: [
                     "ÁMBITO TEMPORAL — IRRETROACTIVIDAD (art. 9.3 CE + art. 1 CP + art. 2.1 CP): no será castigado ningún delito con pena que no se halle prevista por ley anterior a su perpetración. Carecerán, igualmente, de efecto retroactivo las leyes que establezcan medidas de seguridad. Momento de la comisión (art. 7 CP): los delitos se consideran cometidos en el momento en que el sujeto ejecuta la ACCIÓN u OMITE el acto que estaba obligado a realizar (teoría de la acción, no del resultado).",
                     "RETROACTIVIDAD DE LA LEY PENAL MÁS FAVORABLE (art. 2.2 CP): tendrán efecto retroactivo aquellas leyes penales que favorezcan al reo, AUNQUE AL ENTRAR EN VIGOR HUBIERA RECAÍDO SENTENCIA FIRME y el sujeto estuviese cumpliendo condena. En caso de duda sobre la determinación de la Ley más favorable, será oído el reo. Los hechos cometidos bajo la vigencia de una ley temporal serán juzgados conforme a ella, salvo que se disponga expresamente lo contrario (art. 2.2 in fine).",
@@ -6390,8 +6468,10 @@
                     "DIFERENCIA con OEDE: la EXTRADICIÓN CLÁSICA aplica con TERCEROS ESTADOS (no UE). Entre Estados de la UE rige la ORDEN EUROPEA DE DETENCIÓN Y ENTREGA (OEDE / 'euroorden') — procedimiento judicial directo, sin intervención gubernativa, ver tema 24.",
                     "INSTITUCIONES AFINES: 1) EXPULSIÓN — extranjeros sancionados (LO 4/2000); 2) DEPORTACIÓN — expulsión de extranjeros indeseables sin proceso penal; 3) ENTREGA — cuando es a Tribunales penales internacionales (CPI); 4) TRASLADO DE PERSONAS CONDENADAS — Convenio Estrasburgo 1983 para cumplimiento de condena en el país de origen.",
                     "Truco examen: Tres principios de validez: 1) temporal — irretroactividad + retroactividad si favorable (incluso sentencia firme); 2) espacial — territorialidad + personalidad + real + universal; 3) personal — inviolabilidad Rey, inmunidad parlamentarios, diplomáticos. EXTRADICIÓN PASIVA — 3 fases (gubernativa-judicial-gubernativa); el Gobierno puede denegar aun con auto favorable AN. NO se extraditan españoles ni por delitos políticos. Entre UE: OEDE, no extradición."
-                ] },
-            { n: 24, b: "A", a: "Penal — Parte General", t: "Reconocimiento mutuo penal UE. OEDE, OEP, OEI", norma: "Ley 23/2014", keys: ["OEDE", "euroorden", "OEP", "OEI"], rel: [8, 9, 23], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12029", rec: "https://e-justice.europa.eu/",
+                ]
+            },
+            {
+                n: 24, b: "A", a: "Penal — Parte General", t: "Reconocimiento mutuo penal UE. OEDE, OEP, OEI", norma: "Ley 23/2014", keys: ["OEDE", "euroorden", "OEP", "OEI"], rel: [8, 9, 23], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-12029", rec: "https://e-justice.europa.eu/",
                 resumen: [
                     "REGULACIÓN: LEY 23/2014, de 20 noviembre, DE RECONOCIMIENTO MUTUO DE RESOLUCIONES PENALES EN LA UE. Transpone numerosas Decisiones Marco y Directivas. Sustituye al sistema de extradición clásico entre Estados miembros. PRINCIPIO INSPIRADOR: confianza mutua entre los Estados miembros + reconocimiento automático de las resoluciones judiciales sin necesidad de procedimiento adicional.",
                     "INSTRUMENTOS regulados (art. 2 Ley 23/2014): 1) ORDEN EUROPEA DE DETENCIÓN Y ENTREGA (OEDE / Euroorden); 2) Resolución por la que se imponga una PENA O MEDIDA PRIVATIVA DE LIBERTAD; 3) Resolución de LIBERTAD VIGILADA; 4) Resolución sobre MEDIDAS ALTERNATIVAS a la prisión provisional; 5) ORDEN EUROPEA DE PROTECCIÓN (OEP); 6) Resolución de EMBARGO PREVENTIVO de bienes y aseguramiento de pruebas; 7) Resolución de DECOMISO; 8) Resolución por la que se imponga una SANCIÓN PECUNIARIA; 9) ORDEN EUROPEA DE INVESTIGACIÓN (OEI).",
@@ -6408,8 +6488,10 @@
                     "PLAZOS OEI (art. 199 Ley 23/2014): la autoridad de ejecución deberá RECONOCER la OEI en el plazo de 30 DÍAS desde la recepción y EJECUTARLA en el plazo de 90 DÍAS desde su reconocimiento (regla general). Casos de urgencia: plazos más breves.",
                     "OTROS INSTRUMENTOS UE asociados al sistema: SIS II (Sistema de Información Schengen), EUROPOL (información e inteligencia), EUROJUST (coordinación investigaciones), FISCALÍA EUROPEA (delitos contra intereses financieros UE — tema 9), RED JUDICIAL EUROPEA (apoyo a la cooperación).",
                     "Truco examen: Ley 23/2014 — 9 instrumentos. OEDE: límite 12m proceso / 4m ejecución. Lista 32 = sin doble incriminación si pena ≥3 años. Plazos: 10 días si consiente / 60 días si se opone. AN competente para recibir. OEP = víctimas (violencia género). OEI = pruebas (sustituye comisión rogatoria). Plazos OEI: 30 días reconocer / 90 ejecutar."
-                ] },
-            { n: 25, b: "A", a: "Penal — Parte General", t: "Delito. Elementos: tipicidad, antijuridicidad, culpabilidad", norma: "CP arts. 10-18", keys: ["delito", "dogmática penal", "tipicidad"], rel: [22, 26, 27, 28, 29], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/Teor%C3%ADa_del_delito",
+                ]
+            },
+            {
+                n: 25, b: "A", a: "Penal — Parte General", t: "Delito. Elementos: tipicidad, antijuridicidad, culpabilidad", norma: "CP arts. 10-18", keys: ["delito", "dogmática penal", "tipicidad"], rel: [22, 26, 27, 28, 29], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://es.wikipedia.org/wiki/Teor%C3%ADa_del_delito",
                 resumen: [
                     "CONCEPTO LEGAL (art. 10 CP): son DELITOS las acciones y omisiones DOLOSAS o IMPRUDENTES penadas por la Ley. Concepto dogmático: acción u omisión TÍPICA, ANTIJURÍDICA, CULPABLE Y PUNIBLE. La teoría del delito articula estos 4 elementos en escalón: si falla uno, no hay delito.",
                     "1) ACCIÓN / OMISIÓN — sustrato material del delito. ACCIÓN: conducta humana, voluntaria, externa, susceptible de modificar la realidad. OMISIÓN: no realizar la conducta esperada. Causas de exclusión de la acción (no son causas de justificación, son ya pre-típicas): FUERZA IRRESISTIBLE (vis absoluta), MOVIMIENTOS REFLEJOS, ESTADOS DE INCONSCIENCIA (sueño, hipnosis, embriaguez plena letargía).",
@@ -6426,8 +6508,10 @@
                     "MINORÍA DE EDAD PENAL: art. 19 CP — los MENORES DE 18 AÑOS no serán responsables criminalmente con arreglo al CP. Cuando un menor cometa un hecho delictivo podrá ser responsable con arreglo a la LO 5/2000 REGULADORA DE LA RESPONSABILIDAD PENAL DE LOS MENORES (entre 14 y 17 años). Los menores de 14 años están exentos de cualquier responsabilidad penal.",
                     "5) PUNIBILIDAD (en algunos manuales se incluye como 5º elemento autónomo, en otros como aspecto residual): condiciones objetivas de punibilidad y excusas absolutorias (ej. relaciones familiares en delitos patrimoniales — art. 268 CP).",
                     "Truco examen: 4 ESCALONES: ACCIÓN → TIPICIDAD → ANTIJURIDICIDAD → CULPABILIDAD. Si cae uno, no hay delito. ART 20 CP = 7 EXIMENTES (3 inimputabilidad: enajenación, intoxicación, alteraciones percepción; 3 causas justificación: legítima defensa, estado necesidad, cumplimiento deber; 1 culpabilidad: miedo insuperable). LO 5/2000 menores 14-18. Dolo eventual = se representa y acepta. Error de tipo invencible = atipia; vencible = imprudencia."
-                ] },
-            { n: 26, b: "A", a: "Penal — Parte General", t: "Sujetos del delito. Acción y omisión. Comisión por omisión", norma: "CP art. 11", keys: ["sujeto activo", "bien jurídico", "omisión"], rel: [25, 37], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
+                ]
+            },
+            {
+                n: 26, b: "A", a: "Penal — Parte General", t: "Sujetos del delito. Acción y omisión. Comisión por omisión", norma: "CP art. 11", keys: ["sujeto activo", "bien jurídico", "omisión"], rel: [25, 37], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
                 resumen: [
                     "SUJETOS DEL DELITO. Distinguir: 1) SUJETO ACTIVO: la persona que realiza la conducta típica (autor o partícipe). Regla: PERSONA FÍSICA (capacidad de acción). Excepción: PERSONAS JURÍDICAS — art. 31 bis CP (introducido por LO 5/2010 y reforzado por LO 1/2015). 2) SUJETO PASIVO: titular del bien jurídico protegido lesionado o puesto en peligro. NO se confunde con el PERJUDICADO (el que sufre las consecuencias civiles) ni con el OBJETO MATERIAL (cosa sobre la que recae la acción).",
                     "DELITOS COMUNES vs ESPECIALES según el sujeto activo: a) DELITOS COMUNES — cualquiera puede ser autor (homicidio, hurto, daños); b) DELITOS ESPECIALES — exigen una cualidad específica del sujeto activo. Se subdividen en: ESPECIALES PROPIOS (sin la cualidad no hay tipo paralelo, ej. prevaricación art. 404 requiere ser autoridad o funcionario) y ESPECIALES IMPROPIOS (sin la cualidad existe un tipo común, pero la cualidad agrava, ej. malversación art. 432 vs apropiación indebida).",
@@ -6443,8 +6527,10 @@
                     "OBJETO del delito — distinciones: 1) OBJETO JURÍDICO (bien jurídico protegido por la norma, ej. vida en el homicidio); 2) OBJETO MATERIAL (cosa o persona sobre la que recae materialmente la acción, ej. cuerpo de la víctima). El bien jurídico es siempre INTANGIBLE; el objeto material es físico.",
                     "LUGAR Y TIEMPO de comisión del delito: teorías de la ACCIÓN (lugar/tiempo donde se realizó la conducta), del RESULTADO (donde se produjo el resultado) y de la UBICUIDAD (cualquiera de los dos lugares). Art. 7 CP sigue la teoría de la ACCIÓN a efectos temporales (los delitos se consideran cometidos en el momento en que el sujeto ejecuta la acción u omite el acto que estaba obligado a realizar).",
                     "Truco examen: ART. 31 BIS = PJ responde por delitos en su NOMBRE/CUENTA y BENEFICIO. Exención con COMPLIANCE PROGRAM. NO responden el Estado/AAPP/Org. internacionales públicos. SÍ responden partidos y sindicatos. ART. 11 = comisión por omisión sólo si hay deber legal/contractual o INJERENCIA. Omisión propia: art. 195 socorro / art. 408 funcionario / art. 450 deber impedir delitos."
-                ] },
-            { n: 27, b: "A", a: "Penal — Parte General", t: "Dolo, error de tipo, imprudencia", norma: "CP arts. 5, 12, 14", keys: ["dolo", "error tipo", "imprudencia grave/menos grave"], rel: [25, 29], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
+                ]
+            },
+            {
+                n: 27, b: "A", a: "Penal — Parte General", t: "Dolo, error de tipo, imprudencia", norma: "CP arts. 5, 12, 14", keys: ["dolo", "error tipo", "imprudencia grave/menos grave"], rel: [25, 29], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
                 resumen: [
                     "PRINCIPIO DE RESPONSABILIDAD SUBJETIVA (art. 5 CP literal): NO HAY PENA SIN DOLO O IMPRUDENCIA. Excluye toda forma de responsabilidad objetiva o por el mero resultado (versari in re illicita). Es la base del juicio de IMPUTACIÓN SUBJETIVA dentro de la teoría del delito.",
                     "DOLO — concepto: conocer y querer la realización del tipo objetivo. ELEMENTO COGNOSCITIVO (conocimiento de los hechos típicos) + ELEMENTO VOLITIVO (voluntad de realizarlos). El CP NO DEFINE el dolo; la doctrina y jurisprudencia lo construyen.",
@@ -6461,8 +6547,10 @@
                     "CULPA CONSCIENTE vs INCONSCIENTE: a) CULPA CONSCIENTE (con representación): el sujeto SE REPRESENTA el resultado pero CONFÍA en su no producción por su pericia o las circunstancias. Frontera con el dolo eventual. b) CULPA INCONSCIENTE: el sujeto ni siquiera se representa el resultado pese a deber haberlo previsto.",
                     "PRETERINTENCIONALIDAD: el sujeto actúa dolosamente para producir un resultado, pero se produce otro más grave no querido (ej. golpea para lesionar y mata). El CP la trata como concurso ideal de delitos (delito doloso intentado + delito imprudente consumado) o como delito cualificado por el resultado en algunos tipos.",
                     "Truco examen: ART. 5 CP no hay pena sin dolo/imprudencia. Tres clases de DOLO (1º grado, consecuencias necesarias, eventual). DOLO EVENTUAL = ACEPTA / CULPA CONSCIENTE = CONFÍA EN LA NO PRODUCCIÓN. Error de tipo: INVENCIBLE = impunidad; VENCIBLE = imprudencia. ART. 12 CP imprudencia sólo si la ley lo dispone. Imprudencia LEVE ya NO es delito (sólo civil). LO 11/2022 = cualifica imprudencia conductores con alcohol/móvil/velocidad."
-                ] },
-            { n: 28, b: "A", a: "Penal — Parte General", t: "Causas de exclusión de la antijuridicidad", norma: "CP art. 20.4-7", keys: ["legítima defensa", "estado de necesidad", "cumplimiento del deber"], rel: [25, 29], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
+                ]
+            },
+            {
+                n: 28, b: "A", a: "Penal — Parte General", t: "Causas de exclusión de la antijuridicidad", norma: "CP art. 20.4-7", keys: ["legítima defensa", "estado de necesidad", "cumplimiento del deber"], rel: [25, 29], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
                 resumen: [
                     "ANTIJURIDICIDAD: contrariedad de la conducta típica con el ordenamiento jurídico en su conjunto. La tipicidad es INDICIO de antijuridicidad. Solo se excluye por una CAUSA DE JUSTIFICACIÓN expresamente prevista. Efecto: si concurre, la conducta es LÍCITA — no hay delito — no genera responsabilidad civil derivada del delito (salvo art. 118 CP estado de necesidad, donde sí hay responsabilidad civil del beneficiario).",
                     "CAUSAS DE JUSTIFICACIÓN en el CP (art. 20): 4ª LEGÍTIMA DEFENSA; 5ª ESTADO DE NECESIDAD (justificante si bienes igual valor o el lesionado es de menor valor; exculpante si bienes iguales); 7ª CUMPLIMIENTO DE UN DEBER o EJERCICIO LEGÍTIMO DE UN DERECHO, OFICIO O CARGO. NO son causas de justificación: el miedo insuperable (20.6, exculpante) ni las causas de inimputabilidad (20.1-3).",
@@ -6477,8 +6565,10 @@
                     "OBEDIENCIA DEBIDA: derogada como eximente autónoma en el CP de 1995. Hoy se reconduce al art. 20.7ª (cumplimiento del deber). Las órdenes del superior NO justifican si son manifiestamente delictivas. Art. 410 CP castiga al funcionario que se NEGARE A CUMPLIR las órdenes; art. 411 EXIME al funcionario que se NEGARE A CUMPLIR órdenes constitutivas de DELITO.",
                     "RIESGOS PERMITIDOS y ADECUACIÓN SOCIAL: actividades arriesgadas socialmente toleradas (tráfico, deportes, intervenciones médicas) cuyo riesgo se considera dentro de los márgenes admisibles. NO constituyen causa de justificación stricto sensu pero excluyen la imputación objetiva del resultado.",
                     "Truco examen: 3 CAUSAS DE JUSTIFICACIÓN art. 20: 4ª LEGÍTIMA DEFENSA (3 requisitos, AGRESIÓN ILEGÍTIMA esencial); 5ª ESTADO DE NECESIDAD (3 requisitos, mal causado ≤ mal evitado); 7ª CUMPLIMIENTO DEL DEBER (clave para CNP — uso fuerza: congruencia + oportunidad + proporcionalidad). Eximentes INCOMPLETAS = rebaja 1-2 grados art. 68. La OBEDIENCIA DEBIDA NO exime de delito manifiesto."
-                ] },
-            { n: 29, b: "A", a: "Penal — Parte General", t: "Causas de exclusión de la culpabilidad. Error de prohibición", norma: "CP arts. 14, 19, 20", keys: ["inimputabilidad", "miedo insuperable", "error prohibición"], rel: [25, 27, 28], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
+                ]
+            },
+            {
+                n: 29, b: "A", a: "Penal — Parte General", t: "Causas de exclusión de la culpabilidad. Error de prohibición", norma: "CP arts. 14, 19, 20", keys: ["inimputabilidad", "miedo insuperable", "error prohibición"], rel: [25, 27, 28], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
                 resumen: [
                     "CULPABILIDAD: juicio personal de REPROCHE que el ordenamiento dirige al autor por haber realizado un hecho típico y antijurídico CUANDO PUDO Y DEBIÓ ACTUAR DE OTRO MODO. Tres elementos: 1) IMPUTABILIDAD (capacidad de comprender la ilícitud + capacidad de actuar conforme a esa comprensión); 2) CONOCIMIENTO DE LA ANTIJURIDICIDAD (potencial); 3) EXIGIBILIDAD DE OTRA CONDUCTA. Si falla alguno: no hay culpabilidad — no hay delito — pero SÍ cabe imponer una MEDIDA DE SEGURIDAD al inimputable peligroso.",
                     "INIMPUTABILIDAD — EXIMENTES del art. 20 CP. 1ª ANOMALÍA O ALTERACIÓN PSÍQUICA (art. 20.1ª CP): está exento el que al tiempo de cometer la infracción penal, A CAUSA DE CUALQUIER ANOMALÍA O ALTERACIÓN PSÍQUICA, no pueda comprender la ilicitud del hecho o actuar conforme a esa comprensión. El trastorno mental transitorio NO eximirá cuando hubiese sido provocado por el sujeto con el propósito de cometer el delito o hubiera previsto o debido prever su comisión (ACTIO LIBERA IN CAUSA — si te embriagas para matar, no te exime).",
@@ -6495,8 +6585,10 @@
                     "EXCUSAS ABSOLUTORIAS: razones de política criminal por las que se renuncia a la pena pese a la existencia de un hecho típico, antijurídico y culpable. Ejemplos: relaciones familiares en delitos patrimoniales (art. 268 CP — cónyuges no separados, ascendientes/descendientes y hermanos no incurren en responsabilidad criminal por hurto, estafa, apropiación indebida — sólo civil); encubrimiento entre parientes (art. 454); arrepentimiento espontáneo en delitos contra HP (art. 305.6 CP).",
                     "CONSECUENCIAS de la EXENCIÓN por inimputabilidad o miedo insuperable: aunque el sujeto NO responde penalmente, SÍ PUEDE IMPONÉRSELE UNA MEDIDA DE SEGURIDAD (arts. 95-108 CP) si concurre PELIGROSIDAD CRIMINAL. Las medidas pueden ser privativas de libertad (internamiento en centro psiquiátrico, deshabituación, educación especial) o NO privativas. Además, persiste la responsabilidad civil ex delicto (art. 118 CP — responden directamente los tutores/guardadores, en su caso).",
                     "Truco examen: 4 causas inimputabilidad (anomalía psíquica, intoxicación plena, alteraciones percepción, minoría edad) + miedo insuperable + error prohibición invencible. ACTIO LIBERA IN CAUSA elimina la eximente de intoxicación si te drogaste para delinquir. ERROR PROHIBICIÓN VENCIBLE = pena INFERIOR 1-2 GRADOS (no imprudencia). LO 5/2000 menores 14-17. Inimputable peligroso = medida seguridad arts. 95-108."
-                ] },
-            { n: 30, b: "A", a: "Penal — Parte General", t: "Circunstancias modificativas: atenuantes, agravantes, parentesco", norma: "CP arts. 21-23", keys: ["atenuante", "agravante", "parentesco"], rel: [25, 33], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
+                ]
+            },
+            {
+                n: 30, b: "A", a: "Penal — Parte General", t: "Circunstancias modificativas: atenuantes, agravantes, parentesco", norma: "CP arts. 21-23", keys: ["atenuante", "agravante", "parentesco"], rel: [25, 33], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "",
                 resumen: [
                     "CIRCUNSTANCIAS MODIFICATIVAS DE LA RESPONSABILIDAD CRIMINAL: hechos o situaciones que, sin alterar la naturaleza del delito, modifican la responsabilidad del autor INCREMENTANDO la pena (agravantes), DISMINUYÉNDOLA (atenuantes) o pudiendo hacer ambas (mixta de parentesco). Reguladas en arts. 21 a 23 CP. EFECTOS sobre la pena: arts. 65-68 CP.",
                     "ATENUANTES — art. 21 CP — son 7: 1ª) las causas expresadas en el art. 20 cuando NO CONCURRIEREN TODOS LOS REQUISITOS NECESARIOS para eximir (EXIMENTES INCOMPLETAS); 2ª) la de actuar el culpable A CAUSA DE SU GRAVE ADICCIÓN A LAS SUSTANCIAS mencionadas en el art. 20.2ª; 3ª) la de OBRAR POR CAUSAS O ESTÍMULOS TAN PODEROSOS que hayan producido ARREBATO, OBCECACIÓN u otro estado pasional de entidad semejante; 4ª) la de haber procedido el culpable, antes de conocer que el procedimiento judicial se dirige contra él, a CONFESAR LA INFRACCIÓN a las autoridades; 5ª) la de haber procedido el culpable a REPARAR EL DAÑO ocasionado a la víctima, o disminuir sus efectos, en cualquier momento del procedimiento y CON ANTERIORIDAD A LA CELEBRACIÓN DEL ACTO DEL JUICIO ORAL; 6ª) la DILACIÓN EXTRAORDINARIA E INDEBIDA en la tramitación del procedimiento, siempre que no sea atribuible al propio inculpado y que no guarde proporción con la complejidad de la causa; 7ª) CUALQUIER OTRA CIRCUNSTANCIA DE ANÁLOGA SIGNIFICACIÓN (ATENUANTE ANALÓGICA).",
@@ -6512,7 +6604,8 @@
                     "EXIMENTES INCOMPLETAS — ART. 68 CP: en los casos previstos en la circunstancia primera del art. 21, los jueces o tribunales impondrán la PENA INFERIOR EN UNO O DOS GRADOS a la señalada por la Ley, atendidos el NUMERO Y LA ENTIDAD de los requisitos que falten o concurran, y las circunstancias personales de su autor.",
                     "ATENUANTES MUY CUALIFICADAS: la jurisprudencia TS reconoce que una atenuante puede ser MUY CUALIFICADA cuando concurre con una intensidad superior a la ordinaria. Efecto: equivale doblemente y permite la rebaja en GRADO (no sólo en mitad inferior).",
                     "Truco examen: 7 ATENUANTES + 8 AGRAVANTES + parentesco MIXTA. Diferencia ALEVOSÍA (homicidio en personas) vs ABUSO DE SUPERIORIDAD (agravante 22.2ª). Reincidencia requiere MISMO TÍTULO + MISMA NATURALEZA. Confesión ATENUA solo si ANTES de conocer procedimiento. Reparación daño: antes del JUICIO ORAL. ART. 66 dosimetría penal: 2 atenuantes o 1 muy cualificada = REBAJA 1-2 GRADOS. Eximente incompleta = SIEMPRE rebaja 1-2 grados."
-                ] },
+                ]
+            },
             { n: 31, b: "A", a: "Penal — Parte General", t: "Iter criminis. Tentativa. Autoría y participación", norma: "CP arts. 15-18, 27-31", keys: ["tentativa", "consumación", "autor", "cómplice"], rel: [25, 32], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "" },
             { n: 32, b: "A", a: "Penal — Parte General", t: "Concursos. Delito continuado y delito masa", norma: "CP arts. 73-78, 8", keys: ["concurso real/ideal", "delito continuado"], rel: [25, 31], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "" },
             { n: 33, b: "A", a: "Penal — Parte General", t: "Penas, medidas de seguridad, responsabilidad civil", norma: "CP arts. 32-137", keys: ["pena", "suspensión", "libertad condicional", "medidas seguridad"], rel: [22, 30], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "" },
@@ -6554,7 +6647,8 @@
             { n: 69, b: "C", a: "Metodología científica", t: "Método científico. Correlacional y experimental", norma: "—", keys: ["método científico", "laboratorio", "campo"], rel: [70, 71], d: 2, boe: "https://es.wikipedia.org/wiki/M%C3%A9todo_cient%C3%ADfico", rec: "" },
             { n: 70, b: "C", a: "Metodología en CCSS", t: "Instrumentos: encuestas, test, observación. Validez y fiabilidad", norma: "—", keys: ["encuesta", "test", "validez", "fiabilidad"], rel: [69, 71], d: 3, boe: "https://es.wikipedia.org/wiki/Validez_(psicometr%C3%ADa)", rec: "" },
             { n: 71, b: "C", a: "Estadística", t: "Estadística descriptiva, muestreo, probabilidad", norma: "—", keys: ["media", "mediana", "varianza", "probabilidad", "muestreo"], rel: [69, 70], d: 4, boe: "https://www.ine.es/", rec: "https://es.wikipedia.org/wiki/Estad%C3%ADstica" },
-            { n: 72, b: "C", a: "Contabilidad", t: "Contabilidad. Balance, PyG, IVA, IS", norma: "PGC RD 1514/2007", keys: ["activo", "pasivo", "balance", "IVA", "IS"], rel: [38], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19884", rec: "https://www.icac.gob.es/",
+            {
+                n: 72, b: "C", a: "Contabilidad", t: "Contabilidad. Balance, PyG, IVA, IS", norma: "PGC RD 1514/2007", keys: ["activo", "pasivo", "balance", "IVA", "IS"], rel: [38], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2007-19884", rec: "https://www.icac.gob.es/",
                 resumen: [
                     "Marco normativo. El Plan General de Contabilidad (PGC) se aprueba por RD 1514/2007. Existe una versión simplificada para pymes en el RD 1515/2007. El organismo regulador es el ICAC (Instituto de Contabilidad y Auditoría de Cuentas), adscrito al Ministerio de Economía.",
                     "Cuentas anuales obligatorias (PGC, parte 3ª): Balance, Cuenta de Pérdidas y Ganancias (PyG), Estado de Cambios en el Patrimonio Neto (ECPN), Estado de Flujos de Efectivo (EFE) y Memoria. Las pymes pueden omitir el EFE.",
@@ -6565,8 +6659,10 @@
                     "IVA (Impuesto sobre el Valor Añadido) — Ley 37/1992. Impuesto indirecto que grava el consumo. Tipos vigentes en España: general 21 %, reducido 10 %, superreducido 4 %. El empresario actúa como recaudador: ingresa la diferencia entre IVA repercutido (cobrado a clientes) e IVA soportado (pagado a proveedores).",
                     "IS (Impuesto sobre Sociedades) — Ley 27/2014. Grava el beneficio de las personas jurídicas (sociedades). Tipo general 25 %. Empresas de nueva creación: 15 % los dos primeros ejercicios con beneficio. Período impositivo = ejercicio económico (normalmente año natural). Devengo: último día del período. Autoliquidación: modelo 200, plazo 25 días tras los 6 meses posteriores al cierre.",
                     "Truco examen: el IRPF (Ley 35/2006) grava a personas físicas; el IS grava a personas jurídicas. No confundir."
-                ] },
-            { n: 73, b: "C", a: "Redes", t: "Redes. OSI, TCP/IP, dispositivos, IPv4/IPv6, WiFi", norma: "—", keys: ["OSI", "TCP/IP", "router", "firewall", "IPv4", "IPv6", "WPA2"], rel: [74, 75, 77], d: 4, boe: "https://es.wikipedia.org/wiki/Modelo_OSI", rec: "https://www.incibe.es/",
+                ]
+            },
+            {
+                n: 73, b: "C", a: "Redes", t: "Redes. OSI, TCP/IP, dispositivos, IPv4/IPv6, WiFi", norma: "—", keys: ["OSI", "TCP/IP", "router", "firewall", "IPv4", "IPv6", "WPA2"], rel: [74, 75, 77], d: 4, boe: "https://es.wikipedia.org/wiki/Modelo_OSI", rec: "https://www.incibe.es/",
                 resumen: [
                     "Una red informática es un conjunto de equipos conectados que intercambian datos. Para que dos máquinas se entiendan necesitan reglas comunes llamadas protocolos.",
                     "Modelo OSI (Open Systems Interconnection) — norma ISO/IEC 7498 de 1984. Es teórico, divide la comunicación en 7 capas, de abajo a arriba: 1 Física, 2 Enlace de datos, 3 Red, 4 Transporte, 5 Sesión, 6 Presentación, 7 Aplicación. Mnemotécnica: F-E-R-T-S-P-A.",
@@ -6577,8 +6673,10 @@
                     "Dispositivos de red: hub (concentrador, reenvía a todos), switch (conmutador, reenvía solo al destinatario por MAC), router (encaminador, conecta redes distintas usando IP), firewall (cortafuegos, filtra tráfico según reglas), proxy (intermediario que oculta o filtra), gateway (pasarela entre protocolos distintos).",
                     "WiFi — estándar IEEE 802.11. Versiones recientes: 802.11ac (WiFi 5, 5 GHz), 802.11ax (WiFi 6). Seguridad: WEP (obsoleto, roto), WPA, WPA2 (cifrado AES), WPA3 (actual, más seguro). En el examen suelen preguntar WPA2 vs WEP — WEP NO es seguro.",
                     "Tipos de red por tamaño: PAN (personal, Bluetooth), LAN (local, oficina), MAN (metropolitana, ciudad), WAN (amplia, Internet). VPN (Virtual Private Network) = túnel cifrado dentro de Internet para conectarse a una red privada."
-                ] },
-            { n: 74, b: "C", a: "Sistemas Operativos", t: "SO. Windows, Linux, macOS, iOS, Android. Sistemas de archivos", norma: "—", keys: ["SO", "Linux", "Windows", "iOS", "Android", "sistemas de archivos"], rel: [73, 77], d: 3, boe: "https://es.wikipedia.org/wiki/Sistema_operativo", rec: "",
+                ]
+            },
+            {
+                n: 74, b: "C", a: "Sistemas Operativos", t: "SO. Windows, Linux, macOS, iOS, Android. Sistemas de archivos", norma: "—", keys: ["SO", "Linux", "Windows", "iOS", "Android", "sistemas de archivos"], rel: [73, 77], d: 3, boe: "https://es.wikipedia.org/wiki/Sistema_operativo", rec: "",
                 resumen: [
                     "Un Sistema Operativo (SO) es el programa básico que hace funcionar un ordenador o móvil. Gestiona la memoria, los procesos (programas en marcha), los archivos y los dispositivos (teclado, pantalla, red).",
                     "Funciones clásicas del SO: gestión de procesos, gestión de memoria, gestión de archivos, gestión de entrada/salida (E/S) y seguridad/usuarios. El núcleo se llama kernel.",
@@ -6588,8 +6686,10 @@
                     "Software libre vs propietario: libre = se puede usar, estudiar, modificar y distribuir (Linux, GIMP, LibreOffice). Propietario = código cerrado, licencia restringida (Windows, Office, Photoshop). Open source no es exactamente igual que libre, pero en examen se tratan como sinónimos.",
                     "Para investigación policial importa: el sistema de archivos condiciona la recuperación forense. NTFS guarda metadatos detallados (MFT) muy útiles. APFS y FAT32 borran de forma distinta. La cadena de custodia digital exige clonar el disco antes de analizar (con hash MD5/SHA-256 para probar integridad).",
                     "Virtualización = ejecutar un SO dentro de otro mediante un hipervisor (VMware, VirtualBox, Hyper-V). Permite analizar malware sin infectar el equipo real."
-                ] },
-            { n: 75, b: "C", a: "Ciberseguridad", t: "Ciberdelincuencia. Malware, phishing, ransomware, APT, Kill Chain", norma: "CP arts. 197-201, 248, 264, 264 bis-quater", keys: ["phishing", "malware", "ransomware", "APT", "Cyber Kill Chain"], rel: [21, 73, 76, 77], d: 5, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://www.incibe.es/aprendeciberseguridad",
+                ]
+            },
+            {
+                n: 75, b: "C", a: "Ciberseguridad", t: "Ciberdelincuencia. Malware, phishing, ransomware, APT, Kill Chain", norma: "CP arts. 197-201, 248, 264, 264 bis-quater", keys: ["phishing", "malware", "ransomware", "APT", "Cyber Kill Chain"], rel: [21, 73, 76, 77], d: 5, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-25444", rec: "https://www.incibe.es/aprendeciberseguridad",
                 resumen: [
                     "Marco penal de la ciberdelincuencia (Código Penal): descubrimiento y revelación de secretos arts. 197-201 (incluye acceso no autorizado a datos personales); estafa informática art. 248.2; daños informáticos arts. 264 a 264 quater (afectar datos, sistemas o herramientas). Convenio de Budapest (2001) es la norma internacional de referencia.",
                     "Unidades policiales: en CNP la UCC (Unidad Central de Ciberdelincuencia), dentro de la UDEV de la Policía Judicial. En Guardia Civil, el GDT (Grupo de Delitos Telemáticos). A nivel estatal: INCIBE (Instituto Nacional de Ciberseguridad, dependiente del Min. Asuntos Económicos) y CCN-CERT (equipo de respuesta del CNI). No confundir: INCIBE = ciudadanos y empresas; CCN-CERT = administraciones públicas.",
@@ -6600,8 +6700,10 @@
                     "Cyber Kill Chain (Lockheed Martin) — 7 fases de un ciberataque: 1) Reconocimiento, 2) Armamentización (weaponization), 3) Entrega (delivery), 4) Explotación, 5) Instalación, 6) Mando y control (C2 o C&C), 7) Acciones sobre objetivos. Mnemotécnica: R-A-E-E-I-C-A.",
                     "DoS (Denial of Service) = denegación de servicio: saturar un servidor para que deje de responder. DDoS (Distributed) = mismo ataque desde miles de equipos (botnet). Botnet = red de dispositivos infectados controlados de forma remota.",
                     "Buenas prácticas para examen: contraseñas robustas, doble factor de autenticación (2FA), actualizaciones, copias de seguridad 3-2-1 (3 copias, 2 soportes, 1 fuera del lugar), cifrado en tránsito (HTTPS, TLS) y en reposo, principio de mínimo privilegio."
-                ] },
-            { n: 76, b: "C", a: "Inteligencia", t: "Inteligencia. Ciclo. OSINT. Web, Deep, Dark. Big Data", norma: "Ley 11/2002 reguladora del CNI", keys: ["OSINT", "dark web", "big data", "cloud", "ciclo de inteligencia"], rel: [73, 75, 77], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628", rec: "https://es.wikipedia.org/wiki/Ciclo_de_inteligencia",
+                ]
+            },
+            {
+                n: 76, b: "C", a: "Inteligencia", t: "Inteligencia. Ciclo. OSINT. Web, Deep, Dark. Big Data", norma: "Ley 11/2002 reguladora del CNI", keys: ["OSINT", "dark web", "big data", "cloud", "ciclo de inteligencia"], rel: [73, 75, 77], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2002-8628", rec: "https://es.wikipedia.org/wiki/Ciclo_de_inteligencia",
                 resumen: [
                     "Inteligencia (acepción profesional): producto resultante de evaluar, integrar, analizar e interpretar la información disponible sobre un asunto, para apoyar la toma de decisiones. No es lo mismo información (dato bruto) que inteligencia (dato procesado y útil).",
                     "CNI — Centro Nacional de Inteligencia. Ley 11/2002, de 6 de mayo. Depende del Ministerio de Defensa (no de Interior). Su Director es nombrado por RD del Consejo de Ministros a propuesta del Ministro de Defensa, con rango de Secretario de Estado. Control judicial previo de medidas que afecten a derechos fundamentales: Magistrado del Tribunal Supremo (Ley Orgánica 2/2002).",
@@ -6611,8 +6713,10 @@
                     "Big Data — 4 V (a veces 5): Volumen (mucha cantidad), Velocidad (en tiempo real), Variedad (estructurada y no estructurada), Veracidad (calidad). La quinta es Valor. Mnemotécnica: V-V-V-V.",
                     "Cloud computing — 3 modelos de servicio: IaaS (Infrastructure as a Service, alquiler de servidores virtuales), PaaS (Platform as a Service, plataforma para desarrollar), SaaS (Software as a Service, programa listo para usar, como Gmail). Modelos de despliegue: pública, privada, híbrida, comunitaria.",
                     "Diferencia esencial CNI vs CITCO: el CNI es el servicio de inteligencia del Estado (Defensa); el CITCO (Centro de Inteligencia contra el Terrorismo y el Crimen Organizado) es órgano de coordinación policial dependiente de la Secretaría de Estado de Seguridad (Interior). El examen los mezcla a menudo."
-                ] },
-            { n: 77, b: "C", a: "Seguridad de la Información", t: "Seguridad de la Información. CID. Riesgos y amenazas", norma: "ENS RD 311/2022; ISO 27001", keys: ["confidencialidad", "integridad", "disponibilidad", "SGSI"], rel: [20, 21, 73, 75, 76], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191", rec: "https://www.ccn-cert.cni.es/series-CCN-STIC/800-Esquema-Nacional-de-Seguridad",
+                ]
+            },
+            {
+                n: 77, b: "C", a: "Seguridad de la Información", t: "Seguridad de la Información. CID. Riesgos y amenazas", norma: "ENS RD 311/2022; ISO 27001", keys: ["confidencialidad", "integridad", "disponibilidad", "SGSI"], rel: [20, 21, 73, 75, 76], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191", rec: "https://www.ccn-cert.cni.es/series-CCN-STIC/800-Esquema-Nacional-de-Seguridad",
                 resumen: [
                     "Seguridad de la Información se sostiene sobre tres pilares clásicos — la tríada CID (en inglés, CIA): Confidencialidad (sólo accede quien debe), Integridad (los datos no se alteran indebidamente) y Disponibilidad (los datos están accesibles cuando se necesitan). Algunos añaden Autenticidad, No repudio y Trazabilidad (CIDAN o pentágono).",
                     "ENS — Esquema Nacional de Seguridad. RD 311/2022, de 3 de mayo (deroga el RD 3/2010). Obligatorio para las Administraciones Públicas y para sus proveedores tecnológicos. Define principios básicos, requisitos mínimos y medidas de seguridad agrupadas en marco organizativo (org), operacional (op) y medidas de protección (mp).",
@@ -6623,8 +6727,10 @@
                     "Medidas de control: preventivas (antes), detectivas (durante) y correctivas (después). También se clasifican en lógicas (cifrado, contraseñas), físicas (puertas, CPD) y organizativas (políticas, formación).",
                     "Continuidad de negocio: Plan de Continuidad de Negocio (BCP) y Plan de Recuperación ante Desastres (DRP). Métricas: RTO (tiempo máximo aceptable de parada) y RPO (cantidad máxima de datos que se aceptan perder).",
                     "No confundir: ENS regula la seguridad de los sistemas de las AAPP; el RGPD (Reglamento UE 2016/679) y la LOPDGDD (LO 3/2018) regulan la protección de datos personales. Pueden coincidir en un sistema, pero son normativas distintas."
-                ] },
-            { n: 78, b: "C", a: "Tráfico", t: "Documentación del vehículo y conductor. Seguro. ITV", norma: "RDLeg 6/2015; RD 818/2009", keys: ["permiso de conducir", "ITV", "seguro obligatorio"], rel: [39, 79, 80], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722", rec: "https://www.dgt.es/",
+                ]
+            },
+            {
+                n: 78, b: "C", a: "Tráfico", t: "Documentación del vehículo y conductor. Seguro. ITV", norma: "RDLeg 6/2015; RD 818/2009", keys: ["permiso de conducir", "ITV", "seguro obligatorio"], rel: [39, 79, 80], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722", rec: "https://www.dgt.es/",
                 resumen: [
                     "Norma marco: RDLeg 6/2015, de 30 de octubre, Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (LTSV). Desarrolla: Reglamento General de Conductores (RD 818/2009), Reglamento General de Vehículos (RD 2822/1998), Reglamento General de Circulación (RD 1428/2003).",
                     "Documentación del conductor: permiso o licencia de conducción en vigor + DNI. Permisos por clases (RD 818/2009): AM (ciclomotores, 15 años), A1 (motos hasta 125 cm³, 16), A2 (motos intermedias, 18), A (cualquier moto, 20 con A2 previo), B (turismos hasta 3.500 kg, 18), BTP (transporte profesional ligero, 18), C1/C/D1/D (camiones/autobuses).",
@@ -6635,8 +6741,10 @@
                     "Seguro obligatorio de responsabilidad civil — RDLeg 7/2004 (LRCSCVM) y RD 1507/2008. Todo vehículo a motor debe tenerlo. Cobertura mínima: daños personales (límite legal alto, actualizado periódicamente) y daños materiales. El asegurador responde aunque el conductor sea distinto del titular.",
                     "Consorcio de Compensación de Seguros: cubre daños causados por vehículo robado, sin seguro, desconocido o asegurado en entidad insolvente. Es de adscripción automática.",
                     "Truco: no confundir permiso de circulación (del vehículo) con permiso de conducir (del conductor). Tarjeta ITV no es ITV en vigor: es la ficha técnica del vehículo."
-                ] },
-            { n: 79, b: "C", a: "Tráfico", t: "Procedimiento sancionador. Accidentes. Actuación policial", norma: "RDLeg 6/2015; RD 320/1994", keys: ["sanción de tráfico", "accidente", "atestado de tráfico"], rel: [78, 80], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722", rec: "https://www.dgt.es/",
+                ]
+            },
+            {
+                n: 79, b: "C", a: "Tráfico", t: "Procedimiento sancionador. Accidentes. Actuación policial", norma: "RDLeg 6/2015; RD 320/1994", keys: ["sanción de tráfico", "accidente", "atestado de tráfico"], rel: [78, 80], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722", rec: "https://www.dgt.es/",
                 resumen: [
                     "Procedimiento sancionador en tráfico: RDLeg 6/2015 (LTSV) arts. 73 y ss., y Reglamento RD 320/1994. Especialidad: procedimiento sumario y abreviado distinto del general de la LPACAP (Ley 39/2015).",
                     "Clasificación de infracciones (art. 76 LTSV): leves, graves y muy graves. Cuantías: leves hasta 100 €; graves 200 € (algunas con pérdida de puntos); muy graves 500 € (con pérdida de puntos). Algunas muy graves: 1.000 € (alcohol/drogas, exceso de velocidad más grave, conducir sin permiso).",
@@ -6648,8 +6756,10 @@
                     "Fases de actuación policial en accidente: 1) Aviso y desplazamiento, 2) Aseguramiento del lugar (señalización, balizamiento), 3) Auxilio a víctimas (prioridad absoluta), 4) Identificación de implicados y testigos, 5) Investigación y toma de datos (croquis, fotografías, vestigios), 6) Restablecimiento de la circulación, 7) Atestado.",
                     "Atestado de tráfico: documento que recoge la investigación del accidente. Su contenido (LECrim arts. 292 y ss., RGC y normativa interna): datos generales, croquis, fotografías, declaraciones, daños, análisis de alcohol/drogas si procede, pruebas de velocidad y conclusiones. Se remite al Juzgado de Instrucción si hay víctimas o indicios de delito.",
                     "Delitos contra la seguridad vial (CP arts. 379-385 ter): conducir a velocidad excesiva concreta (379.1), bajo influencia (379.2), tasas (>0,60 mg/l aire o >1,2 g/l sangre; 0,30/0,5 para profesionales), temerario (380), con manifiesto desprecio por la vida (381), sin permiso (384), abandono del lugar (382 bis)."
-                ] },
-            { n: 80, b: "C", a: "Tráfico", t: "Vehículo prioritario. Conducción de emergencia", norma: "RD 1428/2003 (RGC) arts. 67-69", keys: ["prioritario", "emergencia", "señales luminosas"], rel: [78, 79], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514", rec: "https://www.dgt.es/",
+                ]
+            },
+            {
+                n: 80, b: "C", a: "Tráfico", t: "Vehículo prioritario. Conducción de emergencia", norma: "RD 1428/2003 (RGC) arts. 67-69", keys: ["prioritario", "emergencia", "señales luminosas"], rel: [78, 79], d: 2, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514", rec: "https://www.dgt.es/",
                 resumen: [
                     "Regulación: Reglamento General de Circulación (RGC), RD 1428/2003, arts. 67 a 69. También RD 2822/1998 (Reglamento General de Vehículos) anexo XI sobre señales luminosas y acústicas.",
                     "Vehículo prioritario (art. 67 RGC): aquel que, prestando un servicio urgente, hace uso simultáneo de las señales luminosa (rotativo o destellante de color azul) y acústica (sirena especial). Categorías: policía, extinción de incendios, protección civil y salvamento, asistencia sanitaria (pública o privada autorizada).",
@@ -6659,8 +6769,10 @@
                     "Obligaciones de los demás conductores (art. 69 RGC): al percibir las señales del vehículo prioritario, deben facilitar el paso, apartarse a la derecha y, si es necesario, detenerse. No pueden seguirle ni interponerse.",
                     "Conducción de emergencia (instrucciones internas CNP y GC): aun con prioridad, el conductor responde de su conducción. La inmunidad no es absoluta: si causa accidente por imprudencia, responde civil y penalmente. La urgencia justifica la maniobra, no la elimina del derecho.",
                     "Truco examen: prioritario ≠ preferente. Preferente es quien tiene preferencia de paso según las normas ordinarias (p. ej. en glorieta). Prioritario es el que presta servicio urgente con señales activadas y puede saltarse normas."
-                ] },
-            { n: 81, b: "C", a: "Armamento", t: "Armas de fuego. Reglamento de Armas. Balística", norma: "RD 137/1993 (Reglamento de Armas)", keys: ["arma de fuego", "cartucho", "balística", "categorías de armas"], rel: [44], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202", rec: "https://www.guardiacivil.es/es/servicios/armasyexplosivo/",
+                ]
+            },
+            {
+                n: 81, b: "C", a: "Armamento", t: "Armas de fuego. Reglamento de Armas. Balística", norma: "RD 137/1993 (Reglamento de Armas)", keys: ["arma de fuego", "cartucho", "balística", "categorías de armas"], rel: [44], d: 4, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-1993-6202", rec: "https://www.guardiacivil.es/es/servicios/armasyexplosivo/",
                 resumen: [
                     "Marco: Ley Orgánica 3/2024 sobre armas y municiones (actualiza el régimen tras la Directiva UE 2021/555) y Reglamento de Armas RD 137/1993. Competencia: intervención de armas y explosivos corresponde a la Guardia Civil (DA 4ª LOFCS).",
                     "Categorías de armas reglamentadas (art. 3 RD 137/1993) — 7 categorías:",
@@ -6676,7 +6788,8 @@
                     "Balística — tres ramas: interior (lo que ocurre dentro del arma, desde la percusión hasta que sale del cañón), exterior (trayectoria del proyectil en vuelo) y de efectos (impacto en el blanco y daños causados). La identificativa estudia huellas en vainas y proyectiles para individualizar el arma.",
                     "Partes principales del arma corta: estructura/arnazón, cañón, corredera (en pistolas semiautomáticas), tambor (en revólveres), aguja percutora, disparador, cargador. Cartucho: vaina (casquillo), pólvora, pístón o fýminante (iniciador), proyectil (bala).",
                     "Truco: revólver = tambor giratorio, no expulsa la vaina. Pistola semiautomática = cargador en la culata, expulsa la vaina al disparar. En el examen mezclan ambos términos."
-                ] }
+                ]
+            }
         ];
 
         // F2 — "No entiendo" tips per tema. Exam-focused: every tip points to a fact, article,
@@ -7086,8 +7199,8 @@
         const TAG_ORDER = ["dominada", "dudosa", "repasar"];
         const TAG_META = {
             dominada: { lbl: "Dominada", icon: "✅", cls: "tag-ok" },
-            dudosa:   { lbl: "Dudosa",   icon: "❓", cls: "tag-warn" },
-            repasar:  { lbl: "Repasar",  icon: "🔁", cls: "tag-hot" },
+            dudosa: { lbl: "Dudosa", icon: "❓", cls: "tag-warn" },
+            repasar: { lbl: "Repasar", icon: "🔁", cls: "tag-hot" },
         };
         function getQTags() { return lsGet("qtags", {}); }
         function getQTag(qid) { return getQTags()[qid] || null; }
@@ -7699,8 +7812,8 @@
             const taggedIds = Object.keys(tags);
             const counts = {
                 marcadas: m.size,
-                dudosa:   taggedIds.filter(id => tags[id] === "dudosa").length,
-                repasar:  taggedIds.filter(id => tags[id] === "repasar").length,
+                dudosa: taggedIds.filter(id => tags[id] === "dudosa").length,
+                repasar: taggedIds.filter(id => tags[id] === "repasar").length,
                 dominada: taggedIds.filter(id => tags[id] === "dominada").length,
             };
             const total = counts.marcadas + counts.dudosa + counts.repasar + counts.dominada;
@@ -7722,8 +7835,8 @@
             host.innerHTML = `
     <div class="marked-filters">
       ${filterChip("marcadas", "🚩 Marcadas")}
-      ${filterChip("repasar",  "🔁 Repasar")}
-      ${filterChip("dudosa",   "❓ Dudosas")}
+      ${filterChip("repasar", "🔁 Repasar")}
+      ${filterChip("dudosa", "❓ Dudosas")}
       ${filterChip("dominada", "✅ Dominadas")}
     </div>
     ${items.length ? `<div class="marked-actions">
