@@ -1,0 +1,1311 @@
+{
+  "promocion": 37,
+  "escala": "basica",
+  "categoria": "Policía Nacional Escala Básica",
+  "fecha": null,
+  "modelo": "A",
+  "fuente": "MAD — Examen oficial Promoción 37 (mad.es)",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "Según el art. 147 de la Constitución Española, la reforma de los Estatutos de Autonomía se ajustará al procedimiento establecido en los mismos y requerirá:",
+      "opciones": [
+        "En todo caso, la aprobación por las Cortes Generales, mediante Ley Ordinaria.",
+        "En todo caso, la aprobación por las Cortes Generales, mediante Ley Orgánica.",
+        "Dependiendo de lo establecido en el Estatuto, necesitará o no la aprobación de Las Cortes Generales."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 2,
+      "enunciado": "El Consejo de la Unión Europea se pronunciará.",
+      "opciones": [
+        "Por mayoría simple, excepto cuando los Tratados dispongan otra cosa.",
+        "Por mayoría cualificada, excepto cuando los Tratados dispongan otra cosa.",
+        "Siempre por mayoría simple. ¡Ojo! Esta pregunta fue impugnada."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 3,
+      "enunciado": "En relación a la Ley Orgánica 2/1986 de 13 de marzo de las Fuerzas y Cuerpos de Seguridad, cuáles son las implicaciones del secreto profesional para el personal funcionario:",
+      "opciones": [
+        "Deberán guardar riguroso secreto respecto de todas las informaciones que conozcan por razón o con ocasión del desempeño de sus funciones, no estando obligados a revelar las fuentes de información salvo que el ejercicio de sus funciones o las disposiciones de Ley les impongan actuar de otra manera.",
+        "Deberán guardar riguroso secreto respecto de todas las informaciones que conozcan por razón o con ocasión del desempeño de sus funciones, no estando obligados a revelar las fuentes de infor- mación salvo que en el ejercicio de sus funciones y conjuntamente con las disposiciones de Ley les impongan actuar de otra manera.",
+        "Deberán guardar riguroso secreto respecto de todas las informaciones que conozcan por razón o con ocasión del desempeño de sus funciones, estando obligados a revelar las fuentes de información salvo que el ejercicio de sus funciones o las disposiciones de Ley les impongan actuar de otra manera."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 4,
+      "enunciado": "Según del Código Penal, ¿hay tentativa de delito?:",
+      "opciones": [
+        "Cuando el sujeto da principio a la ejecución del delito directamente por hechos exteriores, practi- cando todos o parte de los actos que objetivamente deberían producir el resultado, y sin embargo éste no se produce por la voluntad del autor.",
+        "Cuando el sujeto da principio a la ejecución del delito directamente por hechos exteriores, prac- ticando solo parte de los actos que objetivamente deberían producir el resultado, y sin embargo éste no se produce por causas independientes de la voluntad del autor.",
+        "Cuando el sujeto da principio a la ejecución del delito directamente por hechos exteriores, practi- cando todos o parte de los actos que objetivamente deberían producir el resultado, y sin embargo éste no se produce por causas independientes de la voluntad del autor.  3  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 5,
+      "enunciado": "El segundo Foro Social Mundial de realizó en:",
+      "opciones": [
+        "Bombay, India, del 16 al 21 de enero de 2004.",
+        "Porto Alegre, Brasil del 31 de enero al 05 de febrero de 2002.",
+        "Nairobi (Kenia) del 20 al 25 de enero de 2007."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 6,
+      "enunciado": "Para la adquisición de la nacionalidad española por opción, carta de naturaleza o residen- cia, es necesario:",
+      "opciones": [
+        "Que el mayor de edad y capaz para prestar una declaración por sí, jure o prometa fidelidad al Rey y obediencia a la Constitución y a las leyes.",
+        "Que el mayor de catorce años y capaz para prestar una declaración por sí, jure o prometa fidelidad al Rey y obediencia a la Constitución y a las leyes.",
+        "Que el mayor de dieciséis años y capaz para prestar una declaración por sí, jure o prometa fideli- dad al Rey y obediencia a la Constitución y a las leyes."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 7,
+      "enunciado": "¿Cuál de los siguientes no es uno de los diecisiete objetivos de desarrollo sostenible de Na- ciones Unidas, recogidos en la Agenda 2030?",
+      "opciones": [
+        "Acción por el clima.",
+        "Energía asequible y no contaminante.",
+        "Educación en el voluntariado."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 8,
+      "enunciado": "De acuerdo a Microsoft y respecto al funcionamiento de su S.O. Windows ¿qué sistema de archivos es la mejor opción para volúmenes de unos 400 MB o más, dado que su rendimiento no se degrada con volúmenes grandes?",
+      "opciones": [
+        "FAT.",
+        "HPFS.",
+        "NTFS."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 9,
+      "enunciado": "Presentada una moción de censura, ¿Cuánto tiempo tiene que transcurrir desde esta pre- sentación para que pueda ser votada?:",
+      "opciones": [
+        "3 días.",
+        "5 días.",
+        "7 días."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 10,
+      "enunciado": "¿Cuál de las siguientes es una dirección IP válida para identificar una conexión a internet?",
+      "opciones": [
+        "85.256.0.119.",
+        "335d:1db8:85a3::8a2e:0370:7332.",
+        "Las dos son válidas."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 11,
+      "enunciado": "Cuando hablamos de un plano basado en el sistema hipodámico nos estamos refiriendo a un plano de tipo:",
+      "opciones": [
+        "Ortogonal.",
+        "Radiocéntrico.",
+        "Irregular."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 12,
+      "enunciado": "El Presidente del Tribunal Constitucional, será nombrado:",
+      "opciones": [
+        "Entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno y por un período de tres años.",
+        "Entre sus miembros por el Rey, a propuesta del Gobierno y por un período de tres años.",
+        "Entre sus miembros por el Rey, a propuesta del Gobierno y por un período de 4 años.  4 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 13,
+      "enunciado": "El art. 103 de la Constitución Española establece que la Administración:",
+      "opciones": [
+        "Está sujeta al control parlamentario.",
+        "Sirve con objetividad los intereses generales.",
+        "Se encuentra bajo la dependencia del Gobierno."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 14,
+      "enunciado": "La Unidad Adscrita a la Fiscalía General del Estado, depende de:",
+      "opciones": [
+        "La Unidad Central de Delincuencia Económica y Fiscal.",
+        "La Unidad Central de Drogas y Crimen Organizado.",
+        "La Unidad Central de Delincuencia Especializada y Violenta."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 15,
+      "enunciado": "¿Tiene su dependencia directa de la Dirección Adjunta Operativa?:",
+      "opciones": [
+        "El Área de control de Gastos.",
+        "El GOE.",
+        "La División de Operaciones y Transformación Digital."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 16,
+      "enunciado": "Los requisitos generales para la obtención de la habilitación profesional para el personal de seguridad privada, señale la respuesta correcta:",
+      "opciones": [
+        "No haber sido sancionado en los dos o cuatro años anteriores por infracción grave o muy grave, respectivamente, en materia de seguridad privada.",
+        "No haber sido condenado por intromisión ilegítima en el ámbito de la protección del derecho al honor, a la intimidad personal y familiar o a la propia imagen, vulneración del secreto de las comunica- ciones o de otros derechos fundamentales en los dos años anteriores.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 17,
+      "enunciado": "En España, el desarrollo y mantenimiento de un sistema rápido para la detección, inter- cambio de información, evaluación y respuesta frente a la aparición de las nuevas sustancias psicoactivas corresponde a:",
+      "opciones": [
+        "Sistema Español de Alerta Temprana (SEAT).",
+        "Observatorio Español de las Drogas y las Adicciones (DGPNSD).",
+        "Delegación del Gobierno para el Plan Nacional sobre Drogas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 18,
+      "enunciado": "En el Open Office, para generar desde simples diagramas hasta ilustraciones 3D dinámi- cas, es necesario utilizar:",
+      "opciones": [
+        "Calc.",
+        "Writer.",
+        "Draw."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 19,
+      "enunciado": "De acuerdo al Real Decreto 734/2020, de 4 de agosto, ¿Cuál no es una función de la Secre- taría de Estado de Seguridad?",
+      "opciones": [
+        "La dirección del sistema Nacional de Protección de Infraestructuras críticas.",
+        "La coordinación del ejercicio de las competencias de las Delegaciones y Subdelegaciones del Gobierno en materia de seguridad ciudadana.",
+        "La coordinación y supervisión de las Policías Autonómicas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 20,
+      "enunciado": "No depende de la Unidad Central de Delincuencia Económica y Fiscal:",
+      "opciones": [
+        "El Servicio de Control de Juegos de Azar.",
+        "La Unidad Adscrita a la Fiscalía especial contra la Corrupción y la Criminalidad Organizada.",
+        "La Brigada de Investigación del Banco de España.  5  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 21,
+      "enunciado": "Si un hombre agrede a su ex novia causándole lesiones que necesitan intervención quirúr- gica, es autor de:",
+      "opciones": [
+        "Un delito especial de violencia doméstica tipificado en el artículo 153.2 del Código Penal.",
+        "Un delito de lesiones agravado por violencia de género del artículo 148.4 del Código Penal.",
+        "Un delito de violencia de género tipificado en el artículo 153.1 del Código Penal."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 22,
+      "enunciado": "El modelo de interacción cuya principal finalidad consiste en explicar el origen de la di- ferenciación intergrupal mediante la integración de dos perspectivas: la interdependencia y la identidad social, las cuales aparentemente tienden a estar en conflicto, pertenece a:",
+      "opciones": [
+        "De Rabbie.",
+        "De Worchel.",
+        "De Chinoy."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 23,
+      "enunciado": "¿Cómo se abre el Explorador de Archivos en Windows?",
+      "opciones": [
+        "[Ctrl] + [Bloq. Mayús].",
+        "[Símbolo de Windows] + [e].",
+        "[Ctrl] + [Símbolo de Windows]."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 24,
+      "enunciado": "El artículo 30 del Código Civil dice:",
+      "opciones": [
+        "El nacimiento determina la personalidad.",
+        "La personalidad se adquiere en el momento del nacimiento con vida, una vez producido el entero desprendimiento del seno materno.",
+        "La personalidad civil se extingue con la muerte de la personas."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 25,
+      "enunciado": "¿Cuál de los siguientes no es un pasivo financiero?",
+      "opciones": [
+        "Créditos por operaciones comerciales.",
+        "Deudas con entidades de crédito.",
+        "Obligaciones y otros valores negociables emitidos."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 26,
+      "enunciado": "¿Cuál de los siguientes documentos no integra las cuentas anuales?",
+      "opciones": [
+        "La cuenta de pérdidas y ganancias.",
+        "El libro mayor.",
+        "El balance de situación."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 27,
+      "enunciado": "¿Cuál no es una unidad de energía?",
+      "opciones": [
+        "El julio.",
+        "El electronvoltio.",
+        "El newton."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 28,
+      "enunciado": "El Tribunal de Justicia de la Unión Europea estará compuesto por:",
+      "opciones": [
+        "Al menos de un juez y asistido por abogados.",
+        "Al menos de un juez de cada país miembro y asistido por abogados generales.",
+        "Doce jueces, designados por la Comisión Europea y asistido por abogados.  6 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 29,
+      "enunciado": "El Secretariado del Gobierno, como órgano de apoyo del Consejo de Ministros, de las Co- misiones delegadas del Gobierno y de las Comisión General de Secretarios de Estado y Subsecre- tarios, ejercerá una de las siguientes funciones:",
+      "opciones": [
+        "Estudiar aquellos asuntos que, afectando a varios Ministerios, requieran la elaboración de una propuesta conjunta previa a su resolución por el Consejo de Ministros.",
+        "Velar por la correcta y fiel publicación de las disposiciones y normas emanadas del Gobierno que deban insertarse en el «Boletín Oficial del Estado».",
+        "Examinar las cuestiones de carácter general que tengan relación con varios de los Departamentos Ministeriales."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 30,
+      "enunciado": "El satélite cuyo periodo orbital es similar a la velocidad de rotación de la tierra se denomina:",
+      "opciones": [
+        "Heliosíncrono.",
+        "Geoestacionario.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 31,
+      "enunciado": "¿Cuántas personas forman parte de la Junta de Coordinación y Régimen Interior del De- fensor del Pueblo?",
+      "opciones": [
+        "Dos.",
+        "Tres.",
+        "Cuatro."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 32,
+      "enunciado": "¿Cuál de las siguientes respuestas relativa a la excedencia voluntaria por interés particu- lar de un funcionario público, es correcta?",
+      "opciones": [
+        "Podrá declararse cuando al funcionario se le instruya un expediente disciplinario.",
+        "La concesión quedará subordinada a las necesidades del servicio, debidamente motivadas.",
+        "El funcionario devengará retribuciones y será compatible el tiempo que permanezca en esta si- tuación a efectos de trienios y derechos en el régimen de Seguridad Social que les sea de aplicación."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 33,
+      "enunciado": "Cuando un extranjero sea expulsado y suponga una amenaza para el orden público, la seguridad pública, la seguridad nacional o para la salud pública, podrá imponerse excepcional- mente un periodo de prohibición de entrada no superior a:",
+      "opciones": [
+        "Cinco años.",
+        "Siete años.",
+        "Diez años."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 34,
+      "enunciado": "Según el Real Decreto 734/2020, de 4 de agosto por el que se desarrolla la estructura or- gánica básica del Ministerio del Interior, La División de Operaciones y Transformación Digital.",
+      "opciones": [
+        "Depende de la Dirección General de la Policía, con nivel orgánico que se determine en el catálogo de puestos de trabajo.",
+        "Depende de la Dirección Adjunta Operativa con nivel orgánico de Subdirección General.",
+        "Depende de la Dirección Adjunta Operativa con nivel orgánico que se determine en el catálogo de puestos de trabajo."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 35,
+      "enunciado": "El Visado de residencia y trabajo de temporada de un extranjero:",
+      "opciones": [
+        "Habilita para trabajar por cuenta ajena hasta nueve meses en un período de doce meses consecutivos.",
+        "Habilita para trabajar por cuenta ajena hasta seis meses en un período de doce meses consecutivos.",
+        "Habilita para trabajar por cuenta propia hasta seis meses en un período de doce meses consecutivos.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 36,
+      "enunciado": "Según Boninger, Krosnick, & Berent, existen tres factores que pueden jugar un papel clave en la determinación de la importancia de la actitud:",
+      "opciones": [
+        "El interés propio, la identificación social y la conexión entre actitudes y los valores.",
+        "El interés del grupo social, la identificación social y la conexión entre actitudes y los valores",
+        "El interés propio, la identificación con los valores y la conexión entre actitudes y los estereotipos."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 37,
+      "enunciado": "Según el Texto refundido de la Ley del Estatuto Básico del Empleado Público, las dispo- siciones de dicho Estatuto sólo se aplicarán directamente cuando así lo disponga su legislación específica al siguiente personal:",
+      "opciones": [
+        "Personal del Centro Nacional de Inteligencia, Personal militar de las Fuerzas Armadas, Personal de las Fuerzas y Cuerpos de Seguridad y Personal no retribuido por arancel.",
+        "Personal del Centro Nacional de Inteligencia, Personal militar de las Fuerzas Armadas y Personal de las Fuerzas y Cuerpos de Seguridad.",
+        "Personal del Centro Nacional de Inteligencia, Personal militar de las Fuerzas Armadas, Personal de las Fuerzas y Cuerpos de Seguridad y Personal funcionario las Delegaciones y Subdelegaciones del Gobierno de las Comunidades Autónomas."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 38,
+      "enunciado": "Según el artículo 18 de la Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria, serán obligaciones de los solicitantes de protección internacional:",
+      "opciones": [
+        "Proporcionar sus impresiones dactilares, permitir ser fotografiados y, en su caso, consentir que sean grabadas sus declaraciones, siempre que hayan sido previamente informados sobre este último extremo.",
+        "Proporcionar sus impresiones dactilares, permitir ser fotografiados y, en su caso, consentir que sean grabadas sus declaraciones, sin necesidad de haber sido previamente informados sobre este último extremo.",
+        "Informar sobre sus datos de contacto, incluyendo teléfono y correo electrónico."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 39,
+      "enunciado": "Conforme al artículo 6 del Código Civil:",
+      "opciones": [
+        "La ignorancia de las leyes no excusa de su cumplimiento. El error de derecho producirá únicamen- te aquellos efectos que las leyes determinen.",
+        "Las leyes penales, las de policía y las de seguridad pública obligan a todos los que se hallen en territorio español.",
+        "La Ley no ampara el abuso del derecho o el ejercicio antisocial del mismo. Todo acto u omisión que por la intención de su autor, por su objeto o por las circunstancias en que se realice sobrepase manifiestamente los límites normales del ejercicio de un derecho, con daño para tercero, dará lugar a la correspondiente indemnización y a la adopción de las medidas judiciales o administrativas que impidan la persistencia en el abuso."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 40,
+      "enunciado": "Según la Teoría del Aprendizaje Social de Bandura, la exposición a un modelo puede pro- ducir uno de los siguientes efectos:",
+      "opciones": [
+        "Modelado, inhibición o desinhibición de respuestas aprendidas previamente y facilitación o pro- vocación de respuestas existentes en nuestro repertorio de conductas.",
+        "Imitación, inhibición o desinhibición y evitación.",
+        "Imitación, inhibición o desinhibición de respuestas aprendidas previamente, y evitación de res- puestas existentes en nuestro repertorio de conductas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 41,
+      "enunciado": "A lo largo del texto de la Constitución Española se hace referencia al término seguridad con distintas acepciones en los siguientes artículos:",
+      "opciones": [
+        "Seguridad jurídica garantizada en el artículo 104.",
+        "Seguridad ciudadana garantizada en el artículo 9.",
+        "Seguridad pública como competencia exclusiva del Estado en el artículo 149.1.29.  8 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 42,
+      "enunciado": "Los miembros del Comité Europeo para la prevención de la Tortura, son elegidos por:",
+      "opciones": [
+        "Parlamento Europeo.",
+        "Comisión Europea.",
+        "Comité de Ministros del Consejo de Europa."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 43,
+      "enunciado": "Entre todos los ataques posibles que puede sufrir un usuario a través del navegador web nos encontramos:",
+      "opciones": [
+        "Mediante un exploit, el atacante se aprovecha de determinada vulnerabilidad para inyectar códi- go dañino en el equipo.",
+        "Malvertising: esta vía de infección consiste en ejecutar código dañino por medio de anuncios, aparentemente inofensivos, distribuidos en un gran número de páginas.",
+        "Ambas son correctas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 44,
+      "enunciado": "Según señala el Informe Brundtland de 1987, la satisfacción de las necesidades del pre- sente sin comprometer las necesidades de las futuras generaciones, es la definición de:",
+      "opciones": [
+        "El desarrollo de la economía internacional.",
+        "El desarrollo sostenible.",
+        "La lucha nacional por el medio ambiente."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 45,
+      "enunciado": "Con respecto a la vecindad civil señale la afirmación correcta:",
+      "opciones": [
+        "Se adquiere por residencia continuada durante tres años, siempre que el interesado manifieste ser esa su voluntad.",
+        "Si al nacer el hijo, o al ser adoptado, los padres tuvieren distinta vecindad civil, el hijo tendrá la que corresponda a aquél de los dos respecto del cual la filiación haya sido determinada antes.",
+        "En todo caso, el hijo desde que cumpla dieciséis años y hasta que transcurra un año después de su emancipación podrá optar bien por la vecindad civil del lugar de su nacimiento, bien por la última vecindad de cualquiera de sus padres."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 46,
+      "enunciado": "El abogado designado para asistir a un detenido acudirá al centro de detención con la máxima premura, siempre dentro del plazo máximo de:",
+      "opciones": [
+        "Cinco horas desde la recepción del encargo.",
+        "Ocho horas desde que se efectúe la comunicación al Colegio de Abogados.",
+        "Tres horas desde la recepción del encargo."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 47,
+      "enunciado": "El artículo 9 de la Ley 31/1995, de 8 de noviembre, de prevención de Riesgos Laborales determina que la función de la vigilancia y control de la normativa sobre prevención de riesgos laborales corresponde:",
+      "opciones": [
+        "Al Instituto Nacional de Seguridad e Higiene en el Trabajo.",
+        "A la Inspección de Trabajo y Seguridad Social.",
+        "A la Comisión Nacional de Seguridad y Salud en el Trabajo."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 48,
+      "enunciado": "La teoría social formulada por R.E.Park y E.Burgess en la denominada Escuela de Chicago, se incluye en:",
+      "opciones": [
+        "Las teorías subculturales.",
+        "Las teorías del proceso social.",
+        "Las teorías ecológicas.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 49,
+      "enunciado": "Se denomina periféricos a los aparatos y/o dispositivos auxiliares e independientes co- nectados a la unidad central de procesamiento de un ordenador. Son periféricos de entrada:",
+      "opciones": [
+        "Impresora y el módem",
+        "Escáner y lector de tarjetas",
+        "Grabadora y lápiz óptico ¡Ojo! Esta pregunta fue impugnada."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 50,
+      "enunciado": "De acuerdo con lo contemplado en la Instrucción Operativa de Prevención de Riesgos La- borales 003 de la Dirección General de la Policía, ¿Cuál de los siguientes supondrá que el vehícu- lo en cuestión no es apto para el servicio en tanto no se solucionen los fallos?:",
+      "opciones": [
+        "Niveles del aceite del motor, líquido refrigerante, líquido de frenos y líquido de dirección, compro- bando que se encuentran dentro de los márgenes de mínimo y máximo.",
+        "Higiene y desinfección de los vehículos policiales.",
+        "Comprobación de la existencia, funcionamiento y buen estado general de los complementos y herramientas del vehículo de dotación policial."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 51,
+      "enunciado": "En relación a los sensores, según el principio de funcionamiento, se consideran captadores activos:",
+      "opciones": [
+        "El radar y el lidar.",
+        "Los sistemas fotográficos.",
+        "Los espectrómetros de imagen."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 52,
+      "enunciado": "Según el Real Decreto 726/2020 de 4 de agosto, por el que se modifica el Reglamento de Armas, se entiende por “Desmilitarización”?:",
+      "opciones": [
+        "La actividad fabril cuyo objetivo es transformar en civil o desbaratar un arma de guerra.",
+        "La actividad cuyo objetivo principal es la regularización administrativa de un arma de guerra.",
+        "La actividad ejercida por los armeros en la modificación y manipulación de armas de guerra históricas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 53,
+      "enunciado": "Dentro de la Comisaría General de Seguridad Ciudadana se encuentra la Oficina Nacional del Deporte, ¿Dónde se encuentra adscrita?",
+      "opciones": [
+        "Jefatura de Unidades Especiales.",
+        "Unidad Central de Participación Ciudadana.",
+        "Secretaría General."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 54,
+      "enunciado": "El proceso de integración de un individuo o grupo en la cultura y en la sociedad con las que entra en contacto se denomina:",
+      "opciones": [
+        "Enculturación.",
+        "Transculturación.",
+        "Aculturación."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 55,
+      "enunciado": "En relación con las normas técnicas que deben reunir los vehículos celulares para el trans- porte de detenidos, presos y penados de más de nueve plazas, incluido el conductor y escolta, sabe que, en el compartimento central las celdas:",
+      "opciones": [
+        "Dispondrán de una ventana en sentido horizontal no practicable, protegida por rejilla metálica y sin visibilidad del exterior al interior.",
+        "Dispondrán de una ventana, protegida por rejilla metálica y en cualquier caso sus dimensiones mínimas serán de 15 centímetros en altura y 40 centímetros en longitud.",
+        "Dispondrán de una ventana en sentido vertical no practicable, protegida por rejilla metálica, sin visibilidad del exterior al interior, cuyas dimensiones no permitan el paso de una persona.  10 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 56,
+      "enunciado": "La actitud definida como la tendencia o predisposición adquirida y relativamente durade- ra a evaluar de determinado modo a una persona, suceso o situación, y actuar en consonancia con dicha evaluación, fue dada por:",
+      "opciones": [
+        "Jiménez Burillo.",
+        "Vander Zanden.",
+        "Zanjonc."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 57,
+      "enunciado": "En concreto, los instrumentos topográficos se limitan a la medida de coordenadas pola- res, ángulos y distancias, por lo que:",
+      "opciones": [
+        "Las coordenadas polares deben deducirse por cálculo a partir de las absolutas. Con ayuda de es- tos instrumentos podemos determinar distancias reducidas y acimutes.",
+        "Las coordenadas cartesianas deben deducirse por cálculo a partir de las polares.",
+        "Las coordenadas relativas deben deducirse por cálculo a partir de las cartesianas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 58,
+      "enunciado": "En planimetría forense, el plano que además de la planta o vista interior de una habita- ción, nos muestra el cielo raso y las paredes adyacentes, corresponde con el tipo de plano:",
+      "opciones": [
+        "Abatido.",
+        "De detalle.",
+        "De localización."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 59,
+      "enunciado": "Dar lugar al extravío, pérdida o sustracción por negligencia inexcusable de los distintivos de identificación o del arma reglamentaria, es constitutivo de una falta.",
+      "opciones": [
+        "Muy grave.",
+        "Leve.",
+        "Grave."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 60,
+      "enunciado": "Según el art. 17 de la Convención contra la Tortura ¿Cuál es la composición del Comité contra la Tortura?",
+      "opciones": [
+        "10 expertos independientes.",
+        "8 expertos en derechos humanos.",
+        "15 altos funcionarios de la ONU, expertos en temas de tortura."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 61,
+      "enunciado": "Dentro de la gestión ambiental ¿Qué es el EMAS?",
+      "opciones": [
+        "Convenio Europeo sobre el control de Masas.",
+        "Directiva Comunitaria sobre Asuntos de Seguridad.",
+        "Sistema comunitario de ecogestión y auditoría."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 62,
+      "enunciado": "El arma de fuego que se recarga después de cada disparo, mediante un mecanismo accio- nado por el tirador que introduce en el cañón un cartucho colocado previamente en el depósito de municiones se denomina:",
+      "opciones": [
+        "De repetición.",
+        "Semiautomática.",
+        "Automática."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 63,
+      "enunciado": "De conformidad con el art. 165 de la Constitución:",
+      "opciones": [
+        "Una Ley Orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miem- bros, el procedimiento ante el mismo y las condiciones para el ejercicio de las acciones.",
+        "Una Ley Orgánica regulará el funcionamiento del Tribunal Constitucional, el estatuto de sus miembros, el procedimiento ante el mismo, el régimen de incompatibilidad de sus miembros y las condiciones para el ejercicio de las acciones.",
+        "Una Ley Orgánica regulará las competencias y funcionamiento del Tribunal Constitucional, el estatuto y requisitos de sus miembros, el procedimiento ante el mismo y las condiciones para el ejercicio de las elecciones.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 64,
+      "enunciado": "Los dispositivos que permiten un punto de conexión del cableado para intercomunicar físicamente los ordenadores entre sí, se denominan:",
+      "opciones": [
+        "Hubs o concentradores.",
+        "Tarjetas de red o Nic´s.",
+        "Bridges."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 65,
+      "enunciado": "De conformidad con la Ley 23/2014, de 20 de noviembre, de reconocimiento mutuo de resoluciones penales en el ámbito en la Unión Europea:",
+      "opciones": [
+        "La competencia para la ejecución de una orden europea de detención y entrega de una persona mayor de edad corresponde siempre a los Juzgados Centrales de Instrucción.",
+        "La competencia para la ejecución de una orden europea de detención y entrega corresponde al Juez o Tribunal que conozca de la causa.",
+        "La competencia para la ejecución de una orden europea de detención y entrega de una persona mayor de edad corresponde a la Sala de lo Penal de la Audiencia Nacional cuando dicha persona del detenido no consienta la entrega."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 66,
+      "enunciado": "Dentro de la estructura administrativa y de gestión de Europol, el consejo de administra- ción compuesto por un representante de cada Estado miembro de la U.E., tiene un mandato de:",
+      "opciones": [
+        "Dos años prorrogables.",
+        "Cuatro años prorrogables.",
+        "Cinco años prorrogables."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 67,
+      "enunciado": "La red urbana de un territorio está formada por el conjunto de ciudades que hay en él y los flujos y relaciones que hay en ella; según su distribución adoptan diferentes formas: cuando las ciudades se acumulan en las costas y el interior queda bastante vacío, hablamos de:",
+      "opciones": [
+        "Red concentrada.",
+        "Red radiocéntrica.",
+        "Red dendrítica."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 68,
+      "enunciado": "La suplencia del Director Adjunto Operativo de la Policía Nacional corresponde, en caso de ausencia, vacancia o enfermedad:",
+      "opciones": [
+        "Al Jefe de la División de Operaciones y Transformación Digital.",
+        "A quien corresponda según los criterios del art. 13 de la Ley 40/2015 de Régimen Jurídico del Sector Público y, en defecto de designación expresa, a los subdirectores generales por el orden en que aparecen mencionados en el Real Decreto 734/2020 de estructura orgánica básica del Ministerio del Interior.",
+        "A quien corresponda según los criterios del art. 13 de la Ley 40/2015 de Régimen Jurídico del Sec- tor Público y, en caso de designación expresa, a los subdirectores generales por el orden en que apare- cen mencionados en el Real Decreto 734/2020 de estructura orgánica básica del Ministerio del Interior."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 69,
+      "enunciado": "Acorde al art. 86, de la Constitución española, en caso de extraordinaria y urgente necesi- dad, el Gobierno podrá dictar:",
+      "opciones": [
+        "Disposiciones legislativas provisionales en forma de Decretos legislativos.",
+        "Disposiciones legislativas provisionales que tomarán la forma de Decretos-leyes.",
+        "Disposiciones legislativas provisionales en forma de Decretos legislativos que en 30 días serán sometidos a votación del Congreso de Diputados.  12 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 70,
+      "enunciado": "Según el Real Decreto 2/2006, por el que se establecen normas sobre prevención de ries- gos laborales en la actividad de los funcionarios de Policía Nacional, el sistema de prevención de riesgos se someterá a control periódico, mediante auditorías y evaluaciones, que serán realiza- das por la Inspección de Personal y Servicios de Seguridad de la Secretaría de Estado de Seguri- dad, que a dichos efectos podrá requerir el asesoramiento y colaboración:",
+      "opciones": [
+        "De los Comités de seguridad y salud laboral.",
+        "De la Comisión de seguridad y salud laboral policial.",
+        "Del Instituto Nacional de Seguridad e Higiene en el Trabajo."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 71,
+      "enunciado": "Según refiere la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad del Estado, aprobar los planes de coordinación en materia de seguridad y de infraestructura policial, es competencia:",
+      "opciones": [
+        "Del Consejo de Política de Seguridad.",
+        "De la Junta de Gobierno, previo informe del Consejo Asesor.",
+        "De los Órganos Colegiados, previo informe del Consejo de la Policía."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 72,
+      "enunciado": "Según lo recogido en la Ley 5/2014, de Seguridad Privada, a tal efecto, se entiende por prestadores de servicios de seguridad privada:",
+      "opciones": [
+        "El personal habilitado para el ejercicio de funciones de seguridad privada.",
+        "El personal acreditado que desarrollen las tareas que les asigna esta ley.",
+        "Profesores acreditados de centros de formación, ingenieros y técnicos que desarrollen las tareas que les asigna esta ley."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 73,
+      "enunciado": "Según el Art 18 del R.D. Legislativo 5/2015, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, al respecto de la promoción interna de los funcio- narios de carrera, es correcto afirmar que:",
+      "opciones": [
+        "Los funcionarios deberán poseer los requisitos exigidos para el ingreso, tener una antigüedad de, al menos, dos años de servicio activo en el inferior Subgrupo, o Grupo de clasificación profesional, en el supuesto de que éste no tenga Subgrupo y superar las correspondientes pruebas selectivas.",
+        "Se articulará un sistema de grados, categorías o escalones de ascenso fijándose la remuneración a cada uno de ellos. Los ascensos serán consecutivos con carácter general, salvo en aquellos supuestos excepcionales en los que se prevea otra posibilidad.",
+        "Se deberá valorar la trayectoria y actuación profesional, la calidad de los trabajos realizados, los conocimientos adquiridos y el resultado de la evaluación del desempeño. Podrán incluirse asimismo otros méritos y aptitudes por razón de la especificidad de la función desarrollada y la experiencia ad- quirida."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 74,
+      "enunciado": "En el procesador de textos, Microsoft Word, la tecla de función F12, sirve para acceder de forma inmediata al cuadro de diálogo de:",
+      "opciones": [
+        "Hipervínculo.",
+        "Guardar como.",
+        "Elementos rápidos."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 75,
+      "enunciado": "La transposición de la Directiva comunitaria 2002/73/CE, de igualdad de trato entre muje- res y hombres, se materializa en el marco legislativo español en la Ley Orgánica:",
+      "opciones": [
+        "1/2004, de 28 de diciembre.",
+        "3/2007, de 22 de marzo.",
+        "2/2010, de 3 de marzo.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 76,
+      "enunciado": "El Foro Social Mundial se compone de 3 pilares fundamentales; el Consejo Internacional, la Secretaría y además:",
+      "opciones": [
+        "La Comisión del FSM.",
+        "El Comité de las Regiones.",
+        "Los Comités organizadores de cada evento anual."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 77,
+      "enunciado": "En la biotipología criminal, destaca dentro de la escuela alemana Ernest Kretschmer. Se- ñale la afirmación correcta:",
+      "opciones": [
+        "El tipo leptosomático: cuerpo alargado y delgado, cabeza pequeña, nariz puntiaguda. Su repre- sentación gráfica es una línea horizontal.",
+        "El tipo pícnico: gran desarrollo de las cavidades viscerales, abdomen prominente, cabeza redonda y ancha, extremidades cortas y tendencia a la obesidad Su representación gráfica es circular.",
+        "Isotímicos: apariencia hercúlea, son musculados, de mentalidad tosca, viciosos, perseverantes, impulsivos y violentos. Su representación geométrica corresponde con un cuadrado."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 78,
+      "enunciado": "Conforme al art. 11 de la LO 10/1995, del Código Penal, a tal efecto se equiparará la omi- sión a la acción:",
+      "opciones": [
+        "Cuando en el omitente no exista una específica obligación legal o contractual de actuar.",
+        "Cuando el omitente ha resuelto cometer un delito invita a otra u otras personas a participar en él.",
+        "Cuando el omitente haya creado una ocasión de riesgo para el bien jurídicamente protegido me- diante una acción u omisión precedente."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 79,
+      "enunciado": "Los Policías Nacionales tendrán consideración de servicio activo cuando se encuentren:",
+      "opciones": [
+        "En excedencia por cuidado de familiares.",
+        "En el plazo posesorio por cese en un puesto de trabajo al haber obtenido otro mediante el proce- dimiento de provisión correspondiente.",
+        "Las dos son correctas, siempre que en el caso de cuidado de familiares, lo sea por hijo menor de 3 años."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 80,
+      "enunciado": "El Tribunal del Jurado tendrá competencia para el conocimiento y fallo de las causas por los delitos:",
+      "opciones": [
+        "Contra la Seguridad Vial.",
+        "Trafico de drogas.",
+        "Asesinato."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 81,
+      "enunciado": "Si hablamos de las teorías explicativas de la delincuencia, la Teoría de la Anomia concreta- mente se relaciona con las teorías:",
+      "opciones": [
+        "Biológicas.",
+        "Psicológicas.",
+        "Sociológicas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 82,
+      "enunciado": "El artículo 252 del Tratado de Funcionamiento de la Unión Europea establece que:",
+      "opciones": [
+        "El Tribunal de Justicia de la Unión Europea estará asistido por nueve abogados generales. Si el Tribunal de Justicia lo solicitare, el Consejo, por mayoría cualificada podrá aumentar el número de abogados generales.",
+        "El Tribunal de Justicia estará asistido por ocho abogados generales. Si el Tribunal de Justicia lo solicitare, el Consejo, por unanimidad, podrá aumentar el número de abogados generales.",
+        "El Tribunal de Justicia estará asistido por seis abogados generales. Si el Tribunal de Justicia lo soli- citare, el Consejo, por unanimidad, podrá aumentar el número de abogados generales. ¡Ojo! Esta pregunta fue impugnada.  14 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 83,
+      "enunciado": "Es correcto afirmar que:",
+      "opciones": [
+        "A los funcionarios interinos, no les será aplicable, en tanto y cuanto no sean funcionarios de carre- ra, el régimen general de los funcionarios de carrera.",
+        "La selección de funcionarios interinos habrá de realizarse mediante procedimientos ágiles que respetarán los principios de igualdad, profesionalidad, capacitación y publicidad.",
+        "Las plazas vacantes desempeñadas por funcionarios interinos deberán incluirse en la oferta de empleo correspondiente al ejercicio en que se produce su nombramiento y, si no fuera posible, en la siguiente, salvo que se decida su amortización."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 84,
+      "enunciado": "Los extranjeros que se hallen en España conforme a lo previsto en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, tienen derecho a circular libremente por el territorio español y a elegir su residencia, si bien po- drán establecerse medidas limitativas específicas cuando:",
+      "opciones": [
+        "Se acuerden en la declaración de estado de alarma, excepción o de sitio, en los términos previstos en la Constitución.",
+        "Se determine excepcionalmente por razones de seguridad nacional, por resolución del Secretario de Estado que corresponda.",
+        "Ninguna respuesta es correcta."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 85,
+      "enunciado": "Según la Ley 12/2009 reguladora del derecho de asilo, es correcto afirmar sobre la presentación de la solicitud, mediante comparecencia, para el reconocimiento de la protección internacional que:",
+      "opciones": [
+        "Deberá efectuarse sin demora y en todo caso en el plazo máximo de quince días desde la entrada en el territorio español o, en todo caso, desde que se produzcan los acontecimientos que justifiquen el temor fundado de persecución o daños graves.",
+        "Deberá efectuarse sin demora y en todo caso en el plazo máximo de veinte días desde la entrada en el territorio español o, en todo caso, desde que se produzcan los acontecimientos que justifiquen el temor fundado de persecución o daños graves.",
+        "Deberá en todo caso en el plazo máximo de un mes desde la entrada en el territorio español o, en todo caso, desde que se produzcan los acontecimientos que justifiquen el temor fundado de persecu- ción o daños graves."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 86,
+      "enunciado": "¿A qué autor de los siguientes se le atribuye la Teoría de la disonancia cognitiva?",
+      "opciones": [
+        "Festinger.",
+        "Allport.",
+        "Vander Zanden."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 87,
+      "enunciado": "El incumplimiento de las medidas impuestas por razón de seguridad pública, de presenta- ción periódica o de alejamiento de fronteras o núcleos de población concretados singularmente, es una infracción:",
+      "opciones": [
+        "Leve.",
+        "Grave.",
+        "Muy grave."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 88,
+      "enunciado": "¿Cuántos años de ejercicio profesional se requiere para ser miembro del Tribunal Consti- tucional?",
+      "opciones": [
+        "5.",
+        "10.",
+        "15.  15  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 89,
+      "enunciado": "La Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, crea la figura de:",
+      "opciones": [
+        "Delegado de la Oficina Nacional de derechos humanos de la Policía Nacional.",
+        "Delegado de la Oficina Nacional para la Igualdad de Género.",
+        "Fiscal contra la violencia sobre la mujer."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 90,
+      "enunciado": "¿Cuál es la sede del Banco Central Europeo?:",
+      "opciones": [
+        "Francfort del Meno (Alemania).",
+        "Luxemburgo (Luxemburgo)",
+        "Bruselas (Bélgica)."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 91,
+      "enunciado": "Cuando hablamos de seguridad activa y pasiva de un vehículo, la función principal de un dibujo de neumáticos es, canalizar y evacuar el agua de la superficie del suelo, siendo su profun- didad, según la legislación vigente de:",
+      "opciones": [
+        "Al menos 1,6 mm.",
+        "Al menos 0,6 mm.",
+        "Al menos 1,6 cm."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 92,
+      "enunciado": "¿En qué grupo de drogas según el efecto en el Sistema Nervioso Central clasificaríamos “la teofilina”?:",
+      "opciones": [
+        "Depresoras.",
+        "Estimulantes.",
+        "Perturbadoras."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 93,
+      "enunciado": "Según el artículo 283 de la LECr, constituirán la Policía Judicial y serán auxiliares de los Jueces y Tribunales competentes en materia penal y del Ministerio fiscal:",
+      "opciones": [
+        "Los Guardias de montes, campos y sembrados, jurados o confirmados por la Administración.",
+        "Los Tenientes de Alcalde.",
+        "Ambas son correctas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 94,
+      "enunciado": "La aplicación de correo Thunderbird:",
+      "opciones": [
+        "Permite importar los contactos y macros de Microsoft OUTLOOK, pero no el calendario.",
+        "Permite importar los contactos, las macros y el calendario de Microsoft OUTLOOK.",
+        "Permite configurar múltiples cuentas de correo y administrar múltiples calendarios. ¡Ojo! Esta pregunta fue impugnada."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 95,
+      "enunciado": "En las reuniones para elegir a los miembros del Comité contra la Tortura de las Naciones Unidad, el quórum se formará alcanzando:",
+      "opciones": [
+        "Un tercio de los Estados parte.",
+        "Dos tercios de los Estados partes.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 96,
+      "enunciado": "Cuando un poseedor de licencia de armas tipo F pierde su habilitación deportiva, perderá también su licencia y deberá entregar las armas en la Intervención de Armas correspondiente. ¿Cuánto tiempo podrán permanecer allí?:",
+      "opciones": [
+        "Un máximo de un año.",
+        "Hasta que recupere su habilitación deportiva.",
+        "6 meses, y si el interesado no ha recobrado su licencia o transferido el arma, se someterá a subasta.  16 PROMOCIÓN N.º 37 "
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 97,
+      "enunciado": "Según la Constitución Española, el principio por el cual el Estado es el encargado de velar por el establecimiento de un equilibrio económico, adecuado y justo entre las diversas partes del territorio español, y atendiendo en particular a las circunstancias del hecho insular.",
+      "opciones": [
+        "Se denomina principio de igualdad y viene recogido en el artículo 139 de la Constitución Española.",
+        "Se denomina principio de equidad y viene recogido en el artículo 137 de la Constitución Española.",
+        "Se denomina principio de solidaridad y viene recogido en el artículo 138 de la Constitución Española."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 98,
+      "enunciado": "Según el artículo 69 de la Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional, en caso de que un funcionario desee pasar a segunda actividad a petición propia, deberá cumplir los siguientes requisitos de edad:",
+      "opciones": [
+        "Escala superior: 64 años, Escala Subinspección 60 años.",
+        "Escala Ejecutiva 65 años, Escala Básica 56 años.",
+        "Escala superior: 62 años, Escala Básica 58 años."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 99,
+      "enunciado": "El conjunto de varios núcleos urbanos inicialmente independientes y contiguos por sus márgenes que al crecer acaban formando una unidad funcional, recibe el nombre de:",
+      "opciones": [
+        "Pluriurbanización.",
+        "Conurbación.",
+        "Sobreurbanización."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 100,
+      "enunciado": "El organismo de la Unión Europea encargado de ofrecer información sólida e independiente sobre el medio ambiente, siendo la fuente principal de información para los responsables del desa- rrollo, la aprobación, la ejecución y la evaluación de las políticas medioambientales se denomina:",
+      "opciones": [
+        "AEMA (Agencia Europea de Medio Ambiente) cuya sede se encuentra en Copenhague.",
+        "OEMA (Organización Europea para el Medio Ambiente) cuya sede se encuentra en Dublín.",
+        "IEME (Instituto Europeo de Medio Ambiente) cuya sede se encuentra en Berlín.  17"
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    }
+  ]
+}

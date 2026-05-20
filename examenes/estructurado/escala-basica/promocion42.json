@@ -1,0 +1,1311 @@
+{
+  "promocion": 42,
+  "escala": "basica",
+  "categoria": "Policía Nacional Escala Básica",
+  "fecha": null,
+  "modelo": "A",
+  "fuente": "MAD — Examen oficial Promoción 42 (mad.es)",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "Los poderes públicos promoverán las condiciones más favorables para una adecuada pro- moción profesional, social y humana de los miembros de las Fuerzas y Cuerpos de Seguridad de acuerdo con los principios de:",
+      "opciones": [
+        "Objetividad, igualdad de oportunidades, mérito y capacidad.",
+        "Objetividad, mérito, igualdad de oportunidades y antigüedad.",
+        "Igualdad de oportunidades, mérito, objetividad y antigüedad."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 2,
+      "enunciado": "La seguridad pública es competencia exclusiva del Estado. Su mantenimiento corresponde:",
+      "opciones": [
+        "Al Congreso de los Diputados.",
+        "Al Gobierno de la Nación.",
+        "Al Senado."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 3,
+      "enunciado": "Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por:",
+      "opciones": [
+        "Sufragio voluntario.",
+        "Sufragio universal.",
+        "Sufragio censitario."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 4,
+      "enunciado": "Un policía nacional sospecha que su pareja mantiene una relación con otra persona. Para asegurarse de la infidelidad, el policía accede sin autorización al correo personal electrónico de su pareja, confirmando sus sospechas tras leer el contenido de los mensajes.",
+      "opciones": [
+        "Existe un delito de descubrimiento y revelación de secretos.",
+        "Se trata de un delito de violación de secreto profesional.",
+        "Cometerá un delito de inviolabilidad de la correspondencia."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 5,
+      "enunciado": "Ante una solicitud de protección internacional presentada en un puesto fronterizo por una persona extranjera que no reúne los requisitos necesarios para entrar en territorio nacional, el Ministro del Interior deberá de notificar la resolución al interesado en el plazo máximo de:",
+      "opciones": [
+        "Dos días desde su presentación.",
+        "Cuatro días desde su presentación.",
+        "Ocho días desde su presentación."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 6,
+      "enunciado": "Cuando hablamos de la persona o cosa sobre la que recae el comportamiento penal, nos referimos a:",
+      "opciones": [
+        "Bien jurídico del delito.",
+        "Objeto material del delito.",
+        "Instrumento del delito.  3  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 7,
+      "enunciado": "Es una circunstancia agravante genérica recogida en el artículo 22 del Código Penal:",
+      "opciones": [
+        "Prevalerse del carácter privado que tenga el culpable.",
+        "Obrar con abuso de confianza.",
+        "Causar sufrimiento a la víctima."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 8,
+      "enunciado": "El acto fundacional del movimiento antiglobalización que se expresó, entre otras cosas, como resistencia a la globalización capitalista y a las contrarreformas neoliberales en los países imperialistas, se llamó:",
+      "opciones": [
+        "Batalla de Gotemburgo.",
+        "Batalla de Salzburgo.",
+        "Batalla de Seattle."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 9,
+      "enunciado": "Conforme a lo dispuesto en la LO 4/2015, de protección de la seguridad ciudadana, la pro- yección de haces de luz, mediante cualquier tipo de dispositivo, sobre miembros de las Fuerzas y Cuerpos de Seguridad para impedir o dificultar el ejercicio de sus funciones, constituye:",
+      "opciones": [
+        "Una infracción muy grave.",
+        "Una infracción grave.",
+        "Una infracción leve."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 10,
+      "enunciado": "La Unión Europea fue fundada en 1951 por seis países tras la Segunda Guerra Mundial, NO siendo uno de ellos:",
+      "opciones": [
+        "Luxemburgo",
+        "Italia.",
+        "Portugal."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 11,
+      "enunciado": "En el supuesto de que la víctima fuera menor de edad o tuviera la capacidad modificada judicialmente, las comunicaciones relacionadas con sus derechos básicos se harán conforme al Estatuto de la víctima:",
+      "opciones": [
+        "Únicamente al menor de edad víctima, en un lenguaje claro, sencillo y accesible.",
+        "A su representante o a la persona que le asista.",
+        "Las dos alternativas anteriores son incorrectas."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 12,
+      "enunciado": "Las Unidades adscritas a las Comunidades Autónomas dependerán funcionalmente de:",
+      "opciones": [
+        "Las autoridades de la Comunidad Autónoma.",
+        "La División de Operaciones y Transformación Digital.",
+        "Del Ministerio del Interior."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 13,
+      "enunciado": "Según lo dispuesto por la LO 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál es la opción correcta en relación al acceso a los datos personales de una persona fallecida si es solicitado por sus herederos o familiares?",
+      "opciones": [
+        "Los herederos del fallecido no podrán solicitar el acceso a los datos personales de aquella.",
+        "El fallecido no puede designar a una persona que no sea familiar de primer grado para el acceso a sus datos.",
+        "Aunque el fallecido hubiera prohibido expresamente el acceso a los herederos, estos podrán ac- ceder a los datos de carácter patrimonial del causante.  4 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 14,
+      "enunciado": "En la LO 7/2021, de protección de datos personales tratados para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales ¿se establece alguna figura u órgano de asesoramiento y supervisión de los responsa- bles de la protección de datos?",
+      "opciones": [
+        "No, ya que la figura del responsable de protección de datos es la figura más representativa.",
+        "Sí, el Delegado de protección de datos.",
+        "Sí, el coordinador de protección de datos."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 15,
+      "enunciado": "Conforme dispone la Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional, ¿de cuántas Salas se compone dicho Tribunal?",
+      "opciones": [
+        "Cinco Salas.",
+        "Tres Salas.",
+        "Dos Salas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 16,
+      "enunciado": "David es detenido a las 22:00 horas en su domicilio y este considera que la detención se ha realizado de forma ilegal. Su abogado presenta la solicitud de habeas corpus en tiempo y forma ante el órgano habilitado a las 9:00 horas de la mañana del día siguiente. Desde que sea dictado el auto de incoación, ¿de qué plazo máximo dispondrá la autoridad judicial competente para dictar la resolución?",
+      "opciones": [
+        "72 horas.",
+        "48 horas.",
+        "24 horas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 17,
+      "enunciado": "Según dispone el artículo 554 de la Ley de Enjuiciamiento Criminal, se reputan domicilio los siguientes, NO figurando en dicha relación:",
+      "opciones": [
+        "Los Palacios Reales, estén o no habitados por el Monarca al tiempo de la entrada o registro.",
+        "El edificio o lugar cerrado, o la parte de él destinada principalmente a la habitación de cualquier español o extranjero residente en España y de su familia.",
+        "Los buques de guerra."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 18,
+      "enunciado": "Según el Régimen disciplinario del Cuerpo Nacional de Policía, la sanción de traslado for- zoso puede imponerse:",
+      "opciones": [
+        "Solo por falta muy grave.",
+        "Por falta grave o muy grave, en función de las circunstancias concurrentes.",
+        "Solo por falta grave."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 19,
+      "enunciado": "Según la clasificación de las sectas que efectuó el sociólogo Bryan Wilson ¿cuál es aquella que se relaciona con el espiritismo, con lo sobrenatural, y el médium u oráculo son figuras fun- damentales dentro del grupo?",
+      "opciones": [
+        "Sectas reformistas.",
+        "Sectas conversionistas.",
+        "Sectas taumatúrgicas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 20,
+      "enunciado": "¿Cuál es la actual ley que regula la protección a la seguridad ciudadana?",
+      "opciones": [
+        "Ley Ordinaria 4/2015, de 30 mayo, de protección de la seguridad ciudadana.",
+        "Ley Orgánica 4/2015, de 30 marzo, de protección de la seguridad ciudadana.",
+        "Ley Orgánica 4/2015, de 30 mayo, de protección de la seguridad ciudadana.  5  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 21,
+      "enunciado": "¿Cuáles de las siguientes personas físicas o jurídicas, que ejerzan actividades relevantes para la seguridad ciudadana, están sujetas a las obligaciones de registro documental e informa- ción en los términos que establezcan las disposiciones aplicables según la LO 4/2015, de protec- ción de la seguridad ciudadana?",
+      "opciones": [
+        "Centros gestores de residuos metálicos.",
+        "Establecimientos de compraventa de joyas y metales.",
+        "Ambas son correctas."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 22,
+      "enunciado": "La Jefatura de Unidades de Intervención Policial, depende de:",
+      "opciones": [
+        "Comisaría General de Seguridad Ciudadana.",
+        "División de Operaciones y Transformación Digital a través de la Dirección Adjunta Operativa.",
+        "De la Jefatura de Unidades Especiales."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 23,
+      "enunciado": "El extravío, pérdida o sustracción por simple negligencia, de los distintivos de identifica- ción, del arma reglamentaria o de cualquier otro medio o instrumento, que se hayan recibido o que se utilicen para el ejercicio de la función policial, recogido en Ley Orgánica 4/2010 del Régi- men disciplinario del Cuerpo Nacional de Policía, constituye:",
+      "opciones": [
+        "Una falta grave.",
+        "Una falta leve.",
+        "Una falta muy grave."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 24,
+      "enunciado": "Dentro del régimen sancionador de la LO 4/2000, de 11 de enero, sobre derechos y li- bertades de los extranjeros en España y su integración social, encontrarse irregularmente en territorio español por tener caducada la autorización de residencia más de tres meses, siempre que el interesado no hubiese solicitado la renovación de la misma en el plazo previsto reglamen- tariamente, constituye:",
+      "opciones": [
+        "Una infracción leve.",
+        "Una infracción menos grave.",
+        "Una infracción grave."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 25,
+      "enunciado": "En relación a lo dispuesto en el artículo 17 del Código Civil, son españoles de origen (con- teste la respuesta más acertada):",
+      "opciones": [
+        "Los nacidos en territorio nacional de padres extranjeros en cualquier caso.",
+        "Los nacidos de padre o madre españoles.",
+        "Los nacidos en territorio nacional."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 26,
+      "enunciado": "Es competencia exclusiva de la Policía Nacional:",
+      "opciones": [
+        "La conducción interurbana de presos.",
+        "El resguardo fiscal del Estado.",
+        "La expedición del Documento de Identidad."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 27,
+      "enunciado": "El máximo órgano de representatividad sindical dentro de la Policía Nacional es:",
+      "opciones": [
+        "El Consejo de Policía.",
+        "Las Juntas de Seguridad.",
+        "La Asamblea de sindicatos representativos.  6 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 28,
+      "enunciado": "Según Fukuyama, ¿qué condiciones previas son necesarias para el crecimiento de la eco- nomía capitalista?",
+      "opciones": [
+        "Las democracias y los controles aduaneros.",
+        "Las dictaduras de todo signo con equilibrio proteccionista",
+        "El libre mercado y los sistemas políticos estables."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 29,
+      "enunciado": "El personal que desempeña funciones de seguridad privada que faltase al respeto a la dignidad o al honor de las personas, en qué infracción incurriría conforme a lo estipulado en la Ley 5/2014, de 4 de abril, de Seguridad Privada:",
+      "opciones": [
+        "Infracción leve.",
+        "Infracción grave.",
+        "Infracción muy grave."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 30,
+      "enunciado": "La policia ha detenido a un menor que tiene 15 años por un delito de terrorismo.",
+      "opciones": [
+        "Desde el primer momento estará incomunicado e inmediatamente se informará a Fiscalía.",
+        "No puede ser objeto de incomunicación al tratarse de un menor de 15 años.",
+        "Se le incomunica por el tiempo estrictamente necesario."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 31,
+      "enunciado": "Para habilitarse como guardapesca marítimo será necesario haberlo hecho previamente como:",
+      "opciones": [
+        "Vigilante de explosivos.",
+        "Guarda rural.",
+        "Guarda de caza."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 32,
+      "enunciado": "Los efectos económicos plenos, para el funcionario de carrera, comienzan a producirse desde:",
+      "opciones": [
+        "Recibir el nombramiento de la autoridad competente.",
+        "Prestar el juramento o promesa legalmente establecida.",
+        "Tomar posesión del cargo."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 33,
+      "enunciado": "Como órgano de asistencia inmediata a la personal titular de la Secretaría de Estado de Seguridad existe un Gabinete con nivel orgánico de:",
+      "opciones": [
+        "Subdirección general.",
+        "Dirección general.",
+        "Secretaría general técnica."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 34,
+      "enunciado": "Una pareja rompe su relación sentimental. Días después, por venganza y sin consenti- miento del hombre, la mujer difunde a través del móvil unas imágenes íntimas que la pareja se grabó en fechas anteriores.",
+      "opciones": [
+        "La mujer no incurre en responsabilidad penal, ya que la grabación de las imágenes íntimas fue consentida por ambos.",
+        "Al difundir las imágenes, comete un delito de sabote informático atenuado por ser grabaciones consentidas.",
+        "Hay un delito de descubrimiento y revelación de secretos, al menoscabar gravemente la intimidad del hombre con la divulgación de las imágenes.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 35,
+      "enunciado": "El Centro de Comunicaciones Internacionales de la Policía Nacional está adscrito:",
+      "opciones": [
+        "A la Unidad de Coordinación Internacional.",
+        "A la Oficina Central Nacional de INTERPOL.",
+        "A la Secretaría General de la División de Cooperación Internacional."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 36,
+      "enunciado": "Cuál de las siguientes opciones NO puede ser ejercida por el Presidente del Gobierno en funciones:",
+      "opciones": [
+        "Dirigir la política de defensa.",
+        "Interponer el recurso de inconstitucionalidad.",
+        "Plantear la cuestión de confianza."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 37,
+      "enunciado": "¿Cuál de estos países NO forma parte en la actualidad de la Unión Europea?",
+      "opciones": [
+        "Portugal.",
+        "Estonia.",
+        "Noruega."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 38,
+      "enunciado": "¿En qué ámbito se aplica la orden de protección?",
+      "opciones": [
+        "En el ámbito de la violencia de género.",
+        "En el ámbito de la violencia doméstica.",
+        "En cualquiera de los dos ámbitos mencionados."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 39,
+      "enunciado": "El supremo órgano consultivo del Gobierno es:",
+      "opciones": [
+        "El Consejo de Gobierno.",
+        "El Consejo de Ministros.",
+        "El Consejo de Estado."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 40,
+      "enunciado": "La sede del Tribunal Europeo de Derechos Humanos, se encuentra en:",
+      "opciones": [
+        "Estrasburgo.",
+        "Bruselas.",
+        "Lyon."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 41,
+      "enunciado": "Un ciudadano, tras ser detenido por un presunto delito contra la seguridad vial y que es trasladado inmediatamente a dependencias policiales, no es informado de los derechos y razo- nes de su detención.",
+      "opciones": [
+        "El agente no incurre en conducta penal ni disciplinaria ya que es la policía la que decide el mo- mento correcto y adecuado para informar.",
+        "Existe una detención ilegal, siempre que el detenido solicite conocer sus derechos ante la comi- sión de una infracción contra la seguridad vial.",
+        "Comete un delito contra las garantías constitucionales por no informar inmediatamente y de for- ma comprensible de sus derechos al detenido."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 42,
+      "enunciado": "En virtud del nuevo Reglamento de extranjería, la duración de la autorización de residen- cia temporal por razón de arraigo familiar es de:",
+      "opciones": [
+        "Un año.",
+        "Dos años.",
+        "Cinco años.  8 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 43,
+      "enunciado": "Al Área de retribuciones le compete gestionar las retribuciones correspondientes al per- sonal de la Dirección General de la Policía y depende de:",
+      "opciones": [
+        "La Secretaría General de la División de Personal.",
+        "De la Unidad Económica de la División Económica y Técnica.",
+        "De la Secretaría General de la Dirección Adjunta Operativa."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 44,
+      "enunciado": "Un policía quiere castigar a un detenido por un hurto cometido, para ello, baja a los cala- bozos y tras dejarle semidesnudo le introduce la cabeza en el inodoro varias veces. ¿Tiene res- ponsabilidad penal el policía por estos hechos?",
+      "opciones": [
+        "Sí, cometerá un delito de torturas.",
+        "Sí, un delito leve de trato degradante.",
+        "Sí, un delito de acoso profesional."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 45,
+      "enunciado": "¿En qué supuesto los agentes de la Policía Nacional podrán requerir a un sujeto que les acompañe a dependencias policiales para su identificación conforme a lo dispuesto en la LO 4/2015, de protección de la seguridad ciudadana?",
+      "opciones": [
+        "Cuando no porte su Documento Nacional de Identidad en formato físico.",
+        "Cuando se niegue a identificarse y no sea posible su identificación por ningún medio.",
+        "Las dos alternativas anteriores son falsas."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 46,
+      "enunciado": "Tres futbolistas en el vestuario, acuerdan cometer un robo violento en una joyería y re- suelven ejecutarlo la mañana siguiente. El entrenador al escuchar todo llama a la policía, la cual, tras comprobar la información en el vestuario, procede a la detención de los tres futbolistas.",
+      "opciones": [
+        "La detención es correcta al tratarse de una conspiración para cometer un robo.",
+        "Es una provocación y no procede detención al no iniciarse la ejecución del robo.",
+        "Hay proposición, pero no procede detención al no existir disponibilidad sobre las joyas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 47,
+      "enunciado": "En el contexto de los sistemas operativos, ¿qué se entiende por «deadlock» (abrazo mortal)?:",
+      "opciones": [
+        "Un mecanismo de protección en la ejecución de un programa.",
+        "Un estado en el que dos o más procesos no pueden continuar porque cada uno está esperando un recurso que posee otro.",
+        "Un tipo de interrupción generada por el hardware."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 48,
+      "enunciado": "Las infracciones penales existentes en nuestro ordenamiento jurídico se contemplan:",
+      "opciones": [
+        "En el Código Penal únicamente.",
+        "En el Código Penal y en el ámbito administrativo como es la Ley Orgánica de protección de seguridad.",
+        "En el Código Penal y las leyes penales especiales."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 49,
+      "enunciado": "La Constitución Española se compone de:",
+      "opciones": [
+        "Un Título Preliminar, diez Títulos, 169 artículos, cuatro disposiciones adicionales, nueve transito- rias, un derogatoria y una final.",
+        "Un Título Preliminar, once Títulos, 169 artículos, cuatro disposiciones adicionales, nueve transito- rias, un derogatoria y una final.",
+        "Un Título Preliminar, diez Títulos, 169 artículos, cinco disposiciones adicionales, nueve transitorias, un derogatoria y una final.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 50,
+      "enunciado": "¿Qué medida de las propuestas NO sirve para limitar la huella digital de una persona en redes sociales?",
+      "opciones": [
+        "La navegación en modo incógnito impide en todo caso la recopilación de información por terceros.",
+        "Eliminar las cookies del navegador.",
+        "Verificar la fiabilidad de las plataformas visitadas."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 51,
+      "enunciado": "La instalación de aparatos emisores de luces y señales acústicas especiales en vehículos prioritarios, de conformidad con lo dispuesto en las normas reguladoras de los vehículos, reque- rirá autorización de:",
+      "opciones": [
+        "La Jefatura Provincial de Tráfico correspondiente.",
+        "La Dirección General de Tráfico.",
+        "La Subdirección General de Gestión de la Movilidad y Tecnología."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 52,
+      "enunciado": "El foro institucional de participación de todas las administraciones públicas, así como de las organizaciones y entidades representativas de intereses sociales y ambientales en la elabora- ción y seguimiento de las políticas sobre cambio climático promovidas por el Estado Español es:",
+      "opciones": [
+        "El Consejo Nacional del Clima.",
+        "La Comisión de Coordinación de Políticas de Cambio Climático.",
+        "Oficina Española de Cambio Climático."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 53,
+      "enunciado": "El crecimiento vegetativo es el valor obtenido por la diferencia entre la tasa de natalidad y la tasa de mortalidad de una región determinada en un periodo concreto. Si decimos que en una población el crecimiento vegetativo es negativo, ¿a qué nos referimos?:",
+      "opciones": [
+        "A que el número de nacimientos es mayor que el número de muertes.",
+        "A que el número de nacimientos es menor que el número de muertes.",
+        "Significa que la tasa de natalidad y la tasa de mortalidad tienen el mismo número."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 54,
+      "enunciado": "Cuando se habla de un arma de fuego que después de cada disparo se recarga automá- ticamente y con la que solo es posible efectuar un disparo al accionar el disparador cada vez, estamos haciendo referencia a:",
+      "opciones": [
+        "Un arma automática.",
+        "Un arma semiautomática.",
+        "Un arma de repetición."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 55,
+      "enunciado": "Según el artículo 28.2 de la Ley Orgánica 4/2015, de protección de la seguridad ciuda- dana, la intervención de armas, explosivos, cartuchería y artículos pirotécnicos corresponde al Ministerio del Interior, que la ejerce a través de:",
+      "opciones": [
+        "La Dirección General de la Guardia Civil y la Dirección General de la Policía.",
+        "La Dirección General de la Guardia Civil.",
+        "La Dirección General de la Policía."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 56,
+      "enunciado": "Visitar los lugares donde se encuentren o pudieran encontrarse personas privadas de su libertad en cada Estado Parte y hacer recomendaciones a los Estados Partes en cuanto a la pro- tección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, es un mandato de:",
+      "opciones": [
+        "El Subcomité para la Prevención de la Tortura.",
+        "Amnistía Internacional.",
+        "El Defensor del Pueblo.  10 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 57,
+      "enunciado": "¿Cuál de las siguientes frases está escrita correctamente?",
+      "opciones": [
+        "El artista se sentó frente al lienzo en blanco, con sus pinceles delante suya, listo para comenzar.",
+        "Durante la tormenta varios árboles calleron sobre los coches estacionados.",
+        "Mecano, La Unión y Gabinete Caligari reviven la nostalgia musical de los años 80."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 58,
+      "enunciado": "La persona que realiza la acción descrita en el tipo penal se denomina:",
+      "opciones": [
+        "Autor.",
+        "Sujeto activo.",
+        "Titular del bien jurídico."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 59,
+      "enunciado": "Dentro del Consejo de Política de Seguridad funcionará el Comité de Expertos integrado por ocho representantes:",
+      "opciones": [
+        "Cuatro del Estado y cuatro de las Corporaciones Locales.",
+        "Cuatro del Estado y cuatro de las Comunidades Autónomas.",
+        "Cuatro del Estado y cuatro del Comité Interterritorial."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 60,
+      "enunciado": "Los visados para la búsqueda de empleo autorizarán a la persona extranjera a desplazarse al territorio español para la búsqueda de empleo durante un periodo de residencia de:",
+      "opciones": [
+        "Tres meses.",
+        "Seis meses.",
+        "Doce meses."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 61,
+      "enunciado": "¿A qué categoría pertenecen los vehículos celulares para el transporte de detenidos, pre- sos y penados de hasta nueve plazas, incluido el conductor y escolta?",
+      "opciones": [
+        "M1.",
+        "M2.",
+        "M3."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 62,
+      "enunciado": "¿Qué Tribunal culmina la organización judicial en el ámbito de la respectiva comunidad autónoma?",
+      "opciones": [
+        "a) Audiencia Provincial.",
+        "b) Tribunal Superior de Justicia.",
+        "c) La Corte Superior de Justicia Autonómica."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 63,
+      "enunciado": "Todo precepto general cuyo fin es ordenar la convivencia de la comunidad y cuya obser- vancia puede ser impuesta coactivamente (a la fuerza) por el poder directivo de aquella, esta afirmación hace referencia a:",
+      "opciones": [
+        "Norma moral.",
+        "Norma jurídica positiva.",
+        "Norma ética."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 64,
+      "enunciado": "Según la teoría de las actitudes formulada por Daniel Katz ¿Cuál de las siguientes opcio- nes NO se encuentra entre las cuatro funciones principales formuladas por el autor?",
+      "opciones": [
+        "Función de conocimiento.",
+        "Función defensiva del yo.",
+        "Función de gestión del duelo.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 65,
+      "enunciado": "La Junta de Gobierno, que se halla regulada por la Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía, es presidida por:",
+      "opciones": [
+        "El Director General de la Policía.",
+        "El Director Adjunto Operativo.",
+        "La persona titular del Ministerio del Interior."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 66,
+      "enunciado": "El Plan Nacional de Protección de las Infraestructuras Críticas será revisado por la Secreta- ría de Estado de Seguridad:",
+      "opciones": [
+        "Cada dos años.",
+        "Cada tres años.",
+        "Cada cinco años."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 67,
+      "enunciado": "Según el Real Decreto Legislativo 5/2015 del Estatuto Básico del Empleado Público, ¿en cuál de estas opciones NO será considerado como empleado público?",
+      "opciones": [
+        "Personal laboral, ya sea fijo, por tiempo indefinido o temporal.",
+        "Funcionario interino.",
+        "Personal accidental."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 68,
+      "enunciado": "El cliente de un bar, aprovechando que el dueño se mete en la cocina para preparar un bocadillo, rompe la puerta del comedor y sustrae la caja registradora cerrada con llave. Como no es capaz de romper la cerradura en el local, sale corriendo con ella y la abre en su casa con una sierra mecánica. Responsabilidad penal:",
+      "opciones": [
+        "Delito de hurto.",
+        "Delito de estafa.",
+        "Delito de robo."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 69,
+      "enunciado": "¿Qué entidad supervisa la asignación global de direcciones IP sistemas autónomos y otros recursos relativos a los protocolos de Internet?",
+      "opciones": [
+        "IANA.",
+        "IPGA.",
+        "IPCA."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 70,
+      "enunciado": "Según el artículo 112 de la Constitución española, en cuanto a la cuestión de confianza otorgada cuando vote a favor de la misma:",
+      "opciones": [
+        "La mayoría absoluta de los Diputados.",
+        "La mayoría simple de los Diputados.",
+        "Tres quintas partes de la Cámara Baja."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 71,
+      "enunciado": "El Fiscal General del Estado será nombrado por:",
+      "opciones": [
+        "El Presidente del Gobierno, tras haber sido acordado en Consejo de Ministros.",
+        "El Rey, a propuesta del Gobierno.",
+        "El Consejo General del Poder Judicial.  12 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 72,
+      "enunciado": "¿Cómo se define al malware que tiene como característica principal infectar ficheros eje- cutables o sectores de arranque de dispositivos de almacenamiento?",
+      "opciones": [
+        "Troyano.",
+        "Virus.",
+        "Adware."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 73,
+      "enunciado": "Según el régimen sancionador de la LO 7/2021, de protección de datos personales trata- dos para fines de prevención, detección, investigación y enjuiciamiento de infracciones penales y de ejecución de sanciones penales, las infracciones se pueden calificar como:",
+      "opciones": [
+        "Graves, menos graves y leves.",
+        "Muy graves, menos graves y leves.",
+        "Muy graves, graves y leves."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 74,
+      "enunciado": "¿Cuál es la autoridad competente para tramitar un procedimiento de habeas corpus cuan- do lo solicita un menor de edad, según dispone el artículo 2 de la Ley Orgánica 6/1984 regulado- ra del procedimiento «Habeas Corpus»?",
+      "opciones": [
+        "Juez de Instrucción.",
+        "Juez de Menores.",
+        "Fiscalía de Menores."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 75,
+      "enunciado": "Los países firmantes de la Convención contra la Tortura, se comprometen a que (marque la opción correcta):",
+      "opciones": [
+        "No existe justificación alguna para la tortura, salvo situaciones excepcionales como la guerra o la amenaza de guerra.",
+        "No podrá invocarse una orden de un funcionario superior.",
+        "Cada Estado puede disponer en qué partes de su territorio no sea vinculante este Convenio."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 76,
+      "enunciado": "Un médico que trabaja como funcionario en el hospital provincial finaliza su guardia y abandona su consulta. Mientras abre su vehículo es agredido por un individuo enojado porque no ha firmado el alta hospitalaria a su familiar. Debido al puñetazo recibido el médico pierde la vista de un ojo.",
+      "opciones": [
+        "Solo hay un delito de lesiones porque los hechos no ocurren en la consulta hospitalaria.",
+        "Comete un delito de resistencia grave a la autoridad en concurso con amenazas.",
+        "Podría responder por un delito de atentado y otro delito de lesiones."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 77,
+      "enunciado": "La Inspección de Personal y Servicios de Seguridad:",
+      "opciones": [
+        "Depende de la Dirección General de Coordinación y Estudios y tiene nivel orgánico de subdirec- ción general.",
+        "Depende de la Secretaría de Estado de Seguridad y tiene rango de subsecretaría de Estado.",
+        "Depende de la Dirección General de la Policía y tiene nivel orgánico de subdirección general."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 78,
+      "enunciado": "La Unidad Nacional de Retirada de Contenidos Ilícitos en Internet (UNECI) depende de:",
+      "opciones": [
+        "CITCO.",
+        "Brigada Central de Investigación Tecnológica.",
+        "Brigada Central de Seguridad Informática.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 79,
+      "enunciado": "¿Qué autor define los valores como «la manera de ser o de obrar que una persona o colec- tividad juzgan ideales y que hacen deseables o estimables a los seres o a las conductas a los que se atribuye dicho valor»:",
+      "opciones": [
+        "Joseph Fichter.",
+        "Guy Rocher.",
+        "Milton Rokeach."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 80,
+      "enunciado": "¿Cuál de las siguientes frases está escrita correctamente?",
+      "opciones": [
+        "En caso de emergencia habrán salidas señalizadas.",
+        "Varios trabajadores abandonaron el estudio motu proprio como medida de protesta.",
+        "Los síntomas iniciales pueden ser leves, sobretodo en enfermedades de evolución lenta."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 81,
+      "enunciado": "El Área de Innovación Formativa, se encarga de la realización de los planes y proyectos relacionados con el campus virtual de formación de la Policía Nacional, la gestión de las tecnolo- gías, promoviendo la cultura digital en la organización a través de la formación, y depende de la:",
+      "opciones": [
+        "Subdirección General de Recursos Humanos y Formación.",
+        "Secretaría General de la División de Formación y Perfeccionamiento.",
+        "División de Operaciones y Transformación Digital."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 82,
+      "enunciado": "Dentro de la Estrategia de Seguridad Vial 2030, ¿cuál es el factor esencial, aunque no siempre explícito, del Sistema Seguro en la seguridad vial?",
+      "opciones": [
+        "Factor ambiental.",
+        "Factor humano.",
+        "Factor vehículo."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 83,
+      "enunciado": "De la Unidad de Planificación Estratégica y Coordinación depende:",
+      "opciones": [
+        "El Servicio de Planificación y Prospectiva.",
+        "La Sección de Seguimiento, Inteligencia y Coordinación.",
+        "El Centro Nacional de Comunicaciones."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 84,
+      "enunciado": "Velar por la integridad física de las personas a quién detuvieren se encuentra recogido dentro de los Principios Básicos de Actuación, en concreto en el apartado:",
+      "opciones": [
+        "Adecuación al ordenamiento jurídico.",
+        "Relaciones con la comunidad.",
+        "Tratamiento de detenidos."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 85,
+      "enunciado": "¿Qué tipo de sistema operativo es IBM AIX?",
+      "opciones": [
+        "Sistema operativo para dispositivos móviles.",
+        "Sistema operativo para servidores.",
+        "Sistema operativo multiplataforma."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 86,
+      "enunciado": "Los servicios de prevención tendrán carácter:",
+      "opciones": [
+        "Interdisciplinario.",
+        "Colectivo.",
+        "Integral.  14 PROMOCIÓN N.º 42 "
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 87,
+      "enunciado": "¿Dónde está integrada la Unidad de Prevención de Riesgos Laborales y Protección Socio- Sanitaria de la Policía Nacional?:",
+      "opciones": [
+        "En la División de Personal",
+        "En la Subdirección General de Logística e Innovación",
+        "En la Subdirección General de Recursos Humanos y Formación."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 88,
+      "enunciado": "¿Cuál de las siguientes necesidades NO se corresponde con las demás según la pirámide de Maslow?",
+      "opciones": [
+        "La respiración.",
+        "La amistad.",
+        "Las necesidades alimenticias."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 89,
+      "enunciado": "Aquel ataque de ingeniería social, variante del spear phishing, que se caracteriza porque el fraude está dirigido a miembros de la organización, principalmente ejecutivos de alto nivel, con el objeto de obtener sus claves, contraseñas y todo tipo de información confidencial que per- mita a los atacantes acceso y control de los sistemas de información de la empresa se denomina:",
+      "opciones": [
+        "Smishing.",
+        "Whaling.",
+        "Spoofing."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 90,
+      "enunciado": "¿Cuáles son las unidades básicas de la organización policial en las grandes urbes?:",
+      "opciones": [
+        "Comisarías de distrito.",
+        "Comisarías zonales.",
+        "Comisarías locales."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 91,
+      "enunciado": "Según la Ley 50/1997, del Gobierno, ¿cuál de las siguientes opciones NO corresponde a las funciones del Consejo de Ministros?",
+      "opciones": [
+        "Acordar la negociación y firma de Tratados internacionales, así como su aplicación provisional.",
+        "Declarar los estados de excepción y sitio, así como proponer al Congreso de los Diputados la de- claración del estado de alarma.",
+        "Disponer la emisión de Deuda Pública o contraer crédito, cuando haya sido autorizado por una Ley."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 92,
+      "enunciado": "Concluida la instrucción por la Oficina de Asilo y Refugio, ésta elevará la correspondiente propuesta de resolución debidamente motivada e individualizada al Ministro del Interior, a tra- vés de la:",
+      "opciones": [
+        "Dirección General de Extranjería e Inmigración.",
+        "Comisión Interministerial de Inmigración.",
+        "Secretaría de Estado de Migraciones."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 93,
+      "enunciado": "Un anciano ha dejado la puerta de su casa abierta mientras riega el jardín. Dos individuos observan la situación y mientras uno distrae al anciano, el otro accede al interior de la vivienda donde rompe la caja fuerte y se apropia de un anillo de oro. Califique la conducta.",
+      "opciones": [
+        "Hurto en concurso con allanamiento de morada.",
+        "Robo con fuerza.",
+        "Estafa a persona desvalida.  15  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 94,
+      "enunciado": "El consumo combinado de heroína y cocaína se le conoce como:",
+      "opciones": [
+        "Fire Ball.",
+        "Speed Ball.",
+        "Candyflip."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 95,
+      "enunciado": "Dentro de la multitud de herramientas y servicios útiles a la hora de implementar un siste- ma OSINT, se halla un buscador especializado que permite entre otras cosas localizar ordenado- res, webcams e impresoras, basándose en el software, la dirección IP y la ubicación geográfica, denominado:",
+      "opciones": [
+        "Knowem.",
+        "Pipl.",
+        "Shodan."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 96,
+      "enunciado": "Conforme dispone la LO 4/2000, de 11 enero, sobre derechos y libertades de los extranje- ros en España y su integración social, las infracciones graves en materia de extranjería prescribi- rán a los:",
+      "opciones": [
+        "Cuatro años.",
+        "Tres años.",
+        "Dos años."
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 97,
+      "enunciado": "¿Cuál de estas funciones corresponde ejercer a un Ayuntamiento?",
+      "opciones": [
+        "La trasposición de la normativa emanada del Estado y la Comunidad Autónoma correspond.",
+        "El Gobierno y la administración municipal.",
+        "La formación política del Municipio."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 98,
+      "enunciado": "El Observatorio Español de Racismo y Xenofobia ha sido uno de los partícipes, entre otros, del lanzamiento, este año 2025, de una innovadora metodología de monitorización diseñada para la identificación y el análisis a tiempo real de los contenidos de discurso de odio con mo- tivaciones racistas, xenófobas, islamófobas, antisemitas y antigitanas en las principales redes sociales:",
+      "opciones": [
+        "Sistema FARO.",
+        "Sistema CORS.",
+        "Sistema VARS."
+      ],
+      "correcta": 0,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 99,
+      "enunciado": "¿Cómo es conocida la iniciativa sobre la ruta migratoria UE-Cuerno de África que se centra en la prevención y la lucha contra el tráfico de migrantes y la trata de personas?",
+      "opciones": [
+        "Proceso de Túnez.",
+        "Proceso de Jartum.",
+        "Proceso de Dakar."
+      ],
+      "correcta": 1,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 100,
+      "enunciado": "Conforme regula el Real Decreto 2/2006, de 16 de enero, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía, y de acuerdo con el censo de electores de cada escala para representantes en el Consejo de la Policía, ¿cuántos electores serán necesarios para designar a 8 delegados de prevención?",
+      "opciones": [
+        "Más de 5.000 electores.",
+        "Más de 6.000 electores.",
+        "Más de 7.000 electores.  16"
+      ],
+      "correcta": 2,
+      "dificultad": null,
+      "tema": null,
+      "explicacion": ""
+    }
+  ]
+}
