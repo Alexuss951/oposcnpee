@@ -1,0 +1,1311 @@
+{
+  "promocion": 38,
+  "escala": "ejecutiva",
+  "categoria": "Inspector turno libre",
+  "modelo": "",
+  "fecha": "2024-02-17",
+  "fuente": "DEPOL Ej. P38",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "Un extranjero de origen filipino, mayor de edad, y que reside en España desde hace seis años de forma legal, continuada e inmediatamente anterior a la petición, que solicita la nacionalidad española, e iniciado el procedimiento y recibida la notificación de las autoridades ¿qué plazo 1 tiene como máximo para comparecer ante el funcionario competente y cumplir con los requisitos exigidos para que no caduque el procedimiento?",
+      "opciones": [
+        "90 días desde su notificación.",
+        "120 días desde su solicitud inicial.",
+        "180 días desde su notificación."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 3,
+      "explicacion": ""
+    },
+    {
+      "n": 2,
+      "enunciado": "¿En qué plazo deberán ser cumplidos los requisitos exigidos para la iniciativa del proceso autonómico?",
+      "opciones": [
+        "Dieciocho meses desde el primer acuerdo.",
+        "Doce meses desde el primer acuerdo.",
+        "Seis meses desde el primer acuerdo."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 7,
+      "explicacion": ""
+    },
+    {
+      "n": 3,
+      "enunciado": "En el marco de una investigación, el Juez instructor ordena a un Grupo de Policía Judicial de la Policía Nacional la realización de indagaciones en el municipio de Villalba, situado en la provincia de Madrid y donde es competente la Guardia Civil ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Deberán comunicarlo al Delegado del Gobierno en Madrid y a los mandos de la Guardia Civil en Madrid.",
+        "Deberán comunicarlo al Delegado del Gobierno en Madrid y en caso de tener que adoptar medidas coercitivas a los mandos de la Guardia Civil en Madrid.",
+        "Deberán comunicarlo al Delegado del Gobierno en Madrid y este podrá dictaminar que se haga cargo de la investigación la Guardia Civil."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 14,
+      "explicacion": ""
+    },
+    {
+      "n": 4,
+      "enunciado": "Qué consideración a efectos representativos tendrá el Director de Gabinete de la Presidencia del Consejo General del Poder Judicial”?",
+      "opciones": [
+        "Vicepresidente del Consejo General del Poder Judicial.",
+        "Magistrado del Tribunal Supremo.",
+        "Secretario de Estado."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 5,
+      "enunciado": "De acuerdo con lo establecido en el artículo 107 de la Ley 39/2015, respecto a la declaración de lesividad de los actos anulables:",
+      "opciones": [
+        "Transcurrido el plazo de 6 meses sin que se hubiera declarado la lesividad, se producirá la caducidad del mismo.",
+        "Transcurrido el plazo de 3 meses sin que se hubiera declarado la lesividad, se producirá la caducidad del mismo.",
+        "Transcurrido el plazo de 1 mes sin que se hubiera declarado la lesividad, se producirá la caducidad del mismo."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 10,
+      "explicacion": ""
+    },
+    {
+      "n": 6,
+      "enunciado": "Una mujer española da a luz mientras se encuentra de viaje en el extranjero ¿dónde deberá registrar el nacimiento de esta persona?",
+      "opciones": [
+        "En el Registro Civil Central.",
+        "En la Oficina Consular del país donde haya nacido.",
+        "En el Registro Civil del lugar donde se dé por finalizado este viaje."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 2,
+      "explicacion": ""
+    },
+    {
+      "n": 7,
+      "enunciado": "En cuanto a la diferenciación entre la imprudencia grave y la que no lo es, se puede considerar que la imprudencia es grave cuando:",
+      "opciones": [
+        "Cuando se han infringido deberes elementales que se pueden exigir al menos diligente de los sujetos.",
+        "Cuando supone un olvido total y absoluto de las más elementales normas de previsión y cuidado.",
+        "Cuando se tiene conocimiento de que se genera un peligro concreto."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 27,
+      "explicacion": ""
+    },
+    {
+      "n": 8,
+      "enunciado": "El subsidio por cuidado de menores afectados por cáncer u otra enfermedad grave, ¿cuándo se extinguirá?",
+      "opciones": [
+        "Por cumplir el causante los 23 años, salvo que se acredite un grado de discapacidad igual o superior al 65 por ciento.",
+        "Por dejar de acreditar el grado de discapacidad requerido o, en todo caso, cuando el causante cumpla los 30 años de edad.",
+        "No existe limitación de edad, extinguiéndose tan solo en el caso de fallecimiento del causante."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 12,
+      "explicacion": ""
+    },
+    {
+      "n": 9,
+      "enunciado": "El artículo 17.3 de la Constitución Española reconoce que toda persona detenida debe ser informada de forma inmediata, y de modo que le sea comprensible, de sus derechos y de las razones de su detención. ¿Puede ser suspendido este derecho?",
+      "opciones": [
+        "Este derecho podrá ser suspendido cuando se acuerde la declaración del estado de excepción en los términos previstos en la Constitución.",
+        "Este derecho podrá ser suspendido cuando se acuerde la declaración del estado de sitio en los términos previstos en la Constitución.",
+        "Este derecho no podrá ser suspendido en ningún caso al tratarse de un derecho fundamental especialmente protegido en el artículo 55 de la Constitución Española."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 5,
+      "explicacion": ""
+    },
+    {
+      "n": 10,
+      "enunciado": "Los actos realizados al amparo del texto de una norma que persigan un resultado prohibido por el ordenamiento jurídico o contrario a él:",
+      "opciones": [
+        "Sólo serán válidos cuando no contraríen el interés o el orden público ni perjudiquen a terceros.",
+        "Son nulos de pleno derecho incluso cuando en dichas normas se establezca un efecto distinto para el caso de contravención.",
+        "No impedirán la debida aplicación de la norma que se hubiere tratado de eludir."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 1,
+      "explicacion": ""
+    },
+    {
+      "n": 11,
+      "enunciado": "En el marco de una persecución transfronteriza un Policía Nacional español cruza la frontera hacia Francia, señale la opción INCORRECTA:",
+      "opciones": [
+        "Estará prohibida la entrada en los domicilios y los lugares donde el público no tenga acceso.",
+        "Los agentes que realicen la persecución deberán llevar su arma de servicio y ser fácilmente identificables.",
+        "Con el fin de ser conducida ante las autoridades locales competentes, la persona perseguida, sólo podrá ser sometida a un registro de seguridad."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 8,
+      "explicacion": ""
+    },
+    {
+      "n": 12,
+      "enunciado": "Según la Orden INT/859/2023, la División de Operaciones y Transformación Digital se encuentra integrada en la Dirección Adjunta Operativa, y de dicha División depende:",
+      "opciones": [
+        "La Unidad de Planificación Estratégica y Coordinación.",
+        "La Comisaría Especial del Senado.",
+        "La Unidad Central de Coordinación Operativa y Técnica."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": ""
+    },
+    {
+      "n": 13,
+      "enunciado": "¿Cuál de los siguientes NO son agentes del Sistema de Protección de Infraestructuras Críticas?",
+      "opciones": [
+        "Las Comunidades Autónomas.",
+        "Los Ministerios.",
+        "La Comisión Autonómica para la Protección de Infraestructuras Críticas."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 21,
+      "explicacion": ""
+    },
+    {
+      "n": 14,
+      "enunciado": "La Convención sobre el Estatuto de los Apátridas, hecha en Nueva York el 28 de septiembre de 1954, reconoce como tales a aquellas personas que no sean consideradas como nacionales de ningún estado conforme a su legislación, y respecto a su estatuto personal:",
+      "opciones": [
+        "Se regirá por la normativa de derecho internacional privado.",
+        "La normativa a aplicar es la propia Convención de Nueva York de 1954.",
+        "Rige la ley del país de su domicilio o, a falta de domicilio, por la del país de residencia."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 17,
+      "explicacion": ""
+    },
+    {
+      "n": 15,
+      "enunciado": "El recurso de amparo, tiene por objeto la protección de los derechos y libertades reconocidos en los art. 14 a 29 y 30.2 CE, siendo los plazos para la interposición del mismo contra decisiones judiciales, a contar desde la notificación de la resolución que pone fin a la vía judicial previa, de:",
+      "opciones": [
+        "20 días.",
+        "30 días.",
+        "3 meses."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 5,
+      "explicacion": ""
+    },
+    {
+      "n": 16,
+      "enunciado": "Para autorizar la residencia temporal de un extranjero será preciso que carezca de antecedentes en:",
+      "opciones": [
+        "España o en los países anteriores de residencia, por delitos existentes en el ordenamiento español.",
+        "España o en los países de la UE, por delitos existentes en el ordenamiento español o sus ordenamientos jurídicos nacionales.",
+        "España o en los países anteriores de residencia, por delitos existentes en sus respectivos ordenamientos Jurídicos."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 17,
+      "enunciado": "La declaración de opción para obtener la nacionalidad española un menor extranjero de quince años de edad que está sujeto a la patria potestad de un español:",
+      "opciones": [
+        "Sólo podrá formularla el representante legal del menor.",
+        "La formulará el propio menor, asistido por su representante legal.",
+        "La formulará el representante legal del menor, requiriendo autorización del encargado del Registro Civil del domicilio del declarante, previo dictamen del Ministerio Fiscal."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 3,
+      "explicacion": ""
+    },
+    {
+      "n": 18,
+      "enunciado": "¿Puede realizarse una Ley Orgánica para legislar específicamente sobre materias no incluidas en aquellas reservadas a este tipo de norma?",
+      "opciones": [
+        "Sí, ya que el concepto de Ley Orgánica en los tiempos postconstitucionales permite que en una misma ley orgánica concurran materias exclusivamente ordinarias.",
+        "No, ya que ello excede el sentido material de la Ley Orgánica, tal y como señala el Tribunal Constitucional desde su STC 76/1983.",
+        "Sí, pero solamente cuando se realice en los relativo a los derechos de las Comunidades Autónomas."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 1,
+      "explicacion": ""
+    },
+    {
+      "n": 19,
+      "enunciado": "Un ciudadano de nacionalidad china ha solicitado la concesión de un visado para estancia de larga duración en España. Al tramitar su solicitud los agentes comprueban que tiene una descripción para la denegación de entrada y estancia introducida por Italia ¿cuál es la actuación que procede realizar respecto a esta situación?",
+      "opciones": [
+        "Las autoridades españolas consultarán a las italianas sobre esta situación y en el caso de no obtener respuesta en quince días hábiles se procederá a su concesión.",
+        "La concesión de este visado le compete a las autoridades italianas ya que la descripción fue introducida por estos, debiendo dar respuesta como máximo en diez días desde la solicitud de las autoridades españolas.",
+        "Las autoridades españolas consultarán a las italianas antes de conceder este visado y si no obtienen respuesta en un plazo de diez días naturales significaría que no se oponen a su concesión y dichas autoridades españolas valorarían la misma."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 20,
+      "enunciado": "¿Qué norma legislativa tuvo que ser aprobada tras un referéndum popular para poder efectuar las elecciones que constituyeron las Cortes que posteriormente elaboraron y aprobaron la Constitución española vigente?",
+      "opciones": [
+        "La Ley para la Reforma Política.",
+        "La Ley de Transición Democrática.",
+        "La Ley de Garantías Constitucionales."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 4,
+      "explicacion": ""
+    },
+    {
+      "n": 21,
+      "enunciado": "Dice la L.O. 3/2018, de Protección de Datos Personales y Garantía de los Derechos Digitales, que el Delegado de protección de datos:",
+      "opciones": [
+        "Serán designados por los responsables o encargados del tratamiento con dedicación a esta función exclusivamente a tiempo completo.",
+        "Podrá ser removido cuando incurriera en dolo o negligencia, grave o leve, en el ejercicio de sus funciones.",
+        "Actuará como interlocutor del responsable o encargados del tratamiento ante la Agencia Española de Protección de Datos."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 20,
+      "explicacion": ""
+    },
+    {
+      "n": 22,
+      "enunciado": "Dentro de los principios informadores del Derecho Penal, el carácter: fragmentario del Derecho Penal se encuentra incardinado en: d) El principio de legalidad. e) El principio de prohibición del exceso. f) El principio de personalidad de la responsabilidad penal.",
+      "opciones": [
+        "",
+        "",
+        ""
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 22,
+      "explicacion": ""
+    },
+    {
+      "n": 23,
+      "enunciado": "¿Qué medida de investigación puede ser solicitada por los Fiscales Europeos Delegados en el transcurso de una investigación por un delito de su competencia?",
+      "opciones": [
+        "La instalación de un sistema de grabación de audio en el interior de la vivienda del sospechoso o el acusado siempre que la pena máxima sea de al menos cinco años de prisión.",
+        "Conseguir la presentación de datos informáticos almacenados en su formato original o en otro formato determinado siempre y cuando el delito sea punible con una pena máxima de al menos cuatro años de prisión.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 9,
+      "explicacion": ""
+    },
+    {
+      "n": 24,
+      "enunciado": "Señale la opción correcta respecto al Consejo General del Poder Judicial:",
+      "opciones": [
+        "Está integrado por veinte miembros por un periodo de cuatro años.",
+        "Los abogados o juristas designados por el Senado deben acreditar más de diez años de ejercicio.",
+        "El Consejo General del Poder Judicial propone al Presidente del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 25,
+      "enunciado": "En el marco de la Operación “Harmakhis” que investiga redes de tráfico de seres humanos, se ha concedido auto de entrada y registro de manera simultánea en el domicilio de cinco personas; en el transcurso de los mismos, se encuentra en uno de los dispositivos electrónicos material pedófilo, por lo que los actuantes habrán de:",
+      "opciones": [
+        "Justificar la imposibilidad de haber previsto que se realizaría el hallazgo, para que la información obtenida pueda ser utilizada en un procedimiento distinto.",
+        "Redactar nueva solicitud de diligencia de entrada y registro dirigida al Juez de instrucción competente, pormenorizando las circunstancias del hallazgo.",
+        "Cabe la acumulación en el mismo procedimiento dado que la intervención de los dispositivos electrónicos queda amparada en la diligencia de registro."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 49,
+      "explicacion": ""
+    },
+    {
+      "n": 26,
+      "enunciado": "Mejorar la coordinación de la actuación de la Administración periférica del Estado con los Departamentos ministeriales y, en su caso, con. sus Organismos públicos es una función de:",
+      "opciones": [
+        "La mesa sectorial de coordinación de la Administración periférica del Estado.",
+        "La Comisión interministerial de coordinación de la Administración Periférica del Estado.",
+        "Del Ministerio de Presidencia, Relaciones con las Cortes y Memoria Democrática."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 27,
+      "enunciado": "La Sede Central de la Fiscalía Europea está situada en:",
+      "opciones": [
+        "La Haya (Países Bajos).",
+        "Luxemburgo.",
+        "Budapest (Hungria)."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 9,
+      "explicacion": ""
+    },
+    {
+      "n": 28,
+      "enunciado": "De entre las siguientes Instituciones ¿Cuál de ellas NO es una Institución de la UE?",
+      "opciones": [
+        "Consejo Europeo.",
+        "Tribunal de Justicia de la UE.",
+        "Tribunal Europeo de Derechos Humanos."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 8,
+      "explicacion": ""
+    },
+    {
+      "n": 29,
+      "enunciado": "La L.O. 5/2000, reguladora de la responsabilidad penal de los menores, señala que: “se podrán utilizar exclusivamente los medios de contención que se establezcan reglamentariamente para evitar actos de violencia o lesiones de las personas que cumplen las medidas previstas en esta ley, a sí mismos o a otras personas”, temiendo en cuenta que en la aplicación de medidas de contención con uso de fuerza:",
+      "opciones": [
+        "No requerirá, si no fuera necesario, la exploración física del interno por facultativo médico.",
+        "Requerirá, cuando se hubiera hecho uso de la fuerza, la exploración física del interno por facultativo médico en el plazo máximo de 24 horas.",
+        "Requerirá, cuando se hubiera hecho uso de la fuerza, la exploración física del interno por facultativo médico en el plazo máximo de 48 horas."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 46,
+      "explicacion": ""
+    },
+    {
+      "n": 30,
+      "enunciado": "Las Oficinas de Denuncias y Atención al Ciudadano son responsables, entre otras, de recibir las denuncias de los ciudadanos, detectándose en ocasiones que hay personas que denuncian infracciones penales inexistentes, conducta que está tipificada como denuncia falsa si, además:",
+      "opciones": [
+        "La denuncia es ratificada en la fase de plenario.",
+        "Provoca actuaciones procesales.",
+        "Los hechos denunciados son constitutivos de delito grave o muy grave."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 42,
+      "explicacion": ""
+    },
+    {
+      "n": 31,
+      "enunciado": "¿Quién ostenta la competencia para imponer sanciones de suspensión de funciones de tres años y un día a seis años y de traslado forzoso por faltas muy graves, prevista en la L.O. 4/2010, de 20 de mayo?",
+      "opciones": [
+        "El Ministro del Interior.",
+        "El Secretario de Estado de Seguridad.",
+        "El Director General de la Policía."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 14,
+      "explicacion": ""
+    },
+    {
+      "n": 32,
+      "enunciado": "¿En qué momento se presumen válidos y producirán efectos los actos administrativos de las Administraciones Públicas sujetos al Derecho Administrativo?",
+      "opciones": [
+        "Desde la fecha en que se dicte el acto, salvo que en el mismo se disponga otra cosa.",
+        "Desde la fecha en que deviene firme la resolución o el acto.",
+        "Desde la fecha de su publicación en el Boletín Oficial correspondiente."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 10,
+      "explicacion": ""
+    },
+    {
+      "n": 33,
+      "enunciado": "¿Qué Órgano jurisdiccional conocerá de los procesos de declaración de ilegalidad y consecuente disolución de los partidos políticos, conforme a lo dispuesto en la Ley Orgánica 6/2002, de 27 de junio, de Partidos Políticos?",
+      "opciones": [
+        "La Audiencia Nacional.",
+        "El Tribunal Supremo.",
+        "El Tribunal Constitucional."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 45,
+      "explicacion": ""
+    },
+    {
+      "n": 34,
+      "enunciado": "El decomiso de efectos provenientes de un delito y de los bienes, medios o instrumentos con que se haya preparado o ejecutado:",
+      "opciones": [
+        "Es obligatorio en delitos dolosos y puede llevarse a cabo en determinados delitos imprudentes.",
+        "En delitos imprudentes no cabe la posibilidad de decomiso.",
+        "Es obligatorio tanto en delitos dolosos como imprudentes."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 33,
+      "explicacion": ""
+    },
+    {
+      "n": 35,
+      "enunciado": "Señale la respuesta correcta. La vigencia de las autorizaciones de residencia temporal y trabajo para investigación se extinguirá sin necesidad de pronunciamiento administrativo:",
+      "opciones": [
+        "Cuando su titular resida en España con fines distintos a aquéllos para los que se le autorizó.",
+        "Cuando desaparezcan las circunstancias que sirvieron de base para su concesión o en caso de comprobación de que éstas no existían.",
+        "Por el transcurso del plazo para el que se hayan expedido."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 36,
+      "enunciado": "En un dispositivo policial, un funcionario de la Unidad de Intervención Policial (U.I.P.), en el ejercicio de sus funciones, retira la cámara fotográfica a un periodista y borra las imágenes que contiene alegando motivos de seguridad ¿estaría incumpliendo algún precepto?",
+      "opciones": [
+        "Cometería un delito de coacciones del artículo 172.1 del CP.",
+        "Es correcta su actuación si una vez borrado el material lo comunica al Juzgado mediante un atestado.",
+        "Cometería un delito de daños sobre material informático ajeno del artículo 264 del CP."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 35,
+      "explicacion": ""
+    },
+    {
+      "n": 37,
+      "enunciado": "Según la doctrina, la denominada teoría de la «unidad natural de acción»:",
+      "opciones": [
+        "Supone la existencia de una pluralidad de acciones u omisiones en estrecha conexión especial u temporal objetivamente reconocible y con vinculación de significado.",
+        "Exige que la pluralidad de actuaciones sea percibida por el autor como una unidad, conforme a una única resolución delictiva.",
+        "Conlleva necesariamente la realización simultánea de varias acciones u omisiones que además deben circunscribirse a un mismo marco espacio-temporal."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 32,
+      "explicacion": ""
+    },
+    {
+      "n": 38,
+      "enunciado": "Un particular que distribuye pancartas en la vía pública con la finalidad de fomentar la discriminación hacia las personas por razón de la región de residencia ¿qué precepto penal comete?",
+      "opciones": [
+        "Un delito de odio del artículo 510 del CP.",
+        "No comete ningún delito.",
+        "Una sanción administrativa de carácter grave del art. 36.1 de la L.O. 4/2015."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 43,
+      "explicacion": ""
+    },
+    {
+      "n": 39,
+      "enunciado": "Cuando se lleve a cabo un procedimiento que tenga por objeto la determinación de la posible existencia de una infracción de lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 y en la Ley Orgánica 3/2018, de 53 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, su duración máxima será de:",
+      "opciones": [
+        "Doce meses a contar desde la fecha del acuerdo de inicio. Transcurrido ese plazo se producirá su caducidad y, en consecuencia, el archivo de actuaciones.",
+        "Doce meses a contar desde la fecha del acuerdo de inicio. Transcurrido ese plazo se producirá su desestimación y, en consecuencia, el archivo de actuaciones.",
+        "Nueve meses a contar desde la fecha del acuerdo de inicio. Transcurrido ese plazo se producirá su caducidad y, en consecuencia, el archivo de actuaciones."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 20,
+      "explicacion": ""
+    },
+    {
+      "n": 40,
+      "enunciado": "La Constitución española en el Título VII señala que la Ley regulará las condiciones en las que procederá el régimen del concejo abierto ¿qué requisito es necesario para la constitución en concejo abierto de un municipio?",
+      "opciones": [
+        "Petición de 3/5 de los vecinos y decisión favorable por mayoría absoluta de los miembros del Ayuntamiento.",
+        "Petición de la mayoría de los vecinos, decisión favorable de 2/3 de los miembros del Ayuntamiento y la aprobación de la Comunidad Autónoma.",
+        "Petición de la mayoría de los vecinos y decisión favorable de 3/5 de los miembros del Ayuntamiento."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 7,
+      "explicacion": ""
+    },
+    {
+      "n": 41,
+      "enunciado": "Marta es Secretaria de Estado de Seguridad y se encuentra en una reunión de Seguridad en la sede de Naciones Unidas de Nueva York, si bien estando allí ha de tener lugar una sesión telemáticamente de la Comisión General de Secretarios de Estado y Subsecretarios:",
+      "opciones": [
+        "Dicha reunión no podrá celebrarse al encontrarse Marta en Nueva York.",
+        "Podrá celebrarse siempre y cuando exista comunicación entre ellos en tiempo real.",
+        "Podrá celebrarse siempre y cuando exista comunicación entre los miembros participantes y quede acreditada su identidad."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 42,
+      "enunciado": "La retirada preventiva de las autorizaciones, habilitaciones, permisos o licencias, o la suspensión, en su caso, de la eficacia de las declaraciones responsables en materia de Seguridad Privada, podrá tener una duración de:",
+      "opciones": [
+        "Una duración no superior a dos años.",
+        "Una duración no superior a un año.",
+        "La duración necesaria, siempre y cuando sea congruente con la naturaleza de la presunta infracción y proporcionada a la gravedad de la misma."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 18,
+      "explicacion": ""
+    },
+    {
+      "n": 43,
+      "enunciado": "Farid, ciudadano extranjero en situación irregular en España, colabora con la UCRIF Central como testigo en una investigación que se lleva a cabo contra una red dedicada a la trata de seres humanos, por lo que se le conce de una autorización de residencia y trabajo provisional. ¿Qué tipo de Tarjeta deberá solicitar posteriormente?",
+      "opciones": [
+        "Una Tarjeta de Identidad de Extranjero autorizando a su titular a residir y trabajar en España, en la que conste su carácter provisional y su condición de colaborador. –",
+        "Una Tarjeta de Identidad de Extranjero autorizando a su titular a residir y trabajar en España, en la que no conste su carácter provisional ni su condición de colaborador. –",
+        "Una Tarjeta de Identidad de Extranjero autorizando a su titular sólo a residir en España, en la que conste su carácter provisional y su condición de colaborador. –"
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 44,
+      "enunciado": "Con respecto a la diligencia de entrada y registro en lugar cerrado en los casos permitidos por la ley, señale la respuesta correcta:",
+      "opciones": [
+        "Si el interesado, su letrado, sus familiares o los testigos se resisten a presenciar el registro, podrán ser responsables de un delito de resistencia a la autoridad.",
+        "El auto que autorice la diligencia de entrada y registro habrá de notificarse, en última instancia, a dos vecinos.",
+        "El registro habrá de realizarse, en última instancia, con la presencia de dos testigos, vecinos del mismo pueblo."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 50,
+      "explicacion": ""
+    },
+    {
+      "n": 45,
+      "enunciado": "Según el Art. 4 de la Ley 31/1995, se entenderá como «riesgo laboral grave e inminente»:",
+      "opciones": [
+        "Las enfermedades, patologías o lesiones sufridas con motivo u ocasión del trabajo. -",
+        "La posibilidad de que un trabajador sufra un determinado daño derivado del trabajo. -",
+        "Aquel que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores. -"
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 53,
+      "explicacion": ""
+    },
+    {
+      "n": 46,
+      "enunciado": "En una causa declarada secreta en su totalidad, ¿puede el abogado del investigado tener conocimiento de alguno de sus elementos?",
+      "opciones": [
+        "No, hasta que se levante el secreto.",
+        "Sí, de los elementos esenciales para impugnar la privación de libertad del investigado.",
+        "Sólo durante los 10 días anteriores a la conclusión del sumario."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 46,
+      "explicacion": ""
+    },
+    {
+      "n": 47,
+      "enunciado": "La tarjeta de habilitación del personal de Seguridad Privada tendrá una validez de: d) 5 años a contar desde la fecha de expedición. e) 7 años a contar desde la fecha de expedición. f) 10 años a contar desde la fecha de expedición.",
+      "opciones": [
+        "",
+        "",
+        ""
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 18,
+      "explicacion": ""
+    },
+    {
+      "n": 48,
+      "enunciado": "En caso de que sea nombrado el Defensor del Pueblo y este tenga una situación de incompatibilidad con el cargo ¿de qué plazo dispone para llevar a cabo su cese”?",
+      "opciones": [
+        "A los cinco días desde su nombramiento y antes de tomar posesión.",
+        "Dentro de los diez días desde su nombramiento y antes de tomar posesión.",
+        "Al día siguiente de haber tenido conocimiento de la situación de incompatibilidad."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 5,
+      "explicacion": ""
+    },
+    {
+      "n": 49,
+      "enunciado": "Lourdes, trabajadora por cuenta propia, sufre violencia física por parte de su cónyuge al que ha denunciado. Como consecuencia de ello debe cesar su actividad para hacer más efectiva su protección ¿por cuánto tiempo está exenta de la obligación de cotizar a la Seguridad Social según lo establecido en la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género?",
+      "opciones": [
+        "Un año.",
+        "Seis meses.",
+        "Tres meses."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 52,
+      "explicacion": ""
+    },
+    {
+      "n": 50,
+      "enunciado": "Juan acuerda con otra persona residente en Colombia el envío de 150 kg. de cocaína pura mediante paquete postal a su domicilio. Una vez que disponga de la sustancia tiene prevista su entrega a Pedro, el cual, aunque desconoce las condiciones de este acuerdo y del envío, está dispuesto a preparar las “caletas” a los vehículos que le va a proporcionar Juan para su posterior distribución en España. Sin embargo, este envío es interceptado en la aduana sin llegar a su destino ¿qué delito estarían cometiendo Juan y Pedro respecto a este envío de cocaína?",
+      "opciones": [
+        "Ambos cometerían un delito consumado de tráfico de drogas.",
+        "Juan cometería un delito de tráfico de drogas consumado y Pedro un delito de tráfico de drogas en grado de tentativa.",
+        "Pedro y Juan cometerían un delito de tráfico de drogas en grado de tentativa al no haber llegado a disponer de la sustancia."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 39,
+      "explicacion": ""
+    },
+    {
+      "n": 51,
+      "enunciado": "Durante la libertad vigilada que deba ejecutarse después de cumplir una medida de seguridad privativa de libertad, el Juez de Vigilancia Penitenciaria está obligado a elevar una propuesta de mantenimiento, cese, sustitución o suspensión:",
+      "opciones": [
+        "Al menos anualmente.",
+        "Al menos semestralmente.",
+        "Al menos trimestralmente."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 33,
+      "explicacion": ""
+    },
+    {
+      "n": 52,
+      "enunciado": "En los supuestos autorizados por el Juez competente para la instalación de equipos electrónicos de seguimiento, una vez concluida la investigación ¿cuánto tiempo se guardarán los registros informáticos originales que consten en los sistemas y dispositivos electrónicos utilizados?",
+      "opciones": [
+        "Se borrarán transcurridos cinco años desde la detención de los autores.",
+        "Se eliminarán en cuanto haya una resolución firme sobre los hechos.",
+        "Se eliminarán pasados cinco años de la sentencia firme de los hechos."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 50,
+      "explicacion": ""
+    },
+    {
+      "n": 53,
+      "enunciado": "¿A quién le corresponde la defensa en juicio de los actos del Consejo General del Poder Judicial?",
+      "opciones": [
+        "El Gabinete Técnico del Tribunal Supremo.",
+        "A la Abogacía del Estado.",
+        "La Subdirección General de Auditoría Interna del Ministerio de Justicia"
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 47,
+      "explicacion": ""
+    },
+    {
+      "n": 54,
+      "enunciado": "La Ley Orgánica 4/2015 de Protección de la Seguridad Ciudadana establece que los asientos del libro-registro en el que se anotan las diligencias de identificación practicadas serán canceladas ¿cuánto tiempo deberá transcurrir para que se produzca la cancelación de estos asientos?",
+      "opciones": [
+        "A los cinco años.",
+        "De oficio a los tres años.",
+        "Al año de producirse la identificación."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 19,
+      "explicacion": ""
+    },
+    {
+      "n": 55,
+      "enunciado": "El plazo de prescripción del delito de tentativa de homicidio comienza a contar desde la fecha de la comisión delictiva, salvo que la víctima fuera menor de edad que contabilizará desde que ésta cumpla:",
+      "opciones": [
+        "35 años.",
+        "25 años.",
+        "20 años."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 33,
+      "explicacion": ""
+    },
+    {
+      "n": 56,
+      "enunciado": "Luis ha secuestrado a Vicente, persona con discapacidad necesitada de especial protección. El hecho será castigado con una pena de:",
+      "opciones": [
+        "Veinte a veinticinco años de prisión.",
+        "Diez a veinticinco años de prisión.",
+        "Quince a veinte años de prisión."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 35,
+      "explicacion": ""
+    },
+    {
+      "n": 57,
+      "enunciado": "La Comisión Nacional para la Protección de las Infraestructuras Críticas, se reunirá:",
+      "opciones": [
+        "Al menos una vez al año, con carácter ordinario, y de forma extraordinaria cuando así se considere oportuno previa convocatoria de su presidente.",
+        "Dos veces al año, con carácter ordinario, y de forma extraordinaria cuando así se considere oportuno, previa convocatoria de su presidente.",
+        "Una vez por trimestre con carácter ordinario, y de forma extraordinaria cuando así se considere oportuno, previa convocatoria de su presidente."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 21,
+      "explicacion": ""
+    },
+    {
+      "n": 58,
+      "enunciado": "Según la Ley Orgánica 5/1985 del Régimen Electoral General, en el caso de que los delitos de calumnia e injuria se produzcan en el ámbito de un proceso electoral, su castigo estará agravado cuando se cometan:",
+      "opciones": [
+        "En el periodo que va desde la aprobación y publicación del Real Decreto de convocatoria a elecciones hasta su completa finalización.",
+        "En el periodo de campaña electoral y con motivo u ocasión de ella.",
+        "Desde el inicio de la jornada de votación hasta su completa finalización."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 37,
+      "explicacion": ""
+    },
+    {
+      "n": 59,
+      "enunciado": "En las vías o lugares públicos dónde se instalen videocámaras fijas. Señale la respuesta INCORRECTA:",
+      "opciones": [
+        "Los ciudadanos deben ser informados de manera clara y permanente su existencia.",
+        "Se debe especificar su emplazamiento concreto.",
+        "Se debe informar cuál es la Autoridad responsable del tratamiento de datos ante la que poder ejercer sus derechos."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 20,
+      "explicacion": ""
+    },
+    {
+      "n": 60,
+      "enunciado": "Respecto al delito de espionaje empresarial tipificado en el art. 278 del Código Penal, señale la respuesta correcta:",
+      "opciones": [
+        "Se trata de un delito común que puede ser realizado por cualquier persona sin exigirse ninguna condición especial.",
+        "Se configura como un tipo especial propio que precisa de tener la obligación legal o contractual de guardar reserva por lo que no podrá ser cometido por cualquier persona.",
+        "Además de lo contenido en la b), podrá también responder penalmente, en su caso el “extraneus”, como inductor, cooperador necesario o cómplice, según en qué haya consistido su participación."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 38,
+      "explicacion": ""
+    },
+    {
+      "n": 61,
+      "enunciado": "¿Cuál de las siguientes opciones NO agrava la pena del delito de malversación del artículo 432 del Código Penal?",
+      "opciones": [
+        "Causar entorpecimiento al servicio público.",
+        "Que el valor del perjuicio causado o de los efectos apropiados exceda los 250.000 euros.",
+        "Prevalecerse de su condición de Autoridad para la comisión del delito."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 41,
+      "explicacion": ""
+    },
+    {
+      "n": 62,
+      "enunciado": "¿Cuál es la manera de proceder en el supuesto de que un funcionario público que, con la finalidad de llevar a cabo una notificación de un acto administrativo a un ciudadano, una vez personado en su domicilio no se haga cargo de esta ninguna persona?",
+      "opciones": [
+        "Se hará constar esta circunstancia y se repetirá en tres ocasiones a distinta hora.",
+        "Se hará constar esta circunstancia y se repetirá durante tres días consecutivos alternando las horas de intento de notificación.",
+        "Si el primer intento de notificación se ha realizado antes de las quince horas, el segundo deberá realizarse después de las quince horas, dejando un margen de tres horas entre ambos intentos de notificación."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 10,
+      "explicacion": ""
+    },
+    {
+      "n": 63,
+      "enunciado": "¿Quién es el competente para resolver el expediente de solicitud de una persona extranjera que alude ser apátrida quince días después de su llegada a España?",
+      "opciones": [
+        "El Delegado del Gobierno o el Subdelegado del Gobierno en su caso.",
+        "La Oficina de Asilo y Refugio.",
+        "El Ministro del Interior."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 17,
+      "explicacion": ""
+    },
+    {
+      "n": 64,
+      "enunciado": "¿En qué plazo el Letrado de la Administración de Justicia deberá señalar la vista que tendrá lugar con intervención del Fiscal, del reclamado de extradición, asistido, si fuera 1 hecesarlo, de intérprete y del abogado defensor?",
+      "opciones": [
+        "Dentro de los diez días siguientes al periodo de instrucción.",
+        "Dentro de los quince días siguientes al periodo de instrucción.",
+        "Dentro de los cinco días siguientes al periodo de instrucción."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 23,
+      "explicacion": ""
+    },
+    {
+      "n": 65,
+      "enunciado": "¿En qué supuestos no es necesaria la autorización judicial para la detención de la correspondencia de una persona?",
+      "opciones": [
+        "En casos de urgencia, cuando las investigaciones estén relacionados con la actuación de bandas armadas, elementos terroristas o grupos organizados.",
+        "Cuando la inspección se efectúe al amparo de la normativa aduanera.",
+        "Cuando se trate de un paquete postal en el que se pueda inferir que es correspondencia individual."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 50,
+      "explicacion": ""
+    },
+    {
+      "n": 66,
+      "enunciado": "Según lo expuesto por Sánchez-Elvira, A., Amor, P.J., Fernández, L.., y Olmedo, M (2003), en el ámbito de la varianza fenotípica, y en lo concerniente a la varianza ambiental, la varianza intrafamiliar atribuible a experiencias particulares y propias de cada miembro de la familia es la denominada…:",
+      "opciones": [
+        "Varianza ambiental común.",
+        "Varianza específica.",
+        "Varianza individual."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 62,
+      "explicacion": ""
+    },
+    {
+      "n": 67,
+      "enunciado": "De acuerdo con Morales, Huici y otros (2001), ¿cuál es el comportamiento colectivo más frecuente ante producción de catástrofes?",
+      "opciones": [
+        "La conducta de huida.",
+        "La reacción de conmoción-inhibición-estupor.",
+        "El contagio emocional."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 67,
+      "explicacion": ""
+    },
+    {
+      "n": 68,
+      "enunciado": "De acuerdo con García, Gutiérrez y Carriedo (2002), en el marco de la perspectiva vygotskiana ¿cuál es el concepto relativo a los significados y representaciones compartidas interpersonalmente y que constituyen la base sobre la que se asienta la posibilidad de comunicación?",
+      "opciones": [
+        "Internalización.",
+        "Intersubjetividad.",
+        "Significación."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 60,
+      "explicacion": ""
+    },
+    {
+      "n": 69,
+      "enunciado": "Según De Grande (2014), en el contexto de la teoría de la Anomia, la categoría que une a los sujetos que aceptan con su conducta las normas y valores compartidos por la sociedad, lo cual, de acuerdo con R. K. Merton, supone una condición importante para el funcionamiento de la misma que este tipo de adaptación sea el mayoritario, es…:",
+      "opciones": [
+        "La conformidad.",
+        "El ritualismo.",
+        "La aceptación."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 66,
+      "explicacion": ""
+    },
+    {
+      "n": 70,
+      "enunciado": "De acuerdo con lo postulado por Calle (2003), señale la opción FALSA en lo concerniente a los movimientos globales.",
+      "opciones": [
+        "Los nuevos movimientos globales suponen una síntesis constructiva de rasgos esenciales de movimientos previos.",
+        "Los nuevos movimientos globales constituyen una aceleración cuantitativa de determinadas características apuntadas por los nuevos movimientos sociales.",
+        "Los nuevos movimientos globales conllevan una variación de rasgos esenciales de los nuevos movimientos sociales."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 68,
+      "explicacion": ""
+    },
+    {
+      "n": 71,
+      "enunciado": "De acuerdo con Belloch, Sandín y Ramos (2004), en relación a los conceptos que caracterizan la visión de Kobasa (1979) en lo referente al constructo de resistencia al estrés, estos 5 consisten en los siguientes:",
+      "opciones": [
+        "Compromiso, desafío y control.",
+        "Resiliencia, desafío y tenacidad.",
+        "Contrato social, resignación y afrontamiento."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 67,
+      "explicacion": ""
+    },
+    {
+      "n": 72,
+      "enunciado": "A tenor de los dispuesto en el artículo 7 del Instrumento de ratificación del Protocolo facultativo de la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, hecho en Nueva York el 18 de diciembre de 2002, y en lo relativo a la elección de los miembros del Subcomité para la Prevención, señale la opción FALSA:",
+      "opciones": [
+        "Las elecciones de los miembros del Subcomité para la Prevención se celebrarán en reuniones bianuales de los Estados Partes convocadas por el Secretario General de las Naciones Unidas.",
+        "En las reuniones al efecto, el quórum estará constituido por dos tercios de los Estados Partes.",
+        "Se considerarán elegidos miembros los candidatos que obtengan el mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados Partes votantes y presentes."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 55,
+      "explicacion": ""
+    },
+    {
+      "n": 73,
+      "enunciado": "Según exponen Huici y Morales (2005), ¿qué teoría, formulada por Hollander en 1958 trata de explicar cómo cuando un líder llega a un grupo, generalmente le es difícil ejercer influencia y poner en marcha acciones innovadoras, hasta que demuestra su eficacia y su aceptación de las normas del grupo?",
+      "opciones": [
+        "La teoría del crédito idiosincrático.",
+        "La teoría de poder de referente.",
+        "La teoría de poder adaptativo."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 65,
+      "explicacion": ""
+    },
+    {
+      "n": 74,
+      "enunciado": "De acuerdo con Marcos Ruiz (2003), en el contexto de la memoria, seleccione la opción correcta.",
+      "opciones": [
+        "La reminiscencia no guarda relación alguna con la hipermnesia.",
+        "La reminiscencia es condición necesaria para la hipermnesia.",
+        "La reminiscencia es condición necesaria y suficiente para la hypermnesia."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 58,
+      "explicacion": ""
+    },
+    {
+      "n": 75,
+      "enunciado": "Siguiendo a Bermúdez, Pérez y Sanjuán (2005), cysenk postula que el Sistema de Activación Reticular Ascendente (SARA), solamente influye en la dimensión…:",
+      "opciones": [
+        "Neuroticismo.",
+        "Extraversión.",
+        "Psicoticismo."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 61,
+      "explicacion": ""
+    },
+    {
+      "n": 76,
+      "enunciado": "¿Qué parte del mesencéfalo, en forma de protuberancia, concretamente perteneciente al téctum, tiene una función auditiva?",
+      "opciones": [
+        "El colículo superior.",
+        "El colículo inferior.",
+        "El tegmentum."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 56,
+      "explicacion": ""
+    },
+    {
+      "n": 77,
+      "enunciado": "En el contexto del proceso atencional y de acuerdo con Fernández Trespalacios (2001), la estructura cerebral asociada con el mantenimiento de un estado de alerta, ubicada a lo largo del tronco cerebral ---desde el bulbo hasta el tálamo, y parcialmente también hasta la corteza— se conoce como...:",
+      "opciones": [
+        "Formación reticular.",
+        "Formación atencional.",
+        "Formación de vigilancia."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 56,
+      "explicacion": ""
+    },
+    {
+      "n": 78,
+      "enunciado": "De acuerdo con Rubén Benedicto (2010), en el núcleo del liberalismo se detectan tres rasgos fundamentales, entre los que NO se encuentra...:",
+      "opciones": [
+        "Una apuesta por el respeto mutuo que permite la convivencia pacífica de personas con distintas concepciones de la vida buena.",
+        "La aceptación del principio de no interferencia que impide intervenir en el desarrollo de los planes de vida de otros, siempre y cuando estos otros tampoco interfieran en los de los demás.",
+        "Una composición uniforme e indiferenciada de las distintas esferas que componen la vida social."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 54,
+      "explicacion": ""
+    },
+    {
+      "n": 79,
+      "enunciado": "Siguiendo a Tarpy (2000), y en lo concerniente a la relación entre una respuesta y un reforzador, ¿cuál es el elemento más importante en el condicionamiento instrumental?",
+      "opciones": [
+        "La latencia de respuesta.",
+        "La contingencia.",
+        "El orden de la administración."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 59,
+      "explicacion": ""
+    },
+    {
+      "n": 80,
+      "enunciado": "Según lo expuesto por Morales y otros (2001) en relación a los estereotipos, y en lo relativo a la caracterización que de la orientación cognitiva hacen Hamilton y Trolier (1986), señale la opción FALSA:",
+      "opciones": [
+        "Concede importancia a los sesgos en el procesamiento de la información y a su Impacto en los estereotipos.",
+        "Aunque se atienda a otros factores, hay que tener en cuenta los procesos cognitivos.",
+        "Supone que el funcionamiento y la naturaleza de los estereotipos rara vez es igual, al centrarse en contenidos y no en los procesos."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 64,
+      "explicacion": ""
+    },
+    {
+      "n": 81,
+      "enunciado": "¿Qué valor tienen las denuncias realizadas por los agentes de la autoridad encargados de vigilar el tráfico?",
+      "opciones": [
+        "Tienen presunción de veracidad.",
+        "Tienen valor de mera denuncia.",
+        "Tienen consideración de prueba preconstituida."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 79,
+      "explicacion": ""
+    },
+    {
+      "n": 82,
+      "enunciado": "La inspección técnica periódica de los vehículos automóviles y remolques pertenecientes a las Fuerzas y Cuerpos de Seguridad del Estado:",
+      "opciones": [
+        "Se podrá llevar a cabo por los propios organismos encargados de su mantenimiento y su utilización.",
+        "Se realizará en una estación ITV debidamente habilitada.",
+        "Se realizará por los propios organismos encargados de su mantenimiento y su utilización."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 78,
+      "explicacion": ""
+    },
+    {
+      "n": 83,
+      "enunciado": "¿A qué hace referencia el concepto de Cryptojacking?",
+      "opciones": [
+        "Es un tipo de software malicioso que impide a los usuarios acceder a su sistema o a sus archivos personales y que exige el pago de un rescate para poder acceder de nuevo a ellos mediante criptomonedas.",
+        "Consiste en el envío de un correo electrónico a los usuarios víctimas en el que se prometen negocios muy rentables, solicitando a los mismos cierta cantidad de dinero mediante criptomonedas para poder obtener el beneficio propuesto.",
+        "Consiste en el uso no autorizado de los recursos de un dispositivo para minar criptomonedas mediante la ejecución de código dañino, sin necesidad de interacción por parte del usuario víctima."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 75,
+      "explicacion": ""
+    },
+    {
+      "n": 84,
+      "enunciado": "Los policías Juan y Pedro, estando de patrulla y con motivo de un servicio urgente, activan las señales acústicas y luminosas del vehículo policial, ante lo cual:",
+      "opciones": [
+        "Podrán incumplir el Reglamento General de Circulación, salvo que pongan en peligro a otros usuarios de la vía.",
+        "Deberán cumplir como el resto de los usuarios el Reglamento General de Circulación.",
+        "Deberán observar los preceptos del Reglamento General de Circulación, pudiendo dejar de cumplirlo en casos tasados y bajo su responsabilidad."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 80,
+      "explicacion": ""
+    },
+    {
+      "n": 85,
+      "enunciado": "Un aficionado a la caza, que desea adquirir un arma larga rayada para caza mayor, deberá previamente estar en posesión de una licencia de armas de tipo:",
+      "opciones": [
+        "Licencia tipo C.",
+        "Licencia tipo D.",
+        "Licencia tipo E."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 81,
+      "explicacion": ""
+    },
+    {
+      "n": 86,
+      "enunciado": "Linux es un sistema operativo que se caracteriza por ser:",
+      "opciones": [
+        "Multitarea.",
+        "Pasivo.",
+        "Monotarea."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 74,
+      "explicacion": ""
+    },
+    {
+      "n": 87,
+      "enunciado": "Todo el contenido de Internet que no está indexado por los buscadores tradicionales se denomina.",
+      "opciones": [
+        "Surface Web.",
+        "Deep Web.",
+        "Cloud Computing."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 76,
+      "explicacion": ""
+    },
+    {
+      "n": 88,
+      "enunciado": "¿Cuál es el objetivo de la esperanza matemática?",
+      "opciones": [
+        "Resumir la variable aleatoria en un valor central representativo de la mitad de su distribución de probabilidad.",
+        "Resumir la variable aleatoria en un valor central representativo de la totalidad de su distribución de probabilidad.",
+        "Resumir la variable aleatoria en un valor central sin tener representación de la distribución de probabilidad."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 71,
+      "explicacion": ""
+    },
+    {
+      "n": 89,
+      "enunciado": "En relación a la Ciberdelincuencia, ciertos cibercriminales a menudo aprovechan la situación de llevar al usuario a una página Web maliciosa al reservar dominios similares a los legítimos. El fenómeno por el cual un usuario acaba en una página web que no es la que estaba buscando por el hecho de teclear mal por error la URL en su navegador se denomina:",
+      "opciones": [
+        "Typosquatting.",
+        "Cybersquating.",
+        "Pretexting."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 75,
+      "explicacion": ""
+    },
+    {
+      "n": 90,
+      "enunciado": "Cuál de los siguientes aspectos NO forma parte de las fases de la encuesta:",
+      "opciones": [
+        "Análisis de la calidad de la información.",
+        "Elaboración de inteligencia.",
+        "Preparación de datos."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 70,
+      "explicacion": ""
+    },
+    {
+      "n": 91,
+      "enunciado": "En relación con las armas de alarma y señales (pistolas y revólveres detonadores):",
+      "opciones": [
+        "Si es con fines de coleccionismo, se pueden adquirir y usar de forma libre por la persona física mayor de 15 años, pero la tenencia se limita al propio domicilio.",
+        "Se pueden adquirir, tener y usar para actividades deportivas, adiestramiento canino profesional, espectáculos públicos, actividades recreativas, filmaciones cinematográficas y artes escénicas.",
+        "Se pueden adquirir de forma libre por la persona física mayor de 18 años pero está prohibido portarlas, exhibirlas y usarlas fuera del domicilio, del lugar de trabajo o, en su caso, de las correspondientes actividades deportivas."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 81,
+      "explicacion": ""
+    },
+    {
+      "n": 92,
+      "enunciado": "El método experimental:",
+      "opciones": [
+        "Tiene por objeto plantear teorías globales.",
+        "El nuevo conocimiento invalida al anterior.",
+        "No presenta semejanzas con otros métodos científicos."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 69,
+      "explicacion": ""
+    },
+    {
+      "n": 93,
+      "enunciado": "Dentro del proceso OSINT, la Inteligencia se genera en la fase de:",
+      "opciones": [
+        "Adquisición.",
+        "Procesamiento.",
+        "Análisis."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 76,
+      "explicacion": ""
+    },
+    {
+      "n": 94,
+      "enunciado": "Si nos atenemos a una clasificación de sistemas operativos por servicios, el sistema UNEX es:",
+      "opciones": [
+        "Monousuario.",
+        "Monolítico.",
+        "Microkernel."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 74,
+      "explicacion": ""
+    },
+    {
+      "n": 95,
+      "enunciado": "El sistema usado en el ámbito de las comunicaciones inalámbricas destinado a evitar que cualquier persona no expresamente autorizada pueda acceder a la red mediante el uso de este algoritmo de cifrado, se denomina:",
+      "opciones": [
+        "WPA.",
+        "WEP.",
+        "WPS."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 73,
+      "explicacion": ""
+    },
+    {
+      "n": 96,
+      "enunciado": "Dentro del método científico, las variables clasificadas como cualitativas, pueden a su vez ser:",
+      "opciones": [
+        "Dicotómicas o politómicas.",
+        "Enteras o decimales.",
+        "Formales o informales."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 71,
+      "explicacion": ""
+    },
+    {
+      "n": 97,
+      "enunciado": "En el contexto de una investigación sociológica, ¿a qué se le denomina efecto Hawthorne?",
+      "opciones": [
+        "A la desviación de los resultados producida por la elección de una muestra sesgada.",
+        "A cambios en la conducta de un individuo cuando sabe que está siendo observado.",
+        "A uno de los factores analizados por el método de la observación participante."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 69,
+      "explicacion": ""
+    },
+    {
+      "n": 98,
+      "enunciado": "Los contribuyentes del impuesto de sociedades son:",
+      "opciones": [
+        "Todas las personas físicas residentes en España que desarrollen una actividad económica.",
+        "Todas las personas jurídicas que obtienen rentas en España, ya sean residentes o no residentes en nuestro país.",
+        "Todas entidades con o sin personalidad jurídica residentes en España."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 72,
+      "explicacion": ""
+    },
+    {
+      "n": 99,
+      "enunciado": "Internet es una red informática para la interconexión de sistemas informáticos entre sí que mediante el uso de protocolos de comunicación y a través de dispositivos de telecomunicaciones permite compartir la información en paquetes de datos. ¿Qué tipo de Red Informática es Internet?",
+      "opciones": [
+        "Red WAN.",
+        "Red MAN.",
+        "Red LAN."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 73,
+      "explicacion": ""
+    },
+    {
+      "n": 100,
+      "enunciado": "¿Qué se entiende en estadística por fenómeno aleatorio?",
+      "opciones": [
+        "Aquel que al repetirlo en idénticas condiciones se obtiene el mismo resultado.",
+        "Aquel respecto del cual no es posible predecir el resultado.",
+        "Aquel que reúne todos los posibles resultados."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 71,
+      "explicacion": ""
+    }
+  ]
+}

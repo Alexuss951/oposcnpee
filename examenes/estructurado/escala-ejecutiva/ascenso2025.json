@@ -1,0 +1,700 @@
+{
+  "promocion": 34,
+  "escala": "ejecutiva",
+  "categoria": "Ascenso a Oficial (preg comunes con Ej.)",
+  "modelo": "",
+  "fecha": "2025-03-29",
+  "fuente": "DGP Ascenso Oficial 2025 (preg comunes EE)",
+  "total_preguntas": 53,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "En virtud de la Ley Orgánica 6/1984, ¿qué juez es competente para conocer la solicitud de Habeas Corpus, en el caso en el que no se conociera el lugar de detención?:",
+      "opciones": [
+        "Juez de Instrucción del lugar donde se haya detenido las últimas noticias sobre el paradero de detenido.",
+        "El Juez de Instrucción del lugar en que se encuentra la persona privada de libertad.",
+        "El Juez de Instrucción del lugar donde se produjo la detención."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 2,
+      "enunciado": "¿Qué tipo de delito puede ser objeto de querella?:",
+      "opciones": [
+        "Únicamente los privados.",
+        "Privados, semiprivados y semipúblicos.",
+        "Todos los anteriores, además de los públicos."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 3,
+      "enunciado": "La Instrucción 1/2024, de la SES, por la que se aprueba el Procedimiento Integral de la Detención Policial, respecto a la práctica de la Identificación de personas de conformidad al artículo 16 de la LO 4/2015, de Protección de la Seguridad Ciudadana, recalca que el plazo máximo de las 6 horas para llevarla a cabo debe comenzar a contarse desde:",
+      "opciones": [
+        "El momento de ser requerida la identificación en vía pública o en lugar donde se lleve a cabo.",
+        "El momento de ser requerida, a quien no pudiera ser identificada, a que los acompañe a las dependencias policiales.",
+        "El momento en que tiene su entrada en dependencias policiales donde se vaya a practicar las diligencias de identificación."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 4,
+      "enunciado": "Conforme a su definición, los atentados por medios informáticos contra la Intimidad y la privacidad se pueden clasificar como:",
+      "opciones": [
+        "Ciberterrorismo.",
+        "Ciberdelincuencia económica.",
+        "Ciberdelincuencia intrusiva."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 5,
+      "enunciado": "La policía Judicial ante un delito contra la integridad física del que desconoce el autor:",
+      "opciones": [
+        "Procederá a no remitir lo actuado al Ministerio Fiscal ni a la Autoridad Judicial, conservándolo a su disposición en las dependencias policiales.",
+        "Remitirá el atestado a la Autoridad Judicial.",
+        "Notificará a la parte perjudicada que, si no identifica al autor en 24 horas, no remitirá las actuaciones a la autoridad judicial."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 6,
+      "enunciado": "¿De cuántos miembros se compone el Tribunal del Jurado?:",
+      "opciones": [
+        "8",
+        "9",
+        "10"
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 7,
+      "enunciado": "Según Landrove, las personas que por distintas razones denuncian un delito que nunca existió las denomina “falsas víctimas”, y estas a su vez pueden ser:",
+      "opciones": [
+        "Simuladoras e imaginarias.",
+        "Ficticias e imaginarias.",
+        "Fingidas e irreales."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 8,
+      "enunciado": "¿Cuál de las siguientes medidas de seguridad, podrá imponerse a un menor con arreglo a la Ley Orgánica de la Responsabilidad Penal del Menor?:",
+      "opciones": [
+        "Internamiento en centro psiquiátrico.",
+        "Prohibición de la tenencia y porte de armas.",
+        "Ninguna de las medidas de seguridad que se proponen."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 9,
+      "enunciado": "La Oficina Nacional de Lucha Contra los Delitos de Odio (ONDOD):",
+      "opciones": [
+        "Se integra en la Subdirección General del Gabinete Técnico de la Dirección General de la Policía.",
+        "Está integrada en la Dirección Adjunta Operativa de la Dirección General de la Policía.",
+        "Depende de la Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 10,
+      "enunciado": "Según el artículo 32 de la Ley Orgánica 4/2015 de Protección de la Seguridad Ciudadana, el Secretario de Estado de Seguridad es competente para la Imposición de sanciones:",
+      "opciones": [
+        "Graves en grado medio y mínimo.",
+        "Graves y muy graves en grado máximo.",
+        "Muy graves en grado medio y en grado mínimo."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 11,
+      "enunciado": "Velar por la igualdad de oportunidades profesionales entre mujeres y hombres en la institución policial, especialmente en el desarrollo de la carrera profesional, es una función de:",
+      "opciones": [
+        "La Oficina Nacional para la Igualdad de Género.",
+        "La Oficina Nacional de Derechos Humanos.",
+        "Área de Derechos Humanos e Igualdad."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 12,
+      "enunciado": "¿A qué afectan tanto la legítima defensa como el estado de necesidad?:",
+      "opciones": [
+        "A la punibilidad de la conducta.",
+        "A la tipicidad de la conducta.",
+        "A la antijuridicidad de la conducta."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 13,
+      "enunciado": "Cuando en delitos telemáticos hablamos de “Child grooming”, nos referimos a:",
+      "opciones": [
+        "Delitos de acoso a menores.",
+        "Delitos sexuales a menores.",
+        "Delito de amenazas a menores."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 14,
+      "enunciado": "Según el artículo 47.3 de la Ley Orgánica 9/2015, de 28 de julio, de Régimen de Personal de la Policía Nacional, ¿cuál es el procedimiento normal de provisión de puestos de trabajo?:",
+      "opciones": [
+        "La libre designación.",
+        "El concurso especifico de méritos.",
+        "El concurso general de méritos."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 15,
+      "enunciado": "A quien le compete, la dirección, gestión, ejecución, desarrollo y control de los proyectos de Inversión de la Policía Nacional cofinanciados con financiación europea:",
+      "opciones": [
+        "El Servicio de Planificación y Fondos Europeos de la Subdirección General de Logística e Innovación.",
+        "Área Presupuestaria de la División Económica y Técnica.",
+        "El Servicio de Innovación y Desarrollo de la Subdirección General de Logística e Innovación."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 16,
+      "enunciado": "La División de Cooperación Internacional depende directamente de:",
+      "opciones": [
+        "La División Adjunta Operativa.",
+        "La persona titular de la Dirección General de la Policía.",
+        "La Subdirección General de Cooperación Policial Internacional."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 17,
+      "enunciado": "De acuerdo con lo preceptuado por el artículo 20 de la Ley Orgánica 4/2010, de 20 de mayo, del Régimen Disciplinario del Cuerpo Nacional de Policía, ¿a quién se podrá nombrar secretario o secretaria del procedimiento?:",
+      "opciones": [
+        "A un funcionario o funcionaria de la Policía Nacional que deberá tener, en todo caso, igual o superior categoría a la de la persona sometida al expediente y, en el caso de que fuera igual, deberá ocupar un número anterior en el escalafón.",
+        "A cualquier funcionario o funcionaria destinado en el Ministerio del Interior.",
+        "A la persona que designe la persona que tenga la condición de instructor."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 18,
+      "enunciado": "Usted, como oficial de policía, sabe que es una infracción leve de la Ley Orgánica 4/2015, de protección de la seguridad ciudadana, incumplir los requisitos de comunicación de una reunión-manifestación, que según la Ley Orgánica 9/1983 reguladora del Derecho de Reunión, son:",
+      "opciones": [
+        "Mínimo 10 días naturales, y máximo 30.",
+        "Mínimo 10 días hábiles, y máximo 30.",
+        "Mínimo 15 días naturales, y máximo 30."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 19,
+      "enunciado": "Respecto a la detención, señale la opción CORRECTA:",
+      "opciones": [
+        "Durará, en todo caso, como máximo 72 horas.",
+        "Podrá durar más de 72 horas, excepcionalmente cuando el detenido sea persona integrada o relacionada con bandas armadas o elementos terroristas o rebeldes, que permite una ampliación del plazo general de hasta 24 horas.",
+        "Podrá durar más de 72 horas, excepcionalmente cuando el detenido sea persona integrada o relacionada con bandas armadas o elementos terroristas o rebeldes, que permite una ampliación del plazo general de hasta 48 horas."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 20,
+      "enunciado": "En la terminología de delincuencia tecnológica, usted sabe que el término “pharming”:",
+      "opciones": [
+        "Es una serie de técnicas que pretenden obtener, a través del engaño a usuarios legítimos, información privada sobre su entorno.",
+        "Es el empleo de técnicas de hacking de forma maliciosa para suplantar nuestra identidad, la de una web o una entidad.",
+        "Es un ataque que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cambiando la dirección IP legítima por otra que da acceso a una web falsa."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 21,
+      "enunciado": "Son miembros del Espacio Económico Europeo (EEE) y por tanto les es aplicable el régimen especial de ciudadanos de la Unión Europea a los ciudadanos de:",
+      "opciones": [
+        "Islandia, Suecia e Irlanda.",
+        "Finlandia, Suiza y Reino Unido.",
+        "Islandia, Noruega y Liechtenstein."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 22,
+      "enunciado": "Según el artículo 83 de la LO 9/2015, las recompensas en la Policía Nacional:",
+      "opciones": [
+        "Solo se otorgan por méritos excepcionales.",
+        "Son automáticas tras cinco años de servicio.",
+        "Se asignan por orden jerárquico."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 23,
+      "enunciado": "Los delitos pueden ser por su forma de persecución:",
+      "opciones": [
+        "Públicos y semiprivados.",
+        "Instantáneos y permanentes.",
+        "Perseguibles de oficio o a instancia de parte."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 24,
+      "enunciado": "A tenor de lo dispuesto en la Constitución española, el Gobierno se compone de:",
+      "opciones": [
+        "Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
+        "Presidente, del Vicepresidente o Vicepresidentes, en su caso, de los Ministros, y de los demás miembros que establezca la ley.",
+        "Presidente, del Vicepresidente o Vicepresidentes, en su caso, de los Ministros y de los Secretarios de Estado que se reúnen en Consejo de Ministros o en Comisiones delegadas del Gobierno."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 25,
+      "enunciado": "Los funcionarios del Cuerpo Nacional de Policía que se encuentren en servicio activo tienen licencia de armas ¿Qué documento lo acredita?:",
+      "opciones": [
+        "La guía de pertenencia.",
+        "La placa emblema.",
+        "El carné profesional."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 26,
+      "enunciado": "La gestión del programa de Acción Social de la Dirección General de la Policía depende de:",
+      "opciones": [
+        "La Unidad de Planificación de Recursos Humanos.",
+        "La Unidad de Prevención de Riesgos Laborales y Protección Socio-Sanitaria.",
+        "La Unidad de Gestión de Personal Policial y Recursos Económicos."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 27,
+      "enunciado": "La atribución de escaños al Congreso y Senado, en función de los resultados del escrutinio se realiza, mediante:",
+      "opciones": [
+        "La cuota Hagenbach-Bischoff.",
+        "La fórmula Sainte-Laguë.",
+        "La fórmula D’Hondt."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 28,
+      "enunciado": "La posesión de la tarjeta de familiar de ciudadano de la Unión, válida y en vigor, expedida por otro estado parte en el Acuerdo sobre el EEE:",
+      "opciones": [
+        "Exime a dichos miembros de la familia de la obligación de obtener visado de entrada.",
+        "Requiere la estampación del sello de entrada o de salida en el pasaporte.",
+        "Ambas respuestas son correctas."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 29,
+      "enunciado": "De acuerdo con la Ley Orgánica de Régimen de Personal de la Policía Nacional tienen un compromiso de permanencia de tres años en la situación de servicio activo o de servicios especiales:",
+      "opciones": [
+        "En el caso de ascenso con cambio de Escala dentro de la Policía Nacional.",
+        "Al acceder a una especialidad policial.",
+        "En el caso de realización de cursos de altos estudios profesionales para el desempeño de puestos directivos."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 30,
+      "enunciado": "En relación con las sanciones por faltas graves, ¿qué sanciones pueden imponerse según el artículo 10 de la Ley Orgánica 4/2010?:",
+      "opciones": [
+        "Suspensión de funciones desde cinco días a tres meses.",
+        "Suspensión de funciones de uno a cuatro días.",
+        "Separación del servicio."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 31,
+      "enunciado": "¿Qué unidad policial se constituye como el responsable nacional para la interlocución social en materia de delitos de odio?",
+      "opciones": [
+        "La Comisaría General de Información.",
+        "La Unidad Central de Participación Ciudadana.",
+        "El Grupo de Delitos de Odio y Radicalización Violenta."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 32,
+      "enunciado": "Según la ISES 1/2024, ¿qué ocurre si un menor de 13 años comete una Infracción penal?:",
+      "opciones": [
+        "Se le aplica el régimen jurídico de responsabilidad penal regulado por la Ley Orgánica 5/2000.",
+        "Está exento de responsabilidad penal y la actuación policial se centra en su protección.",
+        "Debe ser detenido inmediatamente y puesto a disposición del Ministerio Fiscal."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 33,
+      "enunciado": "El órgano que asume la tarea de coordinar los organismos con competencia en materia de ciberseguridad a nivel nacional es:",
+      "opciones": [
+        "La Agencia Nacional de Seguridad de las Redes y la Información.",
+        "La Agencia de la Unión Europea para la Ciberseguridad.",
+        "El Consejo Nacional de Ciberseguridad."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 34,
+      "enunciado": "¿Qué partes procesales se consideran contingentes en el proceso penal?:",
+      "opciones": [
+        "Ministerio Fiscal, acusador privado y actor civil.",
+        "Acusador particular, actor civil y responsable civil.",
+        "c) Investigado y responsable civil."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 35,
+      "enunciado": "En caso de producirse un conflicto de competencias, ¿qué Cuerpo policial se hará cargo del servicio?:",
+      "opciones": [
+        "Hasta que se solucione el conflicto, se hará cargo del servicio el Cuerpo que tuviera atribuida la competencia en base a su distribución territorial.",
+        "Hasta que se solucione el conflicto, se hará cargo del servicio el Cuerpo que tuviera asignadas esas competencias en virtud del artículo 12.1 o 12.2 de la LO 2/86 de Fuerzas y Cuerpos de Seguridad.",
+        "Hasta que se solucione el conflicto, se hará cargo del servicio el Cuerpo que hubiera realizado las primeras actuaciones."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 36,
+      "enunciado": "¿Sobre qué delitos se puede llevar a cabo, previa autorización del Juez competente, el examen de los equipos informáticos de una persona investigada de forma remota y telemática, y sin conocimiento de ésta?:",
+      "opciones": [
+        "Delitos cometidos contra menores o personas con capacidad modificada judicialmente.",
+        "Delitos de rebelión y traición.",
+        "Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 37,
+      "enunciado": "El Defensor del Pueblo:",
+      "opciones": [
+        "Está exento del deber de comparecer ante el Juez y de declarar.",
+        "Está exento de comparecer, pero no de declarar ante el Juez, podría declarar por escrito o de forma oral.",
+        "Está exento de comparecer, podría declarar en su despacho oficial pero no podría informar por escrito."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 38,
+      "enunciado": "¿Dónde se integra la División de Operaciones y Transformación Digital?:",
+      "opciones": [
+        "En la Dirección Adjunta Operativa.",
+        "En la Subdirección General de Logística e Innovación.",
+        "En la Subdirección General de Recursos Humanos y Formación."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 39,
+      "enunciado": "El Sistema Europeo de Información y Autorización de Viajes (ETIAS) debe aplicarse entre otros:",
+      "opciones": [
+        "A los ciudadanos que les sea exigible el visado para la entrada en territorio Schengen.",
+        "A los ciudadanos de terceros países que sean titulares de un permiso de residencia válido para cualquier país del espacio Schengen.",
+        "A los nacionales de terceros países que estén exentos de la obligación de portar visado para su entrada en territorio Schengen."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 40,
+      "enunciado": "Que el mal causado no sea mayor que el que se trate de evitar, es un requisito de:",
+      "opciones": [
+        "Estado de necesidad.",
+        "Legítima defensa.",
+        "Agresión ilegítima."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 41,
+      "enunciado": "Los actos legislativos de la Unión Europea que establecen objetivos a cumplir dejando libertad a cada país para elaborar sus normas para alcanzarlos se denominan:",
+      "opciones": [
+        "Recomendaciones.",
+        "Directivas.",
+        "Reglamentos Comunitarios."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 42,
+      "enunciado": "¿Para qué delitos se aplica la libertad vigilada según el Código Penal?:",
+      "opciones": [
+        "Cualquier tipo de delito grave, con penas de prisión superior a cinco años.",
+        "Delitos de homicidio, lesiones, malos tratos habituales, delitos contra la libertad sexual y terrorismo.",
+        "Exclusivamente delitos relacionados con terrorismo y libertad sexual."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 43,
+      "enunciado": "El artículo 12 de la LO 2/86 establece la distribución material de competencias específicas, ¿cuál NO le corresponde a la Policía Nacional?:",
+      "opciones": [
+        "La investigación y persecución de los delitos relacionados con la droga.",
+        "El resguardo fiscal del Estado y las actuaciones encaminadas a evitar y perseguir el contrabando.",
+        "El control de entrada y salida del territorio nacional de españoles y extranjeros."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 44,
+      "enunciado": "Las denuncias, en cuanto a su contenido, las podemos clasificar en:",
+      "opciones": [
+        "Denuncia personal y denuncia por mandato.",
+        "Denuncia pública y denuncia privada.",
+        "Denuncia anónima y denuncia en sentido estricto."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 45,
+      "enunciado": "La planificación, coordinación, impulso, seguimiento y control de los servicios policiales, es una función que corresponde a:",
+      "opciones": [
+        "A la Escala Superior, ya que le corresponde la dirección de los servicios policiales.",
+        "A todas las escalas, sin excepción, desde su respectivo nivel de responsabilidad.",
+        "Ninguna de las anteriores, por error en el enunciado."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 46,
+      "enunciado": "En materia de Prevención de Riesgos Laborales en la Policía Nacional, ¿cuál es el órgano nacional paritario y colegiado de participación de los funcionarios de la Policía Nacional, destinado a la consulta regular y periódica de las actuaciones de la Administración en materia de prevención de riesgos laborales, seguridad y salud laboral?:",
+      "opciones": [
+        "El Comité de seguridad y salud laboral policial.",
+        "El Consejo de la Policía.",
+        "La Comisión de seguridad y salud laboral policial."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 47,
+      "enunciado": "El ataque que se realiza a una página web para “desfigurarla” visualmente, cambiar su apariencia con el fin de hacer público cualquier tipo de mensaje, ya sea reivindicativo, propagandístico, informativo, etc., se denomina:",
+      "opciones": [
+        "Deface.",
+        "DDos.",
+        "Spoofing."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 48,
+      "enunciado": "La Ley de Protección de Datos Personales y garantía de los derechos digitales es la:",
+      "opciones": [
+        "Ley Orgánica 3/2018, de 5 de diciembre.",
+        "Ley Orgánica 4/2018, de 5 de diciembre.",
+        "Ley Orgánica 4/2018, de 15 de diciembre."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 49,
+      "enunciado": "Actualmente se puede ascender por promoción interna:",
+      "opciones": [
+        "A todas las categorías, por cualquiera de las dos modalidades.",
+        "A todas las categorías sólo por antigüedad selectiva.",
+        "A todas las categorías sólo por concurso oposición."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 50,
+      "enunciado": "¿Cuál es el objetivo principal del sistema de evaluación del desempeño según el artículo 51 de la LO 9/2015?:",
+      "opciones": [
+        "Determinar las sanciones disciplinarias.",
+        "Medir el rendimiento y logro de resultados.",
+        "Asignar puestos de trabajo automáticamente."
+      ],
+      "correcta": 0,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 51,
+      "enunciado": "¿Qué órgano de la Unión Europea es un órgano legislativo que es elegido por los votantes de la misma cada cinco años?",
+      "opciones": [
+        "El Consejo Europeo.",
+        "La Comisión Europea.",
+        "El Parlamento Europeo."
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 52,
+      "enunciado": "Cómo se llama la unidad de inteligencia dentro de la comisaría general de extranjería y fronteras:",
+      "opciones": [
+        "BINCIPOL",
+        "UCI",
+        "CENIF"
+      ],
+      "correcta": 2,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    },
+    {
+      "n": 53,
+      "enunciado": "Si la provocación sigue la perpetración del delito, se castigará como:",
+      "opciones": [
+        "Autor.",
+        "Inductor.",
+        "Conspirador."
+      ],
+      "correcta": 1,
+      "dificultad": "",
+      "tema": null,
+      "explicacion": ""
+    }
+  ]
+}
