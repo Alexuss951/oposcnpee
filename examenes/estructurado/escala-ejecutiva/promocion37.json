@@ -1,1502 +1,1311 @@
-[
-  {
-    "id": "EE-P37-Q001",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 1,
-    "e": "¿Cuál de las siguientes materias NO es objeto de regulación por Ley Orgánica?",
-    "o": [
-      "Las bases de la Organización Militar.",
-      "El Estatuto de los Trabajadores.",
-      "La composición, organización y funciones del Tribunal de Cuentas."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q002",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 2,
-    "e": "Según la sentencia del Tribunal Supremo, Sala Primera, de lo Civil, nº 687/2003 de 7 de julio, para sentar jurisprudencia y que se convierta en vinculante es necesario cumplir con una serie mínima de requisitos, entre ellos:",
-    "o": [
-      "Que existan por lo menos dos fallos idénticos o análogos de manera comprobable.",
-      "Que existan por lo menos tres fallos idénticos o análogos de manera comprobable.",
-      "Que existan más de tres fallos idénticos o análogos de manera comprobable."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q003",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 3,
-    "e": "¿Cuál es la relación entre la jurisprudencia del Tribunal Europeo de Derechos Humanos y la jurisprudencia de los Tribunales Nacionales?",
-    "o": [
-      "Coordinación.",
-      "Subsidiariedad.",
-      "Prioridad."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q004",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 4,
-    "e": "¿Qué asiento registral NO se practica en el Registro Civil Central?",
-    "o": [
-      "El matrimonio secreto.",
-      "La defunción de personas de nacionalidad extranjera fallecidas al servicio de las Fuerzas Armadas en misiones fuera de España.",
-      "La rectificación del sexo de un español llevada a cabo en el extranjero."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q005",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 5,
-    "e": "Un menor de edad emancipado que hubiera contraído matrimonio con otra persona mayor de edad, en el momento de vender una vivienda propiedad de ambos ¿qué requisito debe reunir para poder efectuar dicha venta?",
-    "o": [
-      "La autorización de los progenitores y del defensor judicial del menor emancipado.",
-      "La autorización de la persona con la que contrajo matrimonio.",
-      "La autorización de los progenitores del menor emancipado."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q006",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 6,
-    "e": "¿En cuál de los siguientes países, sus nacionales tendrán que renunciar primero a su nacionalidad para poder obtener la nacionalidad española?",
-    "o": [
-      "Cuba.",
-      "Puerto Rico.",
-      "Haití."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q007",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 7,
-    "e": "Respecto de las garantías de las libertades y derechos fundamentales el artículo 53 de la Constitución distingue:",
-    "o": [
-      "Solo la igualdad y los reconocidos en la sección primera del capítulo segundo tienen una tutela especial ante los tribunales ordinarios por un procedimiento preferente y sumario, o eventualmente mediante recurso de amparo ante el Tribunal Constitucional.",
-      "Todos los derechos y libertades reconocidos en el capítulo segundo: vinculan a todos los poderes públicos; puede regularse su ejercicio solo por ley orgánica, que en todo caso debe respetar su contenido esencial, en otro caso la ley podrá ser anulada por el Tribunal Constitucional.",
-      "Los principios reconocidos en el capítulo tercero solo pueden ser alegados ante la jurisdicción ordinaria de acuerdo con lo que disponen las leyes que los desarrollen. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 1"
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q008",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 8,
-    "e": "¿Qué proposición de las siguientes sobre la designación de vocales del CGPJ es cierta?",
-    "o": [
-      "Al Senado le corresponde el nombramiento de diez de los veinte vocales del CGPJ, así como de tres suplentes por cada uno de los turnos.",
-      "Los seis vocales correspondientes al turno judicial han de contar con más de 15 años de antigüedad en la carrera judicial.",
-      "Cada Cámara habrá de fijar el orden por el que deba procederse en caso de sustitución en relación con los suplentes designados para cada turno."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q009",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 9,
-    "e": "En los casos en que las Cortes Generales no se encuentren reunidas o hubieren sido disueltas, ¿a qué órgano consultivo de las Cámaras se dirigirá el Defensor del Pueblo?",
-    "o": [
-      "A las Comisiones Permanentes.",
-      "A las Diputaciones Permanentes.",
-      "A la Comisión Mixta Congreso-Senado encargada de relacionarse con el Defensor del Pueblo."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q010",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 10,
-    "e": "¿Cómo realizará el Rey el nombramiento y relevo de los miembros civiles y militares de su Casa?",
-    "o": [
-      "Libremente.",
-      "Con el refrendo del Presidente del Gobierno.",
-      "Con autorización previa de las Cortes Generales."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q011",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 11,
-    "e": "Entre los diversos actos jurídicos que pueden adoptar las Instituciones Europeas de acuerdo al Tratado de Funcionamiento de la Unión Europea, señale cuál de las respuestas corresponde con un acto jurídico no vinculante:",
-    "o": [
-      "Dictamen.",
-      "Decisión.",
-      "Directiva."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q012",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 12,
-    "e": "¿Cuál NO es una de las funciones de la Comisión Europea?",
-    "o": [
-      "Aprueba los presupuestos anuales de la UE elaborados por el Parlamento y el Consejo.",
-      "Garantiza que la legislación de la UE se aplique correctamente en todos los países miembros.",
-      "Representa a la UE ante los organismos internacionales."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q013",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 13,
-    "e": "El Defensor del Pueblo Europeo investiga las reclamaciones relativas a una mala gestión por parte de las instituciones y los organismos de la UE y:",
-    "o": [
-      "Tiene su sede en Bruselas.",
-      "Es elegido por el Parlamento Europeo por un periodo renovable de cinco años.",
-      "Su creación data del año 1992."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q014",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 14,
-    "e": "Los jueces del Tribunal Europeo de Derechos Humanos:",
-    "o": [
-      "Serán elegidos por un periodo de ocho años, serán reelegibles y su mandato finalizará cuando alcancen la edad de 75 años.",
-      "Serán elegidos por un periodo de nueve años, no serán reelegibles y su mandato finalizará cuando alcancen la edad de 70 años.",
-      "Serán elegidos por un periodo de diez años, serán reelegibles y su mandato finalizará cuando alcancen la edad de 70 años."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q015",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 15,
-    "e": "¿Cuál de los siguientes delitos se encarga de investigar la Fiscalía Europea?",
-    "o": [
-      "Tráfico de armas transfronterizo.",
-      "Crimen organizado que afecte al menos a dos países de la Unión Europea.",
-      "Fraude transfronterizo en materia de IVA. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q016",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 16,
-    "e": "No es un medio de ejecución forzosa por parte de las Administraciones Públicas:",
-    "o": [
-      "La ejecución subsidiaria.",
-      "La compulsión sobre las personas.",
-      "La condonación sobre el patrimonio."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q017",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 17,
-    "e": "Los actos administrativos deben reunir una serie de requisitos. Indique cuál de los siguientes no es uno de ellos:",
-    "o": [
-      "Los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
-      "Cuando deba dictarse una serie de actos administrativos, aun siendo de la misma naturaleza, tales como nombramientos, concesiones o licencias, deberán hacerlo de forma independiente para cada uno de ellos, acordado por el órgano competente.",
-      "La motivación de los actos que pongan fin a los procedimientos selectivos y de concurrencia competitiva se realizará de conformidad con lo que dispongan las normas que regulen sus convocatorias, debiendo, en todo caso, quedar acreditados en el procedimiento los fundamentos de la resolución que se adopte."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q018",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 18,
-    "e": "¿A quién corresponde resolver los asuntos que, afectando a más de un Ministerio, no requieran ser elevados al Consejo de Ministros?",
-    "o": [
-      "Al Presidente del Gobierno.",
-      "Al Vicepresidente o Vicepresidentes del Gobierno.",
-      "A las Comisiones Delegadas del Gobierno."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q019",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 19,
-    "e": "El Portal de la Transparencia de la Administración General del Estado, es el Portal Web donde se publica la información de los organismos administrativos que la Ley de Transparencia obliga a hacer pública ¿De qué Ministerio depende funcionalmente este Portal Web?",
-    "o": [
-      "Del Ministerio de la Presidencia.",
-      "Del Ministerio de Asuntos Económicos y Transformación Digital.",
-      "Del Ministerio de Hacienda y Función Pública."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q020",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 20,
-    "e": "¿Qué tipo de retribución es un trienio?",
-    "o": [
-      "Una retribución complementaria.",
-      "Una retribución básica.",
-      "Una retribución diferida."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q021",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 21,
-    "e": "Un funcionario de la Policía Nacional al que se le ha concedido una excedencia para el cuidado de su hijo adoptado, si una vez finalizado el periodo autorizado no ha solicitado el reingreso al servicio activo ¿en qué situación administrativa será declarado de oficio?",
-    "o": [
-      "Excedencia forzosa.",
-      "Expectativa de destino.",
-      "Excedencia voluntaria por interés particular."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q022",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 22,
-    "e": "En la Policía Nacional, la función de dar apoyo técnico- operativo al resto de unidades policiales corresponde al Grupo Operativo de Intervenciones Técnicas, integrado en:",
-    "o": [
-      "La División Económica y Técnica.",
-      "La División de Operaciones y Transformación Digital.",
-      "La Comisaría General de Seguridad Ciudadana."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q023",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 23,
-    "e": "Según la LO 2/86 de Cuerpos y Fuerzas de Seguridad, el otorgamiento de la licencia de armas de fuego que porten los miembros de los Cuerpos de Policía de las Comunidades Autónomas para el cumplimiento de sus funciones, compete a:",
-    "o": [
-      "La Consejería de Interior de la respectiva Comunidad Autónoma.",
-      "El Gobierno de la Nación.",
-      "El Consejo de Política de Seguridad. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 3"
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q024",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 24,
-    "e": "Es competencia exclusiva de Policía Nacional:",
-    "o": [
-      "Colaborar y prestar auxilio a las Policías de otros países, conforme a lo establecido en los tratados o Acuerdos Internacionales sobre las Leyes, bajo la superior dirección del Secretario de Estado de Seguridad.",
-      "La investigación y persecución de los delitos relacionados con droga y armas de fuego.",
-      "La vigilancia e inspección del cumplimiento de la normativa en materia de juego."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q025",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 25,
-    "e": "Según establece el artículo 8 de la Ley orgánica 4/2010, de 20 de mayo, del Régimen Disciplinario del Cuerpo Nacional de Policía, se considera Falta Grave:",
-    "o": [
-      "La obstaculización grave al ejercicio de las libertades públicas y los derechos sindicales.",
-      "El incumplimiento de las normas sobre incompatibilidades cuando ello dé lugar a una situación de incompatibilidad.",
-      "Exhibir armas sin causa justificada, así como utilizarlas en acto de servicio o fuera de él, infringiendo las normas que regulan su empleo."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q026",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 26,
-    "e": "¿Cuándo es preceptivo el informe del Consejo de Policía?",
-    "o": [
-      "En los expedientes disciplinarios instruidos por faltas muy graves a los miembros de Policía Nacional, así como en todos los procedimientos que se instruyan a los representantes de los sindicatos.",
-      "En los expedientes disciplinarios instruidos por faltas muy graves a los miembros de Policía Nacional, así como en los procedimientos que se instruyan a los representantes de los sindicatos por faltas muy graves y graves.",
-      "En los expedientes disciplinarios instruidos por faltas muy graves y graves a los miembros de Policía Nacional, así como en todos los procedimientos que se instruyan a los representantes de los sindicatos."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q027",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 27,
-    "e": "¿Quién es responsable de solicitar la residencia legal respecto de los menores extranjeros no acompañados?",
-    "o": [
-      "El Ministerio Fiscal dará la orden de iniciar los trámites una vez que se haya comprobado que no procede la repatriación.",
-      "El letrado/a que represente legalmente al menor, en virtud del principio del interés superior del menor.",
-      "La entidad pública de protección de menores que se haya hecho cargo."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q028",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 28,
-    "e": "Se podrá solicitar la aplicación de las disposiciones previstas en el Real Decreto 240/2007, que regula el régimen especial de extranjería aplicable a los ciudadanos de la Unión Europea, para miembros de la familia de un ciudadano de un Estado miembro de la Unión Europea o de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo, a favor de:",
-    "o": [
-      "En todo caso, a los miembros de su familia, cualquiera que sea su nacionalidad.",
-      "La pareja de hecho con la que mantenga una relación estable debidamente probada.",
-      "La pareja de hecho con la que mantenga una relación de convivencia."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q029",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 29,
-    "e": "Mirta de origen venezolano, con autorización de residencia y trabajo por cuenta ajena, quiere reagrupar a su hermana de 54 años, podrá solicitarla:",
-    "o": [
-      "Desde el momento en que solicite la prórroga de su residencia inicial.",
-      "En el momento en que solicite su residencia de larga duración.",
-      "No cabe la reagrupación familiar en este caso."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q030",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 30,
-    "e": "Según el artículo 59 bis de la LO 4/2000, ¿en qué supuestos las autoridades competentes pueden conceder a una víctima de trata de seres humanos, la autorización de residencia y trabajo por circunstancias excepcionales?",
-    "o": [
-      "Cuando lo considere necesario a causa de su cooperación para los fines de investigación o de las acciones penales.",
-      "Cuando lo considere necesario en atención a su situación personal.",
-      "A) y B) son correctas. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q031",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 31,
-    "e": "¿Se puede solicitar la sustitución de la pena de más de cinco años de prisión por la expulsión del territorio nacional?",
-    "o": [
-      "Sí. Esta medida se aplica con independencia de la cuantía de la pena a sustituir.",
-      "Sí. Cuando el penado cumpla la parte de la pena que se hubiera determinado.",
-      "No. La sustitución de la pena solo se puede solicitar para penas inferiores a un año."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q032",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 32,
-    "e": "Con motivo del conflicto armado entre Rusia y Ucrania se generó un movimiento de huida de ciudadanos ucranianos hacia el resto de países de Europa. ¿Qué marco normativo se aplica a estos ciudadanos ucranianos dentro de nuestro territorio nacional?",
-    "o": [
-      "El Reglamento de la Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social, tras su reforma por Ley Orgánica 2/2009.",
-      "El Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas.",
-      "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q033",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 33,
-    "e": "¿Qué duración tendrá la protección colectiva temporal declarada por el Consejo de Ministros para los nacionales de un tercer país no miembro de la UE que hayan debido abandonarlo por un conflicto armado?",
-    "o": [
-      "12 meses no prorrogables.",
-      "Un año, automáticamente prorrogable por otro periodo anual.",
-      "Un año, con prórrogas anuales, hasta que se resuelva el conflicto que la motivó o existan condiciones favorables para el retorno, durante un periodo de cinco años como máximo."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q034",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 34,
-    "e": "Las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada, en el ejercicio de sus funciones, informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección. Si estas informaciones contuvieran datos de carácter personal:",
-    "o": [
-      "No se podrán facilitar en ningún caso.",
-      "Podrán facilitarse en caso de peligro real para la seguridad pública.",
-      "Podrán facilitarse para la represión de infracciones penales o administrativas."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q035",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 35,
-    "e": "Señale la respuesta INCORRECTA para la entrada y registro en domicilio y edificios de organismos oficiales.",
-    "o": [
-      "Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las personas.",
-      "Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las cosas.",
-      "Para la entrada en edificios ocupados por organismos oficiales o entidades públicas, será preciso el consentimiento de la autoridad o funcionario que los tuviere a su cargo."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q036",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 36,
-    "e": "Los policías Juan y Francisco, pertenecientes a un Grupo de Atención al Ciudadano, hallándose de servicio de noche, y patrullando una zona de aparcamiento donde se producen numerosos robos en interior de vehículo en horas nocturnas, observan a Pedro Javier, merodear entre los coches. ¿Cuál debe ser, a su juicio, la actuación de los policías Juan y Francisco?",
-    "o": [
-      "Proceder a su identificación y, si resulta imposible por cualquier medio, o se negase a identificarse, pueden requerirle para que los acompañe a las dependencias policiales más próximas, por el tiempo estrictamente necesario, que en ningún caso podrá exceder de 5 horas.",
-      "Proceder a su identificación si existen indicios de que haya podido participar en la comisión de una infracción cometida en días anteriores.",
-      "Proceder a su identificación y, si resulta imposible por cualquier medio, o se negase a identificarse, pueden requerirle para que los acompañe a las dependencias policiales más próximas, por el tiempo estrictamente necesario, que en ningún caso podrá exceder de 6 horas. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 5"
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q037",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 37,
-    "e": "Las autoridades de protección de datos podrán establecer la lista de tratamientos que estén sujetos a la realización de una evaluación de impacto, así como la lista de los que no estén sujetos a esta obligación. ¿Qué carácter tendrán estas listas?",
-    "o": [
-      "Ambas tendrán un carácter obligatorio.",
-      "Ambas tendrán un carácter meramente orientativo.",
-      "Únicamente tendrá carácter obligatorio la lista de tratamientos que estén sujetos a la realización de una evaluación de impacto."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q038",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 38,
-    "e": "¿Cuáles de los siguientes preceptos constitucionales se refieren a los fines de las penas y las medidas de seguridad?",
-    "o": [
-      "Art 25.2 y art 25.3 de la Constitución Española.",
-      "Art 25.2 de la Constitución Española.",
-      "Art 25.1 y art 25.3 de la Constitución Española."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q039",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 39,
-    "e": "¿Qué se entiende por ciberamenaza?",
-    "o": [
-      "Se consideran ciberamenazas todas aquellas acciones que usan el ciberespacio para fines maliciosos.",
-      "Se consideran ciberamenazas todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos, y se caracterizan por su diversidad y por afectar a la práctica totalidad de la Seguridad Nacional.",
-      "Se consideran ciberamenazas todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos, y se clasifican en ciberespionaje y cibercriminalidad."
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q040",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 40,
-    "e": "Respecto a los miembros de la Comisión Nacional para la Protección de las Infraestructuras Críticas, ¿cuál de las siguientes personas irá en representación del Ministerio del Interior?:",
-    "o": [
-      "El Director General de Protección Civil y Emergencias.",
-      "El Subdirector General de Sistemas de Información y Comunicaciones para la Seguridad.",
-      "El Subdirector General de Planificación y Gestión de Infraestructuras y Medios para la Seguridad."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q041",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 41,
-    "e": "La ley 4/1985 de extradición pasiva prevé unas causas donde la denegación de la extradición es solo potestativa. Señale cuál de las siguientes representa una de esas causas:",
-    "o": [
-      "Cuando la persona reclamada haya sido juzgada o lo está siendo en España por los mismos hechos.",
-      "Cuando la persona reclamada sea menor de dieciocho años en el momento de la demanda de la extradición y teniendo residencia habitual en España, se considere que la extradición puede impedir su reinserción social.",
-      "Cuando la persona reclamada deba ser juzgada por un Tribunal de excepción."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q042",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 42,
-    "e": "¿Cuál de los siguientes instrumentos jurídicos NO es un instrumento de reconocimiento mutuo?",
-    "o": [
-      "La orden europea de protección.",
-      "La resolución de decomiso.",
-      "La orden europea de internamiento."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q043",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 43,
-    "e": "Un país puede entregar a una persona buscada a través de una OEDE, si:",
-    "o": [
-      "La persona no ha alcanzado la edad de responsabilidad penal en el país de ejecución.",
-      "El país de ejecución tenía competencia para perseguir el delito y en él se ha decretado una amnistía.",
-      "La persona no ha sido juzgada por el mismo delito. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q044",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 44,
-    "e": "El sistema finalista de la teoría del delito:",
-    "o": [
-      "Surge a finales del siglo XIX como consecuencia de la teoría de la “acción final” elaborada por Franz Von Liszt y Ernst Von Beling.",
-      "Surge a mediados del siglo XX como consecuencia de la teoría de la “acción final” elaborada por Welzel.",
-      "Surge a finales del siglo XIX como consecuencia de la teoría de la “acción final” elaborada por Edmund Mezger."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q045",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 45,
-    "e": "Juan es detenido cuando portaba en la vía pública un arma prohibida, si bien en el recurso presentado por su representante legal alude al desconocimiento de su cliente por no comprender este el contenido del Reglamento de armas ¿es suficiente la simple alegación de esta circunstancia para aplicarse un tipo de error del artículo 14 del CP?",
-    "o": [
-      "La mera alegación no es suficiente, debe probarse, tanto en su existencia como en su carácter invencible.",
-      "Para que NO le sea aplicado el error de prohibición los agentes que lo detuvieron deben acreditar este desconocimiento.",
-      "Se trata de un error de tipo vencible, y por tanto la carga de la prueba le corresponde al Tribunal."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q046",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 46,
-    "e": "Para que sea tenida en cuenta la exclusión de la responsabilidad penal por la drogadicción del autor ¿qué requisito NO exige la jurisprudencia?",
-    "o": [
-      "Que la intoxicación sea grave y como consecuencia de un primer consumo de la sustancia estupefaciente.",
-      "Que la afectación psicológica concurra en el momento mismo de la comisión delictiva.",
-      "Que la intoxicación haya afectado a sus facultades intelectivas y volitivas."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q047",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 47,
-    "e": "En la reincidencia:",
-    "o": [
-      "Se computarán los antecedentes penales cancelados o que debieran serlos.",
-      "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos graves.",
-      "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q048",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 48,
-    "e": "El Código Penal considera la inducción una forma de participación. La Jurisprudencia ha exigido una serie de requisitos para que concurra esta forma de participación, entre ellos que la inducción sea EFICAZ, que significa:",
-    "o": [
-      "Que tenga suficiente entidad para mover la voluntad del inducido a cometer el delito.",
-      "Que se cometa en beneficio propio directo.",
-      "Que sea cometida por dolo eventual."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q049",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 49,
-    "e": "En los delitos que se cometan utilizando medios o soportes de difusión mecánicos, ¿qué autores a los que se refiere el artículo 28 del Código Penal, responderán primero de forma escalonada, excluyente y subsidiaria, de los seguidamente relacionados?:",
-    "o": [
-      "Los directores de la empresa editora, emisora o difusora.",
-      "Los directores de la publicación o programa en que se difundan.",
-      "Los directores de la empresa grabadora, reproductora o impresora."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q050",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 50,
-    "e": "Diego, residente en España, ha acordado con un individuo afincado en Holanda el envío de un paquete a través de una empresa de transporte. Su interior contiene una bolsa con cocaína con un peso total de cinco kilogramos. Las autoridades policiales en el transcurso de la investigación han detectado e incautado este envío y esta sustancia estupefaciente antes de que llegue al domicilio de Diego ¿en qué fase del delito se encuentra el comportamiento de Diego?",
-    "o": [
-      "Al no haber llegado a tener posesión de la sustancia estupefaciente, se trata de un delito en grado de tentativa inacabada.",
-      "Es un delito consumado, aunque no haya recibido la sustancia estupefaciente.",
-      "La convivencia en el envío hace que se trate de un delito en grado de tentativa acabada. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 7"
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q051",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 51,
-    "e": "La ejecución de un delito obliga a reparar los daños y perjuicios por él causados. La indemnización de perjuicios derivados de la comisión de un delito, abarca:",
-    "o": [
-      "Los perjuicios materiales y morales causados al agraviado.",
-      "Los perjuicios materiales y morales causados al agraviado y los que se hubieran irrogado a sus familiares.",
-      "Los perjuicios materiales y morales causados al agraviado y los que se hubieran irrogado a sus familiares o a terceros."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q052",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 52,
-    "e": "En relación a la cancelación de los antecedentes delictivos, según el artículo 136.3 del Código Penal, las penas impuestas a las personas jurídicas cuando se hubiese acordado su disolución o la prohibición definitiva de actividades, se cancelarán las anotaciones transcurridos:",
-    "o": [
-      "20 años computados desde el día siguiente a la firmeza de la sentencia.",
-      "30 años computados desde el día siguiente a la firmeza de la sentencia.",
-      "50 años computados desde el día siguiente a la firmeza de la sentencia."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q053",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 53,
-    "e": "El artículo 148 del Código Penal contempla las lesiones cualificadas; en relación a este tipo de delito indique cuál de las siguientes afirmaciones es correcta:",
-    "o": [
-      "Se castiga si hubiese mediado precio o alevosía.",
-      "Se castiga si hubiese mediado ensañamiento.",
-      "Se castiga si la víctima fuera menor de 16 años."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q054",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 54,
-    "e": "¿Cuál es el bien jurídico protegido en los delitos de odio tipificados en el artículo 510 del CP?",
-    "o": [
-      "La diversidad social, cultural y religiosa.",
-      "El derecho a la igualdad.",
-      "La dignidad de la persona."
-    ],
-    "c": 2,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q055",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 55,
-    "e": "El delito de Trata de Seres Humanos (artículo 177 bis Código Penal) recoge unas conductas típicas con unas finalidades determinadas; en relación a esto último indique cuál de las siguientes afirmaciones NO es correcta:",
-    "o": [
-      "Las prácticas similares a la servidumbre.",
-      "La explotación para realizar actividades lucrativas.",
-      "Los matrimonios forzados."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q056",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 56,
-    "e": "¿Cuál de los siguientes elementos NO constituye una característica del tipo básico del delito de acoso sexual?",
-    "o": [
-      "El especial ataque contra la libertad sexual del sujeto pasivo se entiende consumado cuando media la sola petición de contenido sexual.",
-      "La conducta debe provocar en la víctima una percepción personal de hostilidad y humillación.",
-      "El ámbito en el cual se soliciten los favores sexuales lo ha de ser en el seno de una relación laboral, docente o de prestación de servicios, continuada o habitual."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q057",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 57,
-    "e": "¿Pueden cometerse por imprudencia los delitos de suposición de parto y de alteración de la paternidad estado o condición del menor?",
-    "o": [
-      "Cuando se produzcan en un centro sanitario si cabe la imprudencia por parte de los responsables de la identificación y custodia.",
-      "No, ya que es un delito doloso.",
-      "Solo cabe la imprudencia grave en caso de sustitución de un niño por otro, en el supuesto descrito en el apartado a)."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q058",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 58,
-    "e": "¿En los delitos contra la flora silvestre, el tipo imprudente establece distinciones entre especies protegidas y especies en peligro de extinción?",
-    "o": [
-      "SÍ. La pena se agrava cuando se trata de especies protegidas.",
-      "SÍ. El tipo agravado se aplica únicamente si se trata de especies o subespecies catalogadas en peligro de extinción.",
-      "No. El marco penal es el mismo. No se establecen distinciones entre especies protegidas y especies en peligro de extinción. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q059",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 59,
-    "e": "El sujeto activo del tipo penal de la falsificación de certificados puede ser:",
-    "o": [
-      "Funcionario público o particular.",
-      "Autoridad o funcionario público.",
-      "Facultativo, particular, autoridad o funcionario público."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q060",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 60,
-    "e": "¿Qué delito comete el funcionario que al facilitar a un extranjero el impreso modelo 790 para pagar las tasas por tramitación de la autorización de residencia, cobra 5 euros como precio?",
-    "o": [
-      "Cohecho del artículo 420 del Código Penal.",
-      "Exacción ilegal del artículo 437 del Código Penal.",
-      "Fraude del artículo 438 del Código Penal."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q061",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 61,
-    "e": "¿Qué delito comete el abogado o procurador que revelare actuaciones procesales declaradas secretas por la autoridad judicial?",
-    "o": [
-      "Deslealtad profesional.",
-      "Descubrimiento y revelación de secretos.",
-      "Obstrucción a la justicia."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q062",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 62,
-    "e": "A Juan le han donado varias pistolas automáticas marca Intranec, del calibre 9 mm. parabellum, y tiene prevista custodiarlas en su domicilio en un armero autorizado y con las debidas medidas de seguridad, pero ¿cuántas armas de este tipo puede poseer sin que constituya un delito de depósito de armas de guerra?",
-    "o": [
-      "Al menos cinco.",
-      "Más de cinco.",
-      "Ninguna."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q063",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 63,
-    "e": "¿Cuál es el órgano, dependiente de la Abogacía del Estado, que tiene como función la representación y defensa en juicio de los procedimientos seguidos ante el Tribunal Constitucional de la Administración General del Estado?",
-    "o": [
-      "La Subdirección General de lo Consultivo y Asuntos Constitucionales.",
-      "La Subdirección General de Asuntos Constitucionales y Derechos Humanos.",
-      "La Subdirección General de Recursos y Auditoría Interna."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q064",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 64,
-    "e": "Para decretar la prisión provisional, NO se tendrá en cuenta:",
-    "o": [
-      "La aparición de motivos bastantes para creer responsable criminalmente del delito a la persona contra quien se haya de dictar el auto de prisión.",
-      "La existencia de uno o varios hechos que presenten caracteres de delito sancionado con pena cuyo máximo sea igual o superior a dos años de prisión.",
-      "La alarma social que la comisión del delito haya producido."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q065",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 65,
-    "e": "¿De qué plazo dispondrá el Ministerio Fiscal cuando un menor detenido sea puesto a su disposición para resolver sobre su puesta en libertad, desistimiento o puesta a disposición del Juez de Menores competente?",
-    "o": [
-      "Dentro de las veinticuatro horas desde que fue puesto a su disposición.",
-      "Dentro de las cuarenta y ocho horas a partir de la detención.",
-      "Dentro de las cuarenta y ochos horas desde que fue puesto a su disposición."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q066",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 66,
-    "e": "Según el artículo 579 bis de la Ley de Enjuiciamiento Criminal sobre utilización de la información obtenida en un procedimiento distinto y descubrimientos casuales:",
-    "o": [
-      "El resultado de la detención y apertura de la correspondencia escrita y telegráfica podrá ser utilizado como medio de investigación o prueba en otro proceso penal.",
-      "El resultado de la detención y apertura de la correspondencia escrita y telegráfica no podrá ser utilizado como medio de investigación o prueba en otro proceso penal si el descubrimiento es casual.",
-      "La continuación de esta medida para la investigación del delito casualmente descubierto no requiere autorización del juez competente. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 9"
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q067",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 67,
-    "e": "El testigo de un hecho delictivo, al iniciar la declaración en el Juzgado de Instrucción competente, presenta una documentación en la que acredita tener una enfermedad terminal y que tiene motivos suficientes para temer que no pueda asistir al juicio oral ¿qué acción tomará el Juez para asegurar su declaración como prueba preconstituida?",
-    "o": [
-      "El Juez le tomará declaración con la precaución del registro correcto en el acta realizada por el Letrado de la Administración de Justicia.",
-      "La autoridad judicial garantizará el principio de contradicción durante la declaración garantizando la presencia del Fiscal, el investigado y su abogado.",
-      "El Letrado de la Administración de Justicia solicitará al reo que designe a un abogado en un plazo de 24 horas, en caso contrario se designará uno de oficio."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q068",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 68,
-    "e": "Las conversaciones o comunicaciones que tienen lugar en el seno de chats o foros de Internet abiertos a cualquier usuario…",
-    "o": [
-      "No precisan de autorización judicial para su grabación u observación.",
-      "Precisan con carácter general recabar previa resolución judicial habilitante.",
-      "Precisan autorización judicial para su grabación, pero no para su observación."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q069",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 69,
-    "e": "Respecto al concepto de bien jurídico, señale la respuesta correcta:",
-    "o": [
-      "Su protección agota la finalidad de la norma penal.",
-      "Trasmite toda la información necesaria sobre la norma penal.",
-      "Expresa el origen de la norma penal."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q070",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 70,
-    "e": "Los convenios de colaboración con entidades públicas y privadas, sin ánimo de lucro, para prestar los servicios de asistencia y apoyo a las víctimas de delito podrán ser celebradas por:",
-    "o": [
-      "El Ministerio de Justicia o las Comunidades Autónomas.",
-      "El Ministerio del Interior y los Ayuntamientos.",
-      "El Ministerio Fiscal y las Juntas Municipales."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q071",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 71,
-    "e": "Según el artículo 3.1 de la Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito, la mediación en supuestos de violencia de género:",
-    "o": [
-      "Estará vedada.",
-      "Se realizará siempre que la víctima haya prestado su consentimiento, después de haber recibido información exhaustiva e imparcial sobre su contenido.",
-      "Se realizará siempre que el infractor haya reconocido los hechos esenciales de los que deriva su responsabilidad."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q072",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 72,
-    "e": "Recibida la solicitud de orden de protección, el juez de guardia, convocará a una audiencia urgente a la víctima o su representante legal, al solicitante y al agresor, asistido, en su caso, de abogado. Asimismo, será convocado el Ministerio Fiscal. Cuando excepcionalmente no fuese posible la celebración de la audiencia durante el servicio de guardia, el juez ante el que hubiera sido formulada la solicitud, la convocará en el plazo más breve posible, que no podrá exceder de:",
-    "o": [
-      "48 horas desde la presentación de la solicitud.",
-      "72 horas desde la presentación de la solicitud.",
-      "24 horas desde la presentación de la solicitud."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q073",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 73,
-    "e": "¿A qué víctima de las expresadas se le aplica la Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual?",
-    "o": [
-      "Mujer española y mayor de edad, víctima de una extorsión sexual a través de las nuevas tecnologías cometido en un país extranjero.",
-      "Menor de edad de nacionalidad extranjera, víctima de un delito de matrimonio forzado cometido en el extranjero.",
-      "Mujer de nacionalidad extranjera y mayor de edad, víctima de un acoso sexual en el extranjero tipificado en el CP español. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q074",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 74,
-    "e": "Según la Ley 31/1995 de Prevención de Riesgos Laborales:",
-    "o": [
-      "Se entenderá por «prevención» el conjunto de actividades o medidas adoptadas o previstas por las empresas con el fin de controlar los riesgos derivados de cualquier actividad que se desempeñe en las mismas.",
-      "Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
-      "Se considerarán como «daños derivados del trabajo» todas las incidencias que pudieran ocasionar una enfermedad que derive en una patología o lesión, sufrida con motivo u ocasión del trabajo."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q075",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 75,
-    "e": "Según lo postulado por Comeron (2001) y en relación con el hooliganismo, indique la opción FALSA:",
-    "o": [
-      "Este fenómeno, mediante determinados procesos de individualización que rige las personas que lo componen, va a arrastrar a los individuos más comunes a adoptar colectivamente comportamientos de una violencia que puede llegar a ser letal.",
-      "Estos comportamientos de masa son controlables, aunque generalizados, siendo modelados por los núcleos duros para hacer un modo de funcionamiento permanente.",
-      "Los hooligans compensan sus pobres perspectivas sociales con la excitación y la identificación. Psicológicamente, invierten todo en su equipo y en su banda."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q076",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 76,
-    "e": "De acuerdo con Fernández Trespalacios, y en el contexto de las propiedades o características de la atención, la referida a la cantidad de impresiones que se puede atender o el número de tareas que se puede controlar, es la denominada, ya en tiempos de Wundt:",
-    "o": [
-      "Intensidad.",
-      "Amplitud.",
-      "Capacidad."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q077",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 77,
-    "e": "De acuerdo con Marcos Ruiz (2003), en referencia a la Teoría del trazo borroso de Brainerd y Reyna, la fase en la que se produce un almacenamiento paralelo de la información literal y del tema, es la denominada:",
-    "o": [
-      "Fase de acumulación informativa.",
-      "Fase de adquisición.",
-      "Fase de asociación."
-    ],
-    "c": 2,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q078",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 78,
-    "e": "En el contexto de los estudios llevados a cabo por Thorndike, ¿en qué tipo de condicionamiento un Estímulo Condicionado indica la presentación del Estímulo Incondicionado, sin tener en cuenta cualquier respuesta que el sujeto pueda o no ejecutar?",
-    "o": [
-      "En el condicionamiento Operante.",
-      "En el condicionamiento Clásico.",
-      "En el aprendizaje observacional."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q079",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 79,
-    "e": "Siguiendo a Bermúdez, Pérez y Sanjuán (2005), en relación al modelo jerárquico de personalidad, que va desde lo más específico a lo más general, propuesto por Eysenck (1967, 1990), las respuestas específicas que pueden observarse una vez y que pueden o no ser características del individuo, representarían:",
-    "o": [
-      "El primer nivel.",
-      "El segundo nivel.",
-      "El tercer nivel."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q080",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 80,
-    "e": "Un inspector de Policía, como gestor de recursos humanos, y siguiendo la teoría de Hans Eysenck sobre la personalidad ¿qué consideraciones tiene que tener en cuenta a la hora de distribuir tareas a los integrantes de su grupo respecto a su personalidad?",
-    "o": [
-      "Las personas extrovertidas presentan una mayor reacción ante un estímulo que las introvertidas.",
-      "Las personas extrovertidas tienen mayor sensibilidad a las señales de recompensa.",
-      "Las personas introvertidas rinden mejor con niveles de estimulación altos que los extravertidos. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 11"
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q081",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 81,
-    "e": "Según exponen Huici y Morales, entre otros autores (2005), en relación al liderazgo transcultural, y en lo relativo a las dimensiones encontradas en este campo por Hofstede (1980, 1991), el grado en el que los miembros de una organización o sociedad esperan y aceptan una distribución desigual del poder, referida a la forma de percibir y comportarse hacia las figuras de autoridad, se refiere a:",
-    "o": [
-      "La distancia de poder.",
-      "El poder individualista.",
-      "El poder autocrático."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q082",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 82,
-    "e": "De acuerdo con Palacio (2010), en lo relacionado con la teoría sobre el suicidio, aplicando su método estadístico y sociológico, Durkheim llega a la conclusión central de que este fenómeno debe ser considerado como un hecho social; en cuanto hay que buscar su causa fundamental en la llamada por él:",
-    "o": [
-      "Anomia social.",
-      "Crisis de valores.",
-      "Desorientación cultural."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q083",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 83,
-    "e": "La Teoría de la desigualdad de oportunidades es una teoría explicativa de la delincuencia, que fue desarrollada por:",
-    "o": [
-      "Cloward y Ohlin.",
-      "Cohen.",
-      "Sutherland."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q084",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 84,
-    "e": "En el contexto de los tipos de catástrofes y conductas colectivas y de acuerdo con Morales, Huici y otros (2001), el “pánico” se define a partir de una serie de elementos entre los que NO se encuentra:",
-    "o": [
-      "El componente subjetivo.",
-      "El contagio sensorial.",
-      "El componente conductual."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q085",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 85,
-    "e": "En el marco de los nuevos movimientos antiglobalización en el contexto europeo, y dentro de los novedosos discursos, de acuerdo con Francisco Madero Navajas (2020), el paradigma que se intenta implementar consistente en tratar de hacer una crítica desde la base a lo económico, social y cultural, sin olvidar, el abuso de los recursos naturales -y esto engloba el acceso a la tierra-, por parte del sistema capitalista es:",
-    "o": [
-      "La democracia radical.",
-      "La democracia real.",
-      "La democracia impuesta."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q086",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 86,
-    "e": "El primer acontecimiento en la historia que marca un punto de inflexión en el movimiento antiglobalización, tuvo lugar en el año 1999 en la ciudad estadounidense de Seattle. La protesta se dirigía contra la reunión, en la referida ciudad, del organismo denominado:",
-    "o": [
-      "Organización Mundial del Comercio.",
-      "Fondo Monetario Internacional.",
-      "Banco Mundial."
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q087",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 87,
-    "e": "Señale la respuesta correcta. Cuando las variables son constructos hipotéticos, el método que se emplea es el:",
-    "o": [
-      "Correlacional.",
-      "Empírico.",
-      "Experimental. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
-    ],
-    "c": 1,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q088",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 88,
-    "e": "Cuando nos referimos a la estadística en el ámbito del Ministerio del Interior conviene citar a la Dirección General de Coordinación y Estudios, que desempeña diferentes funciones, entre las que NO se encuentra:",
-    "o": [
-      "Desarrollar, implantar y gestionar la Estadística Nacional de Criminalidad, integrando todos los datos procedentes de las Fuerzas y Cuerpos de Seguridad del Estado, las policías autonómicas y las policías locales.",
-      "Elaborar periódicamente informes estadísticos sobre la situación y evolución de la criminalidad.",
-      "Elaborar inteligencia estratégica en la lucha contra el terrorismo y el crimen organizado."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q089",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 89,
-    "e": "Cuál de los siguientes libros NO se llevarán en los Registros Mercantiles:",
-    "o": [
-      "Libros de ruegos y firmas.",
-      "Libro de inscripciones y su Diario de presentación.",
-      "Inventario."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q090",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 90,
-    "e": "El libro Registro de Acciones Nominativas deberá ser llevado por:",
-    "o": [
-      "Las sociedades anónimas.",
-      "Las sociedades de responsabilidad limitada.",
-      "Las sociedades unipersonales."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q091",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 91,
-    "e": "Qué es el encapsulamiento, en programación modular:",
-    "o": [
-      "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que solo se puede cambiar mediante las operaciones definidas para ese objeto.",
-      "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que se puede cambiar con cualquier operación independientemente de que este definida para ese objeto.",
-      "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que no se puede cambiar."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q092",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 92,
-    "e": "Los dispositivos de almacenamiento de información conocidos como Pendrives, se consideran del tipo:",
-    "o": [
-      "Dispositivos de almacenamiento de medio magnético-óptico.",
-      "Dispositivos de almacenamiento de medio electrónico.",
-      "Dispositivos de almacenamiento de medio óptico."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q093",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 93,
-    "e": "¿Qué se entiende por el término “Doxing” respecto a la ciberdelincuencia y los agentes de la amenaza?",
-    "o": [
-      "Es un tipo de malware que obtiene dinero con publicidad, pero se esconde para que no se pueda desinstalar, utilizando genéricos u otras técnicas para ocultarse.",
-      "El término se encuentra directamente relacionado con el acoso sexual por internet.",
-      "Se trata de buscar y publicar en internet información privada o que identifique a un individuo (información personal), generalmente con intenciones maliciosas como intimidar, humillar o amenazar."
-    ],
-    "c": 2,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q094",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 94,
-    "e": "Cuando hablamos de Inteligencia HUMINT, atendiendo a la inteligencia según el medio del que procede la información nos estamos refiriendo a:",
-    "o": [
-      "Diferentes metodologías utilizadas para la captación de información a través de fuentes humanas.",
-      "Este tipo de inteligencia no atiende al medio del que procede la información, sino al nivel de decisión para la explotación de la inteligencia obtenida.",
-      "Es la inteligencia procedente de todo tipo de señales y transmisiones (radiocomunicaciones, electrónicas, telemétricas, acústicas y nucleares). I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 13"
-    ],
-    "c": 0,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q095",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 95,
-    "e": "¿Qué fase NO pertenece al proceso OSINT (Open Source Intelligent)?",
-    "o": [
-      "Búsqueda masiva de información.",
-      "Presentación de inteligencia.",
-      "Identificar fuentes de información relevantes."
-    ],
-    "c": 0,
-    "d": "media",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q096",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 96,
-    "e": "Una de las metodologías más utilizadas que permite el análisis de gestión de riesgos de los sistemas de información, creada por el Consejo Superior de Administración Electrónica (actualmente Comisión de Estrategia TIC) para minimizar los riesgos de la implantación y uso de las Tecnologías de la Información siguiendo la terminología de la norma ISO31000, es:",
-    "o": [
-      "MAGERIT.",
-      "OCTAVE.",
-      "MEHARI."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q097",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 97,
-    "e": "¿Qué tipo de permiso de conducción necesita un policía para conducir un camión de la unidad de caballería, el cual tiene dos ejes y una masa máxima autorizada de 20.500 kilos?",
-    "o": [
-      "C1.",
-      "C.",
-      "C1+E."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q098",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 98,
-    "e": "Cuando un vehículo de policía que manifiesta su presencia según lo dispuesto en el Reglamento General de Circulación, artículo 68.2 se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz amarilla hacia adelante de forma intermitente o destellante, el conductor de éste deberá:",
-    "o": [
-      "Detener el vehículo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios y esperará fuera del vehículo.",
-      "Detener el vehículo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior.",
-      "Detener el vehículo con las debidas precauciones en el lado derecho, detrás del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios y permanecerá en su interior."
-    ],
-    "c": 1,
-    "d": "facil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q099",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 99,
-    "e": "¿Qué dato NO consta en la numeración de fábrica de las armas de fuego?",
-    "o": [
-      "El número asignado a cada fábrica o taller por la Intervención Central de Armas y Explosivos.",
-      "El código de tres cifras correspondiente al tipo de arma de que se trate.",
-      "Las dos últimas cifras del año de fabricación."
-    ],
-    "c": 1,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  },
-  {
-    "id": "EE-P37-Q100",
-    "src": "Ejecutiva P37 (Jurispol)",
-    "n": 100,
-    "e": "En relación a la numeración de las armas de fuego, es conocido que determinados órganos del Estado las numeraran con determinadas contraseñas propias. Señale la opción correcta:",
-    "o": [
-      "Para la Armada: F.N. y su numeración correlativa.",
-      "Para la Dirección Adjunta de Vigilancia Aduanera: DAVA y su numeración correlativa.",
-      "Para los tres ejércitos integrantes del Ministerio de Defensa: M.D. y su numeración correlativa."
-    ],
-    "c": 0,
-    "d": "dificil",
-    "t": null,
-    "x": ""
-  }
-]
+{
+  "promocion": 37,
+  "escala": "ejecutiva",
+  "categoria": "Inspector turno libre",
+  "modelo": "",
+  "fecha": "2023",
+  "fuente": "Jurispol Ej. P37",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "¿Cuál de las siguientes materias NO es objeto de regulación por Ley Orgánica?",
+      "opciones": [
+        "Las bases de la Organización Militar.",
+        "El Estatuto de los Trabajadores.",
+        "La composición, organización y funciones del Tribunal de Cuentas."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": ""
+    },
+    {
+      "n": 2,
+      "enunciado": "Según la sentencia del Tribunal Supremo, Sala Primera, de lo Civil, nº 687/2003 de 7 de julio, para sentar jurisprudencia y que se convierta en vinculante es necesario cumplir con una serie mínima de requisitos, entre ellos:",
+      "opciones": [
+        "Que existan por lo menos dos fallos idénticos o análogos de manera comprobable.",
+        "Que existan por lo menos tres fallos idénticos o análogos de manera comprobable.",
+        "Que existan más de tres fallos idénticos o análogos de manera comprobable."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 3,
+      "enunciado": "¿Cuál es la relación entre la jurisprudencia del Tribunal Europeo de Derechos Humanos y la jurisprudencia de los Tribunales Nacionales?",
+      "opciones": [
+        "Coordinación.",
+        "Subsidiariedad.",
+        "Prioridad."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 9,
+      "explicacion": ""
+    },
+    {
+      "n": 4,
+      "enunciado": "¿Qué asiento registral NO se practica en el Registro Civil Central?",
+      "opciones": [
+        "El matrimonio secreto.",
+        "La defunción de personas de nacionalidad extranjera fallecidas al servicio de las Fuerzas Armadas en misiones fuera de España.",
+        "La rectificación del sexo de un español llevada a cabo en el extranjero."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 3,
+      "explicacion": ""
+    },
+    {
+      "n": 5,
+      "enunciado": "Un menor de edad emancipado que hubiera contraído matrimonio con otra persona mayor de edad, en el momento de vender una vivienda propiedad de ambos ¿qué requisito debe reunir para poder efectuar dicha venta?",
+      "opciones": [
+        "La autorización de los progenitores y del defensor judicial del menor emancipado.",
+        "La autorización de la persona con la que contrajo matrimonio.",
+        "La autorización de los progenitores del menor emancipado."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 2,
+      "explicacion": ""
+    },
+    {
+      "n": 6,
+      "enunciado": "¿En cuál de los siguientes países, sus nacionales tendrán que renunciar primero a su nacionalidad para poder obtener la nacionalidad española?",
+      "opciones": [
+        "Cuba.",
+        "Puerto Rico.",
+        "Haití."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 3,
+      "explicacion": ""
+    },
+    {
+      "n": 7,
+      "enunciado": "Respecto de las garantías de las libertades y derechos fundamentales el artículo 53 de la Constitución distingue:",
+      "opciones": [
+        "Solo la igualdad y los reconocidos en la sección primera del capítulo segundo tienen una tutela especial ante los tribunales ordinarios por un procedimiento preferente y sumario, o eventualmente mediante recurso de amparo ante el Tribunal Constitucional.",
+        "Todos los derechos y libertades reconocidos en el capítulo segundo: vinculan a todos los poderes públicos; puede regularse su ejercicio solo por ley orgánica, que en todo caso debe respetar su contenido esencial, en otro caso la ley podrá ser anulada por el Tribunal Constitucional.",
+        "Los principios reconocidos en el capítulo tercero solo pueden ser alegados ante la jurisdicción ordinaria de acuerdo con lo que disponen las leyes que los desarrollen. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 1"
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 5,
+      "explicacion": ""
+    },
+    {
+      "n": 8,
+      "enunciado": "¿Qué proposición de las siguientes sobre la designación de vocales del CGPJ es cierta?",
+      "opciones": [
+        "Al Senado le corresponde el nombramiento de diez de los veinte vocales del CGPJ, así como de tres suplentes por cada uno de los turnos.",
+        "Los seis vocales correspondientes al turno judicial han de contar con más de 15 años de antigüedad en la carrera judicial.",
+        "Cada Cámara habrá de fijar el orden por el que deba procederse en caso de sustitución en relación con los suplentes designados para cada turno."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 9,
+      "enunciado": "En los casos en que las Cortes Generales no se encuentren reunidas o hubieren sido disueltas, ¿a qué órgano consultivo de las Cámaras se dirigirá el Defensor del Pueblo?",
+      "opciones": [
+        "A las Comisiones Permanentes.",
+        "A las Diputaciones Permanentes.",
+        "A la Comisión Mixta Congreso-Senado encargada de relacionarse con el Defensor del Pueblo."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 10,
+      "enunciado": "¿Cómo realizará el Rey el nombramiento y relevo de los miembros civiles y militares de su Casa?",
+      "opciones": [
+        "Libremente.",
+        "Con el refrendo del Presidente del Gobierno.",
+        "Con autorización previa de las Cortes Generales."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 11,
+      "enunciado": "Entre los diversos actos jurídicos que pueden adoptar las Instituciones Europeas de acuerdo al Tratado de Funcionamiento de la Unión Europea, señale cuál de las respuestas corresponde con un acto jurídico no vinculante:",
+      "opciones": [
+        "Dictamen.",
+        "Decisión.",
+        "Directiva."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 8,
+      "explicacion": ""
+    },
+    {
+      "n": 12,
+      "enunciado": "¿Cuál NO es una de las funciones de la Comisión Europea?",
+      "opciones": [
+        "Aprueba los presupuestos anuales de la UE elaborados por el Parlamento y el Consejo.",
+        "Garantiza que la legislación de la UE se aplique correctamente en todos los países miembros.",
+        "Representa a la UE ante los organismos internacionales."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 8,
+      "explicacion": ""
+    },
+    {
+      "n": 13,
+      "enunciado": "El Defensor del Pueblo Europeo investiga las reclamaciones relativas a una mala gestión por parte de las instituciones y los organismos de la UE y:",
+      "opciones": [
+        "Tiene su sede en Bruselas.",
+        "Es elegido por el Parlamento Europeo por un periodo renovable de cinco años.",
+        "Su creación data del año 1992."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 5,
+      "explicacion": ""
+    },
+    {
+      "n": 14,
+      "enunciado": "Los jueces del Tribunal Europeo de Derechos Humanos:",
+      "opciones": [
+        "Serán elegidos por un periodo de ocho años, serán reelegibles y su mandato finalizará cuando alcancen la edad de 75 años.",
+        "Serán elegidos por un periodo de nueve años, no serán reelegibles y su mandato finalizará cuando alcancen la edad de 70 años.",
+        "Serán elegidos por un periodo de diez años, serán reelegibles y su mandato finalizará cuando alcancen la edad de 70 años."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 9,
+      "explicacion": ""
+    },
+    {
+      "n": 15,
+      "enunciado": "¿Cuál de los siguientes delitos se encarga de investigar la Fiscalía Europea?",
+      "opciones": [
+        "Tráfico de armas transfronterizo.",
+        "Crimen organizado que afecte al menos a dos países de la Unión Europea.",
+        "Fraude transfronterizo en materia de IVA. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 9,
+      "explicacion": ""
+    },
+    {
+      "n": 16,
+      "enunciado": "No es un medio de ejecución forzosa por parte de las Administraciones Públicas:",
+      "opciones": [
+        "La ejecución subsidiaria.",
+        "La compulsión sobre las personas.",
+        "La condonación sobre el patrimonio."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 10,
+      "explicacion": ""
+    },
+    {
+      "n": 17,
+      "enunciado": "Los actos administrativos deben reunir una serie de requisitos. Indique cuál de los siguientes no es uno de ellos:",
+      "opciones": [
+        "Los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+        "Cuando deba dictarse una serie de actos administrativos, aun siendo de la misma naturaleza, tales como nombramientos, concesiones o licencias, deberán hacerlo de forma independiente para cada uno de ellos, acordado por el órgano competente.",
+        "La motivación de los actos que pongan fin a los procedimientos selectivos y de concurrencia competitiva se realizará de conformidad con lo que dispongan las normas que regulen sus convocatorias, debiendo, en todo caso, quedar acreditados en el procedimiento los fundamentos de la resolución que se adopte."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 10,
+      "explicacion": ""
+    },
+    {
+      "n": 18,
+      "enunciado": "¿A quién corresponde resolver los asuntos que, afectando a más de un Ministerio, no requieran ser elevados al Consejo de Ministros?",
+      "opciones": [
+        "Al Presidente del Gobierno.",
+        "Al Vicepresidente o Vicepresidentes del Gobierno.",
+        "A las Comisiones Delegadas del Gobierno."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 19,
+      "enunciado": "El Portal de la Transparencia de la Administración General del Estado, es el Portal Web donde se publica la información de los organismos administrativos que la Ley de Transparencia obliga a hacer pública ¿De qué Ministerio depende funcionalmente este Portal Web?",
+      "opciones": [
+        "Del Ministerio de la Presidencia.",
+        "Del Ministerio de Asuntos Económicos y Transformación Digital.",
+        "Del Ministerio de Hacienda y Función Pública."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 20,
+      "enunciado": "¿Qué tipo de retribución es un trienio?",
+      "opciones": [
+        "Una retribución complementaria.",
+        "Una retribución básica.",
+        "Una retribución diferida."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 12,
+      "explicacion": ""
+    },
+    {
+      "n": 21,
+      "enunciado": "Un funcionario de la Policía Nacional al que se le ha concedido una excedencia para el cuidado de su hijo adoptado, si una vez finalizado el periodo autorizado no ha solicitado el reingreso al servicio activo ¿en qué situación administrativa será declarado de oficio?",
+      "opciones": [
+        "Excedencia forzosa.",
+        "Expectativa de destino.",
+        "Excedencia voluntaria por interés particular."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 12,
+      "explicacion": ""
+    },
+    {
+      "n": 22,
+      "enunciado": "En la Policía Nacional, la función de dar apoyo técnico- operativo al resto de unidades policiales corresponde al Grupo Operativo de Intervenciones Técnicas, integrado en:",
+      "opciones": [
+        "La División Económica y Técnica.",
+        "La División de Operaciones y Transformación Digital.",
+        "La Comisaría General de Seguridad Ciudadana."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 19,
+      "explicacion": ""
+    },
+    {
+      "n": 23,
+      "enunciado": "Según la LO 2/86 de Cuerpos y Fuerzas de Seguridad, el otorgamiento de la licencia de armas de fuego que porten los miembros de los Cuerpos de Policía de las Comunidades Autónomas para el cumplimiento de sus funciones, compete a:",
+      "opciones": [
+        "La Consejería de Interior de la respectiva Comunidad Autónoma.",
+        "El Gobierno de la Nación.",
+        "El Consejo de Política de Seguridad. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 3"
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 7,
+      "explicacion": ""
+    },
+    {
+      "n": 24,
+      "enunciado": "Es competencia exclusiva de Policía Nacional:",
+      "opciones": [
+        "Colaborar y prestar auxilio a las Policías de otros países, conforme a lo establecido en los tratados o Acuerdos Internacionales sobre las Leyes, bajo la superior dirección del Secretario de Estado de Seguridad.",
+        "La investigación y persecución de los delitos relacionados con droga y armas de fuego.",
+        "La vigilancia e inspección del cumplimiento de la normativa en materia de juego."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 25,
+      "enunciado": "Según establece el artículo 8 de la Ley orgánica 4/2010, de 20 de mayo, del Régimen Disciplinario del Cuerpo Nacional de Policía, se considera Falta Grave:",
+      "opciones": [
+        "La obstaculización grave al ejercicio de las libertades públicas y los derechos sindicales.",
+        "El incumplimiento de las normas sobre incompatibilidades cuando ello dé lugar a una situación de incompatibilidad.",
+        "Exhibir armas sin causa justificada, así como utilizarlas en acto de servicio o fuera de él, infringiendo las normas que regulan su empleo."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 14,
+      "explicacion": ""
+    },
+    {
+      "n": 26,
+      "enunciado": "¿Cuándo es preceptivo el informe del Consejo de Policía?",
+      "opciones": [
+        "En los expedientes disciplinarios instruidos por faltas muy graves a los miembros de Policía Nacional, así como en todos los procedimientos que se instruyan a los representantes de los sindicatos.",
+        "En los expedientes disciplinarios instruidos por faltas muy graves a los miembros de Policía Nacional, así como en los procedimientos que se instruyan a los representantes de los sindicatos por faltas muy graves y graves.",
+        "En los expedientes disciplinarios instruidos por faltas muy graves y graves a los miembros de Policía Nacional, así como en todos los procedimientos que se instruyan a los representantes de los sindicatos."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 14,
+      "explicacion": ""
+    },
+    {
+      "n": 27,
+      "enunciado": "¿Quién es responsable de solicitar la residencia legal respecto de los menores extranjeros no acompañados?",
+      "opciones": [
+        "El Ministerio Fiscal dará la orden de iniciar los trámites una vez que se haya comprobado que no procede la repatriación.",
+        "El letrado/a que represente legalmente al menor, en virtud del principio del interés superior del menor.",
+        "La entidad pública de protección de menores que se haya hecho cargo."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 47,
+      "explicacion": ""
+    },
+    {
+      "n": 28,
+      "enunciado": "Se podrá solicitar la aplicación de las disposiciones previstas en el Real Decreto 240/2007, que regula el régimen especial de extranjería aplicable a los ciudadanos de la Unión Europea, para miembros de la familia de un ciudadano de un Estado miembro de la Unión Europea o de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo, a favor de:",
+      "opciones": [
+        "En todo caso, a los miembros de su familia, cualquiera que sea su nacionalidad.",
+        "La pareja de hecho con la que mantenga una relación estable debidamente probada.",
+        "La pareja de hecho con la que mantenga una relación de convivencia."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 29,
+      "enunciado": "Mirta de origen venezolano, con autorización de residencia y trabajo por cuenta ajena, quiere reagrupar a su hermana de 54 años, podrá solicitarla:",
+      "opciones": [
+        "Desde el momento en que solicite la prórroga de su residencia inicial.",
+        "En el momento en que solicite su residencia de larga duración.",
+        "No cabe la reagrupación familiar en este caso."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 15,
+      "explicacion": ""
+    },
+    {
+      "n": 30,
+      "enunciado": "Según el artículo 59 bis de la LO 4/2000, ¿en qué supuestos las autoridades competentes pueden conceder a una víctima de trata de seres humanos, la autorización de residencia y trabajo por circunstancias excepcionales?",
+      "opciones": [
+        "Cuando lo considere necesario a causa de su cooperación para los fines de investigación o de las acciones penales.",
+        "Cuando lo considere necesario en atención a su situación personal.",
+        "A) y B) son correctas. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 16,
+      "explicacion": ""
+    },
+    {
+      "n": 31,
+      "enunciado": "¿Se puede solicitar la sustitución de la pena de más de cinco años de prisión por la expulsión del territorio nacional?",
+      "opciones": [
+        "Sí. Esta medida se aplica con independencia de la cuantía de la pena a sustituir.",
+        "Sí. Cuando el penado cumpla la parte de la pena que se hubiera determinado.",
+        "No. La sustitución de la pena solo se puede solicitar para penas inferiores a un año."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 16,
+      "explicacion": ""
+    },
+    {
+      "n": 32,
+      "enunciado": "Con motivo del conflicto armado entre Rusia y Ucrania se generó un movimiento de huida de ciudadanos ucranianos hacia el resto de países de Europa. ¿Qué marco normativo se aplica a estos ciudadanos ucranianos dentro de nuestro territorio nacional?",
+      "opciones": [
+        "El Reglamento de la Ley Orgánica 4/2000, sobre derechos y libertades de los extranjeros en España y su integración social, tras su reforma por Ley Orgánica 2/2009.",
+        "El Reglamento sobre régimen de protección temporal en caso de afluencia masiva de personas desplazadas.",
+        "Ley 12/2009, de 30 de octubre, reguladora del derecho de asilo y de la protección subsidiaria."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 17,
+      "explicacion": ""
+    },
+    {
+      "n": 33,
+      "enunciado": "¿Qué duración tendrá la protección colectiva temporal declarada por el Consejo de Ministros para los nacionales de un tercer país no miembro de la UE que hayan debido abandonarlo por un conflicto armado?",
+      "opciones": [
+        "12 meses no prorrogables.",
+        "Un año, automáticamente prorrogable por otro periodo anual.",
+        "Un año, con prórrogas anuales, hasta que se resuelva el conflicto que la motivó o existan condiciones favorables para el retorno, durante un periodo de cinco años como máximo."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 11,
+      "explicacion": ""
+    },
+    {
+      "n": 34,
+      "enunciado": "Las Fuerzas y Cuerpos de Seguridad podrán facilitar al personal de seguridad privada, en el ejercicio de sus funciones, informaciones que faciliten su evaluación de riesgos y consiguiente implementación de medidas de protección. Si estas informaciones contuvieran datos de carácter personal:",
+      "opciones": [
+        "No se podrán facilitar en ningún caso.",
+        "Podrán facilitarse en caso de peligro real para la seguridad pública.",
+        "Podrán facilitarse para la represión de infracciones penales o administrativas."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 14,
+      "explicacion": ""
+    },
+    {
+      "n": 35,
+      "enunciado": "Señale la respuesta INCORRECTA para la entrada y registro en domicilio y edificios de organismos oficiales.",
+      "opciones": [
+        "Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las personas.",
+        "Será causa legítima suficiente para la entrada en domicilio la necesidad de evitar daños inminentes y graves a las cosas.",
+        "Para la entrada en edificios ocupados por organismos oficiales o entidades públicas, será preciso el consentimiento de la autoridad o funcionario que los tuviere a su cargo."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 50,
+      "explicacion": ""
+    },
+    {
+      "n": 36,
+      "enunciado": "Los policías Juan y Francisco, pertenecientes a un Grupo de Atención al Ciudadano, hallándose de servicio de noche, y patrullando una zona de aparcamiento donde se producen numerosos robos en interior de vehículo en horas nocturnas, observan a Pedro Javier, merodear entre los coches. ¿Cuál debe ser, a su juicio, la actuación de los policías Juan y Francisco?",
+      "opciones": [
+        "Proceder a su identificación y, si resulta imposible por cualquier medio, o se negase a identificarse, pueden requerirle para que los acompañe a las dependencias policiales más próximas, por el tiempo estrictamente necesario, que en ningún caso podrá exceder de 5 horas.",
+        "Proceder a su identificación si existen indicios de que haya podido participar en la comisión de una infracción cometida en días anteriores.",
+        "Proceder a su identificación y, si resulta imposible por cualquier medio, o se negase a identificarse, pueden requerirle para que los acompañe a las dependencias policiales más próximas, por el tiempo estrictamente necesario, que en ningún caso podrá exceder de 6 horas. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 5"
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 19,
+      "explicacion": ""
+    },
+    {
+      "n": 37,
+      "enunciado": "Las autoridades de protección de datos podrán establecer la lista de tratamientos que estén sujetos a la realización de una evaluación de impacto, así como la lista de los que no estén sujetos a esta obligación. ¿Qué carácter tendrán estas listas?",
+      "opciones": [
+        "Ambas tendrán un carácter obligatorio.",
+        "Ambas tendrán un carácter meramente orientativo.",
+        "Únicamente tendrá carácter obligatorio la lista de tratamientos que estén sujetos a la realización de una evaluación de impacto."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 20,
+      "explicacion": ""
+    },
+    {
+      "n": 38,
+      "enunciado": "¿Cuáles de los siguientes preceptos constitucionales se refieren a los fines de las penas y las medidas de seguridad?",
+      "opciones": [
+        "Art 25.2 y art 25.3 de la Constitución Española.",
+        "Art 25.2 de la Constitución Española.",
+        "Art 25.1 y art 25.3 de la Constitución Española."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 4,
+      "explicacion": ""
+    },
+    {
+      "n": 39,
+      "enunciado": "¿Qué se entiende por ciberamenaza?",
+      "opciones": [
+        "Se consideran ciberamenazas todas aquellas acciones que usan el ciberespacio para fines maliciosos.",
+        "Se consideran ciberamenazas todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos, y se caracterizan por su diversidad y por afectar a la práctica totalidad de la Seguridad Nacional.",
+        "Se consideran ciberamenazas todas aquellas disrupciones o manipulaciones maliciosas que afectan a elementos tecnológicos, y se clasifican en ciberespionaje y cibercriminalidad."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 77,
+      "explicacion": ""
+    },
+    {
+      "n": 40,
+      "enunciado": "Respecto a los miembros de la Comisión Nacional para la Protección de las Infraestructuras Críticas, ¿cuál de las siguientes personas irá en representación del Ministerio del Interior?:",
+      "opciones": [
+        "El Director General de Protección Civil y Emergencias.",
+        "El Subdirector General de Sistemas de Información y Comunicaciones para la Seguridad.",
+        "El Subdirector General de Planificación y Gestión de Infraestructuras y Medios para la Seguridad."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": ""
+    },
+    {
+      "n": 41,
+      "enunciado": "La ley 4/1985 de extradición pasiva prevé unas causas donde la denegación de la extradición es solo potestativa. Señale cuál de las siguientes representa una de esas causas:",
+      "opciones": [
+        "Cuando la persona reclamada haya sido juzgada o lo está siendo en España por los mismos hechos.",
+        "Cuando la persona reclamada sea menor de dieciocho años en el momento de la demanda de la extradición y teniendo residencia habitual en España, se considere que la extradición puede impedir su reinserción social.",
+        "Cuando la persona reclamada deba ser juzgada por un Tribunal de excepción."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 23,
+      "explicacion": ""
+    },
+    {
+      "n": 42,
+      "enunciado": "¿Cuál de los siguientes instrumentos jurídicos NO es un instrumento de reconocimiento mutuo?",
+      "opciones": [
+        "La orden europea de protección.",
+        "La resolución de decomiso.",
+        "La orden europea de internamiento."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 24,
+      "explicacion": ""
+    },
+    {
+      "n": 43,
+      "enunciado": "Un país puede entregar a una persona buscada a través de una OEDE, si:",
+      "opciones": [
+        "La persona no ha alcanzado la edad de responsabilidad penal en el país de ejecución.",
+        "El país de ejecución tenía competencia para perseguir el delito y en él se ha decretado una amnistía.",
+        "La persona no ha sido juzgada por el mismo delito. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 24,
+      "explicacion": ""
+    },
+    {
+      "n": 44,
+      "enunciado": "El sistema finalista de la teoría del delito:",
+      "opciones": [
+        "Surge a finales del siglo XIX como consecuencia de la teoría de la “acción final” elaborada por Franz Von Liszt y Ernst Von Beling.",
+        "Surge a mediados del siglo XX como consecuencia de la teoría de la “acción final” elaborada por Welzel.",
+        "Surge a finales del siglo XIX como consecuencia de la teoría de la “acción final” elaborada por Edmund Mezger."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 25,
+      "explicacion": ""
+    },
+    {
+      "n": 45,
+      "enunciado": "Juan es detenido cuando portaba en la vía pública un arma prohibida, si bien en el recurso presentado por su representante legal alude al desconocimiento de su cliente por no comprender este el contenido del Reglamento de armas ¿es suficiente la simple alegación de esta circunstancia para aplicarse un tipo de error del artículo 14 del CP?",
+      "opciones": [
+        "La mera alegación no es suficiente, debe probarse, tanto en su existencia como en su carácter invencible.",
+        "Para que NO le sea aplicado el error de prohibición los agentes que lo detuvieron deben acreditar este desconocimiento.",
+        "Se trata de un error de tipo vencible, y por tanto la carga de la prueba le corresponde al Tribunal."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 29,
+      "explicacion": ""
+    },
+    {
+      "n": 46,
+      "enunciado": "Para que sea tenida en cuenta la exclusión de la responsabilidad penal por la drogadicción del autor ¿qué requisito NO exige la jurisprudencia?",
+      "opciones": [
+        "Que la intoxicación sea grave y como consecuencia de un primer consumo de la sustancia estupefaciente.",
+        "Que la afectación psicológica concurra en el momento mismo de la comisión delictiva.",
+        "Que la intoxicación haya afectado a sus facultades intelectivas y volitivas."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 29,
+      "explicacion": ""
+    },
+    {
+      "n": 47,
+      "enunciado": "En la reincidencia:",
+      "opciones": [
+        "Se computarán los antecedentes penales cancelados o que debieran serlos.",
+        "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos graves.",
+        "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 30,
+      "explicacion": ""
+    },
+    {
+      "n": 48,
+      "enunciado": "El Código Penal considera la inducción una forma de participación. La Jurisprudencia ha exigido una serie de requisitos para que concurra esta forma de participación, entre ellos que la inducción sea EFICAZ, que significa:",
+      "opciones": [
+        "Que tenga suficiente entidad para mover la voluntad del inducido a cometer el delito.",
+        "Que se cometa en beneficio propio directo.",
+        "Que sea cometida por dolo eventual."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 31,
+      "explicacion": ""
+    },
+    {
+      "n": 49,
+      "enunciado": "En los delitos que se cometan utilizando medios o soportes de difusión mecánicos, ¿qué autores a los que se refiere el artículo 28 del Código Penal, responderán primero de forma escalonada, excluyente y subsidiaria, de los seguidamente relacionados?:",
+      "opciones": [
+        "Los directores de la empresa editora, emisora o difusora.",
+        "Los directores de la publicación o programa en que se difundan.",
+        "Los directores de la empresa grabadora, reproductora o impresora."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 74,
+      "explicacion": ""
+    },
+    {
+      "n": 50,
+      "enunciado": "Diego, residente en España, ha acordado con un individuo afincado en Holanda el envío de un paquete a través de una empresa de transporte. Su interior contiene una bolsa con cocaína con un peso total de cinco kilogramos. Las autoridades policiales en el transcurso de la investigación han detectado e incautado este envío y esta sustancia estupefaciente antes de que llegue al domicilio de Diego ¿en qué fase del delito se encuentra el comportamiento de Diego?",
+      "opciones": [
+        "Al no haber llegado a tener posesión de la sustancia estupefaciente, se trata de un delito en grado de tentativa inacabada.",
+        "Es un delito consumado, aunque no haya recibido la sustancia estupefaciente.",
+        "La convivencia en el envío hace que se trate de un delito en grado de tentativa acabada. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 7"
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 31,
+      "explicacion": ""
+    },
+    {
+      "n": 51,
+      "enunciado": "La ejecución de un delito obliga a reparar los daños y perjuicios por él causados. La indemnización de perjuicios derivados de la comisión de un delito, abarca:",
+      "opciones": [
+        "Los perjuicios materiales y morales causados al agraviado.",
+        "Los perjuicios materiales y morales causados al agraviado y los que se hubieran irrogado a sus familiares.",
+        "Los perjuicios materiales y morales causados al agraviado y los que se hubieran irrogado a sus familiares o a terceros."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 33,
+      "explicacion": ""
+    },
+    {
+      "n": 52,
+      "enunciado": "En relación a la cancelación de los antecedentes delictivos, según el artículo 136.3 del Código Penal, las penas impuestas a las personas jurídicas cuando se hubiese acordado su disolución o la prohibición definitiva de actividades, se cancelarán las anotaciones transcurridos:",
+      "opciones": [
+        "20 años computados desde el día siguiente a la firmeza de la sentencia.",
+        "30 años computados desde el día siguiente a la firmeza de la sentencia.",
+        "50 años computados desde el día siguiente a la firmeza de la sentencia."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 72,
+      "explicacion": ""
+    },
+    {
+      "n": 53,
+      "enunciado": "El artículo 148 del Código Penal contempla las lesiones cualificadas; en relación a este tipo de delito indique cuál de las siguientes afirmaciones es correcta:",
+      "opciones": [
+        "Se castiga si hubiese mediado precio o alevosía.",
+        "Se castiga si hubiese mediado ensañamiento.",
+        "Se castiga si la víctima fuera menor de 16 años."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 34,
+      "explicacion": ""
+    },
+    {
+      "n": 54,
+      "enunciado": "¿Cuál es el bien jurídico protegido en los delitos de odio tipificados en el artículo 510 del CP?",
+      "opciones": [
+        "La diversidad social, cultural y religiosa.",
+        "El derecho a la igualdad.",
+        "La dignidad de la persona."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 74,
+      "explicacion": ""
+    },
+    {
+      "n": 55,
+      "enunciado": "El delito de Trata de Seres Humanos (artículo 177 bis Código Penal) recoge unas conductas típicas con unas finalidades determinadas; en relación a esto último indique cuál de las siguientes afirmaciones NO es correcta:",
+      "opciones": [
+        "Las prácticas similares a la servidumbre.",
+        "La explotación para realizar actividades lucrativas.",
+        "Los matrimonios forzados."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 16,
+      "explicacion": ""
+    },
+    {
+      "n": 56,
+      "enunciado": "¿Cuál de los siguientes elementos NO constituye una característica del tipo básico del delito de acoso sexual?",
+      "opciones": [
+        "El especial ataque contra la libertad sexual del sujeto pasivo se entiende consumado cuando media la sola petición de contenido sexual.",
+        "La conducta debe provocar en la víctima una percepción personal de hostilidad y humillación.",
+        "El ámbito en el cual se soliciten los favores sexuales lo ha de ser en el seno de una relación laboral, docente o de prestación de servicios, continuada o habitual."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 36,
+      "explicacion": ""
+    },
+    {
+      "n": 57,
+      "enunciado": "¿Pueden cometerse por imprudencia los delitos de suposición de parto y de alteración de la paternidad estado o condición del menor?",
+      "opciones": [
+        "Cuando se produzcan en un centro sanitario si cabe la imprudencia por parte de los responsables de la identificación y custodia.",
+        "No, ya que es un delito doloso.",
+        "Solo cabe la imprudencia grave en caso de sustitución de un niño por otro, en el supuesto descrito en el apartado a)."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 27,
+      "explicacion": ""
+    },
+    {
+      "n": 58,
+      "enunciado": "¿En los delitos contra la flora silvestre, el tipo imprudente establece distinciones entre especies protegidas y especies en peligro de extinción?",
+      "opciones": [
+        "SÍ. La pena se agrava cuando se trata de especies protegidas.",
+        "SÍ. El tipo agravado se aplica únicamente si se trata de especies o subespecies catalogadas en peligro de extinción.",
+        "No. El marco penal es el mismo. No se establecen distinciones entre especies protegidas y especies en peligro de extinción. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 39,
+      "explicacion": ""
+    },
+    {
+      "n": 59,
+      "enunciado": "El sujeto activo del tipo penal de la falsificación de certificados puede ser:",
+      "opciones": [
+        "Funcionario público o particular.",
+        "Autoridad o funcionario público.",
+        "Facultativo, particular, autoridad o funcionario público."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 40,
+      "explicacion": ""
+    },
+    {
+      "n": 60,
+      "enunciado": "¿Qué delito comete el funcionario que al facilitar a un extranjero el impreso modelo 790 para pagar las tasas por tramitación de la autorización de residencia, cobra 5 euros como precio?",
+      "opciones": [
+        "Cohecho del artículo 420 del Código Penal.",
+        "Exacción ilegal del artículo 437 del Código Penal.",
+        "Fraude del artículo 438 del Código Penal."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 41,
+      "explicacion": ""
+    },
+    {
+      "n": 61,
+      "enunciado": "¿Qué delito comete el abogado o procurador que revelare actuaciones procesales declaradas secretas por la autoridad judicial?",
+      "opciones": [
+        "Deslealtad profesional.",
+        "Descubrimiento y revelación de secretos.",
+        "Obstrucción a la justicia."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 42,
+      "explicacion": ""
+    },
+    {
+      "n": 62,
+      "enunciado": "A Juan le han donado varias pistolas automáticas marca Intranec, del calibre 9 mm. parabellum, y tiene prevista custodiarlas en su domicilio en un armero autorizado y con las debidas medidas de seguridad, pero ¿cuántas armas de este tipo puede poseer sin que constituya un delito de depósito de armas de guerra?",
+      "opciones": [
+        "Al menos cinco.",
+        "Más de cinco.",
+        "Ninguna."
+      ],
+      "correcta": 2,
+      "dificultad": "dificil",
+      "tema": 81,
+      "explicacion": ""
+    },
+    {
+      "n": 63,
+      "enunciado": "¿Cuál es el órgano, dependiente de la Abogacía del Estado, que tiene como función la representación y defensa en juicio de los procedimientos seguidos ante el Tribunal Constitucional de la Administración General del Estado?",
+      "opciones": [
+        "La Subdirección General de lo Consultivo y Asuntos Constitucionales.",
+        "La Subdirección General de Asuntos Constitucionales y Derechos Humanos.",
+        "La Subdirección General de Recursos y Auditoría Interna."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 6,
+      "explicacion": ""
+    },
+    {
+      "n": 64,
+      "enunciado": "Para decretar la prisión provisional, NO se tendrá en cuenta:",
+      "opciones": [
+        "La aparición de motivos bastantes para creer responsable criminalmente del delito a la persona contra quien se haya de dictar el auto de prisión.",
+        "La existencia de uno o varios hechos que presenten caracteres de delito sancionado con pena cuyo máximo sea igual o superior a dos años de prisión.",
+        "La alarma social que la comisión del delito haya producido."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 48,
+      "explicacion": ""
+    },
+    {
+      "n": 65,
+      "enunciado": "¿De qué plazo dispondrá el Ministerio Fiscal cuando un menor detenido sea puesto a su disposición para resolver sobre su puesta en libertad, desistimiento o puesta a disposición del Juez de Menores competente?",
+      "opciones": [
+        "Dentro de las veinticuatro horas desde que fue puesto a su disposición.",
+        "Dentro de las cuarenta y ocho horas a partir de la detención.",
+        "Dentro de las cuarenta y ochos horas desde que fue puesto a su disposición."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 47,
+      "explicacion": ""
+    },
+    {
+      "n": 66,
+      "enunciado": "Según el artículo 579 bis de la Ley de Enjuiciamiento Criminal sobre utilización de la información obtenida en un procedimiento distinto y descubrimientos casuales:",
+      "opciones": [
+        "El resultado de la detención y apertura de la correspondencia escrita y telegráfica podrá ser utilizado como medio de investigación o prueba en otro proceso penal.",
+        "El resultado de la detención y apertura de la correspondencia escrita y telegráfica no podrá ser utilizado como medio de investigación o prueba en otro proceso penal si el descubrimiento es casual.",
+        "La continuación de esta medida para la investigación del delito casualmente descubierto no requiere autorización del juez competente. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 9"
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 48,
+      "explicacion": ""
+    },
+    {
+      "n": 67,
+      "enunciado": "El testigo de un hecho delictivo, al iniciar la declaración en el Juzgado de Instrucción competente, presenta una documentación en la que acredita tener una enfermedad terminal y que tiene motivos suficientes para temer que no pueda asistir al juicio oral ¿qué acción tomará el Juez para asegurar su declaración como prueba preconstituida?",
+      "opciones": [
+        "El Juez le tomará declaración con la precaución del registro correcto en el acta realizada por el Letrado de la Administración de Justicia.",
+        "La autoridad judicial garantizará el principio de contradicción durante la declaración garantizando la presencia del Fiscal, el investigado y su abogado.",
+        "El Letrado de la Administración de Justicia solicitará al reo que designe a un abogado en un plazo de 24 horas, en caso contrario se designará uno de oficio."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 58,
+      "explicacion": ""
+    },
+    {
+      "n": 68,
+      "enunciado": "Las conversaciones o comunicaciones que tienen lugar en el seno de chats o foros de Internet abiertos a cualquier usuario…",
+      "opciones": [
+        "No precisan de autorización judicial para su grabación u observación.",
+        "Precisan con carácter general recabar previa resolución judicial habilitante.",
+        "Precisan autorización judicial para su grabación, pero no para su observación."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 50,
+      "explicacion": ""
+    },
+    {
+      "n": 69,
+      "enunciado": "Respecto al concepto de bien jurídico, señale la respuesta correcta:",
+      "opciones": [
+        "Su protección agota la finalidad de la norma penal.",
+        "Trasmite toda la información necesaria sobre la norma penal.",
+        "Expresa el origen de la norma penal."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 22,
+      "explicacion": ""
+    },
+    {
+      "n": 70,
+      "enunciado": "Los convenios de colaboración con entidades públicas y privadas, sin ánimo de lucro, para prestar los servicios de asistencia y apoyo a las víctimas de delito podrán ser celebradas por:",
+      "opciones": [
+        "El Ministerio de Justicia o las Comunidades Autónomas.",
+        "El Ministerio del Interior y los Ayuntamientos.",
+        "El Ministerio Fiscal y las Juntas Municipales."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": ""
+    },
+    {
+      "n": 71,
+      "enunciado": "Según el artículo 3.1 de la Ley 4/2015, de 27 de abril, del Estatuto de la víctima del delito, la mediación en supuestos de violencia de género:",
+      "opciones": [
+        "Estará vedada.",
+        "Se realizará siempre que la víctima haya prestado su consentimiento, después de haber recibido información exhaustiva e imparcial sobre su contenido.",
+        "Se realizará siempre que el infractor haya reconocido los hechos esenciales de los que deriva su responsabilidad."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 51,
+      "explicacion": ""
+    },
+    {
+      "n": 72,
+      "enunciado": "Recibida la solicitud de orden de protección, el juez de guardia, convocará a una audiencia urgente a la víctima o su representante legal, al solicitante y al agresor, asistido, en su caso, de abogado. Asimismo, será convocado el Ministerio Fiscal. Cuando excepcionalmente no fuese posible la celebración de la audiencia durante el servicio de guardia, el juez ante el que hubiera sido formulada la solicitud, la convocará en el plazo más breve posible, que no podrá exceder de:",
+      "opciones": [
+        "48 horas desde la presentación de la solicitud.",
+        "72 horas desde la presentación de la solicitud.",
+        "24 horas desde la presentación de la solicitud."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 47,
+      "explicacion": ""
+    },
+    {
+      "n": 73,
+      "enunciado": "¿A qué víctima de las expresadas se le aplica la Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual?",
+      "opciones": [
+        "Mujer española y mayor de edad, víctima de una extorsión sexual a través de las nuevas tecnologías cometido en un país extranjero.",
+        "Menor de edad de nacionalidad extranjera, víctima de un delito de matrimonio forzado cometido en el extranjero.",
+        "Mujer de nacionalidad extranjera y mayor de edad, víctima de un acoso sexual en el extranjero tipificado en el CP español. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 3,
+      "explicacion": ""
+    },
+    {
+      "n": 74,
+      "enunciado": "Según la Ley 31/1995 de Prevención de Riesgos Laborales:",
+      "opciones": [
+        "Se entenderá por «prevención» el conjunto de actividades o medidas adoptadas o previstas por las empresas con el fin de controlar los riesgos derivados de cualquier actividad que se desempeñe en las mismas.",
+        "Se entenderá como «riesgo laboral» la posibilidad de que un trabajador sufra un determinado daño derivado del trabajo.",
+        "Se considerarán como «daños derivados del trabajo» todas las incidencias que pudieran ocasionar una enfermedad que derive en una patología o lesión, sufrida con motivo u ocasión del trabajo."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 53,
+      "explicacion": ""
+    },
+    {
+      "n": 75,
+      "enunciado": "Según lo postulado por Comeron (2001) y en relación con el hooliganismo, indique la opción FALSA:",
+      "opciones": [
+        "Este fenómeno, mediante determinados procesos de individualización que rige las personas que lo componen, va a arrastrar a los individuos más comunes a adoptar colectivamente comportamientos de una violencia que puede llegar a ser letal.",
+        "Estos comportamientos de masa son controlables, aunque generalizados, siendo modelados por los núcleos duros para hacer un modo de funcionamiento permanente.",
+        "Los hooligans compensan sus pobres perspectivas sociales con la excitación y la identificación. Psicológicamente, invierten todo en su equipo y en su banda."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 66,
+      "explicacion": ""
+    },
+    {
+      "n": 76,
+      "enunciado": "De acuerdo con Fernández Trespalacios, y en el contexto de las propiedades o características de la atención, la referida a la cantidad de impresiones que se puede atender o el número de tareas que se puede controlar, es la denominada, ya en tiempos de Wundt:",
+      "opciones": [
+        "Intensidad.",
+        "Amplitud.",
+        "Capacidad."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 57,
+      "explicacion": ""
+    },
+    {
+      "n": 77,
+      "enunciado": "De acuerdo con Marcos Ruiz (2003), en referencia a la Teoría del trazo borroso de Brainerd y Reyna, la fase en la que se produce un almacenamiento paralelo de la información literal y del tema, es la denominada:",
+      "opciones": [
+        "Fase de acumulación informativa.",
+        "Fase de adquisición.",
+        "Fase de asociación."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 72,
+      "explicacion": ""
+    },
+    {
+      "n": 78,
+      "enunciado": "En el contexto de los estudios llevados a cabo por Thorndike, ¿en qué tipo de condicionamiento un Estímulo Condicionado indica la presentación del Estímulo Incondicionado, sin tener en cuenta cualquier respuesta que el sujeto pueda o no ejecutar?",
+      "opciones": [
+        "En el condicionamiento Operante.",
+        "En el condicionamiento Clásico.",
+        "En el aprendizaje observacional."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 59,
+      "explicacion": ""
+    },
+    {
+      "n": 79,
+      "enunciado": "Siguiendo a Bermúdez, Pérez y Sanjuán (2005), en relación al modelo jerárquico de personalidad, que va desde lo más específico a lo más general, propuesto por Eysenck (1967, 1990), las respuestas específicas que pueden observarse una vez y que pueden o no ser características del individuo, representarían:",
+      "opciones": [
+        "El primer nivel.",
+        "El segundo nivel.",
+        "El tercer nivel."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 61,
+      "explicacion": ""
+    },
+    {
+      "n": 80,
+      "enunciado": "Un inspector de Policía, como gestor de recursos humanos, y siguiendo la teoría de Hans Eysenck sobre la personalidad ¿qué consideraciones tiene que tener en cuenta a la hora de distribuir tareas a los integrantes de su grupo respecto a su personalidad?",
+      "opciones": [
+        "Las personas extrovertidas presentan una mayor reacción ante un estímulo que las introvertidas.",
+        "Las personas extrovertidas tienen mayor sensibilidad a las señales de recompensa.",
+        "Las personas introvertidas rinden mejor con niveles de estimulación altos que los extravertidos. I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 11"
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 61,
+      "explicacion": ""
+    },
+    {
+      "n": 81,
+      "enunciado": "Según exponen Huici y Morales, entre otros autores (2005), en relación al liderazgo transcultural, y en lo relativo a las dimensiones encontradas en este campo por Hofstede (1980, 1991), el grado en el que los miembros de una organización o sociedad esperan y aceptan una distribución desigual del poder, referida a la forma de percibir y comportarse hacia las figuras de autoridad, se refiere a:",
+      "opciones": [
+        "La distancia de poder.",
+        "El poder individualista.",
+        "El poder autocrático."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 65,
+      "explicacion": ""
+    },
+    {
+      "n": 82,
+      "enunciado": "De acuerdo con Palacio (2010), en lo relacionado con la teoría sobre el suicidio, aplicando su método estadístico y sociológico, Durkheim llega a la conclusión central de que este fenómeno debe ser considerado como un hecho social; en cuanto hay que buscar su causa fundamental en la llamada por él:",
+      "opciones": [
+        "Anomia social.",
+        "Crisis de valores.",
+        "Desorientación cultural."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 66,
+      "explicacion": ""
+    },
+    {
+      "n": 83,
+      "enunciado": "La Teoría de la desigualdad de oportunidades es una teoría explicativa de la delincuencia, que fue desarrollada por:",
+      "opciones": [
+        "Cloward y Ohlin.",
+        "Cohen.",
+        "Sutherland."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 66,
+      "explicacion": ""
+    },
+    {
+      "n": 84,
+      "enunciado": "En el contexto de los tipos de catástrofes y conductas colectivas y de acuerdo con Morales, Huici y otros (2001), el “pánico” se define a partir de una serie de elementos entre los que NO se encuentra:",
+      "opciones": [
+        "El componente subjetivo.",
+        "El contagio sensorial.",
+        "El componente conductual."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 67,
+      "explicacion": ""
+    },
+    {
+      "n": 85,
+      "enunciado": "En el marco de los nuevos movimientos antiglobalización en el contexto europeo, y dentro de los novedosos discursos, de acuerdo con Francisco Madero Navajas (2020), el paradigma que se intenta implementar consistente en tratar de hacer una crítica desde la base a lo económico, social y cultural, sin olvidar, el abuso de los recursos naturales -y esto engloba el acceso a la tierra-, por parte del sistema capitalista es:",
+      "opciones": [
+        "La democracia radical.",
+        "La democracia real.",
+        "La democracia impuesta."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 68,
+      "explicacion": ""
+    },
+    {
+      "n": 86,
+      "enunciado": "El primer acontecimiento en la historia que marca un punto de inflexión en el movimiento antiglobalización, tuvo lugar en el año 1999 en la ciudad estadounidense de Seattle. La protesta se dirigía contra la reunión, en la referida ciudad, del organismo denominado:",
+      "opciones": [
+        "Organización Mundial del Comercio.",
+        "Fondo Monetario Internacional.",
+        "Banco Mundial."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 68,
+      "explicacion": ""
+    },
+    {
+      "n": 87,
+      "enunciado": "Señale la respuesta correcta. Cuando las variables son constructos hipotéticos, el método que se emplea es el:",
+      "opciones": [
+        "Correlacional.",
+        "Empírico.",
+        "Experimental. PASE A LA PÁGINA SIGUIENTE __________________ I.L._37"
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 69,
+      "explicacion": ""
+    },
+    {
+      "n": 88,
+      "enunciado": "Cuando nos referimos a la estadística en el ámbito del Ministerio del Interior conviene citar a la Dirección General de Coordinación y Estudios, que desempeña diferentes funciones, entre las que NO se encuentra:",
+      "opciones": [
+        "Desarrollar, implantar y gestionar la Estadística Nacional de Criminalidad, integrando todos los datos procedentes de las Fuerzas y Cuerpos de Seguridad del Estado, las policías autonómicas y las policías locales.",
+        "Elaborar periódicamente informes estadísticos sobre la situación y evolución de la criminalidad.",
+        "Elaborar inteligencia estratégica en la lucha contra el terrorismo y el crimen organizado."
+      ],
+      "correcta": 2,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": ""
+    },
+    {
+      "n": 89,
+      "enunciado": "Cuál de los siguientes libros NO se llevarán en los Registros Mercantiles:",
+      "opciones": [
+        "Libros de ruegos y firmas.",
+        "Libro de inscripciones y su Diario de presentación.",
+        "Inventario."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 72,
+      "explicacion": ""
+    },
+    {
+      "n": 90,
+      "enunciado": "El libro Registro de Acciones Nominativas deberá ser llevado por:",
+      "opciones": [
+        "Las sociedades anónimas.",
+        "Las sociedades de responsabilidad limitada.",
+        "Las sociedades unipersonales."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 72,
+      "explicacion": ""
+    },
+    {
+      "n": 91,
+      "enunciado": "Qué es el encapsulamiento, en programación modular:",
+      "opciones": [
+        "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que solo se puede cambiar mediante las operaciones definidas para ese objeto.",
+        "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que se puede cambiar con cualquier operación independientemente de que este definida para ese objeto.",
+        "Se denomina encapsulamiento al ocultamiento del estado, es decir, de los datos miembro de un objeto de manera que no se puede cambiar."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 73,
+      "explicacion": ""
+    },
+    {
+      "n": 92,
+      "enunciado": "Los dispositivos de almacenamiento de información conocidos como Pendrives, se consideran del tipo:",
+      "opciones": [
+        "Dispositivos de almacenamiento de medio magnético-óptico.",
+        "Dispositivos de almacenamiento de medio electrónico.",
+        "Dispositivos de almacenamiento de medio óptico."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 74,
+      "explicacion": ""
+    },
+    {
+      "n": 93,
+      "enunciado": "¿Qué se entiende por el término “Doxing” respecto a la ciberdelincuencia y los agentes de la amenaza?",
+      "opciones": [
+        "Es un tipo de malware que obtiene dinero con publicidad, pero se esconde para que no se pueda desinstalar, utilizando genéricos u otras técnicas para ocultarse.",
+        "El término se encuentra directamente relacionado con el acoso sexual por internet.",
+        "Se trata de buscar y publicar en internet información privada o que identifique a un individuo (información personal), generalmente con intenciones maliciosas como intimidar, humillar o amenazar."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 75,
+      "explicacion": ""
+    },
+    {
+      "n": 94,
+      "enunciado": "Cuando hablamos de Inteligencia HUMINT, atendiendo a la inteligencia según el medio del que procede la información nos estamos refiriendo a:",
+      "opciones": [
+        "Diferentes metodologías utilizadas para la captación de información a través de fuentes humanas.",
+        "Este tipo de inteligencia no atiende al medio del que procede la información, sino al nivel de decisión para la explotación de la inteligencia obtenida.",
+        "Es la inteligencia procedente de todo tipo de señales y transmisiones (radiocomunicaciones, electrónicas, telemétricas, acústicas y nucleares). I.L._37 ________________ PASE A LA PÁGINA SIGUIENTE __________________ Pág. 13"
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 76,
+      "explicacion": ""
+    },
+    {
+      "n": 95,
+      "enunciado": "¿Qué fase NO pertenece al proceso OSINT (Open Source Intelligent)?",
+      "opciones": [
+        "Búsqueda masiva de información.",
+        "Presentación de inteligencia.",
+        "Identificar fuentes de información relevantes."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 76,
+      "explicacion": ""
+    },
+    {
+      "n": 96,
+      "enunciado": "Una de las metodologías más utilizadas que permite el análisis de gestión de riesgos de los sistemas de información, creada por el Consejo Superior de Administración Electrónica (actualmente Comisión de Estrategia TIC) para minimizar los riesgos de la implantación y uso de las Tecnologías de la Información siguiendo la terminología de la norma ISO31000, es:",
+      "opciones": [
+        "MAGERIT.",
+        "OCTAVE.",
+        "MEHARI."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 77,
+      "explicacion": ""
+    },
+    {
+      "n": 97,
+      "enunciado": "¿Qué tipo de permiso de conducción necesita un policía para conducir un camión de la unidad de caballería, el cual tiene dos ejes y una masa máxima autorizada de 20.500 kilos?",
+      "opciones": [
+        "C1.",
+        "C.",
+        "C1+E."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 78,
+      "explicacion": ""
+    },
+    {
+      "n": 98,
+      "enunciado": "Cuando un vehículo de policía que manifiesta su presencia según lo dispuesto en el Reglamento General de Circulación, artículo 68.2 se sitúa detrás de cualquier otro vehículo y activa además un dispositivo de emisión de luz amarilla hacia adelante de forma intermitente o destellante, el conductor de éste deberá:",
+      "opciones": [
+        "Detener el vehículo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios y esperará fuera del vehículo.",
+        "Detener el vehículo con las debidas precauciones en el lado derecho, delante del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior.",
+        "Detener el vehículo con las debidas precauciones en el lado derecho, detrás del vehículo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios y permanecerá en su interior."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 73,
+      "explicacion": ""
+    },
+    {
+      "n": 99,
+      "enunciado": "¿Qué dato NO consta en la numeración de fábrica de las armas de fuego?",
+      "opciones": [
+        "El número asignado a cada fábrica o taller por la Intervención Central de Armas y Explosivos.",
+        "El código de tres cifras correspondiente al tipo de arma de que se trate.",
+        "Las dos últimas cifras del año de fabricación."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 81,
+      "explicacion": ""
+    },
+    {
+      "n": 100,
+      "enunciado": "En relación a la numeración de las armas de fuego, es conocido que determinados órganos del Estado las numeraran con determinadas contraseñas propias. Señale la opción correcta:",
+      "opciones": [
+        "Para la Armada: F.N. y su numeración correlativa.",
+        "Para la Dirección Adjunta de Vigilancia Aduanera: DAVA y su numeración correlativa.",
+        "Para los tres ejércitos integrantes del Ministerio de Defensa: M.D. y su numeración correlativa."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 81,
+      "explicacion": ""
+    }
+  ]
+}

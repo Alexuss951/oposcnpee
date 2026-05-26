@@ -16,8 +16,8 @@
         "El Juez de Instrucción del lugar donde se produjo la detención."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -29,8 +29,8 @@
         "Todos los anteriores, además de los públicos."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -42,8 +42,8 @@
         "El momento en que tiene su entrada en dependencias policiales donde se vaya a practicar las diligencias de identificación."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -55,8 +55,8 @@
         "Ciberdelincuencia intrusiva."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -68,8 +68,8 @@
         "Notificará a la parte perjudicada que, si no identifica al autor en 24 horas, no remitirá las actuaciones a la autoridad judicial."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -81,8 +81,8 @@
         "10"
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -94,8 +94,8 @@
         "Fingidas e irreales."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -107,8 +107,8 @@
         "Ninguna de las medidas de seguridad que se proponen."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 33,
       "explicacion": ""
     },
     {
@@ -120,8 +120,8 @@
         "Depende de la Dirección General de Coordinación y Estudios de la Secretaría de Estado de Seguridad."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -133,8 +133,8 @@
         "Muy graves en grado medio y en grado mínimo."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -146,8 +146,8 @@
         "Área de Derechos Humanos e Igualdad."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -159,8 +159,8 @@
         "A la antijuridicidad de la conducta."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 28,
       "explicacion": ""
     },
     {
@@ -172,8 +172,8 @@
         "Delito de amenazas a menores."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -185,8 +185,8 @@
         "El concurso general de méritos."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -198,8 +198,8 @@
         "El Servicio de Innovación y Desarrollo de la Subdirección General de Logística e Innovación."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -211,8 +211,8 @@
         "La Subdirección General de Cooperación Policial Internacional."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -224,8 +224,8 @@
         "A la persona que designe la persona que tenga la condición de instructor."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -237,8 +237,8 @@
         "Mínimo 15 días naturales, y máximo 30."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -250,8 +250,8 @@
         "Podrá durar más de 72 horas, excepcionalmente cuando el detenido sea persona integrada o relacionada con bandas armadas o elementos terroristas o rebeldes, que permite una ampliación del plazo general de hasta 48 horas."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -263,8 +263,8 @@
         "Es un ataque que consiste en modificar o sustituir el archivo del servidor de nombres de dominio cambiando la dirección IP legítima por otra que da acceso a una web falsa."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -276,8 +276,8 @@
         "Islandia, Noruega y Liechtenstein."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -289,8 +289,8 @@
         "Se asignan por orden jerárquico."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -302,8 +302,8 @@
         "Perseguibles de oficio o a instancia de parte."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -315,8 +315,8 @@
         "Presidente, del Vicepresidente o Vicepresidentes, en su caso, de los Ministros y de los Secretarios de Estado que se reúnen en Consejo de Ministros o en Comisiones delegadas del Gobierno."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -328,8 +328,8 @@
         "El carné profesional."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -341,8 +341,8 @@
         "La Unidad de Gestión de Personal Policial y Recursos Económicos."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -354,8 +354,8 @@
         "La fórmula D’Hondt."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -367,8 +367,8 @@
         "Ambas respuestas son correctas."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -380,8 +380,8 @@
         "En el caso de realización de cursos de altos estudios profesionales para el desempeño de puestos directivos."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -393,8 +393,8 @@
         "Separación del servicio."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -406,8 +406,8 @@
         "El Grupo de Delitos de Odio y Radicalización Violenta."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -419,8 +419,8 @@
         "Debe ser detenido inmediatamente y puesto a disposición del Ministerio Fiscal."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -432,8 +432,8 @@
         "El Consejo Nacional de Ciberseguridad."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -445,8 +445,8 @@
         "c) Investigado y responsable civil."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -458,8 +458,8 @@
         "Hasta que se solucione el conflicto, se hará cargo del servicio el Cuerpo que hubiera realizado las primeras actuaciones."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -471,8 +471,8 @@
         "Delitos dolosos castigados con pena con límite máximo de, al menos, tres años de prisión."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 50,
       "explicacion": ""
     },
     {
@@ -484,8 +484,8 @@
         "Está exento de comparecer, podría declarar en su despacho oficial pero no podría informar por escrito."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -497,8 +497,8 @@
         "En la Subdirección General de Recursos Humanos y Formación."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -510,8 +510,8 @@
         "A los nacionales de terceros países que estén exentos de la obligación de portar visado para su entrada en territorio Schengen."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -523,8 +523,8 @@
         "Agresión ilegítima."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 28,
       "explicacion": ""
     },
     {
@@ -536,8 +536,8 @@
         "Reglamentos Comunitarios."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -549,8 +549,8 @@
         "Exclusivamente delitos relacionados con terrorismo y libertad sexual."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -562,8 +562,8 @@
         "El control de entrada y salida del territorio nacional de españoles y extranjeros."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -575,8 +575,8 @@
         "Denuncia anónima y denuncia en sentido estricto."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -588,8 +588,8 @@
         "Ninguna de las anteriores, por error en el enunciado."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -601,8 +601,8 @@
         "La Comisión de seguridad y salud laboral policial."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -614,8 +614,8 @@
         "Spoofing."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -627,8 +627,8 @@
         "Ley Orgánica 4/2018, de 15 de diciembre."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -640,8 +640,8 @@
         "A todas las categorías sólo por concurso oposición."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -653,8 +653,8 @@
         "Asignar puestos de trabajo automáticamente."
       ],
       "correcta": 0,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -666,8 +666,8 @@
         "El Parlamento Europeo."
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -679,8 +679,8 @@
         "CENIF"
       ],
       "correcta": 2,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -692,8 +692,8 @@
         "Conspirador."
       ],
       "correcta": 1,
-      "dificultad": "",
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 31,
       "explicacion": ""
     }
   ]

@@ -5,7 +5,7 @@
   "fecha": null,
   "modelo": "A",
   "fuente": "MAD — Examen oficial Promoción 39 (mad.es)",
-  "total_preguntas": 100,
+  "total_preguntas": 96,
   "preguntas": [
     {
       "n": 1,
@@ -16,8 +16,8 @@
         "El delito de descubrimiento."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -29,8 +29,8 @@
         "El Director General de la Policía, a través del Delegado bajo la autoridad del Secretario y Ministerio de Interior."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -42,21 +42,8 @@
         "Lo planificamos a groso modo, sin entrar en detalles."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
-      "explicacion": ""
-    },
-    {
-      "n": 4,
-      "enunciado": "Señale el pretérito perfecto de subjuntivo del verbo “investigar”:",
-      "opciones": [
-        "Hubiera o hubiese investigado.",
-        "Hubiere investigado.",
-        "Haya investigado."
-      ],
-      "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -68,8 +55,8 @@
         "Por el Centro Español de Seguridad de Infraestructuras Críticas. (CESIC)"
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 21,
       "explicacion": ""
     },
     {
@@ -81,8 +68,8 @@
         "El matrimonio.  3  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -94,8 +81,8 @@
         "Unida en la diversidad."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -107,8 +94,8 @@
         "TRUECRYPT, VERACRYPT, iVAULT2."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 72,
       "explicacion": ""
     },
     {
@@ -120,8 +107,8 @@
         "Veintiséis días hábiles."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -133,21 +120,8 @@
         "Ambas, y además para enviar correo SPAM."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
-      "explicacion": ""
-    },
-    {
-      "n": 11,
-      "enunciado": "¿Cuál de las siguientes opciones es correcta?",
-      "opciones": [
-        "Cuando vi a Marta la conminé a cejar en su actitud.",
-        "Cuando vi a Marta le conminé a cejar en su actitud.",
-        "Las dos frases anteriores son correctas."
-      ],
-      "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -159,8 +133,8 @@
         "Sí, salvo que de forma motivada se decida lo contrario por la autoridad o el funcionario competente."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -172,8 +146,8 @@
         "Refugiados."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 17,
       "explicacion": ""
     },
     {
@@ -185,8 +159,8 @@
         "Veinticuatro meses de subsidio por desempleo.  4 PROMOCIÓN N.º 39 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -198,8 +172,8 @@
         "Toda forma de expresión que difunda, incite, promueva o justifique el odio racial, la xenofobia, el antisemitismo u otras formas de odio basadas en la intolerancia."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -211,8 +185,8 @@
         "Del Rey."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -224,8 +198,8 @@
         "Al Estado, mediante ley orgánica."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -237,8 +211,8 @@
         "Beneficiencia."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -250,8 +224,8 @@
         "Cuando el procedimiento penal concluyera con una sentencia condenatoria."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -263,8 +237,8 @@
         "La devolución será acordada por la autoridad judicial competente para la expulsión."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -276,8 +250,8 @@
         "25 años.  5  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -289,8 +263,8 @@
         "INTECO."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -302,8 +276,8 @@
         "Manolo comete un delito de trato degradante del art 176 del código penal."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -315,8 +289,8 @@
         "María necesitaría el pasaporte o documento de identidad valido y en vigor y Abayomi el pasapor- te en vigor y el visado de entrada."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -328,8 +302,8 @@
         "Si la víctima y el autor de los delitos mencionados tuvieran un hijo o hija en común, la autoridad judicial impondrá, respecto de este, pena de privación de la patria potestad."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 33,
       "explicacion": ""
     },
     {
@@ -341,8 +315,8 @@
         "A la Escala Ejecutiva (segunda categoría) y Subinspección."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 72,
       "explicacion": ""
     },
     {
@@ -354,8 +328,8 @@
         "Secretas.  6 PROMOCIÓN N.º 39 "
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -367,21 +341,8 @@
         "Dos infracciones leves, artículo 37 apartados 17 y 4."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
-      "explicacion": ""
-    },
-    {
-      "n": 29,
-      "enunciado": "¿Cuál de las siguientes opciones es correcta?",
-      "opciones": [
-        "Mi hermano es mayor que tú.",
-        "Mi hermano es más mayor que tú.",
-        "Las dos frases anteriores son correctas."
-      ],
-      "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -393,8 +354,8 @@
         "El tiempo estrictamente necesario."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -406,8 +367,8 @@
         "Que se le facilite copia de la denuncia debidamente certificada."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -419,8 +380,8 @@
         "Al que no compareciera ante la autoridad judicial."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -432,8 +393,8 @@
         "Flakka."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 21,
       "explicacion": ""
     },
     {
@@ -445,8 +406,8 @@
         "Mental, físico y social.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -458,8 +419,8 @@
         "Quedará exenta de la estampación de sello de entrada, pero no de la necesidad de visado."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -471,21 +432,8 @@
         "Por la transformación, fusión, absorción o escisión de una persona jurídica."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
-      "explicacion": ""
-    },
-    {
-      "n": 37,
-      "enunciado": "Conforme a las reglas ortográficas:",
-      "opciones": [
-        "La palabra biceps es llana, por lo tanto, no lleva tilde o acento ortográfico al terminar en la letra s.",
-        "La palabra bíceps, es llana y lleva tilde o acento ortográfico porque la letra s final va precedida de otra consonante.",
-        "Se puede escribir indistintamente biceps o bíceps al tratarse de una palabra llana procedente de otra lengua."
-      ],
-      "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 2,
       "explicacion": ""
     },
     {
@@ -497,8 +445,8 @@
         "Para uno o varios viajes, por un plazo máximo de doce meses."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -510,8 +458,8 @@
         "El Juez de Instrucción de guardia del lugar donde se halle detenido."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -523,8 +471,8 @@
         "Pirámides isométricas."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 72,
       "explicacion": ""
     },
     {
@@ -536,8 +484,8 @@
         "Los registros corporales externos y superficiales no podrán llevarse a cabo contra la voluntad del afectado.  8 PROMOCIÓN N.º 39 "
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -549,8 +497,8 @@
         "Es un sistema informático que emite alertas y contiene información sobre personas u objetos es- pecíficos, e instrucciones para las autoridades sobre las medidas que han de adoptarse cuando se haya dado con dicha persona u objeto."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -562,8 +510,8 @@
         "No tendrá ninguna responsabilidad penal."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -575,8 +523,8 @@
         "Es un tipo de racismo sutil porque generalmente es empleado por personas que están abierta- mente en contra del racismo y de los comportamientos racistas."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -588,8 +536,8 @@
         "Con una persona es suficiente."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 31,
       "explicacion": ""
     },
     {
@@ -601,8 +549,8 @@
         "En Windows pulse la combinación de teclas “Alt y F4”, mientras que en Mac, la combinación de teclas es “Alt y Q”."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -614,8 +562,8 @@
         "Toda persona física o jurídica que ha sufrido daños o perjuicios sobre su persona o patrimonio."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -627,8 +575,8 @@
         "Ninguna de las penas que se proponen.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 33,
       "explicacion": ""
     },
     {
@@ -640,8 +588,8 @@
         "Pepe y José con la intención de sustraer unos pantalones, acuden a un centro comercial donde quitan las alarmas a diferentes prendas de vestir valoradas en 700 Euros. Cuando se disponen a salir el guardia de seguridad los detiene."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -653,8 +601,8 @@
         "El accidente in itinere sólo contempla lesiones corporales."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -666,8 +614,8 @@
         "Quince días desde la notificación."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -679,8 +627,8 @@
         "Una resolución administrativa que acuerde una medida cautelar a favor de la víctima."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -692,8 +640,8 @@
         "La Oficina Nacional de Garantía de los Derechos Humanos."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -705,8 +653,8 @@
         "Por la Comisión de Seguridad y Salud laboral policial."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -718,8 +666,8 @@
         "Constitución española, Código Civil y Ley Orgánica del Registro Civil.  10 PROMOCIÓN N.º 39 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -731,8 +679,8 @@
         "Dar media vuelta o marcha atrás."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -744,8 +692,8 @@
         "Robo con intimidación, secuestro y allanamiento de morada."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -757,8 +705,8 @@
         "Spear Phishing."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -770,8 +718,8 @@
         "Ninguna es correcta."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 72,
       "explicacion": ""
     },
     {
@@ -783,8 +731,8 @@
         "Insider threat."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -796,8 +744,8 @@
         "Dos años desde que se tuviera conocimiento."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -809,8 +757,8 @@
         "Comunicar a la Dirección General de la Policía o, en su caso, al órgano autonómico competente todo cambio que afecte a su forma jurídica, denominación, composición, domicilio y sucursales en la forma que reglamentariamente se determine.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -822,8 +770,8 @@
         "6 meses."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -835,8 +783,8 @@
         "Añade la capa de seguridad que evita ataques de denegación de servicio."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -848,8 +796,8 @@
         "Son Centros de Estancia Temporal de Inmigrantes gestionados por el Ministerio de Inclusión, Se- guridad Social y Migraciones."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -861,8 +809,8 @@
         "Inducción al delito de atentado y lesiones."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 31,
       "explicacion": ""
     },
     {
@@ -874,8 +822,8 @@
         "Recoge los principios rectores relativos al Tribunal Constitucional, su composición, legitimación y competencias."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -887,8 +835,8 @@
         "El proteccionismo, de Jagdish Bhagwati."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -900,8 +848,8 @@
         "La prevención de la comisión de delitos e infracciones administrativas directamente relacionadas.  12 PROMOCIÓN N.º 39 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -913,8 +861,8 @@
         "V-4."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -926,8 +874,8 @@
         "Robo y hurto uso de vehículo."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -939,8 +887,8 @@
         "La integridad moral."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -952,8 +900,8 @@
         "En la parte trasera, sobre un cabezal telescópico que permita elevarlo por encima de la parte más alta de ésta."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -965,8 +913,8 @@
         "Ambas son correctas."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 37,
       "explicacion": ""
     },
     {
@@ -978,8 +926,8 @@
         "El tipo de cartuchos dotados de vaina con pistón de fuego anular, lleven o no proyectiles incor- porados."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -991,8 +939,8 @@
         "Ambos tienen capacidad para la incoación del procedimiento por falta leve.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1004,8 +952,8 @@
         "Al salir de una discoteca A que se encuentra en importante estado de intoxicación aborda a B y la intenta besar a la fuerza, B consigue zafarse y cuando A se está yendo del lugar, B coge una piedra del suelo y golpea a A en la cabeza causándole la muerte."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -1017,8 +965,8 @@
         "Una infracción administrativa de la Ley Orgánica 4/2015."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 50,
       "explicacion": ""
     },
     {
@@ -1030,8 +978,8 @@
         "Subdirección General de Recursos Humanos y Formación."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1043,8 +991,8 @@
         "Ninguna de las anteriores."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 39,
       "explicacion": ""
     },
     {
@@ -1056,8 +1004,8 @@
         "La adquiere desde la adopción."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -1069,8 +1017,8 @@
         "Un menor de edad no puede dar su consentimiento.  14 PROMOCIÓN N.º 39 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -1082,8 +1030,8 @@
         "Aquel que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -1095,8 +1043,8 @@
         "Sala Penal de la Audiencia Nacional."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -1108,8 +1056,8 @@
         "Más de 350 funcionarios."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -1121,8 +1069,8 @@
         "a y b son correctas."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 76,
       "explicacion": ""
     },
     {
@@ -1134,8 +1082,8 @@
         "Se presenta en forma de tabletas, cápsulas y polvos de colores."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 39,
       "explicacion": ""
     },
     {
@@ -1147,8 +1095,8 @@
         "Delito de atentado."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -1160,8 +1108,8 @@
         "La Unidad de Planificación de Recursos Humanos.  15  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1173,8 +1121,8 @@
         "Escoltas privados."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -1186,8 +1134,8 @@
         "Armazón, cañón, tambor, cerrojo, corredera y mecanismos de cierre."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -1199,8 +1147,8 @@
         "Síndrome del viajero."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1212,8 +1160,8 @@
         "La persona titular de la Secretaría de Estado de Seguridad."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1225,8 +1173,8 @@
         "Delito de estafa."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -1238,8 +1186,8 @@
         "Depende, debe tenerse en cuenta las circunstancias del hecho y las personas del autor, en parti- cular su arraigo en España."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -1251,8 +1199,8 @@
         "La Haya.  16 PROMOCIÓN N.º 39 "
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 17,
       "explicacion": ""
     },
     {
@@ -1264,8 +1212,8 @@
         "Las Autoridades judiciales del orden jurisdiccional civil."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -1277,8 +1225,8 @@
         "Dieciséis semanas de permiso intransferible retribuido."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -1290,8 +1238,8 @@
         "Gregorio Peces-Barba Martínez."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -1303,8 +1251,8 @@
         "El orden no está definido, dependerá de lo que especifique cada convocatoria.  17"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 12,
       "explicacion": ""
     }
   ]

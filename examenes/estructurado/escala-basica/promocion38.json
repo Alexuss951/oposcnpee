@@ -5,7 +5,7 @@
   "fecha": null,
   "modelo": "A",
   "fuente": "MAD — Examen oficial Promoción 38 (mad.es)",
-  "total_preguntas": 100,
+  "total_preguntas": 99,
   "preguntas": [
     {
       "n": 1,
@@ -16,8 +16,8 @@
         "10 días."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -29,8 +29,8 @@
         "Llevar al menos dos años casado con español o española y no estuviere separado legalmente o de hecho."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -42,8 +42,8 @@
         "Principios rectores de la política social y económica."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -55,8 +55,8 @@
         "Las Cortes aprueban y el pueblo español ratifica."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -68,8 +68,8 @@
         "Cuando sea mayor de catorce años y conste autorización de los titulares de la patria potestad.  3  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -81,8 +81,8 @@
         "Que el Estado garantiza el principio de solidaridad velando por el establecimiento de un equili- brio que implique proporcionalidad económica y social entre las distintas Comunidades Autónomas."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -94,8 +94,8 @@
         "Cuando así lo soliciten, dentro de los 15 días siguientes a su aprobación una décima parte de los miembros de cualquiera de las Cámaras."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -107,8 +107,8 @@
         "Las sesiones extraordinarias deberán convocarse sobre un orden del día determinado y serán clausuradas una vez que éste haya sido agotado."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -120,8 +120,8 @@
         "Son actos de carácter vinculante siempre y cuando hayan sido traspuestos al Derecho nacional."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -133,8 +133,8 @@
         "Premio Nobel de la Paz."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -146,8 +146,8 @@
         "Sugerir cuestión de confianza.  4 PROMOCIÓN N.º 38 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -159,8 +159,8 @@
         "Elegirá a su Presidente por mayoría cualificada para un mandato de dos años y medio, que podrá renovarse una sola vez."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -172,8 +172,8 @@
         "Ministerio de Sanidad, Consumo y Bienestar Social."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -185,8 +185,8 @@
         "Proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana, a través de los Subdelegados del Gobierno y de las Fuerzas y Cuerpos de seguridad del Estado, cuya jefatura corresponderá al Delegado del Gobierno."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -198,8 +198,8 @@
         "4 años."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -211,8 +211,8 @@
         "El personal interino."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -224,8 +224,8 @@
         "Comisión de servicios."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -237,8 +237,8 @@
         "Subdirección General de Sistemas de Información y Comunicaciones para la Seguridad.  5  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -250,8 +250,8 @@
         "Secretaria de Estado de Seguridad."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -263,8 +263,8 @@
         "Al Director General de la Policía corresponden los procesos selectivos de ingreso mientras que los de promoción interna, al Director Adjunto Operativo."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -276,8 +276,8 @@
         "También los funcionarios del Cuerpo especial de Prisiones."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -289,8 +289,8 @@
         "El la Brigada Central de Blanqueo de Capitales y Anticorrupción de la Unidad Central de Delin- cuencia Económica y Fiscal."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -302,8 +302,8 @@
         "Velar por la protección y seguridad de altas personalidades."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -315,8 +315,8 @@
         "El Consejo de Política de Seguridad."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -328,8 +328,8 @@
         "Responsabilidad.  6 PROMOCIÓN N.º 38 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -341,8 +341,8 @@
         "Todos los extranjeros a los que se haya expedido un visado para permanecer en España por un periodo superior a 120 días."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -354,8 +354,8 @@
         "A Taras, de 22 años de edad, hijo de un nacional ucraniano, registrado como pareja de hecho con una mujer española."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -367,8 +367,8 @@
         "1995."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -380,8 +380,8 @@
         "El Centro docente donde desarrolle su actividad laboral deberá solicitar la correspondiente Auto- rización de trabajo por cuenta ajena."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -393,8 +393,8 @@
         "Autorización de entrada al haber cumplido 2/3 de la prohibición de entrada impuesta."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -406,8 +406,8 @@
         "Las infracciones muy graves prescribirán a los 5 años, las graves a los 3 años y las leves a los 10 meses."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -419,8 +419,8 @@
         "Se le inicia un expediente de expulsión en base a la infracción 53.1 a) Encontrarse irregularmente en territorio español Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranje- ros en España y su integración social.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -432,8 +432,8 @@
         "Podrá ser expulsado por razones de orden público, seguridad pública, seguridad nacional o salud pública."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 17,
       "explicacion": ""
     },
     {
@@ -445,8 +445,8 @@
         "Al Ministerio Fiscal."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -458,8 +458,8 @@
         "Hayan sido formuladas por menores no acompañados."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -471,8 +471,8 @@
         "Protección de eventos deportivos, o multitudinarios."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -484,8 +484,8 @@
         "La habilitación de todo el personal de seguridad privada corresponderá a la Dirección General de la Policía, excepto la de los guardas rurales y sus especialidades que corresponderá a la Dirección General de la Guardia Civil."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -497,8 +497,8 @@
         "El único documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -510,8 +510,8 @@
         "El Ministerio de Interior, para la sanción de las infracciones graves en grado máximo.  8 PROMOCIÓN N.º 38 "
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -523,8 +523,8 @@
         "Para la entrada en edificios ocupados por organismos oficiales o entidades públicas, no será pre- ciso el consentimiento de la autoridad o funcionario que los tuviere a su cargo."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -536,8 +536,8 @@
         "Clasificado."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 21,
       "explicacion": ""
     },
     {
@@ -549,8 +549,8 @@
         "Infraestructuras esenciales."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 21,
       "explicacion": ""
     },
     {
@@ -562,8 +562,8 @@
         "Ambos serán autores, si bien María carecerá de responsabilidad criminal."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 31,
       "explicacion": ""
     },
     {
@@ -575,8 +575,8 @@
         "Aumentar inhumanamente el sufrimiento de la víctima, sea o no deliberado."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 30,
       "explicacion": ""
     },
     {
@@ -588,8 +588,8 @@
         "Es una circunstancia atenuante que el mal causado sea mayor que el que se intenta evitar."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 30,
       "explicacion": ""
     },
     {
@@ -601,8 +601,8 @@
         "Dicha conducta es atípica.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -614,8 +614,8 @@
         "El homicidio cometido por imprudencia menos grave en el ámbito profesional."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 27,
       "explicacion": ""
     },
     {
@@ -627,8 +627,8 @@
         "Atípica, ya que solo se tipifica la inducción y cooperación necesaria."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -640,8 +640,8 @@
         "Extorsión."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -653,8 +653,8 @@
         "La relación de dependencia jerárquica o laboral."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -666,8 +666,8 @@
         "Delito de Coacciones del art. 172 del Código Penal."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -679,8 +679,8 @@
         "Un delito de Hurto."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -692,8 +692,8 @@
         "Tomas será autor de un delito de tenencia de armas castigándose con hasta dos años por encon- trarse con armas cortas.  10 PROMOCIÓN N.º 38 "
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -705,8 +705,8 @@
         "Se comete delito de atentado a los que agreden con violencia o intimidación grave, a un vigilante de seguridad debidamente acreditado cuando le impide la entrada en el metro a un pasajero."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -718,8 +718,8 @@
         "No es un delito, es una infracción administrativa que se castiga con multa."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -731,8 +731,8 @@
         "Se exigirá además querella del Ministerio Fiscal."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -744,8 +744,8 @@
         "Intrusismo informático."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 37,
       "explicacion": ""
     },
     {
@@ -757,8 +757,8 @@
         "Sí, siempre que consiga acceder a l sistema y divulgar los datos contenidos en este."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 37,
       "explicacion": ""
     },
     {
@@ -770,8 +770,8 @@
         "Será preceptiva sólo en los casos de delitos públicos."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -783,8 +783,8 @@
         "Los impúberes y los que gocen del pleno uso de la razón.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 46,
       "explicacion": ""
     },
     {
@@ -796,8 +796,8 @@
         "Nueve jurados y un Magistrado integrante de la Audiencia Nacional. Al juicio asistirán además tres jurados suplentes."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -809,8 +809,8 @@
         "60 días."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -822,8 +822,8 @@
         "La integridad moral de la víctima."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 51,
       "explicacion": ""
     },
     {
@@ -835,8 +835,8 @@
         "Las víctimas de violencia de género tienen derecho a recibir asesoramiento jurídico gratuito en el momento inmediatamente previo a la interposición de la denuncia."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -848,8 +848,8 @@
         "Punto violeta."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -861,8 +861,8 @@
         "Vilna (Lituania)."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -874,8 +874,8 @@
         "Se aplicará en todas las actividades laborales con la excepción del servicio del hogar familiar, cuyo titular está obligado al cuidado de sus empleados.  12 PROMOCIÓN N.º 38 "
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -887,8 +887,8 @@
         "La protección y prevención frente a las amenazas contra la seguridad pública."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -900,8 +900,8 @@
         "La Inspección de Trabajo y Seguridad Social."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -913,8 +913,8 @@
         "La persona responsable de la seguridad de las bases de datos que contienen los datos personales."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -926,8 +926,8 @@
         "20 años."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -939,8 +939,8 @@
         "Realiza visitas preventivas a centros de privación de libertad dependientes de las distintas Admi- nistraciones Públicas españolas."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -952,8 +952,8 @@
         "Ser personales."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -965,8 +965,8 @@
         "Heterogeneidad en las pautas de comportamiento de la población mundial.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 68,
       "explicacion": ""
     },
     {
@@ -978,8 +978,8 @@
         "A los test elaborados por la universidad de Stanford sobre niveles de rechazo al género femenino."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -991,8 +991,8 @@
         "Agénero, segundo sexo y transfóbico."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -1004,8 +1004,8 @@
         "Desplazamientos de la población de una delimitación geográfica a otra por un espacio de tiempo considerable e indefinido."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -1017,8 +1017,8 @@
         "La edad media de la población se ha reducido."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 68,
       "explicacion": ""
     },
     {
@@ -1030,8 +1030,8 @@
         "Edwin Sutherland."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -1043,8 +1043,8 @@
         "Estimulante."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -1056,8 +1056,8 @@
         "Índice terapéutico."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 72,
       "explicacion": ""
     },
     {
@@ -1069,21 +1069,8 @@
         "La Secretaría de Estado de medio ambiente.  14 PROMOCIÓN N.º 38 "
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
-      "explicacion": ""
-    },
-    {
-      "n": 83,
-      "enunciado": "¿Los sobrenombres, apodos y seudónimos se escriben con la primera letra en mayúsculas?",
-      "opciones": [
-        "Sí, incluso el artículo que lo precede. Ej: Alfonso X El Sabio.",
-        "No, ya que no es el nombre propio de persona, animal, cosa singularizada o nombre de divinidad. EJ: Alfonso X el sabio.",
-        "Siempre, si bien el artículo que lo precede, en su caso, no se debe escribir con mayúscula. Ej.: Al- fonso X el Sabio."
-      ],
-      "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 39,
       "explicacion": ""
     },
     {
@@ -1095,8 +1082,8 @@
         "NTFS, FAT, EXT, APFS, HDR."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -1108,8 +1095,8 @@
         "A y B, y además gestionar la memoria del ordenador."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -1121,8 +1108,8 @@
         "UTM."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 77,
       "explicacion": ""
     },
     {
@@ -1134,8 +1121,8 @@
         "El PROXY no puede albergar mecanismos de seguridad, mientras que el ROUTER implementa firewalls."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -1147,8 +1134,8 @@
         "5×5."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 76,
       "explicacion": ""
     },
     {
@@ -1160,8 +1147,8 @@
         "Arpanet, I2P, TOR, ZeroNet."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 76,
       "explicacion": ""
     },
     {
@@ -1173,8 +1160,8 @@
         "Ramsonware.  15  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -1186,8 +1173,8 @@
         "Phishing."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -1199,8 +1186,8 @@
         "Consiste en hacer llamadas telefónicas a las víctimas, en las que, por medio de una voz computa- rizada, se requiere la verificación de algunos datos personales y/o información bancaria."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "facil",
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -1212,8 +1199,8 @@
         "Detonadoras."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -1225,8 +1212,8 @@
         "Un arma permitida categoría 2.2."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -1238,8 +1225,8 @@
         "No requerirá autorización administrativa alguna."
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1251,8 +1238,8 @@
         "Parar o detenerlo con las debidas precauciones en el lado derecho o izquierdo, delante del vehí- culo policial, en un lugar donde no genere mayores riesgos o molestias para el resto de los usuarios, y permanecerá en su interior.  16 PROMOCIÓN N.º 38 "
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "dificil",
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -1264,8 +1251,8 @@
         "Hace referencia a la publicidad o anuncios relacionados con el sector de la automoción."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 74,
       "explicacion": ""
     },
     {
@@ -1277,8 +1264,8 @@
         "Al ser vehículo prioritario, no podrá superar la tasa de alcohol en sangre de 0,0 gramos por litro ni de alcohol en aire espirado de 0,0 miligramos por litro."
       ],
       "correcta": 1,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1290,8 +1277,8 @@
         "Seguridad terciaria."
       ],
       "correcta": 0,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 78,
       "explicacion": ""
     },
     {
@@ -1303,8 +1290,8 @@
         "Proteger, avisar y socorrer.  17"
       ],
       "correcta": 2,
-      "dificultad": null,
-      "tema": null,
+      "dificultad": "media",
+      "tema": 67,
       "explicacion": ""
     }
   ]
