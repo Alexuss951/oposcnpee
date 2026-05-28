@@ -2958,6 +2958,83 @@
             border-top: 0
         }
 
+        .history .row.clickable {
+            flex-direction: column;
+            align-items: stretch;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 8px;
+            transition: background .15s
+        }
+
+        .history .row.clickable + .row.clickable {
+            border-top: 1px solid var(--line)
+        }
+
+        .history .row.clickable .row-main {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 8px;
+            min-height: 56px
+        }
+
+        .history .row.clickable:hover .row-main,
+        .history .row.clickable.open .row-main {
+            background: var(--panel2)
+        }
+
+        .history .row.clickable .row-text {
+            flex: 1;
+            min-width: 0
+        }
+
+        .history .row.clickable .row-caret {
+            color: var(--muted);
+            font-size: 14px;
+            width: 16px;
+            text-align: center
+        }
+
+        .history .row-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 0 8px 12px
+        }
+
+        .history .row-actions button {
+            flex: 1 1 calc(50% - 4px);
+            min-width: 140px;
+            min-height: 44px;
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            color: var(--text);
+            padding: 10px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: inherit
+        }
+
+        .history .row-actions button:first-child {
+            background: var(--accent);
+            color: var(--accent-ink);
+            border-color: var(--accent);
+            font-weight: 600
+        }
+
+        .history .row-actions button:disabled {
+            opacity: .5;
+            cursor: not-allowed
+        }
+
+        .history .row.clickable .meta {
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 2px
+        }
+
         .history .row .meta {
             color: var(--muted);
             font-size: 12px
@@ -10225,6 +10302,9 @@
 
         // --- Sub-view: Modos (the previous exam menu, enriched with new modes) ---
         function renderSubModos(host, ctx) {
+            // Reset history expansion when (re-)entering the menu, so the list
+            // shows clean each time the user lands here.
+            HISTORY_OPEN_IDX = -1;
             const total = PREGUNTAS_META.total;
             const ee = PREGUNTAS.filter(q => q.id.startsWith("EE")).length;
             const eb = total - ee;
@@ -10624,19 +10704,110 @@
             const hist = lsGet("test:history", []);
             const cont = $("historyList");
             if (!hist.length) { cont.innerHTML = `<div class="empty-line">Aún no hay resultados guardados.</div>`; return; }
-            cont.innerHTML = hist.slice(0, 8).map(h => {
+            cont.innerHTML = hist.slice(0, 8).map((h, i) => {
                 const cls = h.nota >= 5 ? "ok" : h.nota >= 3 ? "warn" : "bad";
                 const d = new Date(h.date);
                 const dStr = d.toLocaleDateString("es-ES", { day: "2-digit", month: "short" }) + " " +
                     d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
-                return `<div class="row">
-      <div>
-        <div>${escapeHtml(h.label)}</div>
-        <div class="meta">${dStr} · A:${h.aciertos} E:${h.fallos} B:${h.blancos}</div>
+                const replayable = Array.isArray(h.qids) && h.qids.length > 0;
+                const open = HISTORY_OPEN_IDX === i;
+                return `<div class="row ${replayable ? "clickable" : ""} ${open ? "open" : ""}" data-i="${i}">
+      <div class="row-main">
+        <div class="row-text">
+          <div>${escapeHtml(h.label)}</div>
+          <div class="meta">${dStr} · A:${h.aciertos} E:${h.fallos} B:${h.blancos}${replayable ? "" : " · sin datos detallados"}</div>
+        </div>
+        <div class="nota ${cls}">${h.nota.toFixed(2)}</div>
+        ${replayable ? `<span class="row-caret" aria-hidden="true">${open ? "▾" : "▸"}</span>` : ""}
       </div>
-      <div class="nota ${cls}">${h.nota.toFixed(2)}</div>
+      ${open && replayable ? `
+        <div class="row-actions">
+          <button data-act="review" data-i="${i}">📖 Revisar respuestas</button>
+          <button data-act="repeat" data-i="${i}">🔁 Repetir test</button>
+          <button data-act="fallos" data-i="${i}" ${h.fallos > 0 ? "" : "disabled"}>🎯 Repasar fallos${h.fallos > 0 ? ` (${h.fallos})` : ""}</button>
+        </div>` : ""}
     </div>`;
             }).join("");
+
+            // One click anywhere on a clickable row toggles its action panel.
+            // Action buttons inside the panel stop propagation so they don't re-toggle.
+            cont.querySelectorAll(".row.clickable").forEach(r => {
+                r.onclick = (ev) => {
+                    if (ev.target.closest("[data-act]")) return;
+                    const i = parseInt(r.dataset.i, 10);
+                    HISTORY_OPEN_IDX = (HISTORY_OPEN_IDX === i) ? -1 : i;
+                    renderHistory();
+                };
+            });
+            cont.querySelectorAll("[data-act]").forEach(b => {
+                b.onclick = (ev) => {
+                    ev.stopPropagation();
+                    const i = parseInt(b.dataset.i, 10);
+                    const item = hist[i];
+                    if (!item || !Array.isArray(item.qids)) return;
+                    if (b.dataset.act === "review") reviewHistoricalExam(item);
+                    else if (b.dataset.act === "repeat") repeatHistoricalExam(item);
+                    else if (b.dataset.act === "fallos") repasarFallosOf(item);
+                };
+            });
+        }
+
+        // Tracks which row in the history list has its action panel expanded.
+        // Reset to -1 on every re-entry to the menu so the list always opens clean.
+        let HISTORY_OPEN_IDX = -1;
+
+        // Re-open a finished exam in read-only review mode.
+        // Reconstructs the minimum examState the exam UI needs.
+        function reviewHistoricalExam(item) {
+            examState = {
+                label: item.label,
+                qids: item.qids.slice(),
+                answers: item.answers.slice(),
+                marked: (item.marked && item.marked.length === item.qids.length)
+                    ? item.marked.slice()
+                    : item.qids.map(id => isMarked(id)),
+                idx: 0,
+                startedAt: Date.now(),
+                timeLimitSec: 0,
+                elapsedSec: 0,
+                isPractice: false,
+                isReview: true,
+                isHistorical: true,
+                perQTimeMs: (item.perQTimeMs && item.perQTimeMs.length === item.qids.length)
+                    ? item.perQTimeMs.slice()
+                    : new Array(item.qids.length).fill(0),
+                qShownAt: 0,
+            };
+            openExamUI();
+        }
+
+        // Re-run the same questions in the same order (fresh attempt, blank answers).
+        // Honors the original timeLimit and practice flag, so repeating a 100p/50min
+        // simulacro behaves identically.
+        function repeatHistoricalExam(item) {
+            startExam({
+                label: item.label,
+                qids: item.qids.slice(),
+                timeLimitSec: item.timeLimitSec || 0,
+                isPractice: !!item.isPractice,
+            });
+        }
+
+        // Build a practice run with only the questions the user got wrong in this test.
+        function repasarFallosOf(item) {
+            const wrongIds = [];
+            item.qids.forEach((id, i) => {
+                const q = PREGUNTAS.find(x => x.id === id);
+                if (!q) return;
+                if (item.answers[i] != null && item.answers[i] !== q.c) wrongIds.push(id);
+            });
+            if (!wrongIds.length) { alert("No tienes fallos en este test."); return; }
+            startExam({
+                label: `Fallos de: ${item.label}`,
+                qids: wrongIds,
+                timeLimitSec: 0,
+                isPractice: true,
+            });
         }
 
         function onSelectMode(mode) {
@@ -10895,13 +11066,19 @@
 
         function saveExam() {
             if (!examState) return;
+            // Never persist as "in progress" when we're just reviewing a finished test
+            // (current or historical). Otherwise prev/next/palette clicks during review
+            // re-create the "examen en curso" banner that finishExam just cleared.
+            if (examState.isReview || examState.isHistorical) return;
             lsSet("test:current", examState);
         }
 
         // F1.1 — accumulate time spent on current question into perQTimeMs[idx]
         // and reset qShownAt. Safe to call repeatedly; no-op if nothing started.
+        // Skipped in review mode so re-reading explanations doesn't pollute timing.
         function accumulateQTime() {
             if (!examState || !examState.qShownAt) return;
+            if (examState.isReview || examState.isHistorical) { examState.qShownAt = 0; return; }
             const ms = Date.now() - examState.qShownAt;
             if (ms > 0 && ms < 24 * 60 * 60 * 1000) {  // ignore absurd gaps (paused tab > 1d)
                 examState.perQTimeMs[examState.idx] = (examState.perQTimeMs[examState.idx] || 0) + ms;
@@ -11139,6 +11316,15 @@
                 elapsedSec: st.elapsedSec,
                 avgMsPerAnswered,
                 slowest,
+                // Snapshot needed to re-open this exam from the history list:
+                // review (read-only walkthrough), repeat (same questions same order),
+                // or "repasar solo los fallos de este test" (failed subset).
+                qids: st.qids.slice(),
+                answers: st.answers.slice(),
+                marked: (st.marked || []).slice(),
+                perQTimeMs: (st.perQTimeMs || []).slice(),
+                timeLimitSec: st.timeLimitSec || 0,
+                isPractice: !!st.isPractice,
             };
             // persist history (cap 25)
             const hist = lsGet("test:history", []);
@@ -11294,7 +11480,9 @@
       ${timingHtml}
       ${sheetHtml}
       <div class="actions">
-        <button class="primary" id="btnReview">Revisar pregunta a pregunta</button>
+        <button class="primary" id="btnReview">📖 Revisar respuestas</button>
+        ${r.fallos > 0 ? `<button id="btnRepFallos">🎯 Repasar fallos (${r.fallos})</button>` : ""}
+        <button id="btnRepeat">🔁 Repetir test</button>
         <button id="btnMenu">Volver al menú</button>
       </div>
     </div>
@@ -11305,6 +11493,31 @@
                 examState.isReview = true;
                 examState.idx = 0;
                 renderExamCurrent();
+            };
+            const btnRep = $("btnRepeat");
+            if (btnRep) btnRep.onclick = () => {
+                // Snapshot before closeExamUI() wipes examState references.
+                const snap = {
+                    label: examState.label,
+                    qids: examState.qids.slice(),
+                    timeLimitSec: examState.timeLimitSec || 0,
+                    isPractice: !!examState.isPractice,
+                };
+                closeExamUI();
+                startExam(snap);
+            };
+            const btnFal = $("btnRepFallos");
+            if (btnFal) btnFal.onclick = () => {
+                const wrongIds = [];
+                examState.qids.forEach((id, i) => {
+                    const q = PREGUNTAS.find(x => x.id === id);
+                    if (!q) return;
+                    if (examState.answers[i] != null && examState.answers[i] !== q.c) wrongIds.push(id);
+                });
+                if (!wrongIds.length) { alert("No tienes fallos en este test."); return; }
+                const snap = { label: `Fallos de: ${examState.label}`, qids: wrongIds, timeLimitSec: 0, isPractice: true };
+                closeExamUI();
+                startExam(snap);
             };
         }
 
