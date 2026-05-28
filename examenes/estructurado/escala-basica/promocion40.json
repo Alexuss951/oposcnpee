@@ -17,7 +17,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -30,7 +30,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 33,
       "explicacion": ""
     },
     {
@@ -81,7 +81,7 @@
         "Subsecretario de Interior."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 13,
       "explicacion": ""
     },
@@ -120,8 +120,8 @@
         "La Unidad de Coordinación Operativa Territorial."
       ],
       "correcta": 0,
-      "dificultad": "media",
-      "tema": 72,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -146,8 +146,8 @@
         "Preservar los recursos naturales por encima de todo."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 68,
+      "dificultad": "facil",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -173,7 +173,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 64,
       "explicacion": ""
     },
     {
@@ -185,8 +185,8 @@
         "Se les aplicará lo dispuesto en la Ley Orgánica 4/2000."
       ],
       "correcta": 0,
-      "dificultad": "media",
-      "tema": 33,
+      "dificultad": "dificil",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -211,7 +211,7 @@
         "Las alternativas a) y b) son correctas."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 9,
       "explicacion": ""
     },
@@ -224,8 +224,8 @@
         "Al hijo de 18 años de la pareja de hecho debidamente registrada de un ciudadano alemán."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -290,7 +290,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 1,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -316,7 +316,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 68,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -367,8 +367,8 @@
         "La Subdirección General de Coordinación Policial Internacional."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 15,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -381,7 +381,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -393,8 +393,8 @@
         "Normas penales incompletas o dependientes."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": 22,
       "explicacion": ""
     },
     {
@@ -407,7 +407,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 12,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -433,7 +433,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 15,
+      "tema": 17,
       "explicacion": ""
     },
     {
@@ -459,7 +459,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 78,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -484,8 +484,8 @@
         "En caso de duda, prevalecerá la vecindad civil que corresponda al lugar de residencia."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 3,
+      "dificultad": "facil",
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -537,7 +537,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -563,7 +563,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 4,
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -602,7 +602,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -615,7 +615,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 38,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -628,7 +628,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 7,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -666,8 +666,8 @@
         "El presidente del Senado."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 6,
+      "dificultad": "media",
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -679,8 +679,8 @@
         "Será obstáculo para la obtención de las prestaciones derivadas de supuestos contemplados por los convenios internacionales de protección de los trabajadores u otras que pudieran corresponderle, siempre que sean compatibles con su situación.  10 PROMOCIÓN N.º 40 "
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 38,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -706,7 +706,7 @@
       ],
       "correcta": 0,
       "dificultad": "dificil",
-      "tema": 74,
+      "tema": 73,
       "explicacion": ""
     },
     {
@@ -719,7 +719,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 47,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -745,7 +745,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 8,
+      "tema": 9,
       "explicacion": ""
     },
     {
@@ -758,7 +758,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 68,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -810,7 +810,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -836,7 +836,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 35,
+      "tema": 31,
       "explicacion": ""
     },
     {
@@ -861,7 +861,7 @@
         "Proponer al Rey la disolución del Senado."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 6,
       "explicacion": ""
     },
@@ -875,7 +875,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -927,7 +927,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 63,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -939,8 +939,8 @@
         "El ascendiente cuando se trate de un delito contra la trata de seres humanos.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 38,
+      "dificultad": "media",
+      "tema": 46,
       "explicacion": ""
     },
     {
@@ -952,7 +952,7 @@
         "Denuncia por mandato o representante."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 46,
       "explicacion": ""
     },
@@ -979,7 +979,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -1069,8 +1069,8 @@
         "Ministro del Interior"
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 11,
+      "dificultad": "media",
+      "tema": 79,
       "explicacion": ""
     },
     {
@@ -1109,7 +1109,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -1135,7 +1135,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -1148,7 +1148,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 12,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1173,8 +1173,8 @@
         "7 votos"
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 46,
+      "dificultad": "facil",
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -1199,8 +1199,8 @@
         "Pasará una inspección mínima"
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 8,
+      "dificultad": "facil",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -1213,7 +1213,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 27,
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -1251,8 +1251,8 @@
         "La libertad, la solidaridad y el pluralismo político."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 1,
+      "dificultad": "media",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -1264,7 +1264,7 @@
         "Cinco años."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 16,
       "explicacion": ""
     }

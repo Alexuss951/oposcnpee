@@ -29,8 +29,8 @@
         "Al Senado."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 6,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -43,7 +43,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 77,
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -56,7 +56,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -82,7 +82,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 25,
+      "tema": 23,
       "explicacion": ""
     },
     {
@@ -95,7 +95,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 30,
+      "tema": 29,
       "explicacion": ""
     },
     {
@@ -107,8 +107,8 @@
         "Batalla de Seattle."
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 68,
+      "dificultad": "facil",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -121,7 +121,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 16,
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -133,7 +133,7 @@
         "Portugal."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 8,
       "explicacion": ""
     },
@@ -160,7 +160,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 7,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -173,7 +173,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 20,
+      "tema": 49,
       "explicacion": ""
     },
     {
@@ -212,7 +212,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 48,
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -224,8 +224,8 @@
         "Los buques de guerra."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
-      "tema": 74,
+      "dificultad": "media",
+      "tema": 50,
       "explicacion": ""
     },
     {
@@ -251,7 +251,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 68,
+      "tema": 67,
       "explicacion": ""
     },
     {
@@ -290,7 +290,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 19,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -329,7 +329,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -368,7 +368,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 54,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -381,7 +381,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 16,
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -394,7 +394,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 44,
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -406,8 +406,8 @@
         "Guarda de caza."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -446,7 +446,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -471,8 +471,8 @@
         "Plantear la cuestión de confianza."
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 11,
+      "dificultad": "facil",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -484,7 +484,7 @@
         "Noruega."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 8,
       "explicacion": ""
     },
@@ -497,8 +497,8 @@
         "En cualquiera de los dos ámbitos mencionados."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 52,
+      "dificultad": "media",
+      "tema": 36,
       "explicacion": ""
     },
     {
@@ -510,8 +510,8 @@
         "El Consejo de Estado."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 11,
+      "dificultad": "media",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -536,8 +536,8 @@
         "Comete un delito contra las garantías constitucionales por no informar inmediatamente y de for- ma comprensible de sus derechos al detenido."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 35,
+      "dificultad": "media",
+      "tema": 42,
       "explicacion": ""
     },
     {
@@ -550,7 +550,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 15,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -576,7 +576,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 35,
+      "tema": 43,
       "explicacion": ""
     },
     {
@@ -602,7 +602,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 31,
+      "tema": 28,
       "explicacion": ""
     },
     {
@@ -627,8 +627,8 @@
         "En el Código Penal y las leyes penales especiales."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 1,
+      "dificultad": "media",
+      "tema": 22,
       "explicacion": ""
     },
     {
@@ -641,7 +641,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 4,
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -654,7 +654,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 70,
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -666,8 +666,8 @@
         "La Subdirección General de Gestión de la Movilidad y Tecnología."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 80,
+      "dificultad": "facil",
+      "tema": 79,
       "explicacion": ""
     },
     {
@@ -680,7 +680,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 68,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -693,7 +693,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 68,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -719,7 +719,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -732,7 +732,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -745,7 +745,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 24,
       "explicacion": ""
     },
     {
@@ -770,8 +770,8 @@
         "Doce meses."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 13,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -784,7 +784,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 80,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -797,7 +797,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 7,
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -810,7 +810,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 23,
       "explicacion": ""
     },
     {
@@ -822,7 +822,7 @@
         "Función de gestión del duelo.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 64,
       "explicacion": ""
     },
@@ -848,7 +848,7 @@
         "Cada cinco años."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 21,
       "explicacion": ""
     },
@@ -901,7 +901,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -913,8 +913,8 @@
         "El Consejo General del Poder Judicial.  12 PROMOCIÓN N.º 42 "
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 6,
+      "dificultad": "media",
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -953,7 +953,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 48,
+      "tema": 47,
       "explicacion": ""
     },
     {
@@ -965,8 +965,8 @@
         "Cada Estado puede disponer en qué partes de su territorio no sea vinculante este Convenio."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": 43,
       "explicacion": ""
     },
     {
@@ -991,7 +991,7 @@
         "Depende de la Dirección General de la Policía y tiene nivel orgánico de subdirección general."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 13,
       "explicacion": ""
     },
@@ -1018,7 +1018,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 63,
       "explicacion": ""
     },
     {
@@ -1030,8 +1030,8 @@
         "División de Operaciones y Transformación Digital."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1044,7 +1044,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 78,
+      "tema": 79,
       "explicacion": ""
     },
     {
@@ -1069,8 +1069,8 @@
         "Tratamiento de detenidos."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 1,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1096,7 +1096,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -1108,7 +1108,7 @@
         "En la Subdirección General de Recursos Humanos y Formación."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 53,
       "explicacion": ""
     },
@@ -1122,7 +1122,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 59,
+      "tema": 60,
       "explicacion": ""
     },
     {
@@ -1161,7 +1161,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 11,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -1173,7 +1173,7 @@
         "Secretaría de Estado de Migraciones."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 17,
       "explicacion": ""
     },
@@ -1200,7 +1200,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 63,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1212,7 +1212,7 @@
         "Shodan."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "dificil",
       "tema": 76,
       "explicacion": ""
     },
@@ -1226,7 +1226,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 15,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -1238,8 +1238,8 @@
         "La formación política del Municipio."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 7,
+      "dificultad": "media",
+      "tema": 10,
       "explicacion": ""
     },
     {
@@ -1265,7 +1265,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 17,
       "explicacion": ""
     },
     {

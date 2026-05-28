@@ -17,7 +17,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 3,
+      "tema": 2,
       "explicacion": ""
     },
     {
@@ -30,7 +30,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -43,7 +43,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 4,
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -68,7 +68,7 @@
         "Cuando sea mayor de catorce años y conste autorización de los titulares de la patria potestad.  3  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 20,
       "explicacion": ""
     },
@@ -94,7 +94,7 @@
         "Cuando así lo soliciten, dentro de los 15 días siguientes a su aprobación una décima parte de los miembros de cualquiera de las Cámaras."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 4,
       "explicacion": ""
     },
@@ -108,7 +108,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -133,8 +133,8 @@
         "Premio Nobel de la Paz."
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 8,
+      "dificultad": "facil",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -173,7 +173,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 38,
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -185,8 +185,8 @@
         "Proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana, a través de los Subdelegados del Gobierno y de las Fuerzas y Cuerpos de seguridad del Estado, cuya jefatura corresponderá al Delegado del Gobierno."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 7,
+      "dificultad": "media",
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -198,7 +198,7 @@
         "4 años."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 12,
       "explicacion": ""
     },
@@ -211,7 +211,7 @@
         "El personal interino."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 12,
       "explicacion": ""
     },
@@ -263,8 +263,8 @@
         "Al Director General de la Policía corresponden los procesos selectivos de ingreso mientras que los de promoción interna, al Director Adjunto Operativo."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 11,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -277,7 +277,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 14,
+      "tema": 46,
       "explicacion": ""
     },
     {
@@ -290,7 +290,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 19,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -316,7 +316,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -328,8 +328,8 @@
         "Responsabilidad.  6 PROMOCIÓN N.º 38 "
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 1,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -368,7 +368,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 8,
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -419,8 +419,8 @@
         "Se le inicia un expediente de expulsión en base a la infracción 53.1 a) Encontrarse irregularmente en territorio español Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranje- ros en España y su integración social.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 16,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -432,7 +432,7 @@
         "Podrá ser expulsado por razones de orden público, seguridad pública, seguridad nacional o salud pública."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 17,
       "explicacion": ""
     },
@@ -446,7 +446,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 47,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -458,8 +458,8 @@
         "Hayan sido formuladas por menores no acompañados."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 13,
+      "dificultad": "media",
+      "tema": 17,
       "explicacion": ""
     },
     {
@@ -497,8 +497,8 @@
         "El único documento con suficiente valor por sí solo para la acreditación, a todos los efectos, de la identidad y los datos personales de su titular."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 20,
+      "dificultad": "media",
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -524,7 +524,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 14,
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -575,7 +575,7 @@
         "Aumentar inhumanamente el sufrimiento de la víctima, sea o no deliberado."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 30,
       "explicacion": ""
     },
@@ -589,7 +589,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 30,
+      "tema": 28,
       "explicacion": ""
     },
     {
@@ -602,7 +602,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 38,
+      "tema": 22,
       "explicacion": ""
     },
     {
@@ -614,8 +614,8 @@
         "El homicidio cometido por imprudencia menos grave en el ámbito profesional."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 27,
+      "dificultad": "media",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -627,7 +627,7 @@
         "Atípica, ya que solo se tipifica la inducción y cooperación necesaria."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 34,
       "explicacion": ""
     },
@@ -667,7 +667,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 5,
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -693,7 +693,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 81,
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -705,8 +705,8 @@
         "Se comete delito de atentado a los que agreden con violencia o intimidación grave, a un vigilante de seguridad debidamente acreditado cuando le impide la entrada en el metro a un pasajero."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 18,
+      "dificultad": "media",
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -731,8 +731,8 @@
         "Se exigirá además querella del Ministerio Fiscal."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 47,
+      "dificultad": "media",
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -745,7 +745,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 36,
       "explicacion": ""
     },
     {
@@ -758,7 +758,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -783,7 +783,7 @@
         "Los impúberes y los que gocen del pleno uso de la razón.  11  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 46,
       "explicacion": ""
     },
@@ -796,7 +796,7 @@
         "Nueve jurados y un Magistrado integrante de la Audiencia Nacional. Al juicio asistirán además tres jurados suplentes."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 45,
       "explicacion": ""
     },
@@ -861,8 +861,8 @@
         "Vilna (Lituania)."
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -888,7 +888,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 19,
+      "tema": 20,
       "explicacion": ""
     },
     {
@@ -901,7 +901,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 38,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -926,7 +926,7 @@
         "20 años."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 20,
       "explicacion": ""
     },
@@ -940,7 +940,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -953,7 +953,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -965,8 +965,8 @@
         "Heterogeneidad en las pautas de comportamiento de la población mundial.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 68,
+      "dificultad": "facil",
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -979,7 +979,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 54,
+      "tema": 64,
       "explicacion": ""
     },
     {
@@ -992,7 +992,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 52,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1005,7 +1005,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -1018,7 +1018,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 68,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -1044,7 +1044,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1056,8 +1056,8 @@
         "Índice terapéutico."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
-      "tema": 72,
+      "dificultad": "media",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1070,7 +1070,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 39,
+      "tema": 11,
       "explicacion": ""
     },
     {
@@ -1109,7 +1109,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 77,
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -1186,8 +1186,8 @@
         "Consiste en hacer llamadas telefónicas a las víctimas, en las que, por medio de una voz computa- rizada, se requiere la verificación de algunos datos personales y/o información bancaria."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 20,
+      "dificultad": "media",
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -1239,7 +1239,7 @@
       ],
       "correcta": 1,
       "dificultad": "dificil",
-      "tema": 73,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1252,7 +1252,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1278,7 +1278,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 78,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1291,7 +1291,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 67,
+      "tema": 80,
       "explicacion": ""
     }
   ]

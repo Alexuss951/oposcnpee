@@ -30,7 +30,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 68,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -43,7 +43,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 6,
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -56,7 +56,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 54,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -69,7 +69,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -95,7 +95,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 1,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -108,7 +108,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -121,7 +121,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 29,
+      "tema": 30,
       "explicacion": ""
     },
     {
@@ -147,7 +147,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -160,7 +160,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 78,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -172,7 +172,7 @@
         "La inspección y sanción de los centros de formación del personal de seguridad privada que ten- gan su sede en la comunidad autónoma de Cataluña."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 18,
       "explicacion": ""
     },
@@ -251,7 +251,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 14,
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -290,7 +290,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 63,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -302,8 +302,8 @@
         "Las armas inutilizadas."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 75,
+      "dificultad": "media",
+      "tema": 81,
       "explicacion": ""
     },
     {
@@ -329,7 +329,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -341,7 +341,7 @@
         "Proporcionalidad, igualdad de trato y necesidad."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 19,
       "explicacion": ""
     },
@@ -354,8 +354,8 @@
         "500 trabajadores."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
-      "tema": 74,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -368,7 +368,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 21,
       "explicacion": ""
     },
     {
@@ -419,8 +419,8 @@
         "Las Cortes Generales."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 6,
+      "dificultad": "media",
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -458,7 +458,7 @@
         "Vishing."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "dificil",
       "tema": 75,
       "explicacion": ""
     },
@@ -472,7 +472,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -485,7 +485,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 1,
+      "tema": 12,
       "explicacion": ""
     },
     {
@@ -511,7 +511,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 68,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -563,7 +563,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -575,8 +575,8 @@
         "Formalizar por escrito un contrato por cada servicio de investigación que les sea encargado, co- municando su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente en la forma que reglamentariamente se determine.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 13,
+      "dificultad": "media",
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -602,7 +602,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 15,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -627,7 +627,7 @@
         "Que el hecho sea subsiguiente a un delito contra la libertad sexual que el autor hubiere cometido sobre la víctima."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 34,
       "explicacion": ""
     },
@@ -640,7 +640,7 @@
         "La persona titular de la Subdirección General de Recursos Humanos y Formación."
       ],
       "correcta": 2,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 13,
       "explicacion": ""
     },
@@ -654,7 +654,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 80,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -692,7 +692,7 @@
         "Escocia."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 8,
       "explicacion": ""
     },
@@ -706,7 +706,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 14,
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -718,8 +718,8 @@
         "Salvador, Brasil (2018)."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 72,
+      "dificultad": "media",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -745,7 +745,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -770,8 +770,8 @@
         "La Unidad Central de Criminalística."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 19,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -823,7 +823,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 27,
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -836,7 +836,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 81,
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -861,8 +861,8 @@
         "20ºC y 30ºC."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -875,7 +875,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 16,
+      "tema": 19,
       "explicacion": ""
     },
     {
@@ -901,7 +901,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 73,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -927,7 +927,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -939,8 +939,8 @@
         "Bianual."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 5,
+      "dificultad": "media",
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -952,8 +952,8 @@
         "Por residencia continuada durante cinco años."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 3,
+      "dificultad": "facil",
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -965,8 +965,8 @@
         "La personalidad se adquiere en el momento del nacimiento con vida, una vez producido el entero desprendimiento del seno materno."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 2,
       "explicacion": ""
     },
     {
@@ -1005,7 +1005,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 46,
+      "tema": 45,
       "explicacion": ""
     },
     {
@@ -1031,7 +1031,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 52,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1044,7 +1044,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -1057,7 +1057,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 8,
+      "tema": 9,
       "explicacion": ""
     },
     {
@@ -1108,8 +1108,8 @@
         "La genialidad de Salvador Dalí es un caso aparte en la historia del arte."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 13,
+      "dificultad": "media",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1148,7 +1148,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -1161,7 +1161,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 13,
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -1174,7 +1174,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 19,
+      "tema": 50,
       "explicacion": ""
     },
     {
@@ -1213,7 +1213,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -1226,7 +1226,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 19,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1238,8 +1238,8 @@
         "En el caso de reuniones en lugares de tránsito público y manifestaciones se dará comunicación previa a la autoridad."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 5,
       "explicacion": ""
     },
     {
@@ -1252,7 +1252,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 20,
+      "tema": 24,
       "explicacion": ""
     },
     {
@@ -1278,7 +1278,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 46,
       "explicacion": ""
     },
     {

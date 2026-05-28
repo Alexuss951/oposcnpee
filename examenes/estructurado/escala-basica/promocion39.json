@@ -16,8 +16,8 @@
         "El delito de descubrimiento."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
-      "tema": 77,
+      "dificultad": "media",
+      "tema": 36,
       "explicacion": ""
     },
     {
@@ -30,7 +30,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 11,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -43,7 +43,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 73,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -69,7 +69,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -95,7 +95,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -108,7 +108,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -121,7 +121,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -172,7 +172,7 @@
         "Toda forma de expresión que difunda, incite, promueva o justifique el odio racial, la xenofobia, el antisemitismo u otras formas de odio basadas en la intolerancia."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 54,
       "explicacion": ""
     },
@@ -199,7 +199,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 6,
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -212,7 +212,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 74,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -225,7 +225,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 52,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -237,7 +237,7 @@
         "La devolución será acordada por la autoridad judicial competente para la expulsión."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 16,
       "explicacion": ""
     },
@@ -264,7 +264,7 @@
       ],
       "correcta": 1,
       "dificultad": "dificil",
-      "tema": 77,
+      "tema": 75,
       "explicacion": ""
     },
     {
@@ -289,7 +289,7 @@
         "María necesitaría el pasaporte o documento de identidad valido y en vigor y Abayomi el pasapor- te en vigor y el visado de entrada."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 15,
       "explicacion": ""
     },
@@ -303,7 +303,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 33,
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -315,8 +315,8 @@
         "A la Escala Ejecutiva (segunda categoría) y Subinspección."
       ],
       "correcta": 2,
-      "dificultad": "media",
-      "tema": 72,
+      "dificultad": "facil",
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -380,8 +380,8 @@
         "Al que no compareciera ante la autoridad judicial."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 11,
+      "dificultad": "media",
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -393,8 +393,8 @@
         "Flakka."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 21,
+      "dificultad": "media",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -406,8 +406,8 @@
         "Mental, físico y social.  7  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 3,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -419,8 +419,8 @@
         "Quedará exenta de la estampación de sello de entrada, pero no de la necesidad de visado."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 13,
+      "dificultad": "media",
+      "tema": 15,
       "explicacion": ""
     },
     {
@@ -432,8 +432,8 @@
         "Por la transformación, fusión, absorción o escisión de una persona jurídica."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 2,
+      "dificultad": "media",
+      "tema": 30,
       "explicacion": ""
     },
     {
@@ -472,7 +472,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 66,
       "explicacion": ""
     },
     {
@@ -484,7 +484,7 @@
         "Los registros corporales externos y superficiales no podrán llevarse a cabo contra la voluntad del afectado.  8 PROMOCIÓN N.º 39 "
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 19,
       "explicacion": ""
     },
@@ -497,8 +497,8 @@
         "Es un sistema informático que emite alertas y contiene información sobre personas u objetos es- pecíficos, e instrucciones para las autoridades sobre las medidas que han de adoptarse cuando se haya dado con dicha persona u objeto."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 8,
+      "dificultad": "facil",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -523,7 +523,7 @@
         "Es un tipo de racismo sutil porque generalmente es empleado por personas que están abierta- mente en contra del racismo y de los comportamientos racistas."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 54,
       "explicacion": ""
     },
@@ -536,7 +536,7 @@
         "Con una persona es suficiente."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 31,
       "explicacion": ""
     },
@@ -576,7 +576,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 33,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -588,7 +588,7 @@
         "Pepe y José con la intención de sustraer unos pantalones, acuden a un centro comercial donde quitan las alarmas a diferentes prendas de vestir valoradas en 700 Euros. Cuando se disponen a salir el guardia de seguridad los detiene."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 38,
       "explicacion": ""
     },
@@ -601,8 +601,8 @@
         "El accidente in itinere sólo contempla lesiones corporales."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 34,
+      "dificultad": "media",
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -641,7 +641,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 14,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -654,7 +654,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 14,
+      "tema": 53,
       "explicacion": ""
     },
     {
@@ -666,8 +666,8 @@
         "Constitución española, Código Civil y Ley Orgánica del Registro Civil.  10 PROMOCIÓN N.º 39 "
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 3,
+      "dificultad": "media",
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -680,7 +680,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -692,8 +692,8 @@
         "Robo con intimidación, secuestro y allanamiento de morada."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 38,
       "explicacion": ""
     },
     {
@@ -719,7 +719,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -745,7 +745,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -758,7 +758,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 18,
       "explicacion": ""
     },
     {
@@ -797,7 +797,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -823,7 +823,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 4,
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -835,8 +835,8 @@
         "El proteccionismo, de Jagdish Bhagwati."
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 73,
+      "dificultad": "facil",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -887,8 +887,8 @@
         "La integridad moral."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 6,
+      "dificultad": "media",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -914,7 +914,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 37,
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -966,7 +966,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 50,
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -992,7 +992,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 39,
+      "tema": 80,
       "explicacion": ""
     },
     {
@@ -1005,7 +1005,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 3,
+      "tema": 1,
       "explicacion": ""
     },
     {
@@ -1057,7 +1057,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 12,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1083,7 +1083,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 39,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1108,8 +1108,8 @@
         "La Unidad de Planificación de Recursos Humanos.  15  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 14,
+      "dificultad": "media",
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1148,7 +1148,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 13,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1200,7 +1200,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 17,
+      "tema": 54,
       "explicacion": ""
     },
     {
@@ -1226,7 +1226,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 73,
+      "tema": 14,
       "explicacion": ""
     },
     {
@@ -1239,7 +1239,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 4,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -1251,8 +1251,8 @@
         "El orden no está definido, dependerá de lo que especifique cada convocatoria.  17"
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 12,
+      "dificultad": "dificil",
+      "tema": 14,
       "explicacion": ""
     }
   ]

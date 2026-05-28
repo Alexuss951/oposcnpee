@@ -55,8 +55,8 @@
         "Al delito contra las personas más grave."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 32,
+      "dificultad": "media",
+      "tema": 22,
       "explicacion": ""
     },
     {
@@ -120,7 +120,7 @@
         "Refrendar, en su caso, los actos del Rey y someterlos, para su sanción, las leyes y demás normas con rango de ley, de acuerdo con lo establecido en los artículos 64 y 91 de la Constitución."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 6,
       "explicacion": ""
     },
@@ -134,7 +134,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 77,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -173,7 +173,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 10,
       "explicacion": ""
     },
     {
@@ -185,7 +185,7 @@
         "No se computarán los antecedentes penales cancelados o que debieran serlo, ni los que correspondan a delitos leves."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 30,
       "explicacion": ""
     },
@@ -211,7 +211,7 @@
         "Subdirector General."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 11,
       "explicacion": ""
     },
@@ -237,8 +237,8 @@
         "La discriminación social."
       ],
       "correcta": 2,
-      "dificultad": "facil",
-      "tema": 36,
+      "dificultad": "media",
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -250,7 +250,7 @@
         "Nominales, originarias y derivadas."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 4,
       "explicacion": ""
     },
@@ -316,7 +316,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 6,
+      "tema": 9,
       "explicacion": ""
     },
     {
@@ -329,7 +329,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 72,
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -341,7 +341,7 @@
         "Exclusiva del Estado."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 7,
       "explicacion": ""
     },
@@ -355,7 +355,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 3,
+      "tema": 2,
       "explicacion": ""
     },
     {
@@ -393,7 +393,7 @@
         "En el plazo de nueve meses, con posible prórroga de tres meses más si la Mesa del Congreso aprecia causa mayor."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 6,
       "explicacion": ""
     },
@@ -419,8 +419,8 @@
         "Trata de seres humanos."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 35,
+      "dificultad": "media",
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -432,8 +432,8 @@
         "Un estímulo reincidente."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 3,
+      "dificultad": "media",
+      "tema": 59,
       "explicacion": ""
     },
     {
@@ -445,7 +445,7 @@
         "A las personas que constituyan un peligro para la seguridad de España y una amenaza para la comunidad."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 17,
       "explicacion": ""
     },
@@ -458,7 +458,7 @@
         "Infracción grave."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 16,
       "explicacion": ""
     },
@@ -472,7 +472,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 2,
+      "tema": 37,
       "explicacion": ""
     },
     {
@@ -498,7 +498,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 13,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -510,7 +510,7 @@
         "El delegativo."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 65,
       "explicacion": ""
     },
@@ -523,8 +523,8 @@
         "Sí, si ha sido abusando de una situación de necesidad o de vulnerabilidad."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 16,
+      "dificultad": "media",
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -550,7 +550,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 14,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -576,7 +576,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 16,
+      "tema": 42,
       "explicacion": ""
     },
     {
@@ -614,8 +614,8 @@
         "Delito de desobediencia y resistencia."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 19,
+      "dificultad": "media",
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -641,7 +641,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 74,
+      "tema": 65,
       "explicacion": ""
     },
     {
@@ -654,7 +654,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 27,
+      "tema": 34,
       "explicacion": ""
     },
     {
@@ -705,7 +705,7 @@
         "Un máximo de 2 horas."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 19,
       "explicacion": ""
     },
@@ -745,7 +745,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 5,
+      "tema": 55,
       "explicacion": ""
     },
     {
@@ -796,8 +796,8 @@
         "Método deductivo."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 73,
+      "dificultad": "media",
+      "tema": 69,
       "explicacion": ""
     },
     {
@@ -835,7 +835,7 @@
         "Tirar por la ventanilla un cigarrillo u otros objetos que pudieran causar un peligro para la circulación."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 79,
       "explicacion": ""
     },
@@ -861,7 +861,7 @@
         "El Área de Planificación e Innovación Tecnológica."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 13,
       "explicacion": ""
     },
@@ -900,7 +900,7 @@
         "Relaciones internacionales."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 7,
       "explicacion": ""
     },
@@ -914,7 +914,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 8,
+      "tema": 16,
       "explicacion": ""
     },
     {
@@ -926,8 +926,8 @@
         "La misma pena que la señalada a los falsificadores."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 72,
+      "dificultad": "media",
+      "tema": 40,
       "explicacion": ""
     },
     {
@@ -939,7 +939,7 @@
         "Realice prestaciones de servicio por precio superior a su coste de producción."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 38,
       "explicacion": ""
     },
@@ -965,8 +965,8 @@
         "La teoría del peligro."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
-      "tema": 72,
+      "dificultad": "media",
+      "tema": 26,
       "explicacion": ""
     },
     {
@@ -991,7 +991,7 @@
         "Las inhabilitaciones especiales hasta cinco años."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 33,
       "explicacion": ""
     },
@@ -1005,7 +1005,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -1031,7 +1031,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 4,
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -1057,7 +1057,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": 47,
+      "tema": 13,
       "explicacion": ""
     },
     {
@@ -1082,7 +1082,7 @@
         "De los españoles y extranjeros que debiendo ser juzgados en España se hubiesen refugiado en cualquier otro país."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 23,
       "explicacion": ""
     },
@@ -1108,7 +1108,7 @@
         "Los que cooperan a su ejecución con un acto sin el cual no se habría efectuado."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 31,
       "explicacion": ""
     },
@@ -1135,7 +1135,7 @@
       ],
       "correcta": 0,
       "dificultad": "facil",
-      "tema": 27,
+      "tema": 41,
       "explicacion": ""
     },
     {
@@ -1147,7 +1147,7 @@
         "Subsecretario de Estado."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 11,
       "explicacion": ""
     },
@@ -1160,7 +1160,7 @@
         "Si a ello se opone el Pleno del municipio con mayor volumen de población de los que deberían agruparse."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 7,
       "explicacion": ""
     },
@@ -1174,7 +1174,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 19,
+      "tema": 44,
       "explicacion": ""
     },
     {
@@ -1212,7 +1212,7 @@
         "Nivel de impacto en la vida diaria de la persona, nivel de gravedad y vía perceptiva."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 63,
       "explicacion": ""
     },
@@ -1225,7 +1225,7 @@
         "El delito de secuestro se agrava si “B” tiene menos de 21 años."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 35,
       "explicacion": ""
     },
@@ -1239,7 +1239,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": 8,
+      "tema": 9,
       "explicacion": ""
     },
     {
@@ -1252,7 +1252,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 6,
+      "tema": 7,
       "explicacion": ""
     },
     {
@@ -1290,7 +1290,7 @@
         "5 años."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 38,
       "explicacion": ""
     },

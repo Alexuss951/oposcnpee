@@ -16,7 +16,7 @@
         "180 días desde su notificación."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 3,
       "explicacion": ""
     },
@@ -29,7 +29,7 @@
         "Seis meses desde el primer acuerdo."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 7,
       "explicacion": ""
     },
@@ -55,7 +55,7 @@
         "Secretario de Estado."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 6,
       "explicacion": ""
     },
@@ -68,7 +68,7 @@
         "Transcurrido el plazo de 1 mes sin que se hubiera declarado la lesividad, se producirá la caducidad del mismo."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "dificil",
       "tema": 10,
       "explicacion": ""
     },
@@ -82,7 +82,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 2,
+      "tema": 3,
       "explicacion": ""
     },
     {
@@ -108,7 +108,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 12,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -120,7 +120,7 @@
         "Este derecho no podrá ser suspendido en ningún caso al tratarse de un derecho fundamental especialmente protegido en el artículo 55 de la Constitución Española."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 5,
       "explicacion": ""
     },
@@ -133,7 +133,7 @@
         "No impedirán la debida aplicación de la norma que se hubiere tratado de eludir."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 1,
       "explicacion": ""
     },
@@ -198,7 +198,7 @@
         "3 meses."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 5,
       "explicacion": ""
     },
@@ -211,7 +211,7 @@
         "España o en los países anteriores de residencia, por delitos existentes en sus respectivos ordenamientos Jurídicos."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 15,
       "explicacion": ""
     },
@@ -224,7 +224,7 @@
         "La formulará el representante legal del menor, requiriendo autorización del encargado del Registro Civil del domicilio del declarante, previo dictamen del Ministerio Fiscal."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 3,
       "explicacion": ""
     },
@@ -237,8 +237,8 @@
         "Sí, pero solamente cuando se realice en los relativo a los derechos de las Comunidades Autónomas."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 1,
+      "dificultad": "facil",
+      "tema": 4,
       "explicacion": ""
     },
     {
@@ -250,7 +250,7 @@
         "Las autoridades españolas consultarán a las italianas antes de conceder este visado y si no obtienen respuesta en un plazo de diez días naturales significaría que no se oponen a su concesión y dichas autoridades españolas valorarían la misma."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 15,
       "explicacion": ""
     },
@@ -263,7 +263,7 @@
         "La Ley de Garantías Constitucionales."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 4,
       "explicacion": ""
     },
@@ -276,7 +276,7 @@
         "Actuará como interlocutor del responsable o encargados del tratamiento ante la Agencia Española de Protección de Datos."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 20,
       "explicacion": ""
     },
@@ -289,7 +289,7 @@
         ""
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 22,
       "explicacion": ""
     },
@@ -302,7 +302,7 @@
         "Ninguna de las anteriores."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 9,
       "explicacion": ""
     },
@@ -328,8 +328,8 @@
         "Cabe la acumulación en el mismo procedimiento dado que la intervención de los dispositivos electrónicos queda amparada en la diligencia de registro."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
-      "tema": 49,
+      "dificultad": "media",
+      "tema": 50,
       "explicacion": ""
     },
     {
@@ -381,7 +381,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": 46,
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -432,8 +432,8 @@
         "El Tribunal Constitucional."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 45,
+      "dificultad": "media",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -445,7 +445,7 @@
         "Es obligatorio tanto en delitos dolosos como imprudentes."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 33,
       "explicacion": ""
     },
@@ -458,7 +458,7 @@
         "Por el transcurso del plazo para el que se hayan expedido."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 15,
       "explicacion": ""
     },
@@ -471,7 +471,7 @@
         "Cometería un delito de daños sobre material informático ajeno del artículo 264 del CP."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 35,
       "explicacion": ""
     },
@@ -484,7 +484,7 @@
         "Conlleva necesariamente la realización simultánea de varias acciones u omisiones que además deben circunscribirse a un mismo marco espacio-temporal."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 32,
       "explicacion": ""
     },
@@ -498,7 +498,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 43,
+      "tema": 35,
       "explicacion": ""
     },
     {
@@ -523,7 +523,7 @@
         "Petición de la mayoría de los vecinos y decisión favorable de 3/5 de los miembros del Ayuntamiento."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 7,
       "explicacion": ""
     },
@@ -536,7 +536,7 @@
         "Podrá celebrarse siempre y cuando exista comunicación entre los miembros participantes y quede acreditada su identidad."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 11,
       "explicacion": ""
     },
@@ -549,7 +549,7 @@
         "La duración necesaria, siempre y cuando sea congruente con la naturaleza de la presunta infracción y proporcionada a la gravedad de la misma."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 18,
       "explicacion": ""
     },
@@ -562,7 +562,7 @@
         "Una Tarjeta de Identidad de Extranjero autorizando a su titular sólo a residir en España, en la que conste su carácter provisional y su condición de colaborador. –"
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 15,
       "explicacion": ""
     },
@@ -588,7 +588,7 @@
         "Aquel que resulte probable racionalmente que se materialice en un futuro inmediato y pueda suponer un daño grave para la salud de los trabajadores. -"
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "dificil",
       "tema": 53,
       "explicacion": ""
     },
@@ -602,7 +602,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": 46,
+      "tema": 48,
       "explicacion": ""
     },
     {
@@ -614,7 +614,7 @@
         ""
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 18,
       "explicacion": ""
     },
@@ -627,7 +627,7 @@
         "Al día siguiente de haber tenido conocimiento de la situación de incompatibilidad."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 5,
       "explicacion": ""
     },
@@ -653,8 +653,8 @@
         "Pedro y Juan cometerían un delito de tráfico de drogas en grado de tentativa al no haber llegado a disponer de la sustancia."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
-      "tema": 39,
+      "dificultad": "media",
+      "tema": null,
       "explicacion": ""
     },
     {
@@ -666,7 +666,7 @@
         "Al menos trimestralmente."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 33,
       "explicacion": ""
     },
@@ -679,7 +679,7 @@
         "Se eliminarán pasados cinco años de la sentencia firme de los hechos."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 50,
       "explicacion": ""
     },
@@ -692,8 +692,8 @@
         "La Subdirección General de Auditoría Interna del Ministerio de Justicia"
       ],
       "correcta": 1,
-      "dificultad": "media",
-      "tema": 47,
+      "dificultad": "facil",
+      "tema": 6,
       "explicacion": ""
     },
     {
@@ -705,7 +705,7 @@
         "Al año de producirse la identificación."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 19,
       "explicacion": ""
     },
@@ -718,8 +718,8 @@
         "20 años."
       ],
       "correcta": 0,
-      "dificultad": "facil",
-      "tema": 33,
+      "dificultad": "media",
+      "tema": 22,
       "explicacion": ""
     },
     {
@@ -731,7 +731,7 @@
         "Quince a veinte años de prisión."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 35,
       "explicacion": ""
     },
@@ -744,7 +744,7 @@
         "Una vez por trimestre con carácter ordinario, y de forma extraordinaria cuando así se considere oportuno, previa convocatoria de su presidente."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 21,
       "explicacion": ""
     },
@@ -809,7 +809,7 @@
         "Si el primer intento de notificación se ha realizado antes de las quince horas, el segundo deberá realizarse después de las quince horas, dejando un margen de tres horas entre ambos intentos de notificación."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 10,
       "explicacion": ""
     },
@@ -835,7 +835,7 @@
         "Dentro de los cinco días siguientes al periodo de instrucción."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 23,
       "explicacion": ""
     },
@@ -848,7 +848,7 @@
         "Cuando se trate de un paquete postal en el que se pueda inferir que es correspondencia individual."
       ],
       "correcta": 1,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 50,
       "explicacion": ""
     },
@@ -874,7 +874,7 @@
         "El contagio emocional."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 67,
       "explicacion": ""
     },
@@ -887,7 +887,7 @@
         "Significación."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 60,
       "explicacion": ""
     },
@@ -900,7 +900,7 @@
         "La aceptación."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 66,
       "explicacion": ""
     },
@@ -913,7 +913,7 @@
         "Los nuevos movimientos globales conllevan una variación de rasgos esenciales de los nuevos movimientos sociales."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 68,
       "explicacion": ""
     },
@@ -926,7 +926,7 @@
         "Contrato social, resignación y afrontamiento."
       ],
       "correcta": 0,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 67,
       "explicacion": ""
     },
@@ -939,7 +939,7 @@
         "Se considerarán elegidos miembros los candidatos que obtengan el mayor número de votos y la mayoría absoluta de los votos de los representantes de los Estados Partes votantes y presentes."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 55,
       "explicacion": ""
     },
@@ -965,7 +965,7 @@
         "La reminiscencia es condición necesaria y suficiente para la hypermnesia."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 58,
       "explicacion": ""
     },
@@ -978,7 +978,7 @@
         "Psicoticismo."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 61,
       "explicacion": ""
     },
@@ -991,7 +991,7 @@
         "El tegmentum."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 56,
       "explicacion": ""
     },
@@ -1017,7 +1017,7 @@
         "Una composición uniforme e indiferenciada de las distintas esferas que componen la vida social."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 54,
       "explicacion": ""
     },
@@ -1030,7 +1030,7 @@
         "El orden de la administración."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 59,
       "explicacion": ""
     },
@@ -1043,7 +1043,7 @@
         "Supone que el funcionamiento y la naturaleza de los estereotipos rara vez es igual, al centrarse en contenidos y no en los procesos."
       ],
       "correcta": 2,
-      "dificultad": "dificil",
+      "dificultad": "facil",
       "tema": 64,
       "explicacion": ""
     },
@@ -1056,7 +1056,7 @@
         "Tienen consideración de prueba preconstituida."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 79,
       "explicacion": ""
     },
@@ -1069,7 +1069,7 @@
         "Se realizará por los propios organismos encargados de su mantenimiento y su utilización."
       ],
       "correcta": 0,
-      "dificultad": "media",
+      "dificultad": "facil",
       "tema": 78,
       "explicacion": ""
     },
@@ -1082,7 +1082,7 @@
         "Consiste en el uso no autorizado de los recursos de un dispositivo para minar criptomonedas mediante la ejecución de código dañino, sin necesidad de interacción por parte del usuario víctima."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 75,
       "explicacion": ""
     },
@@ -1095,7 +1095,7 @@
         "Deberán observar los preceptos del Reglamento General de Circulación, pudiendo dejar de cumplirlo en casos tasados y bajo su responsabilidad."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 80,
       "explicacion": ""
     },
@@ -1108,7 +1108,7 @@
         "Licencia tipo E."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 81,
       "explicacion": ""
     },
@@ -1121,7 +1121,7 @@
         "Monotarea."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 74,
       "explicacion": ""
     },
@@ -1134,7 +1134,7 @@
         "Cloud Computing."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 76,
       "explicacion": ""
     },
@@ -1147,7 +1147,7 @@
         "Resumir la variable aleatoria en un valor central sin tener representación de la distribución de probabilidad."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 71,
       "explicacion": ""
     },
@@ -1173,7 +1173,7 @@
         "Preparación de datos."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 70,
       "explicacion": ""
     },
@@ -1212,7 +1212,7 @@
         "Análisis."
       ],
       "correcta": 2,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 76,
       "explicacion": ""
     },
@@ -1225,7 +1225,7 @@
         "Microkernel."
       ],
       "correcta": 1,
-      "dificultad": "dificil",
+      "dificultad": "media",
       "tema": 74,
       "explicacion": ""
     },
@@ -1252,7 +1252,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": 71,
+      "tema": 69,
       "explicacion": ""
     },
     {
@@ -1264,8 +1264,8 @@
         "A uno de los factores analizados por el método de la observación participante."
       ],
       "correcta": 1,
-      "dificultad": "facil",
-      "tema": 69,
+      "dificultad": "media",
+      "tema": 70,
       "explicacion": ""
     },
     {
@@ -1290,7 +1290,7 @@
         "Red LAN."
       ],
       "correcta": 0,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 73,
       "explicacion": ""
     },
@@ -1303,7 +1303,7 @@
         "Aquel que reúne todos los posibles resultados."
       ],
       "correcta": 1,
-      "dificultad": "facil",
+      "dificultad": "media",
       "tema": 71,
       "explicacion": ""
     }
