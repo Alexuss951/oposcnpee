@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tema 13 · Mapa visual — Interior / SES / DGP / Seguridad Privada</title>
+<style>
+  :root{
+    --ministro:#1f2937;
+    --ses:#2563eb;      --ses-bg:#e0ecff;
+    --penit:#7c3aed;    --penit-bg:#efe5ff;
+    --pcivil:#ea580c;   --pcivil-bg:#ffe8d6;
+    --subse:#16a34a;    --subse-bg:#dcf7e3;
+    --dgp:#0891b2;      --dgp-bg:#d8f3f9;
+    --priv:#dc2626;     --priv-bg:#ffe2e2;
+    --gold:#b8790a;     --gold-bg:#fbf1d3;
+    --ink:#222b38; --muted:#5b6675; --line:#9aa6b6;
+    --page:#e7e4dc; --paper:#fbfaf6;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--page);color:var(--ink);font-size:15px;line-height:1.5;
+    font-family:"Inter","Segoe UI Variable","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  .lamina{background:var(--paper);max-width:1100px;margin:24px auto;padding:28px 32px 36px;
+    border-radius:18px;box-shadow:0 1px 3px rgba(31,41,55,.08),0 8px 28px rgba(31,41,55,.07);page-break-after:always;}
+  h1{font-size:26px;margin:0 0 2px;letter-spacing:-.01em;}
+  h1 .num{background:var(--ink);color:#fff;border-radius:8px;padding:2px 10px;margin-right:8px;font-size:20px;}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 22px;}
+
+  /* cajas genéricas */
+  .box{border-radius:12px;padding:10px 12px;border:2px solid;line-height:1.25;}
+  .box .t{font-weight:800;font-size:15px;display:block;}
+  .box .f{font-size:12px;color:#334155;display:block;margin-top:3px;}
+  .ico{font-size:18px;margin-right:5px;}
+
+  .top{display:flex;justify-content:center;margin-bottom:6px;}
+  .ministro{background:var(--ministro);color:#fff;border-color:#000;text-align:center;
+    padding:14px 30px;border-radius:14px;min-width:340px;}
+  .ministro .t{font-size:20px;color:#fff;}
+  .ministro .f{color:#cbd5e1;}
+
+  .connector{width:2px;height:18px;background:var(--line);margin:0 auto;}
+
+  .row{display:grid;gap:14px;margin-top:8px;}
+  .r6{grid-template-columns:repeat(4,1fr);}     /* general */
+  .r-ses{grid-template-columns:repeat(4,1fr);}
+  .r-dgp{grid-template-columns:repeat(3,1fr);}
+
+  /* colores por rama */
+  .c-ses{background:var(--ses-bg);border-color:var(--ses);} .c-ses .t{color:var(--ses);}
+  .c-penit{background:var(--penit-bg);border-color:var(--penit);} .c-penit .t{color:var(--penit);}
+  .c-pcivil{background:var(--pcivil-bg);border-color:var(--pcivil);} .c-pcivil .t{color:var(--pcivil);}
+  .c-subse{background:var(--subse-bg);border-color:var(--subse);} .c-subse .t{color:var(--subse);}
+  .c-dgp{background:var(--dgp-bg);border-color:var(--dgp);} .c-dgp .t{color:var(--dgp);}
+  .c-priv{background:var(--priv-bg);border-color:var(--priv);} .c-priv .t{color:var(--priv);}
+  .c-gold{background:var(--gold-bg);border-color:var(--gold);} .c-gold .t{color:var(--gold);}
+
+  .children{margin-top:10px;display:grid;gap:7px;}
+  .child{font-size:12.5px;background:#fff;border-radius:8px;padding:6px 9px;border-left:4px solid;}
+  .child b{font-weight:700;}
+
+  .ojo{margin-top:18px;background:#fff7ed;border:2px dashed var(--pcivil);border-radius:12px;
+    padding:10px 14px;font-size:13px;}
+  .ojo b{color:var(--priv);}
+  .nota{font-size:11px;color:#94a3b8;margin-top:14px;}
+
+  .mnemo{margin-top:14px;background:linear-gradient(90deg,#fef9c3,#fef08a);
+    border:2px solid var(--gold);border-radius:12px;padding:10px 14px;font-size:13.5px;}
+  .mnemo .big{font-size:22px;font-weight:900;letter-spacing:3px;color:#92400e;}
+
+  .pill{display:inline-block;font-size:10.5px;font-weight:700;background:#fff;border:1px solid currentColor;
+    border-radius:999px;padding:1px 7px;margin-left:4px;vertical-align:middle;}
+
+  .toolbar{text-align:center;margin:18px;}
+  .toolbar button{font-size:14px;padding:8px 18px;border:0;border-radius:8px;background:var(--ses);color:#fff;cursor:pointer;}
+
+  /* ---- pestañas ---- */
+  .tabs{display:flex;gap:8px;justify-content:center;margin:20px auto 0;max-width:1100px;}
+  .tabs button{font-size:15px;font-weight:700;padding:10px 22px;border:2px solid var(--ses);
+    background:#fff;color:var(--ses);border-radius:10px 10px 0 0;cursor:pointer;}
+  .tabs button.active{background:var(--ses);color:#fff;}
+  .tabpane{display:none;}
+  .tabpane.active{display:block;}
+
+  /* ---- ORG-CHART horizontal (top-down con conectores) ---- */
+  .lamina.wide{max-width:1640px;}
+  .oc{overflow:hidden;padding:6px 4px 14px;text-align:left;}
+  .ocfit{display:inline-block;width:max-content;transform-origin:top left;}
+  .oc ul{position:relative;display:flex;justify-content:center;list-style:none;margin:0;padding:24px 0 0;}
+  .oc li{position:relative;padding:24px 7px 0;text-align:center;}
+  .oc li::before,.oc li::after{content:'';position:absolute;top:0;right:50%;width:50%;height:24px;border-top:3px solid var(--line);}
+  .oc li::after{right:auto;left:50%;border-left:3px solid var(--line);}
+  .oc li:only-child::before,.oc li:only-child::after{display:none;}
+  .oc li:first-child::before,.oc li:last-child::after{border:0 none;}
+  .oc li:last-child::before{border-right:3px solid var(--line);}
+  .oc ul ul::before{content:'';position:absolute;top:0;left:50%;border-left:3px solid var(--line);width:0;height:24px;}
+  .onode{display:inline-flex;flex-direction:column;border:2px solid;border-radius:11px;
+    padding:7px 9px;min-width:138px;max-width:185px;line-height:1.18;vertical-align:top;text-align:center;}
+  .onode .t{font-weight:800;font-size:12.5px;}
+  .onode .f{font-size:10.5px;color:#334155;margin-top:3px;}
+  .onode.root{background:var(--ministro);border-color:#000;min-width:260px;}
+  .onode.root .t{color:#fff;font-size:15px;} .onode.root .f{color:#cbd5e1;}
+  .onode.head{display:flex;min-width:210px;margin:0 auto;}
+
+  /* listas verticales bajo cada jefe (estilo organigrama clásico) */
+  .vkids{display:inline-block;text-align:left;position:relative;margin-top:8px;}
+  .vkids::before{content:'';position:absolute;left:12px;top:-8px;bottom:19px;border-left:3px solid var(--line);}
+  .vkid{position:relative;padding-left:30px;margin:8px 0;}
+  .vkid::before{content:'';position:absolute;left:12px;top:19px;width:18px;border-top:3px solid var(--line);}
+  .vlabel{font-size:11px;font-weight:800;color:#64748b;margin:10px 0 2px 30px;text-transform:uppercase;letter-spacing:.5px;}
+  .vbox{display:block;border:2px solid;border-radius:9px;padding:6px 9px;max-width:255px;}
+  .vbox .t{font-weight:800;font-size:12.5px;display:block;}
+  .vbox .f{font-size:11px;color:#334155;display:block;margin-top:1px;}
+  .vbox .warn{display:block;font-size:10.5px;color:var(--priv);font-weight:700;margin-top:3px;}
+  .vbox.star{border-width:3px;}
+  /* bloques desplegables (click / táctil) */
+  .vbox.exp{cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;}
+  .vbox.exp .t::after{content:' ▸';color:#94a3b8;font-weight:900;}
+  .vbox.exp.open .t::after{content:' ▾';}
+  .vbox .more{display:none;margin-top:6px;padding-top:6px;border-top:1px dashed #cbd5e1;text-align:left;}
+  .vbox.open .more{display:block;}
+  /* reset: estas listas NO son parte del organigrama (sin flex ni conectores) */
+  .vbox .more ul{display:block;margin:0;padding:0 0 0 16px;position:static;}
+  .vbox .more ul::before{content:none;display:none;}
+  .vbox .more li{display:list-item;position:static;padding:0;margin:3px 0;
+    font-size:10.5px;color:#334155;line-height:1.3;text-align:left;}
+  .vbox .more li::before,.vbox .more li::after{content:none;display:none;border:0;}
+  .vbox .more li b{color:var(--ink);}
+  .ocbtns{margin:2px 0 0;}
+  .ocbtns button{font-size:12px;padding:4px 11px;border:1px solid var(--dgp);background:#fff;color:var(--dgp);border-radius:7px;cursor:pointer;margin-right:6px;}
+  .ocbtns .hint{font-size:11.5px;color:var(--muted);}
+
+  /* panel de estudio + mnemotecnia */
+  .studybox{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px;}
+  .studycard{border-radius:14px;padding:14px 17px;border:2px solid;}
+  .studycard h3{margin:0 0 8px;font-size:15px;display:flex;align-items:center;gap:7px;}
+  .studycard.tips{background:#eaf2ff;border-color:#b9d3ff;}
+  .studycard.tips h3{color:#1d4ed8;}
+  .studycard.mnemo2{background:#fff7e3;border-color:#eed493;}
+  .studycard.mnemo2 h3{color:#92600a;}
+  .studycard ul{margin:0;padding-left:19px;}
+  .studycard li{margin:7px 0;font-size:13px;line-height:1.45;}
+  .mn{display:inline-block;font-weight:900;letter-spacing:1.5px;background:#fff;
+    border:1px solid #e3c873;border-radius:6px;padding:0 7px;color:#92600a;margin-right:3px;}
+  @media(max-width:780px){.studybox{grid-template-columns:1fr;}}
+  .charttitle{font-weight:800;font-size:15px;margin:22px 0 0;padding-left:4px;border-left:5px solid var(--ses);padding:2px 0 2px 10px;}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px;font-size:12px;}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;border:2px solid;}
+
+  @media print{ body{background:#fff;} .lamina{box-shadow:none;margin:0;border-radius:0;max-width:100%;}
+    .noprint{display:none;} .tabpane{display:block !important;} }
+</style>
+</head>
+<body>
+
+<div class="toolbar noprint"><button onclick="window.print()">🖨️ Imprimir / Guardar como PDF</button></div>
+
+<div class="tabs noprint">
+  <button id="btn-laminas" class="active" onclick="showTab('laminas')">📑 Láminas de estudio</button>
+  <button id="btn-organigrama" onclick="showTab('organigrama')">🗂️ Organigrama completo</button>
+</div>
+
+<div id="tab-laminas" class="tabpane active">
+
+<!-- ============ LÁMINA 1 ============ -->
+<section class="lamina">
+  <h1><span class="num">13</span>Ministerio del Interior — mapa general</h1>
+  <p class="sub">RD 207/2024 · actualizado por RD 353/2025 y RD 328/2026 · cada color = una rama</p>
+
+  <div class="top">
+    <div class="box ministro"><span class="t">👤 MINISTRO/A DEL INTERIOR</span>
+      <span class="f">Mando superior de las Fuerzas y Cuerpos de Seguridad del Estado</span></div>
+  </div>
+  <div class="connector"></div>
+
+  <div class="row r6">
+    <div class="box c-ses">
+      <span class="ico">🛡️</span><span class="t">a) Secretaría de Estado de SEGURIDAD</span>
+      <span class="f">El gran bloque policial. Manda sobre Policía y Guardia Civil.</span>
+    </div>
+    <div class="box c-penit">
+      <span class="ico">⛓️</span><span class="t">b) Secretaría Gral. Instituciones Penitenciarias</span>
+      <span class="f">Prisiones y reinserción.</span>
+    </div>
+    <div class="box c-pcivil">
+      <span class="ico">🚨</span><span class="t">c) Secretaría Gral. Protección Civil y Emergencias</span>
+      <span class="f">Emergencias y catástrofes. <b>Nueva (RD 328/2026).</b></span>
+    </div>
+    <div class="box c-subse">
+      <span class="ico">📋</span><span class="t">d) Subsecretaría del Interior</span>
+      <span class="f">La "trastienda" administrativa del Ministerio.</span>
+    </div>
+  </div>
+
+  <div class="row r6" style="margin-top:14px;">
+    <div></div>
+    <div class="child" style="border-color:var(--penit)"><b>D.G.</b> Ejecución Penal y Reinserción Social</div>
+    <div class="child" style="border-color:var(--pcivil)"><b>D.G.</b> Protección Civil y Emergencias</div>
+    <div>
+      <div class="child" style="border-color:var(--subse);margin-bottom:6px;"><b>SG Técnica</b> · <b>D.G.</b> Política Interior</div>
+      <div class="child" style="border-color:var(--subse);margin-bottom:6px;">🚗 <b>D.G. TRÁFICO</b> (DGT)</div>
+      <div class="child" style="border-color:var(--subse);margin-bottom:6px;"><b>D.G.</b> Apoyo a Víctimas del Terrorismo</div>
+      <div class="child" style="border-color:var(--subse)"><b>D.G.</b> Protección Internacional (asilo)</div>
+    </div>
+  </div>
+
+  <div class="ojo">
+    <b>⚠️ OJO examen:</b> la <b>DGT</b>, <b>Protección Internacional (asilo)</b> y <b>Apoyo a Víctimas del Terrorismo</b>
+    NO cuelgan de Seguridad… cuelgan de la <span style="color:var(--subse);font-weight:700">Subsecretaría</span>. Parece de Seguridad, pero no lo es.
+  </div>
+  <p class="nota">Directamente del Ministro también: Gabinete (nivel D.G.) y Oficina de Comunicación (nivel S.G.).</p>
+</section>
+
+<!-- ============ LÁMINA 2 ============ -->
+<section class="lamina">
+  <h1><span class="num" style="background:var(--ses)">SES</span>Secretaría de Estado de Seguridad</h1>
+  <p class="sub">Arts. 2-6 RD 207/2024 · 4 Direcciones Generales + 4 órganos que cuelgan directos del Secretario</p>
+
+  <div class="top">
+    <div class="box ministro" style="background:var(--ses);border-color:#1e3a8a;">
+      <span class="t">🛡️ SECRETARIO/A DE ESTADO DE SEGURIDAD</span>
+      <span class="f" style="color:#dbeafe">Dirige la política de seguridad del Estado</span></div>
+  </div>
+  <div class="connector"></div>
+
+  <p style="font-weight:700;color:var(--ses);margin:4px 0 6px;font-size:13px;">▸ Las 4 DIRECCIONES GENERALES</p>
+  <div class="row r-ses">
+    <div class="box c-ses"><span class="ico">👮</span><span class="t">D.G. de la POLICÍA</span><span class="f">Policía Nacional → lámina 3</span></div>
+    <div class="box c-ses"><span class="ico">🪖</span><span class="t">D.G. de la GUARDIA CIVIL</span><span class="f">Mando civil del Director Gral.</span></div>
+    <div class="box c-ses"><span class="ico">🌍</span><span class="t">D.G. Relaciones Internacionales y Extranjería</span><span class="f">Cooperación policial internacional</span></div>
+    <div class="box c-ses"><span class="ico">📊</span><span class="t">D.G. Coordinación y Estudios</span><span class="f">Incluye la Inspección de Personal y Servicios de Seguridad</span></div>
+  </div>
+
+  <p style="font-weight:700;color:var(--priv);margin:18px 0 6px;font-size:13px;">▸ Cuelgan DIRECTOS del Secretario (sin pasar por ninguna D.G.) <span class="pill" style="color:var(--priv)">trampa típica</span></p>
+  <div class="row r-ses">
+    <div class="box c-gold"><span class="ico">🎯</span><span class="t">CITCO</span><span class="f">Inteligencia contra Terrorismo y Crimen Organizado</span></div>
+    <div class="box c-gold"><span class="ico">🗂️</span><span class="t">Gabinete técnico</span><span class="f">Apoyo directo al Secretario</span></div>
+    <div class="box c-gold"><span class="ico">🏗️</span><span class="t">SG Infraestructuras y Medios para la Seguridad</span><span class="f">Planificación de medios</span></div>
+    <div class="box c-gold"><span class="ico">💻</span><span class="t">SG Sistemas de Información y Comunicaciones</span><span class="f">Tecnología y comunicaciones</span></div>
+  </div>
+
+  <div class="ojo">
+    <b>⚠️ OJO examen:</b> el <b>CITCO</b> no depende de la Policía ni de la Guardia Civil. Tiene <b>nivel de Subdirección General</b>
+    y depende <b>directamente del Secretario de Estado</b>. Pregunta clásica.
+  </div>
+</section>
+
+<!-- ============ LÁMINA 3 ============ -->
+<section class="lamina">
+  <h1><span class="num" style="background:var(--dgp)">DGP</span>Dirección General de la Policía</h1>
+  <p class="sub">Art. 3 RD 207/2024 + Orden INT/859/2023 · y dónde vive la Seguridad Privada (Ley 5/2014)</p>
+
+  <div class="top">
+    <div class="box ministro" style="background:var(--dgp);border-color:#0e7490;">
+      <span class="t">👮 DIRECTOR/A GENERAL DE LA POLICÍA</span></div>
+  </div>
+  <div class="connector"></div>
+
+  <div class="row r-dgp">
+    <div class="box c-dgp" style="border-width:3px;">
+      <span class="ico">⚡</span><span class="t">DIRECCIÓN ADJUNTA OPERATIVA (DAO)</span>
+      <span class="f">El brazo operativo. De ella cuelgan las 5 Comisarías Generales.</span>
+    </div>
+    <div class="box c-dgp"><span class="ico">👥</span><span class="t">SG Recursos Humanos y Formación</span><span class="f">División de Personal · División de Formación</span></div>
+    <div class="box c-dgp"><span class="ico">📦</span><span class="t">SG Logística e Innovación</span><span class="f">Div. Económica y Técnica · Div. Documentación (DNI/Pasaporte)</span></div>
+  </div>
+
+  <p style="font-weight:700;color:var(--dgp);margin:18px 0 6px;font-size:13px;">▸ Las 5 COMISARÍAS GENERALES (cuelgan de la DAO)</p>
+  <div class="row" style="grid-template-columns:repeat(5,1fr);">
+    <div class="box c-dgp"><span class="t">🕵️ Información</span><span class="f">Terrorismo, antiterrorismo</span></div>
+    <div class="box c-dgp"><span class="t">🔎 Policía Judicial</span><span class="f">Investigación criminal</span></div>
+    <div class="box c-priv" style="border-width:3px;"><span class="t">🚓 Seguridad Ciudadana</span><span class="f">Orden público · <b>aquí vive la Seg. Privada</b></span></div>
+    <div class="box c-dgp"><span class="t">🛂 Extranjería y Fronteras</span><span class="f">Fronteras, documentación extranjeros</span></div>
+    <div class="box c-dgp"><span class="t">🔬 Policía Científica</span><span class="f">Criminalística, ADN, huellas</span></div>
+  </div>
+  <p class="nota">También bajo la DAO: División de Operaciones y Transformación Digital.</p>
+
+  <div class="mnemo">
+    🧠 <b>Para memorizar las 5 Comisarías:</b> <span class="big">I·J·S·E·F</span><br>
+    <b>I</b>nformación · <b>J</b>udicial · <b>S</b>eguridad Ciudadana · <b>E</b>xtranjería · Policía Cientí<b>F</b>ica<br>
+    <span style="font-size:12px;color:#92400e;">Frase ancla: «<b>I</b>nspectores <b>J</b>uzgan <b>S</b>ospechosos <b>E</b>n <b>F</b>orense».</span>
+  </div>
+
+  <p style="font-weight:700;color:var(--priv);margin:20px 0 6px;font-size:13px;">▸ ¿Dónde está la SEGURIDAD PRIVADA? (Ley 5/2014)</p>
+  <div class="box c-priv">
+    <span class="t">🔒 UCSP — Unidad Central de Seguridad Privada</span>
+    <span class="f">Inspecciona y controla vigilantes, detectives y empresas de seguridad privada.
+    Está dentro de la <b>Comisaría Gral. de Seguridad Ciudadana</b> → DAO → DGP.</span>
+  </div>
+  <div class="children">
+    <div class="child" style="border-color:var(--priv)"><b>Interior / SES</b> → decide la política y las autorizaciones de ámbito estatal</div>
+    <div class="child" style="border-color:var(--priv)"><b>UCSP (Policía Nacional)</b> → inspección, control y habilitación del personal</div>
+    <div class="child" style="border-color:var(--priv)"><b>Unidades Territoriales</b> → ejecución en cada provincia</div>
+  </div>
+
+  <div class="ojo">
+    <b>⚠️ OJO examen:</b> la <b>UCSP</b> está en <b>Seguridad Ciudadana</b>, NO en Policía Judicial ni en Extranjería.
+    Es el fallo más común al "adivinar por lógica".
+  </div>
+</section>
+
+</div><!-- /tab-laminas -->
+
+<!-- ============ PESTAÑA 2 · ORGANIGRAMA COMPLETO ============ -->
+<div id="tab-organigrama" class="tabpane">
+<section class="lamina wide">
+  <h1><span class="num">13</span>Organigrama completo — quién depende de quién</h1>
+  <p class="sub">Dos organigramas horizontales. Si no caben en pantalla, se deslizan a los lados. Color = rama del Ministerio.</p>
+
+  <div class="legend">
+    <span><i style="border-color:var(--ses);background:var(--ses-bg)"></i> Seguridad (SES)</span>
+    <span><i style="border-color:var(--dgp);background:var(--dgp-bg)"></i> Policía / Guardia Civil</span>
+    <span><i style="border-color:var(--priv);background:var(--priv-bg)"></i> Seguridad Privada</span>
+    <span><i style="border-color:var(--gold);background:var(--gold-bg)"></i> Directos del Secretario</span>
+    <span><i style="border-color:var(--penit);background:var(--penit-bg)"></i> Penitenciarias</span>
+    <span><i style="border-color:var(--pcivil);background:var(--pcivil-bg)"></i> Protección Civil</span>
+    <span><i style="border-color:var(--subse);background:var(--subse-bg)"></i> Subsecretaría</span>
+  </div>
+
+  <div class="ocbtns noprint">
+    <button onclick="expandAll(true)">➕ Expandir todo</button>
+    <button onclick="expandAll(false)">➖ Contraer todo</button>
+    <span class="hint">👆 toca/clica los bloques con ▸ para ver su organización interna</span>
+  </div>
+
+  <p class="charttitle">1 · Estructura del Ministerio (jefe arriba · cada rama, sus órganos en vertical)</p>
+  <div class="oc"><div class="ocfit">
+    <ul>
+      <li>
+        <div class="onode root"><span class="t">👤 MINISTRO/A DEL INTERIOR</span><span class="f">Mando superior de las FCSE · de él cuelgan también Gabinete y Oficina de Comunicación</span></div>
+        <ul>
+          <!-- a) SES -->
+          <li>
+            <div class="onode head c-ses"><span class="t">🛡️ a) SECRETARÍA DE ESTADO DE SEGURIDAD</span><span class="f">Política de seguridad del Estado</span></div>
+            <div class="vkids">
+              <div class="vlabel">4 Direcciones Generales</div>
+              <div class="vkid"><div class="vbox c-dgp star exp"><span class="t">👮 D.G. de la POLICÍA</span><span class="f">→ ver organigrama 2</span>
+                <div class="more"><ul>
+                  <li><b>Dirección Adjunta Operativa (DAO):</b> 5 Comisarías Generales + División de Operaciones y Transf. Digital</li>
+                  <li><b>SG RR.HH. y Formación</b> · <b>SG Logística e Innovación</b></li>
+                  <li><b>Gabinete Técnico</b> · <b>División de Cooperación Internacional</b> (directa del Director)</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🪖 D.G. de la GUARDIA CIVIL</span><span class="f">Operativa · Personal · Apoyo</span>
+                <div class="more"><ul>
+                  <li><b>Dirección Adjunta Operativa:</b> Mando de Operaciones · Mando de Fronteras y Policía Marítima · Jefaturas de Información, P. Judicial, Coop. Internacional y Transf. Digital</li>
+                  <li><b>Mando de Personal</b> · <b>Mando de Apoyo</b> · <b>Gabinete Técnico</b></li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-ses exp"><span class="t">🌍 D.G. RR. Internacionales y Extranjería</span><span class="warn">⚠ cuelga de SES, NO de Subsecretaría</span>
+                <div class="more"><ul>
+                  <li><b>SG Cooperación Policial Internacional</b></li>
+                  <li><b>SG Relaciones Internacionales, Inmigración y Extranjería</b></li>
+                  <li><b>SG Asuntos Europeos</b></li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-ses exp"><span class="t">📊 D.G. Coordinación y Estudios</span><span class="f">Órgano de apoyo del Secretario p/ coordinar las FCSE</span><span class="warn">⚠ aquí caen muchas trampas</span>
+                <div class="more"><ul>
+                  <li><b>Inspección de Personal y Servicios de Seguridad</b> (nivel subdir. gral.)</li>
+                  <li><b>Oficina Nacional de lucha contra los Delitos de Odio (ONDOD)</b></li>
+                  <li>Responsable del sistema <b>VioGén</b></li>
+                  <li>Unidad Nacional de <b>CEPOL</b> · coordinación de los <b>Centros de Cooperación Policial y Aduanera</b></li>
+                  <li><b>Estadística Nacional de Criminalidad</b></li>
+                </ul></div></div></div>
+              <div class="vlabel">Directos del Secretario · nivel Subdir. Gral.</div>
+              <div class="vkid"><div class="vbox c-gold exp"><span class="t">🎯 CITCO</span><span class="f">Intel. c/ terrorismo y crimen organizado</span><span class="warn">⚠ NIVEL subdir. gral. (no D.G.)</span>
+                <div class="more"><ul>
+                  <li><b>Oficina Nacional de Información sobre Pasajeros (ONIP)</b></li>
+                  <li><b>UNECI</b> — retirada de contenidos ilícitos en internet</li>
+                  <li>Elabora la inteligencia estratégica c/ terrorismo y crimen organizado</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-gold"><span class="t">🗂️ Gabinete técnico</span><span class="f">Asistencia inmediata · nivel subdir. gral.</span></div></div>
+              <div class="vkid"><div class="vbox c-gold"><span class="t">🏗️ SG Infraestructuras y Medios para la Seguridad</span></div></div>
+              <div class="vkid"><div class="vbox c-gold"><span class="t">💻 SG Sistemas de Información y Comunicaciones</span></div></div>
+            </div>
+          </li>
+          <!-- b) Penitenciarias -->
+          <li>
+            <div class="onode head c-penit"><span class="t">⛓️ b) SG Instituciones Penitenciarias</span><span class="f">Prisiones y reinserción</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-penit"><span class="t">D.G. Ejecución Penal y Reinserción Social</span></div></div>
+            </div>
+          </li>
+          <!-- c) Protección Civil -->
+          <li>
+            <div class="onode head c-pcivil"><span class="t">🚨 c) SG Protección Civil y Emergencias</span><span class="f">Nueva · RD 328/2026</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-pcivil"><span class="t">D.G. Protección Civil y Emergencias</span><span class="warn">⚠ exámenes viejos la ponían en Subsecretaría</span></div></div>
+            </div>
+          </li>
+          <!-- d) Subsecretaría -->
+          <li>
+            <div class="onode head c-subse"><span class="t">📋 d) SUBSECRETARÍA DEL INTERIOR</span><span class="f">Gestión administrativa interna</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-subse"><span class="t">Secretaría General Técnica</span></div></div>
+              <div class="vkid"><div class="vbox c-subse"><span class="t">D.G. Política Interior</span><span class="f">Elecciones, partidos</span></div></div>
+              <div class="vkid"><div class="vbox c-subse"><span class="t">🚗 D.G. de TRÁFICO</span><span class="warn">⚠ aquí, NO en Seguridad</span></div></div>
+              <div class="vkid"><div class="vbox c-subse"><span class="t">D.G. Apoyo a Víctimas del Terrorismo</span><span class="warn">⚠ Subsecretaría, NO SES (cae mucho)</span></div></div>
+              <div class="vkid"><div class="vbox c-subse"><span class="t">D.G. Protección Internacional</span><span class="f">Asilo</span></div></div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div></div>
+
+  <p class="charttitle" style="border-color:var(--dgp);">2 · Dentro de la Dirección General de la Policía</p>
+  <div class="oc"><div class="ocfit">
+    <ul>
+      <li>
+        <div class="onode root" style="background:var(--dgp);border-color:#0e7490;"><span class="t">👮 DIRECTOR/A GENERAL DE LA POLICÍA</span><span class="f">Preside la Junta de Gobierno</span></div>
+        <ul>
+          <!-- DAO -->
+          <li>
+            <div class="onode head c-dgp star"><span class="t">⚡ DIRECCIÓN ADJUNTA OPERATIVA (DAO)</span><span class="f">Dirige, impulsa y coordina lo operativo</span></div>
+            <div class="vkids">
+              <div class="vlabel">5 Comisarías Generales + 1 División</div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🕵️ CG Información</span><span class="f">Terrorismo y antiterrorismo</span>
+                <div class="more"><ul>
+                  <li>Investigación y prevención del <b>terrorismo</b> y de grupos violentos</li>
+                  <li>Información de interés para el orden y la seguridad ciudadana</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🔎 CG Policía Judicial</span><span class="f">Investigación criminal · UDYCO · UDEF</span>
+                <div class="more"><ul>
+                  <li><b>UDYCO Central</b> (droga y crimen organizado) · Brigada Central de Crimen Organizado</li>
+                  <li><b>UDEF Central</b> (delincuencia económica y fiscal) · Blanqueo · B. Investigación Banco de España</li>
+                  <li><b>U.C. Delincuencia Especializada y Violenta</b> (Centro Nac. Integridad en el Deporte)</li>
+                  <li><b>Unidad adscrita a la Fiscalía</b> (General del Estado / Antidroga / Anticorrupción)</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-priv star exp"><span class="t">🚓 CG Seguridad Ciudadana</span><span class="f">Orden público</span><span class="warn">🔒 aquí está la Seguridad Privada</span>
+                <div class="more"><ul>
+                  <li><b>UCSP — Unidad Central de Seguridad Privada</b> (Ley 5/2014) · Interlocutor Policial Nacional Sanitario</li>
+                  <li><b>Jefatura de Unidades de Intervención Policial (UIP)</b></li>
+                  <li><b>Oficina Nacional de Deportes</b> (violencia en el deporte)</li>
+                  <li><b>Unidad Central de Participación Ciudadana</b> (interlocución en delitos de odio)</li>
+                  <li><b>Jefatura de Unidades Especiales</b></li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🛂 CG Extranjería y Fronteras</span><span class="f">Inteligencia: CENIF · unidad móvil: BRIC</span>
+                <div class="more"><ul>
+                  <li><b>CENIF</b> — unidad de inteligencia de la Comisaría</li>
+                  <li><b>BRIC</b> — Brigada de Respuesta a la Inmigración Clandestina (móvil de fronteras)</li>
+                  <li><b>UCER</b> — Unidad Central de Repatriaciones</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🔬 CG Policía Científica</span><span class="f">Criminalística · ADN · huellas</span>
+                <div class="more"><ul>
+                  <li><b>U.C. Criminalística</b> — informes periciales (p. ej. falsedad documental)</li>
+                  <li><b>U.C. Identificación</b> · <b>U.C. Análisis Científicos</b></li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">🖥️ División de Operaciones y Transformación Digital</span><span class="warn">⚠ depende de la DAO · nivel = catálogo de puestos (NO subdir. gral.)</span>
+                <div class="more"><ul>
+                  <li><b>Comisaría Especial del Senado</b></li>
+                  <li><b>Unidad de Planificación Estratégica y Coordinación</b> (Centro Nacional de Comunicaciones)</li>
+                  <li><b>Unidad Central de Ciberdelincuencia</b> (Brigada Central de Fraudes Informáticos)</li>
+                </ul></div></div></div>
+            </div>
+          </li>
+          <!-- SG RRHH -->
+          <li>
+            <div class="onode head c-dgp"><span class="t">👥 SG RR.HH. y Formación</span><span class="warn" style="color:var(--priv);font-size:10.5px;">⚠ 1.ª en suplir a la DAO</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">División de Personal</span><span class="f">Of. del Policía · retribuciones</span>
+                <div class="more"><ul>
+                  <li><b>Secretaría del Consejo de Policía</b></li>
+                  <li><b>Área de Retribuciones</b> (a través de su Secretaría General)</li>
+                  <li>Unidad de Asuntos Internos (conductas penales/éticas) · PRL y Protección Socio-Sanitaria</li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">División de Formación y Perfeccionamiento</span>
+                <div class="more"><ul>
+                  <li><b>Área de Innovación Formativa</b> — campus virtual de la Policía Nacional</li>
+                  <li>Selección y formación del personal</li>
+                </ul></div></div></div>
+            </div>
+          </li>
+          <!-- SG Logística -->
+          <li>
+            <div class="onode head c-dgp"><span class="t">📦 SG Logística e Innovación</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">División Económica y Técnica</span>
+                <div class="more"><ul>
+                  <li><b>Unidad Económica</b> (Área de Medios Materiales · Área Presupuestaria)</li>
+                  <li><b>Unidad Técnica</b> · <b>Grupo Operativo de Intervenciones Técnicas (GOIT)</b></li>
+                </ul></div></div></div>
+              <div class="vkid"><div class="vbox c-dgp"><span class="t">División de Documentación</span><span class="f">DNI · Pasaporte</span></div></div>
+            </div>
+          </li>
+          <!-- Gabinete -->
+          <li>
+            <div class="onode head c-dgp"><span class="t">🗂️ Gabinete Técnico</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">Oficina de Marca</span>
+                <div class="more"><ul>
+                  <li><b>Servicio de Protocolo</b> (Coordinación Institucional e Identidad Corporativa) → <b>Banda de Música</b></li>
+                </ul></div></div></div>
+            </div>
+          </li>
+          <!-- Coop Internacional -->
+          <li>
+            <div class="onode head c-dgp star"><span class="t">🌐 División de Cooperación Internacional</span><span class="warn" style="color:var(--priv);font-size:10.5px;">⚠ depende DIRECTAMENTE del Director Gral. (no de la DAO)</span></div>
+            <div class="vkids">
+              <div class="vkid"><div class="vbox c-dgp exp"><span class="t">OCN Interpol · U.N. Europol · Oficina SIRENE</span><span class="f">Gestiona los 3 canales internacionales</span>
+                <div class="more"><ul>
+                  <li><b>Oficina SIRENE</b> — contacto nacional p/ datos post-hit de ADN y dactiloscópicos</li>
+                  <li><b>Centro de Comunicaciones Internacionales</b> de la Policía Nacional</li>
+                  <li>Unidad de Coordinación Internacional</li>
+                </ul></div></div></div>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div></div>
+
+  <div class="ojo">
+    <b>⚠️ Trampas que SÍ han caído (exámenes reales EE/EB):</b>
+    <ul style="margin:6px 0 0;padding-left:20px;line-height:1.5;">
+      <li><b>SES vs Subsecretaría:</b> RR. Internacionales y Extranjería → <b>SES</b>; pero Apoyo a Víctimas del Terrorismo, Tráfico y Protección Internacional → <b>Subsecretaría</b>.</li>
+      <li><b>CITCO</b> tiene nivel de <b>Subdirección General</b> (no Director General ni Subsecretario) y está integrado en la SES.</li>
+      <li><b>D.G. Coordinación y Estudios</b> ≠ solo estadística: lleva Delitos de Odio, VioGén, CEPOL, Cooperación Policial-Aduanera e Inspección de Personal.</li>
+      <li><b>División de Operaciones y Transformación Digital</b> depende de la <b>DAO</b> (nivel "catálogo de puestos"); la <b>División de Cooperación Internacional</b> depende <b>directamente del Director General</b>.</li>
+      <li><b>Suplencia del DAO:</b> en primer lugar, la SG de Recursos Humanos y Formación.</li>
+    </ul>
+    <span style="display:block;margin-top:8px;font-size:11px;color:var(--muted);">Norma vigente: RD 207/2024 + Orden INT/859/2023. Exámenes anteriores citan el RD 734/2020 (derogado) y el "Gabinete de Coordinación y Estudios", hoy <b>Dirección General</b>.</span>
+  </div>
+
+  <div class="studybox">
+    <div class="studycard tips">
+      <h3>💡 Cómo estudiar este esquema</h3>
+      <ul>
+        <li><b>Recuperación activa:</b> pulsa <i>Contraer todo</i> e intenta recitar las unidades de memoria <u>antes</u> de abrir cada bloque. Recordar fija más que releer.</li>
+        <li><b>Repaso espaciado:</b> vuelve a este esquema a las <b>24 h, 72 h y 1 semana</b>. Lo que falles, a tus tarjetas (Anki).</li>
+        <li><b>Codificación por color:</b> asocia cada rama a su color (azul = Seguridad, verde = Subsecretaría…). El color es un gancho extra de memoria.</li>
+        <li><b>Mapa mudo:</b> dibújalo en papel sin mirar. Lo que no te salga = tu punto débil real.</li>
+        <li><b>Trampas en pareja:</b> no memorices el dato suelto, memoriza el <b>contraste</b> («¿SES o Subsecretaría?»). Así respondes aunque te cambien el enunciado.</li>
+      </ul>
+    </div>
+    <div class="studycard mnemo2">
+      <h3>🧠 Reglas mnemotécnicas</h3>
+      <ul>
+        <li><b>4 ramas del Ministerio</b> (orden a→d): <span class="mn">S·P·P·S</span> → «<b>S</b>eguridad · <b>P</b>enitenciarias · <b>P</b>rotección civil · <b>S</b>ubsecretaría».</li>
+        <li><b>4 D.G. de la SES:</b> <span class="mn">P·G·R·C</span> → «<b>P</b>olicía y <b>G</b>uardia <b>R</b>eparten <b>C</b>oordinación».</li>
+        <li><b>5 Comisarías Generales (DAO):</b> <span class="mn">I·J·S·E·F</span> → «<b>I</b>nspectores <b>J</b>uzgan <b>S</b>ospechosos <b>E</b>n <b>F</b>orense».</li>
+        <li><b>Lo que NO es de Seguridad</b> (va en Subsecretaría): <span class="mn">T·A·V</span> → <b>T</b>ráfico, <b>A</b>silo, <b>V</b>íctimas del terrorismo. «El <b>TAV</b> se baja en Subsecretaría».</li>
+        <li><b>D.G. Coordinación y Estudios</b> (el cajón de sorpresas): <span class="mn">O·V·CE·C·I</span> → <b>O</b>dio · <b>V</b>ioGén · <b>CE</b>POL · <b>C</b>ooperación policial-aduanera · <b>I</b>nspección de personal.</li>
+        <li><b>CITCO</b> = <i>SubCITCO</i>: tiene rango de <b>Subdirección General</b> (no Dirección). De él: ONIP y UNECI.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div><!-- /tab-organigrama -->
+
+<script>
+  function showTab(name){
+    document.querySelectorAll('.tabpane').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));
+    document.getElementById('tab-'+name).classList.add('active');
+    document.getElementById('btn-'+name).classList.add('active');
+    fitCharts();
+  }
+
+  // Escala cada organigrama para que quepa entero en el ancho disponible (sin scroll ni recortes)
+  function fitCharts(){
+    document.querySelectorAll('.oc').forEach(function(oc){
+      var fit = oc.querySelector('.ocfit');
+      if(!fit) return;
+      fit.style.transform = 'none';
+      fit.style.marginLeft = '0';
+      oc.style.height = 'auto';
+      var avail = oc.clientWidth - 8;            // margen de seguridad
+      var natural = fit.offsetWidth;             // ancho real (width:max-content)
+      if(!natural) return;                       // pestaña oculta: aún no se puede medir
+      var scale = Math.min(1, avail / natural);
+      fit.style.transform = 'scale(' + scale + ')';
+      oc.style.height = (fit.offsetHeight * scale) + 'px';
+      var leftover = oc.clientWidth - natural * scale;   // centrar horizontalmente
+      if(leftover > 0) fit.style.marginLeft = (leftover / 2) + 'px';
+    });
+  }
+  window.addEventListener('load', fitCharts);
+  window.addEventListener('resize', fitCharts);
+
+  // Desplegar/plegar bloques al clicar o tocar
+  document.addEventListener('click', function(e){
+    var box = e.target.closest('.vbox.exp');
+    if(!box) return;
+    box.classList.toggle('open');
+    fitCharts();                 // recalcula el escalado tras cambiar la altura
+  });
+
+  function expandAll(open){
+    document.querySelectorAll('#tab-organigrama .vbox.exp').forEach(function(b){
+      b.classList.toggle('open', open);
+    });
+    fitCharts();
+  }
+</script>
+
+</body>
+</html>
