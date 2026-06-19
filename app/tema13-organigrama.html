@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tema 13 · Mapa visual — Interior / SES / DGP / Seguridad Privada</title>
+<title>Tema 13 · Organización policial — Interior · SES · DGP · Seguridad Privada</title>
 <style>
   :root{
     --ministro:#1f2937;
@@ -144,6 +144,14 @@
   .mn{display:inline-block;font-weight:900;letter-spacing:1.5px;background:#fff;
     border:1px solid #e3c873;border-radius:6px;padding:0 7px;color:#92600a;margin-right:3px;}
   @media(max-width:780px){.studybox{grid-template-columns:1fr;}}
+
+  /* pestaña 3 · funciones (palabras clave) */
+  .fgroup-title{font-weight:800;font-size:16px;margin:22px 0 2px;padding:2px 0 2px 11px;border-left:5px solid var(--ses);}
+  .fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:14px;margin-top:10px;align-items:start;}
+  .fcard{border:2px solid;border-radius:13px;overflow:hidden;background:var(--paper);box-shadow:0 1px 2px rgba(31,41,55,.06);}
+  .fcard .fh{padding:8px 12px;font-weight:800;font-size:13px;color:#fff;line-height:1.22;}
+  .fcard .fb{padding:9px 11px 11px;}
+  .kw{display:inline-block;background:#eef1f5;border-radius:999px;padding:2px 9px;margin:3px 3px 0 0;font-size:11.5px;color:#3a4555;}
   .charttitle{font-weight:800;font-size:15px;margin:22px 0 0;padding-left:4px;border-left:5px solid var(--ses);padding:2px 0 2px 10px;}
   .legend{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px;font-size:12px;}
   .legend span{display:inline-flex;align-items:center;gap:5px;}
@@ -158,8 +166,9 @@
 <div class="toolbar noprint"><button onclick="window.print()">🖨️ Imprimir / Guardar como PDF</button></div>
 
 <div class="tabs noprint">
-  <button id="btn-laminas" class="active" onclick="showTab('laminas')">📑 Láminas de estudio</button>
-  <button id="btn-organigrama" onclick="showTab('organigrama')">🗂️ Organigrama completo</button>
+  <button id="btn-laminas" class="active" onclick="showTab('laminas')">📑 Resumen visual</button>
+  <button id="btn-organigrama" onclick="showTab('organigrama')">🗂️ Organigrama: quién depende de quién</button>
+  <button id="btn-funciones" onclick="showTab('funciones')">🎯 Funciones: qué hace cada uno</button>
 </div>
 
 <div id="tab-laminas" class="tabpane active">
@@ -306,7 +315,7 @@
 <!-- ============ PESTAÑA 2 · ORGANIGRAMA COMPLETO ============ -->
 <div id="tab-organigrama" class="tabpane">
 <section class="lamina wide">
-  <h1><span class="num">13</span>Organigrama completo — quién depende de quién</h1>
+  <h1><span class="num">13</span>Organigrama: quién depende de quién</h1>
   <p class="sub">Dos organigramas horizontales. Si no caben en pantalla, se deslizan a los lados. Color = rama del Ministerio.</p>
 
   <div class="legend">
@@ -546,6 +555,94 @@
   </div>
 </section>
 </div><!-- /tab-organigrama -->
+
+<!-- ============ PESTAÑA 3 · FUNCIONES ============ -->
+<div id="tab-funciones" class="tabpane">
+<section class="lamina wide">
+  <h1><span class="num">13</span>Funciones: qué hace cada uno</h1>
+  <p class="sub">En palabras clave (resumen de RD 207/2024 y Orden INT/859/2023). Para fijar, lee solo las etiquetas, no frases largas. Mismo color = misma rama que en el organigrama.</p>
+
+  <div class="fgroup-title">A · Órganos del Ministerio del Interior</div>
+  <div class="fgrid">
+    <div class="fcard" style="border-color:var(--ses)"><div class="fh" style="background:var(--ses)">🛡️ Secretaría de Estado de Seguridad</div><div class="fb">
+      <span class="kw">dirige y coordina las FCSE</span><span class="kw">derechos fundamentales</span><span class="kw">cooperación policial internacional</span><span class="kw">terrorismo</span><span class="kw">crimen organizado</span><span class="kw">trata de personas</span><span class="kw">fronteras e inmigración</span><span class="kw">ciberseguridad</span><span class="kw">infraestructuras críticas</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">👮 D.G. de la Policía</div><div class="fb">
+      <span class="kw">mando de la Policía Nacional</span><span class="kw">orden público</span><span class="kw">investigación criminal</span><span class="kw">extranjería y fronteras</span><span class="kw">protección de personalidades</span><span class="kw">RR.HH. y formación</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🪖 D.G. de la Guardia Civil</div><div class="fb">
+      <span class="kw">mando de la Guardia Civil</span><span class="kw">seguridad ciudadana</span><span class="kw">tráfico</span><span class="kw">policía judicial</span><span class="kw">fronteras y policía marítima</span><span class="kw">medio ambiente (SEPRONA)</span><span class="kw">armas y explosivos</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--ses)"><div class="fh" style="background:var(--ses)">🌍 D.G. Relaciones Internacionales y Extranjería</div><div class="fb">
+      <span class="kw">relaciones internacionales</span><span class="kw">políticas de la UE</span><span class="kw">convenios internacionales</span><span class="kw">gestión integrada de fronteras</span><span class="kw">estrategia migratoria</span><span class="kw">cooperación policial internacional</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--ses)"><div class="fh" style="background:var(--ses)">📊 D.G. Coordinación y Estudios</div><div class="fb">
+      <span class="kw">estadística de criminalidad</span><span class="kw">formación conjunta FCSE</span><span class="kw">inspección y evaluación</span><span class="kw">infraestructuras críticas</span><span class="kw">delitos de odio</span><span class="kw">VioGén</span><span class="kw">desaparecidos</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--gold)"><div class="fh" style="background:var(--gold)">🎯 CITCO</div><div class="fb">
+      <span class="kw">inteligencia estratégica</span><span class="kw">terrorismo</span><span class="kw">crimen organizado</span><span class="kw">coordina operaciones conjuntas</span><span class="kw">financiación del terrorismo</span><span class="kw">precursores de drogas/explosivos</span><span class="kw">destrucción de droga incautada</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--subse)"><div class="fh" style="background:var(--subse)">📋 Subsecretaría del Interior</div><div class="fb">
+      <span class="kw">servicios comunes</span><span class="kw">presupuesto y gestión económica</span><span class="kw">RR.HH. del departamento</span><span class="kw">archivos y documentación</span><span class="kw">coordinación técnico-administrativa</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--penit)"><div class="fh" style="background:var(--penit)">⛓️ SG Instituciones Penitenciarias</div><div class="fb">
+      <span class="kw">ejecución de penas</span><span class="kw">centros penitenciarios</span><span class="kw">reinserción y tratamiento</span><span class="kw">inspección de establecimientos</span><span class="kw">personal penitenciario</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--pcivil)"><div class="fh" style="background:var(--pcivil)">🚨 SG Protección Civil y Emergencias</div><div class="fb">
+      <span class="kw">planes de protección civil</span><span class="kw">análisis de riesgos</span><span class="kw">autoprotección ciudadana</span><span class="kw">formación del sistema nacional</span><span class="kw">coordinación de emergencias</span><span class="kw">recuperación post-emergencia</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--subse)"><div class="fh" style="background:var(--subse)">🚗 D.G. de Tráfico</div><div class="fb">
+      <span class="kw">regulación del tráfico</span><span class="kw">seguridad vial</span><span class="kw">educación vial</span><span class="kw">coordinación con policías autonómicas</span><span class="kw">sistemas de información</span><span class="kw">investigación de accidentes</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--subse)"><div class="fh" style="background:var(--subse)">🛂 D.G. Protección Internacional</div><div class="fb">
+      <span class="kw">asilo</span><span class="kw">apatridia</span><span class="kw">desplazados</span><span class="kw">instrucción de expedientes</span><span class="kw">normativa nacional y UE</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--subse)"><div class="fh" style="background:var(--subse)">🗳️ D.G. Política Interior</div><div class="fb">
+      <span class="kw">procesos electorales</span><span class="kw">partidos políticos</span><span class="kw">derecho de reunión y manifestación</span><span class="kw">coordinación territorial</span><span class="kw">relaciones con entidades locales</span>
+    </div></div>
+  </div>
+
+  <div class="fgroup-title" style="border-color:var(--dgp)">B · Órganos internos de la Dirección General de la Policía</div>
+  <div class="fgrid">
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">⚡ Dirección Adjunta Operativa (DAO)</div><div class="fb">
+      <span class="kw">coordinación operativa</span><span class="kw">supervisa unidades</span><span class="kw">recursos operativos</span><span class="kw">planificación y digitalización</span><span class="kw">suple al Director General</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🕵️ CG de Información</div><div class="fb">
+      <span class="kw">inteligencia y contrainteligencia</span><span class="kw">seguridad nacional</span><span class="kw">delitos contra el Estado</span><span class="kw">antiterrorismo</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🔎 CG de Policía Judicial</div><div class="fb">
+      <span class="kw">investigación criminal</span><span class="kw">crimen organizado y drogas</span><span class="kw">ciberdelincuencia</span><span class="kw">violencia de género y delitos sexuales</span><span class="kw">delincuencia económica y blanqueo</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--priv)"><div class="fh" style="background:var(--priv)">🚓 CG de Seguridad Ciudadana</div><div class="fb">
+      <span class="kw">orden público</span><span class="kw">protección de personalidades</span><span class="kw">seguridad privada</span><span class="kw">participación ciudadana</span><span class="kw">violencia en el deporte</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🛂 CG de Extranjería y Fronteras</div><div class="fb">
+      <span class="kw">control de fronteras</span><span class="kw">inmigración ilegal</span><span class="kw">trata y tráfico de personas</span><span class="kw">visados</span><span class="kw">repatriaciones y expulsiones</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🔬 CG de Policía Científica</div><div class="fb">
+      <span class="kw">criminalística y forense</span><span class="kw">identificación (lofoscopia/facial)</span><span class="kw">ADN y toxicología</span><span class="kw">inspección ocular</span><span class="kw">pericia tecnológica</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🖥️ División de Operaciones y Transformación Digital</div><div class="fb">
+      <span class="kw">coordina unidades especiales</span><span class="kw">ciberseguridad e inteligencia digital</span><span class="kw">transformación digital</span><span class="kw">medios aéreos</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">👥 SG de RR.HH. y Formación</div><div class="fb">
+      <span class="kw">personal funcionario</span><span class="kw">selección y promoción</span><span class="kw">formación y especialización</span><span class="kw">prevención de riesgos laborales</span><span class="kw">régimen disciplinario</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">📦 SG de Logística e Innovación</div><div class="fb">
+      <span class="kw">presupuesto</span><span class="kw">infraestructuras inmobiliarias</span><span class="kw">equipamiento y armamento</span><span class="kw">sistemas informáticos</span><span class="kw">documentación (DNI/pasaporte)</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🗂️ Gabinete Técnico</div><div class="fb">
+      <span class="kw">asesoramiento jurídico</span><span class="kw">derechos humanos e igualdad</span><span class="kw">relaciones institucionales</span><span class="kw">protección de datos</span><span class="kw">protocolo e identidad corporativa</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--dgp)"><div class="fh" style="background:var(--dgp)">🌐 División de Cooperación Internacional</div><div class="fb">
+      <span class="kw">INTERPOL y EUROPOL</span><span class="kw">cooperación bilateral/multilateral</span><span class="kw">extradiciones</span><span class="kw">asistencia a terceros países</span><span class="kw">SIRENE (Schengen)</span>
+    </div></div>
+    <div class="fcard" style="border-color:var(--priv)"><div class="fh" style="background:var(--priv)">🔒 UCSP — Unidad Central de Seguridad Privada</div><div class="fb">
+      <span class="kw">control de empresas de seguridad</span><span class="kw">vigilantes e instalaciones</span><span class="kw">despachos de detectives</span><span class="kw">habilitación de personal</span><span class="kw">intrusismo</span>
+    </div></div>
+  </div>
+</section>
+</div><!-- /tab-funciones -->
 
 <script>
   function showTab(name){
