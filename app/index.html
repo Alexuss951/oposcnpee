@@ -190,6 +190,112 @@
             display: block
         }
 
+        /* ===== ESQUEMAS (visual schemas via isolated iframe) ===== */
+        .esq-wrap {
+            padding: 16px;
+            max-width: 1100px;
+            margin: 0 auto
+        }
+
+        .esq-intro {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 4px 0 0
+        }
+
+        .esq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+            gap: 14px;
+            margin-top: 16px
+        }
+
+        .esq-card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 16px;
+            cursor: pointer;
+            box-shadow: var(--shadow-card);
+            transition: transform .12s, border-color .12s
+        }
+
+        .esq-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent2)
+        }
+
+        .esq-card .badge {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 700;
+            background: var(--accent2);
+            color: var(--accent2-ink);
+            border-radius: 999px;
+            padding: 2px 10px;
+            margin-bottom: 8px
+        }
+
+        .esq-card h3 {
+            margin: .2em 0;
+            font-size: 16px
+        }
+
+        .esq-card p {
+            margin: .35em 0 0;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        .esq-open {
+            margin-top: 12px;
+            color: var(--accent2);
+            font-weight: 600;
+            font-size: 13px
+        }
+
+        .esq-bar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--line);
+            background: var(--panel)
+        }
+
+        .esq-bar .ttl {
+            font-weight: 700;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .esq-back {
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            color: var(--text);
+            border-radius: 8px;
+            padding: 8px 14px;
+            cursor: pointer;
+            flex: none
+        }
+
+        .esq-newtab {
+            margin-left: auto;
+            flex: none;
+            font-size: 13px
+        }
+
+        .esq-frame {
+            width: 100%;
+            height: calc(100dvh - var(--nav-h) - 54px);
+            min-height: 460px;
+            border: 0;
+            display: block;
+            background: #fff
+        }
+
         /* ===== BOTTOM NAVIGATION (mobile) ===== */
         .bottom-nav {
             position: fixed;
@@ -200,7 +306,7 @@
             background: var(--panel);
             border-top: 1px solid var(--line);
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(7, 1fr);
             padding-bottom: var(--safe-bottom)
         }
 
@@ -6585,6 +6691,7 @@
         <div class="brand">Oposición CNP</div>
         <button data-view="inicio" class="active"><span class="ic">🏠</span><span>Inicio</span></button>
         <button data-view="temario"><span class="ic">📖</span><span>Temario</span></button>
+        <button data-view="esquemas"><span class="ic">🗂️</span><span>Esquemas</span></button>
         <button data-view="plan"><span class="ic">📅</span><span>Plan</span></button>
         <button data-view="examenes"><span class="ic">📝</span><span>Exámenes</span></button>
         <button data-view="fisico"><span class="ic">💪</span><span>Físico</span></button>
@@ -6639,6 +6746,11 @@
         <footer>v2 · datos locales · funciona offline</footer>
     </section>
 
+    <!-- ===== VIEW: ESQUEMAS (visual schemas / organigramas) ===== -->
+    <section id="view-esquemas" class="view">
+        <div id="esquemasContent"></div>
+    </section>
+
     <!-- ===== VIEW: PLAN ===== -->
     <section id="view-plan" class="view">
         <div id="planContent"></div>
@@ -6676,6 +6788,9 @@
         </button>
         <button data-view="temario">
             <span class="ic">📖</span><span>Temario</span>
+        </button>
+        <button data-view="esquemas">
+            <span class="ic">🗂️</span><span>Esquemas</span>
         </button>
         <button data-view="plan">
             <span class="ic">📅</span><span>Plan</span>
@@ -9977,6 +10092,7 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
                 b.classList.toggle("active", b.dataset.view === name);
             });
             if (name === "inicio") renderHome();
+            if (name === "esquemas") renderEsquemas();
             if (name === "plan") renderPlan();
             if (name === "examenes") renderExamMenu();
             if (name === "errores") renderErrores();
@@ -9989,6 +10105,7 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
             if (sub) {
                 sub.textContent =
                     name === "examenes" ? `Exámenes — ${PREGUNTAS_META.total} preguntas oficiales` :
+                        name === "esquemas" ? "Esquemas — organigramas visuales interactivos" :
                         name === "temario" ? "Temario — 81 temas · BOE 11-ago-2025" :
                             name === "plan" ? "Plan — 21 semanas · examen ~18 oct 2026" :
                                 name === "errores" ? "Cuaderno de errores — repasa lo que fallaste" :
@@ -10001,6 +10118,52 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
             const h = "#" + name;
             if (location.hash !== h) history.replaceState(null, "", h);
             window.scrollTo(0, 0);
+        }
+
+        // ====== ESQUEMAS (organigramas visuales, vía iframe aislado) ======
+        // Catálogo escalable: añade aquí futuros esquemas de otros temas.
+        const ESQUEMAS = [
+            {
+                id: "tema13", tema: 13, bloque: "A",
+                titulo: "Organización policial: Interior · SES · DGP · Seguridad Privada",
+                desc: "Organigrama interactivo (quién depende de quién) + funciones por oficina + reglas mnemotécnicas.",
+                file: "tema13-organigrama.html"
+            }
+        ];
+        let esqOpen = null;
+
+        function renderEsquemas() {
+            const host = $("esquemasContent");
+            if (!host) return;
+            if (esqOpen) {
+                const e = ESQUEMAS.find(x => x.id === esqOpen);
+                if (!e) { esqOpen = null; return renderEsquemas(); }
+                host.innerHTML =
+                    '<div class="esq-bar">' +
+                    '<button class="esq-back" id="esqBack">← Esquemas</button>' +
+                    '<span class="ttl">Tema ' + e.tema + ' · ' + e.titulo + '</span>' +
+                    '<a class="esq-newtab" href="' + e.file + '" target="_blank" rel="noopener">Abrir en ventana ↗</a>' +
+                    '</div>' +
+                    '<iframe class="esq-frame" src="' + e.file + '" title="' + e.titulo + '" loading="lazy"></iframe>';
+                $("esqBack").onclick = () => { esqOpen = null; renderEsquemas(); };
+                return;
+            }
+            host.innerHTML =
+                '<div class="esq-wrap">' +
+                '<p class="esq-intro">Esquemas visuales interactivos para fijar la estructura de un vistazo. Ábrelos dentro de la app.</p>' +
+                '<div class="esq-grid">' +
+                ESQUEMAS.map(e =>
+                    '<div class="esq-card" data-esq="' + e.id + '">' +
+                    '<span class="badge">Tema ' + e.tema + ' · Bloque ' + e.bloque + '</span>' +
+                    '<h3>' + e.titulo + '</h3>' +
+                    '<p>' + e.desc + '</p>' +
+                    '<div class="esq-open">🗂️ Abrir esquema →</div>' +
+                    '</div>'
+                ).join("") +
+                '</div></div>';
+            host.querySelectorAll("[data-esq]").forEach(c =>
+                c.onclick = () => { esqOpen = c.dataset.esq; renderEsquemas(); }
+            );
         }
 
         // ====== TEMARIO ======
@@ -14695,6 +14858,8 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
             openTema(parseInt(mTema[1], 10));
         } else if (hash === "#examenes") {
             showView("examenes");
+        } else if (hash === "#esquemas") {
+            showView("esquemas");
         } else if (hash === "#temario") {
             showView("temario");
         } else if (hash === "#plan") {
