@@ -105,7 +105,7 @@
 
   /* listas verticales bajo cada jefe (estilo organigrama clásico) */
   .vkids{display:inline-block;text-align:left;position:relative;margin-top:8px;}
-  .vkids::before{content:'';position:absolute;left:12px;top:-8px;bottom:19px;border-left:3px solid var(--line);}
+  .vkids::before{content:'';position:absolute;left:12px;top:-8px;height:var(--vh,calc(100% - 19px));border-left:3px solid var(--line);}
   .vkid{position:relative;padding-left:30px;margin:8px 0;}
   .vkid::before{content:'';position:absolute;left:12px;top:19px;width:18px;border-top:3px solid var(--line);}
   .vlabel{font-size:11px;font-weight:800;color:#64748b;margin:10px 0 2px 30px;text-transform:uppercase;letter-spacing:.5px;}
@@ -556,8 +556,19 @@
     fitCharts();
   }
 
+  // Ajusta la línea vertical de cada rama para que acabe justo en el último bloque (no sobresale al expandir)
+  function setVkidsLines(){
+    document.querySelectorAll('.vkids').forEach(function(vk){
+      var kids = vk.querySelectorAll(':scope > .vkid');
+      if(!kids.length){ vk.style.removeProperty('--vh'); return; }
+      var last = kids[kids.length - 1];
+      vk.style.setProperty('--vh', (last.offsetTop + 27) + 'px');  // tick del último (+19) desde top:-8
+    });
+  }
+
   // Escala cada organigrama para que quepa entero en el ancho disponible (sin scroll ni recortes)
   function fitCharts(){
+    setVkidsLines();
     document.querySelectorAll('.oc').forEach(function(oc){
       var fit = oc.querySelector('.ocfit');
       if(!fit) return;
