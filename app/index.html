@@ -181,6 +181,12 @@
             font-size: 13px
         }
 
+        /* Botón para ocultar/mostrar el menú lateral (solo desktop) */
+        .side-toggle {
+            display: none;
+            font-size: 18px
+        }
+
         /* ===== VIEWS ===== */
         .view {
             display: none
@@ -343,11 +349,17 @@
         @media(min-width:900px) {
             body {
                 padding-left: var(--side-w);
-                padding-bottom: 0
+                padding-bottom: 0;
+                transition: padding-left .22s ease
             }
 
             .bottom-nav {
                 display: none
+            }
+
+            /* El botón de plegado solo tiene sentido en desktop, donde existe el menú */
+            .side-toggle {
+                display: inline-flex
             }
 
             .sidebar {
@@ -363,7 +375,32 @@
                 border-right: 1px solid var(--line);
                 padding: 14px 10px;
                 padding-top: max(14px, env(safe-area-inset-top));
-                gap: 4px
+                gap: 4px;
+                transition: transform .22s ease
+            }
+
+            /* Menú plegado: se desliza fuera y el contenido ocupa todo el ancho */
+            body.side-collapsed {
+                padding-left: 0
+            }
+
+            body.side-collapsed .sidebar {
+                transform: translateX(calc(-100% - 2px));
+                pointer-events: none
+            }
+
+            /* Con el menú plegado, el contenido aprovecha el ancho extra en vez de dejar margen muerto */
+            body.side-collapsed .esq-wrap {
+                max-width: 1500px
+            }
+
+            body.side-collapsed #esq13 .lamina {
+                max-width: 1400px
+            }
+
+            body.side-collapsed #esq13 .lamina.wide,
+            body.side-collapsed #esq13 .tabs {
+                max-width: none
             }
 
             .sidebar .brand {
@@ -6704,10 +6741,10 @@
         #esq13 .lamina{background:var(--paper);max-width:1100px;margin:18px auto;padding:24px 28px 30px;border-radius:18px;box-shadow:0 1px 3px rgba(31,41,55,.08),0 8px 28px rgba(31,41,55,.07);}
         #esq13 h1{font-size:24px;margin:0 0 2px;letter-spacing:-.01em;color:var(--ink);}
         #esq13 h1 .num{background:var(--ink);color:#fff;border-radius:8px;padding:2px 10px;margin-right:8px;font-size:19px;}
-        #esq13 .sub{color:var(--muted);font-size:13px;margin:0 0 22px;}
+        #esq13 .sub{color:var(--muted);font-size:13.5px;margin:0 0 22px;}
         #esq13 .box{border-radius:12px;padding:10px 12px;border:2px solid;line-height:1.25;}
         #esq13 .box .t{font-weight:800;font-size:15px;display:block;}
-        #esq13 .box .f{font-size:12px;color:#334155;display:block;margin-top:3px;}
+        #esq13 .box .f{font-size:13.5px;color:#334155;display:block;margin-top:3px;}
         #esq13 .ico{font-size:18px;margin-right:5px;}
         #esq13 .top{display:flex;justify-content:center;margin-bottom:6px;}
         #esq13 .ministro{background:var(--ministro);color:#fff;border-color:#000;text-align:center;padding:14px 30px;border-radius:14px;min-width:340px;}
@@ -6726,14 +6763,14 @@
         #esq13 .c-priv{background:var(--priv-bg);border-color:var(--priv);} #esq13 .c-priv .t{color:var(--priv);}
         #esq13 .c-gold{background:var(--gold-bg);border-color:var(--gold);} #esq13 .c-gold .t{color:var(--gold);}
         #esq13 .children{margin-top:10px;display:grid;gap:7px;}
-        #esq13 .child{font-size:12.5px;background:#fff;border-radius:8px;padding:6px 9px;border-left:4px solid;}
+        #esq13 .child{font-size:13.5px;background:#fff;border-radius:8px;padding:6px 9px;border-left:4px solid;}
         #esq13 .child b{font-weight:700;}
-        #esq13 .ojo{margin-top:18px;background:#fff7ed;border:2px dashed var(--pcivil);border-radius:12px;padding:10px 14px;font-size:13px;}
+        #esq13 .ojo{margin-top:18px;background:#fff7ed;border:2px dashed var(--pcivil);border-radius:12px;padding:10px 14px;font-size:13.5px;}
         #esq13 .ojo b{color:var(--priv);}
-        #esq13 .nota{font-size:11px;color:#94a3b8;margin-top:14px;}
+        #esq13 .nota{font-size:12px;color:#94a3b8;margin-top:14px;}
         #esq13 .mnemo{margin-top:14px;background:linear-gradient(90deg,#fef9c3,#fef08a);border:2px solid var(--gold);border-radius:12px;padding:10px 14px;font-size:13.5px;}
         #esq13 .mnemo .big{font-size:22px;font-weight:900;letter-spacing:3px;color:#92400e;}
-        #esq13 .pill{display:inline-block;font-size:10.5px;font-weight:700;background:#fff;border:1px solid currentColor;border-radius:999px;padding:1px 7px;margin-left:4px;vertical-align:middle;}
+        #esq13 .pill{display:inline-block;font-size:11.5px;font-weight:700;background:#fff;border:1px solid currentColor;border-radius:999px;padding:1px 7px;margin-left:4px;vertical-align:middle;}
         #esq13 .tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:6px auto 0;max-width:1100px;}
         #esq13 .tabs button{font-size:14px;font-weight:700;padding:9px 18px;border:2px solid var(--ses);background:#fff;color:var(--ses);border-radius:10px 10px 0 0;cursor:pointer;}
         #esq13 .tabs button.active{background:var(--ses);color:#fff;}
@@ -6751,20 +6788,20 @@
         #esq13 .oc li:last-child::before{border-right:3px solid var(--line);}
         #esq13 .oc ul ul::before{content:'';position:absolute;top:0;left:50%;border-left:3px solid var(--line);width:0;height:24px;}
         #esq13 .onode{display:inline-flex;flex-direction:column;border:2px solid;border-radius:11px;padding:7px 9px;min-width:138px;max-width:185px;line-height:1.18;vertical-align:top;text-align:center;}
-        #esq13 .onode .t{font-weight:800;font-size:12.5px;}
-        #esq13 .onode .f{font-size:10.5px;color:#334155;margin-top:3px;}
+        #esq13 .onode .t{font-weight:800;font-size:15px;}
+        #esq13 .onode .f{font-size:13.5px;color:#334155;margin-top:3px;}
         #esq13 .onode.root{background:var(--ministro);border-color:#000;min-width:260px;}
-        #esq13 .onode.root .t{color:#fff;font-size:15px;} #esq13 .onode.root .f{color:#cbd5e1;}
+        #esq13 .onode.root .t{color:#fff;font-size:16px;} #esq13 .onode.root .f{color:#cbd5e1;}
         #esq13 .onode.head{display:flex;min-width:210px;margin:0 auto;}
         #esq13 .vkids{display:inline-block;text-align:left;position:relative;margin-top:8px;}
         #esq13 .vkids::before{content:'';position:absolute;left:12px;top:-8px;height:var(--vh,calc(100% - 19px));border-left:3px solid var(--line);}
         #esq13 .vkid{position:relative;padding-left:30px;margin:8px 0;}
         #esq13 .vkid::before{content:'';position:absolute;left:12px;top:19px;width:18px;border-top:3px solid var(--line);}
-        #esq13 .vlabel{font-size:11px;font-weight:800;color:#64748b;margin:10px 0 2px 30px;text-transform:uppercase;letter-spacing:.5px;}
+        #esq13 .vlabel{font-size:13px;font-weight:800;color:#64748b;margin:10px 0 2px 30px;text-transform:uppercase;letter-spacing:.5px;}
         #esq13 .vbox{display:block;border:2px solid;border-radius:9px;padding:6px 9px;max-width:255px;}
-        #esq13 .vbox .t{font-weight:800;font-size:12.5px;display:block;}
-        #esq13 .vbox .f{font-size:11px;color:#334155;display:block;margin-top:1px;}
-        #esq13 .vbox .warn{display:block;font-size:10.5px;color:var(--priv);font-weight:700;margin-top:3px;}
+        #esq13 .vbox .t{font-weight:800;font-size:14.5px;display:block;}
+        #esq13 .vbox .f{font-size:13.5px;color:#334155;display:block;margin-top:1px;}
+        #esq13 .vbox .warn{display:block;font-size:12.5px;color:var(--priv);font-weight:700;margin-top:3px;}
         #esq13 .vbox.star{border-width:3px;}
         #esq13 .vbox.exp{cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;}
         #esq13 .vbox.exp .t::after{content:' ▸';color:#94a3b8;font-weight:900;}
@@ -6773,12 +6810,12 @@
         #esq13 .vbox.open .more{display:block;}
         #esq13 .vbox .more ul{display:block;margin:0;padding:0 0 0 16px;position:static;}
         #esq13 .vbox .more ul::before{content:none;display:none;}
-        #esq13 .vbox .more li{display:list-item;position:static;padding:0;margin:3px 0;font-size:10.5px;color:#334155;line-height:1.3;text-align:left;}
+        #esq13 .vbox .more li{display:list-item;position:static;padding:0;margin:3px 0;font-size:12.5px;color:#334155;line-height:1.3;text-align:left;}
         #esq13 .vbox .more li::before,#esq13 .vbox .more li::after{content:none;display:none;border:0;}
         #esq13 .vbox .more li b{color:var(--ink);}
         #esq13 .ocbtns{margin:2px 0 0;}
         #esq13 .ocbtns button{font-size:12px;padding:4px 11px;border:1px solid var(--dgp);background:#fff;color:var(--dgp);border-radius:7px;cursor:pointer;margin-right:6px;}
-        #esq13 .ocbtns .hint{font-size:11.5px;color:var(--muted);}
+        #esq13 .ocbtns .hint{font-size:12px;color:var(--muted);}
         #esq13 .studybox{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px;}
         #esq13 .studycard{border-radius:14px;padding:14px 17px;border:2px solid;}
         #esq13 .studycard h3{margin:0 0 8px;font-size:15px;display:flex;align-items:center;gap:7px;}
@@ -6787,16 +6824,16 @@
         #esq13 .studycard.mnemo2{background:#fff7e3;border-color:#eed493;}
         #esq13 .studycard.mnemo2 h3{color:#92600a;}
         #esq13 .studycard ul{margin:0;padding-left:19px;list-style:disc;}
-        #esq13 .studycard li{margin:7px 0;font-size:13px;line-height:1.45;}
+        #esq13 .studycard li{margin:7px 0;font-size:13.5px;line-height:1.45;}
         #esq13 .mn{display:inline-block;font-weight:900;letter-spacing:1.5px;background:#fff;border:1px solid #e3c873;border-radius:6px;padding:0 7px;color:#92600a;margin-right:3px;}
         #esq13 .fgroup-title{font-weight:800;font-size:16px;margin:22px 0 2px;padding:2px 0 2px 11px;border-left:5px solid var(--ses);}
         #esq13 .fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:14px;margin-top:10px;align-items:start;}
         #esq13 .fcard{border:2px solid;border-radius:13px;overflow:hidden;background:var(--paper);box-shadow:0 1px 2px rgba(31,41,55,.06);}
-        #esq13 .fcard .fh{padding:8px 12px;font-weight:800;font-size:13px;color:#fff;line-height:1.22;}
+        #esq13 .fcard .fh{padding:8px 12px;font-weight:800;font-size:14px;color:#fff;line-height:1.22;}
         #esq13 .fcard .fb{padding:9px 11px 11px;}
-        #esq13 .kw{display:inline-block;background:#eef1f5;border-radius:999px;padding:2px 9px;margin:3px 3px 0 0;font-size:11.5px;color:#3a4555;}
+        #esq13 .kw{display:inline-block;background:#eef1f5;border-radius:999px;padding:2px 9px;margin:3px 3px 0 0;font-size:12.5px;color:#3a4555;}
         #esq13 .charttitle{font-weight:800;font-size:15px;margin:22px 0 0;border-left:5px solid var(--ses);padding:2px 0 2px 10px;}
-        #esq13 .legend{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px;font-size:12px;}
+        #esq13 .legend{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 12px;font-size:12.5px;}
         #esq13 .legend span{display:inline-flex;align-items:center;gap:5px;}
         #esq13 .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;border:2px solid;}
         @media(max-width:780px){#esq13 .studybox{grid-template-columns:1fr;}}
@@ -6839,6 +6876,8 @@
     </aside>
 
     <header>
+        <button class="icon-btn side-toggle" id="sideToggle" title="Ocultar menú lateral"
+            aria-label="Ocultar o mostrar el menú lateral">☰</button>
         <div class="title-block">
             <h1>Oposición Inspector/a CNP</h1>
             <div class="sub" id="subtitle">Tu panel de estudio</div>
@@ -10606,7 +10645,10 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
                     const natural = fit.offsetWidth;
                     if (!natural) return;                       // contenedor oculto: aún no medible
                     const boxw = forceW || oc.clientWidth;
-                    const scale = Math.min(1, (boxw - 8) / natural);
+                    // Cabe en el ancho disponible y, si sobra sitio, se agranda hasta 1.4× para llenar pantalla.
+                    // Al imprimir (forceW) se mantiene el tope en 1 para no romper el A4.
+                    const maxScale = forceW ? 1 : 1.4;
+                    const scale = Math.min(maxScale, (boxw - 8) / natural);
                     fit.style.transform = "scale(" + scale + ")";
                     oc.style.height = (fit.offsetHeight * scale) + "px";
                     const leftover = boxw - natural * scale;
@@ -12190,6 +12232,20 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
             applyTheme(next);
         }
 
+        // --- Menú lateral plegable (solo desktop): gana ancho y el contenido se vuelve responsivo ---
+        function applySidebar(collapsed) {
+            document.body.classList.toggle("side-collapsed", !!collapsed);
+            const b = $("sideToggle");
+            if (b) b.title = collapsed ? "Mostrar menú lateral" : "Ocultar menú lateral";
+            // Al cambiar el ancho disponible, reescala los organigramas (tras la transición CSS).
+            if (window.__esqFit) { window.__esqFit(); setTimeout(window.__esqFit, 260); }
+        }
+        function toggleSidebar() {
+            const next = !document.body.classList.contains("side-collapsed");
+            lsSet("sideCollapsed", next);
+            applySidebar(next);
+        }
+
         // --- Streak chip (read-only for now; engine in next phase) ---
         function renderStreak() {
             const s = lsGet("streak", { current: 0 });
@@ -13529,6 +13585,7 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
 
         // Theme toggle + settings placeholder
         $("themeBtn") && ($("themeBtn").onclick = toggleTheme);
+        $("sideToggle") && ($("sideToggle").onclick = toggleSidebar);
         $("helpBtn") && ($("helpBtn").onclick = () => showView("ayuda"));
         $("searchBtn") && ($("searchBtn").onclick = () => showView("busqueda"));
         $("settingsBtn") && ($("settingsBtn").onclick = () => {
@@ -15336,6 +15393,7 @@ const PREGUNTAS_META = {"total":1142,"sources":[{"key":"EE-ASC34","label":"Ascen
 
         // ====== BOOT ======
         applyTheme(lsGet("theme", "dark"));
+        applySidebar(lsGet("sideCollapsed", false));
         renderStreak();
         renderList();
         renderHome();
