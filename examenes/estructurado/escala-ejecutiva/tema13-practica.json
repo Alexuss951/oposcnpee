@@ -1,0 +1,466 @@
+{
+  "clave": "T13-PRAC",
+  "escala": "ejecutiva",
+  "categoria": "Práctica temática",
+  "tema": 13,
+  "label": "Tema 13 — Práctica (Interior/DGP)",
+  "fuente": "Batería de práctica Tema 13 (Ministerio del Interior · SES · DGP · Seguridad Privada). Normativa: RD 207/2024 (mod. RD 353/2025 y RD 328/2026), Orden INT/859/2023, Ley 5/2014.",
+  "total_preguntas": 35,
+  "preguntas": [
+    {
+      "n": 1,
+      "enunciado": "¿Cuál de estos órganos directivos depende de la Secretaría de Estado de Seguridad?",
+      "opciones": [
+        "La Dirección General de Tráfico.",
+        "La Dirección General de Relaciones Internacionales y Extranjería.",
+        "La Dirección General de Apoyo a las Víctimas del Terrorismo."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "RR. Internacionales y Extranjería sí cuelga de la SES. Tráfico y Apoyo a Víctimas van a la Subsecretaría (regla T·A·V: Tráfico, Asilo, Víctimas del terrorismo)."
+    },
+    {
+      "n": 2,
+      "enunciado": "¿Cuál de los siguientes órganos directivos NO depende de la Subsecretaría del Interior?",
+      "opciones": [
+        "La Dirección General de Política Interior.",
+        "La Dirección General de Protección Internacional.",
+        "La Dirección General de Coordinación y Estudios."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Coordinación y Estudios es una de las 4 DG de la SES, no de la Subsecretaría. Política Interior y Protección Internacional sí son de la Subsecretaría."
+    },
+    {
+      "n": 3,
+      "enunciado": "La Dirección General de Apoyo a las Víctimas del Terrorismo se integra en:",
+      "opciones": [
+        "La Secretaría de Estado de Seguridad.",
+        "La Subsecretaría del Interior.",
+        "El Gabinete del Ministro."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Apoyo a Víctimas del Terrorismo va a la Subsecretaría (la V de T·A·V). Trampa clásica: «suena a seguridad», pero no lo es."
+    },
+    {
+      "n": 4,
+      "enunciado": "¿A qué órgano le corresponde aprobar los planes y programas de infraestructuras y material en el ámbito de la seguridad?",
+      "opciones": [
+        "A la Subdirección General de Infraestructuras y Medios para la Seguridad.",
+        "A la Secretaría de Estado de Seguridad.",
+        "Al Centro Nacional para la Protección de las Infraestructuras Críticas."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Corresponde a la Secretaría de Estado de Seguridad aprobar los planes y programas de infraestructuras y material en seguridad."
+    },
+    {
+      "n": 5,
+      "enunciado": "Indique las cuatro grandes ramas del Ministerio del Interior con rango de Secretaría de Estado / Secretaría General / Subsecretaría, en su orden (a→d):",
+      "opciones": [
+        "SES · SG Instituciones Penitenciarias · SG Protección Civil y Emergencias · Subsecretaría del Interior.",
+        "SES · Subsecretaría del Interior · SG Instituciones Penitenciarias · SG Protección Civil y Emergencias.",
+        "SES · DG de la Policía · DG de la Guardia Civil · Subsecretaría del Interior."
+      ],
+      "correcta": 0,
+      "dificultad": "dificil",
+      "tema": 13,
+      "explicacion": "Orden a→d: S·P·P·S = Seguridad · Penitenciarias · Protección Civil · Subsecretaría. (Protección Civil pasó a Secretaría General con el RD 328/2026.)"
+    },
+    {
+      "n": 6,
+      "enunciado": "Las cinco Comisarías Generales de la Policía Nacional dependen directamente de:",
+      "opciones": [
+        "El Director General de la Policía.",
+        "La Dirección Adjunta Operativa (DAO).",
+        "La Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "Las 5 Comisarías Generales cuelgan de la DAO (que a su vez depende del Director General). Mnemo I·J·S·E·F."
+    },
+    {
+      "n": 7,
+      "enunciado": "La gestión de la Oficina Central Nacional de INTERPOL, la Unidad Nacional de EUROPOL y la Oficina SIRENE corresponde a:",
+      "opciones": [
+        "La Comisaría General de Información.",
+        "La División de Cooperación Internacional.",
+        "La Comisaría General de Extranjería y Fronteras."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "INTERPOL + EUROPOL + SIRENE van a la División de Cooperación Internacional (los tres canales internacionales)."
+    },
+    {
+      "n": 8,
+      "enunciado": "La División de Cooperación Internacional depende:",
+      "opciones": [
+        "Directamente del Director General de la Policía.",
+        "De la Dirección Adjunta Operativa.",
+        "De la Comisaría General de Información."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La División de Cooperación Internacional depende directamente del Director General (no de la DAO)."
+    },
+    {
+      "n": 9,
+      "enunciado": "El Centro Nacional de Comunicaciones (CNC) de la Policía Nacional está encuadrado en:",
+      "opciones": [
+        "La División de Cooperación Internacional.",
+        "La Unidad de Planificación Estratégica y Coordinación.",
+        "La Comisaría General de Información."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "El CNC se adscribe a la DGP y queda encuadrado en la Unidad de Planificación Estratégica y Coordinación."
+    },
+    {
+      "n": 10,
+      "enunciado": "La Comisaría Especial del Senado depende de:",
+      "opciones": [
+        "La División de Operaciones y Transformación Digital.",
+        "La Comisaría General de Seguridad Ciudadana.",
+        "El Gabinete Técnico de la DGP."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La Comisaría Especial del Senado depende de la División de Operaciones y Transformación Digital (que cuelga de la DAO)."
+    },
+    {
+      "n": 11,
+      "enunciado": "El Área de Medios Materiales tiene dependencia de:",
+      "opciones": [
+        "La Unidad Técnica de la División Económica y Técnica.",
+        "La Unidad Económica de la División Económica y Técnica.",
+        "La Subdirección General de Logística e Innovación, directamente."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "El Área de Medios Materiales depende de la Unidad Económica de la División Económica y Técnica (junto al Área Presupuestaria)."
+    },
+    {
+      "n": 12,
+      "enunciado": "El Grupo Operativo de Intervenciones Técnicas (GOIT), que da apoyo técnico-operativo al resto de unidades, se integra en:",
+      "opciones": [
+        "La División Económica y Técnica.",
+        "La División de Operaciones y Transformación Digital.",
+        "La Comisaría General de Policía Científica."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "El GOIT se integra en la División Económica y Técnica (Unidad Técnica), no en Operaciones ni en Científica."
+    },
+    {
+      "n": 13,
+      "enunciado": "Según la Orden INT/859/2023, la Secretaría del Consejo de Policía depende de:",
+      "opciones": [
+        "La Unidad de Gestión de Personal Policial.",
+        "La Secretaría General de la Subdirección General de Recursos Humanos y Formación.",
+        "La División de Formación y Perfeccionamiento."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 13,
+      "explicacion": "La Secretaría del Consejo de Policía depende de la Secretaría General de la SG de Recursos Humanos y Formación."
+    },
+    {
+      "n": 14,
+      "enunciado": "El campus virtual de la formación de la Policía Nacional es competencia, dentro de la División de Formación y Perfeccionamiento, de:",
+      "opciones": [
+        "El Área de Gestión de Calidad e Innovación.",
+        "El Área de Innovación Formativa.",
+        "El Área de Planificación e Innovación Tecnológica."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "El campus virtual es competencia del Área de Innovación Formativa (División de Formación y Perfeccionamiento)."
+    },
+    {
+      "n": 15,
+      "enunciado": "De la Comisaría General de Seguridad Ciudadana depende la unidad que controla a vigilantes, detectives y empresas de seguridad privada, esto es:",
+      "opciones": [
+        "La Unidad Central de Seguridad Privada (UCSP).",
+        "La Comisaría General de Policía Judicial.",
+        "La Unidad de Intervención Policial (UIP)."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "La UCSP (Ley 5/2014) está en la Comisaría General de Seguridad Ciudadana. Error típico: ubicarla en Policía Judicial o Extranjería."
+    },
+    {
+      "n": 16,
+      "enunciado": "¿Cuál de estas unidades NO depende de la Dirección Adjunta Operativa (DAO)?",
+      "opciones": [
+        "La Comisaría General de Policía Judicial.",
+        "La División de Operaciones y Transformación Digital.",
+        "La División de Cooperación Internacional."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "De la DAO cuelgan las 5 Comisarías Generales y la División de Operaciones y Transformación Digital. La Cooperación Internacional depende del Director General (no de la DAO)."
+    },
+    {
+      "n": 17,
+      "enunciado": "¿Cuál de los siguientes órganos NO cuelga directamente del Secretario de Estado de Seguridad (sin pasar por una Dirección General)?",
+      "opciones": [
+        "El CITCO.",
+        "La Dirección Adjunta Operativa.",
+        "La Subdirección General de Sistemas de Información y Comunicaciones."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Directos del Secretario (nivel SG): CITCO, Gabinete técnico, SG de Infraestructuras y SG de Sistemas de Información. La DAO está dentro de la DGP, no cuelga del Secretario."
+    },
+    {
+      "n": 18,
+      "enunciado": "Entre las funciones de la Dirección General de Coordinación y Estudios, ¿cuál NO se encuentra?",
+      "opciones": [
+        "Desarrollar y gestionar la Estadística Nacional de Criminalidad.",
+        "Elaborar la inteligencia estratégica en la lucha contra el terrorismo y el crimen organizado.",
+        "Elaborar informes periódicos sobre la situación y evolución de la criminalidad."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 13,
+      "explicacion": "La inteligencia estratégica antiterrorista y frente al crimen organizado es del CITCO, no de Coordinación y Estudios (que sí lleva la estadística y los informes de criminalidad)."
+    },
+    {
+      "n": 19,
+      "enunciado": "¿Cuál de estas unidades NO se integra en la Comisaría General de Extranjería y Fronteras?",
+      "opciones": [
+        "La Brigada de Respuesta a la Inmigración Clandestina (BRIC).",
+        "La Unidad Central de Repatriaciones (UCER).",
+        "La Unidad Central de Seguridad Privada (UCSP)."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "BRIC y UCER sí están en Extranjería y Fronteras. La UCSP está en Seguridad Ciudadana."
+    },
+    {
+      "n": 20,
+      "enunciado": "¿Cuál de estas Direcciones Generales NO forma parte de la Secretaría de Estado de Seguridad?",
+      "opciones": [
+        "La Dirección General de la Guardia Civil.",
+        "La Dirección General de Coordinación y Estudios.",
+        "La Dirección General de Tráfico."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Las 4 DG de la SES son Policía, Guardia Civil, RR. Internacionales y Extranjería, y Coordinación y Estudios (P·G·R·C). Tráfico va a la Subsecretaría."
+    },
+    {
+      "n": 21,
+      "enunciado": "El titular del Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO) posee nivel orgánico de:",
+      "opciones": [
+        "Director general.",
+        "Subdirector general.",
+        "Subsecretario."
+      ],
+      "correcta": 1,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "El CITCO tiene rango de Subdirección General, por lo que su titular es subdirector general. Mnemo: «SubCITCO»."
+    },
+    {
+      "n": 22,
+      "enunciado": "El CITCO se integra orgánicamente en:",
+      "opciones": [
+        "La Secretaría de Estado de Seguridad.",
+        "La Dirección General de la Policía.",
+        "La Comisaría General de Información."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "El CITCO se integra en la Secretaría de Estado de Seguridad (directo del Secretario), no en la DGP."
+    },
+    {
+      "n": 23,
+      "enunciado": "La Inspección de Personal y Servicios de Seguridad se encuadra en:",
+      "opciones": [
+        "La Subsecretaría del Interior, con nivel de Dirección General.",
+        "La Dirección General de Coordinación y Estudios, con nivel de Subdirección General.",
+        "La Secretaría de Estado de Seguridad, dependiendo directamente del Secretario."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La Inspección de Personal y Servicios de Seguridad se encuadra en la DG de Coordinación y Estudios, con nivel de Subdirección General."
+    },
+    {
+      "n": 24,
+      "enunciado": "¿Qué unidad es la encargada de la seguridad de los traslados de obras de arte que se determinen?",
+      "opciones": [
+        "La Brigada Central de Patrimonio Histórico.",
+        "La Brigada Central de Protecciones Especiales.",
+        "La Sección Operativa del Museo del Prado."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Los traslados de obras de arte corresponden a la Brigada Central de Protecciones Especiales (no a Patrimonio Histórico, que investiga; ni a una «sección del Prado»)."
+    },
+    {
+      "n": 25,
+      "enunciado": "¿A qué órgano le compete la defensa legal del funcionariado de la Policía Nacional por actuaciones derivadas de la prestación del servicio?",
+      "opciones": [
+        "El Área de Asistencia Letrada.",
+        "El Gabinete Jurídico de la Subsecretaría.",
+        "La Unidad de Asuntos Internos."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "La defensa legal del funcionariado por actos del servicio corresponde al Área de Asistencia Letrada (SG de Recursos Humanos y Formación, Orden INT/859/2023)."
+    },
+    {
+      "n": 26,
+      "enunciado": "La destrucción de la droga incautada y la inteligencia estratégica frente al crimen organizado son funciones propias de:",
+      "opciones": [
+        "La Comisaría General de Policía Judicial.",
+        "El CITCO.",
+        "La UDYCO Central."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La inteligencia estratégica, la destrucción de la droga incautada y el control de precursores corresponden al CITCO."
+    },
+    {
+      "n": 27,
+      "enunciado": "La función de inspección, control y habilitación del personal de seguridad privada (vigilantes, detectives, empresas) corresponde, dentro de la Policía Nacional, a:",
+      "opciones": [
+        "La Unidad Central de Seguridad Privada (UCSP).",
+        "La Dirección General de Coordinación y Estudios.",
+        "La Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La inspección, control y habilitación de seguridad privada corresponde a la UCSP (la SES fija la política y autorizaciones estatales; la ejecución provincial, las unidades territoriales)."
+    },
+    {
+      "n": 28,
+      "enunciado": "La gestión del sistema VioGén y la Oficina Nacional de Lucha contra los Delitos de Odio (ONDOD) se ubican en:",
+      "opciones": [
+        "La Comisaría General de Seguridad Ciudadana.",
+        "La Dirección General de Coordinación y Estudios.",
+        "El CITCO."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "VioGén y la ONDOD (delitos de odio) cuelgan de la DG de Coordinación y Estudios."
+    },
+    {
+      "n": 29,
+      "enunciado": "La investigación de la delincuencia económica y fiscal y del blanqueo de capitales corresponde, dentro de la Comisaría General de Policía Judicial, a:",
+      "opciones": [
+        "La UDEF Central.",
+        "La UDYCO Central.",
+        "La Brigada Central de Información."
+      ],
+      "correcta": 0,
+      "dificultad": "facil",
+      "tema": 13,
+      "explicacion": "La delincuencia económica y fiscal y el blanqueo corresponden a la UDEF Central. (La droga y el crimen organizado, a la UDYCO Central.)"
+    },
+    {
+      "n": 30,
+      "enunciado": "La unidad operativa móvil de control de fronteras, refuerzo de unidades territoriales y puestos fronterizos para el control de vehículos y personas, dentro de la Comisaría General de Extranjería y Fronteras, es:",
+      "opciones": [
+        "La Unidad Central de Repatriaciones (UCER).",
+        "La Brigada de Respuesta a la Inmigración Clandestina (BRIC).",
+        "La Brigada Central de Respuesta Fronteriza (BCRF)."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La unidad móvil de fronteras es la BRIC. La UCER repatría; la BCRF es un distractor."
+    },
+    {
+      "n": 31,
+      "enunciado": "La Oficina Nacional de Información sobre Pasajeros (ONIP) depende de:",
+      "opciones": [
+        "El CITCO.",
+        "La Comisaría General de Extranjería y Fronteras.",
+        "La División de Cooperación Internacional."
+      ],
+      "correcta": 0,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La ONIP depende del CITCO (junto con la UNECI)."
+    },
+    {
+      "n": 32,
+      "enunciado": "La Unidad Adscrita a la Fiscalía General del Estado depende de:",
+      "opciones": [
+        "La Dirección Adjunta Operativa.",
+        "La Unidad Central de Droga y Crimen Organizado (UDYCO Central) de la Comisaría General de Policía Judicial.",
+        "La Brigada de Coordinación Operativa de la Comisaría General de Policía Judicial."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La Unidad Adscrita a la Fiscalía General del Estado depende de la UDYCO Central de la Comisaría General de Policía Judicial."
+    },
+    {
+      "n": 33,
+      "enunciado": "Señale la afirmación correcta sobre la estructura del Ministerio del Interior:",
+      "opciones": [
+        "La Dirección General de Tráfico depende de la Secretaría de Estado de Seguridad.",
+        "La Dirección General de la Guardia Civil depende de la Secretaría de Estado de Seguridad.",
+        "El CITCO depende de la Dirección General de la Policía."
+      ],
+      "correcta": 1,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "Correcta: la DG de la Guardia Civil depende de la SES. (Tráfico va a la Subsecretaría; el CITCO depende de la SES, no de la DGP.)"
+    },
+    {
+      "n": 34,
+      "enunciado": "De la Comisaría General de Seguridad Ciudadana NO depende:",
+      "opciones": [
+        "La Unidad Central de Seguridad Privada (UCSP).",
+        "La Jefatura de Unidades de Intervención Policial (UIP).",
+        "La División de Cooperación Internacional."
+      ],
+      "correcta": 2,
+      "dificultad": "media",
+      "tema": 13,
+      "explicacion": "La UCSP y la UIP sí están en Seguridad Ciudadana. La División de Cooperación Internacional depende del Director General."
+    },
+    {
+      "n": 35,
+      "enunciado": "La Dirección General de Protección Civil y Emergencias, conforme a la estructura vigente tras el RD 328/2026, depende de:",
+      "opciones": [
+        "La Subsecretaría del Interior.",
+        "La Secretaría General de Protección Civil y Emergencias.",
+        "La Secretaría de Estado de Seguridad."
+      ],
+      "correcta": 1,
+      "dificultad": "dificil",
+      "tema": 13,
+      "explicacion": "Tras el RD 328/2026, Protección Civil y Emergencias pasó a la Secretaría General de Protección Civil y Emergencias (antes colgaba de la Subsecretaría: dato típico de exámenes antiguos)."
+    }
+  ]
+}
