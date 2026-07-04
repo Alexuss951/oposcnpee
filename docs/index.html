@@ -4009,6 +4009,26 @@
             font-variant-numeric: tabular-nums
         }
 
+        /* Keyboard-shortcut hint (desktop only — hidden on touch devices). */
+        .kbd-hint {
+            text-align: center;
+            color: var(--muted);
+            font-size: 12px;
+            padding: 6px 16px 2px
+        }
+
+        .kbd-hint b {
+            color: var(--text);
+            font-weight: 600
+        }
+
+        @media (hover: none),
+        (pointer: coarse) {
+            .kbd-hint {
+                display: none
+            }
+        }
+
         /* Question palette (overview grid) */
         .palette {
             display: grid;
@@ -7541,14 +7561,14 @@
                 ]
             },
             {
-                n: 13, b: "A", a: "Organización policial", t: "Ministerio del Interior. SES. DGP. Seguridad Privada", norma: "RD 734/2020 estructura Ministerio Interior", keys: ["Interior", "SES", "DGP", "CNP", "seguridad privada"], rel: [11, 14, 18], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2020-9233", rec: "https://www.policia.es/_es/institucional_quienessomos.php",
+                n: 13, b: "A", a: "Organización policial", t: "Ministerio del Interior. SES. DGP. Seguridad Privada", norma: "RD 207/2024 (mod. RD 353/2025, RD 328/2026) + Orden INT/859/2023", keys: ["Interior", "SES", "DGP", "CNP", "seguridad privada"], rel: [11, 14, 18], d: 3, boe: "https://www.boe.es/buscar/act.php?id=BOE-A-2024-3793", rec: "https://www.policia.es/_es/institucional_quienessomos.php",
                 resumen: [
-                    "REGULACIÓN: RD 734/2020, de 4 ago, por el que se desarrolla la estructura orgánica básica del MINISTERIO DEL INTERIOR. Tema MUY CAÍDO: la opositora debe conocer la estructura orgánica completa (Secretarías de Estado, Subsecretaría, Direcciones Generales) y la estructura interna de la POLICÍA NACIONAL.",
-                    "ÓRGANOS SUPERIORES DEL MINISTERIO DEL INTERIOR: 1) MINISTRO DEL INTERIOR; 2) SECRETARÍA DE ESTADO DE SEGURIDAD (SES); 3) SECRETARÍA DE ESTADO DE MIGRACIONES (cuando exista); 4) SUBSECRETARÍA DEL INTERIOR.",
-                    "SECRETARÍA DE ESTADO DE SEGURIDAD (SES) — Órganos directivos que dependen de ella: DIRECCIÓN GENERAL DE LA POLICÍA (DGP — dirige el Cuerpo Nacional de Policía); DIRECCIÓN GENERAL DE LA GUARDIA CIVIL (DGGC); SECRETARÍA GENERAL DE INSTITUCIONES PENITENCIARIAS; DIRECCIÓN GENERAL DE COORDINACIÓN Y ESTUDIOS; DIRECCIÓN GENERAL DE RELACIONES INTERNACIONALES Y EXTRANJERÍA.",
-                    "Órganos dependientes directamente del Secretario de Estado de Seguridad: CITCO — Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (rango de SUBDIRECCIÓN GENERAL); el CNCIP — Centro Nacional de Protección de Infraestructuras Críticas (integrado en CNI/CNAI); la Oficina Nacional de Lucha contra los Delitos de Odio; los Gabinetes Técnico y de Coordinación y Estudios.",
-                    "DIRECCIÓN GENERAL DE LA POLICÍA (DGP) — estructura interna: bajo el DGP, las DIRECCIONES ADJUNTAS OPERATIVAS y las SUBDIRECCIONES GENERALES: Subdirección General de RR. HH. Y FORMACIÓN; Subdirección General de LOGÍSTICA, INNOVACIÓN Y MANTENIMIENTO; Subdirección General de la GABINETE TÉCNICO; DIVISIÓN DE PERSONAL; DIVISIÓN DE FORMACIÓN Y PERFECCIONAMIENTO (Escuela Nacional de Policía — Ávila).",
-                    "COMISARÍAS GENERALES de la Policía Nacional — dependen de la DIRECCIÓN ADJUNTA OPERATIVA: 1) COMISARÍA GENERAL DE INFORMACIÓN (terrorismo nacional e internacional); 2) C.G. DE POLICÍA JUDICIAL (investigación criminal grave — drogas, blanqueo, delincuencia organizada, UDEV, UDYCO); 3) C.G. DE SEGURIDAD CIUDADANA (orden público, UIP, GOES, Pol. Local 091); 4) C.G. DE EXTRANJERÍA Y FRONTERAS (control fronteras, BRIC — Brigada de Respuesta a la Inmigración Clandestina, expulsiones, CIE); 5) C.G. DE POLICÍA CIENTÍFICA (criminalística, ADN, dactiloscopia); 6) DIVISIÓN DE COOPERACIÓN INTERNACIONAL (SIRENE, INTERPOL, EUROPOL).",
+                    "REGULACIÓN: RD 207/2024, de 27 feb (modificado por RD 353/2025 y RD 328/2026), por el que se desarrolla la estructura orgánica básica del MINISTERIO DEL INTERIOR; la estructura interna de la Policía Nacional la fija la Orden INT/859/2023. El anterior RD 734/2020 está DEROGADO. Tema MUY CAÍDO: la opositora debe conocer la estructura orgánica completa (Secretaría de Estado, Secretarías Generales, Subsecretaría, Direcciones Generales) y la estructura interna de la POLICÍA NACIONAL.",
+                    "ÓRGANOS QUE DEPENDEN DIRECTAMENTE DEL MINISTRO/A DEL INTERIOR (art. 1 RD 207/2024): a) SECRETARÍA DE ESTADO DE SEGURIDAD (SES) — única Secretaría de Estado del Ministerio; b) SECRETARÍA GENERAL DE INSTITUCIONES PENITENCIARIAS (con rango de Subsecretaría); c) SECRETARÍA GENERAL DE PROTECCIÓN CIVIL Y EMERGENCIAS (añadida por RD 328/2026); d) SUBSECRETARÍA DEL INTERIOR. NO existe una Secretaría de Estado de Migraciones en Interior (Migraciones es otro Ministerio).",
+                    "SECRETARÍA DE ESTADO DE SEGURIDAD (SES) — de ella dependen 4 DIRECCIONES GENERALES: DIRECCIÓN GENERAL DE LA POLICÍA (DGP — dirige la Policía Nacional); DIRECCIÓN GENERAL DE LA GUARDIA CIVIL (DGGC); DIRECCIÓN GENERAL DE RELACIONES INTERNACIONALES Y EXTRANJERÍA; DIRECCIÓN GENERAL DE COORDINACIÓN Y ESTUDIOS. La Secretaría General de Instituciones Penitenciarias NO depende de la SES, sino directamente del Ministro.",
+                    "Directos del SECRETARIO DE ESTADO DE SEGURIDAD, con nivel de Subdirección General: el CITCO — Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (no depende ni de la Policía ni de la Guardia Civil; de él penden la ONIP y la UNECI); el GABINETE TÉCNICO; la SG de Infraestructuras y Medios para la Seguridad; y la SG de Sistemas de Información y Comunicaciones para la Seguridad. (La Oficina Nacional de Lucha contra los Delitos de Odio y VioGén están integradas en la D.G. de Coordinación y Estudios, no como órganos directos del Secretario.)",
+                    "DIRECCIÓN GENERAL DE LA POLICÍA (DGP) — estructura interna (Orden INT/859/2023): bajo el DGP cuelgan la DIRECCIÓN ADJUNTA OPERATIVA (DAO); la SUBDIRECCIÓN GENERAL DE RECURSOS HUMANOS Y FORMACIÓN (División de Personal y División de Formación y Perfeccionamiento — Escuela Nacional de Policía, Ávila); la SUBDIRECCIÓN GENERAL DE LOGÍSTICA E INNOVACIÓN (División Económica y Técnica y División de Documentación — DNI y pasaporte); el GABINETE TÉCNICO; y la DIVISIÓN DE COOPERACIÓN INTERNACIONAL (Interpol, Europol y SIRENE), que depende DIRECTAMENTE del Director General y NO de la DAO.",
+                    "Las 5 COMISARÍAS GENERALES de la Policía Nacional dependen de la DIRECCIÓN ADJUNTA OPERATIVA (Orden INT/859/2023): 1) C.G. DE INFORMACIÓN (terrorismo y antiterrorismo); 2) C.G. DE POLICÍA JUDICIAL (investigación criminal grave — UDYCO: droga y crimen organizado; UDEF: delincuencia económica y fiscal, blanqueo; UDEV: delincuencia especializada y violenta); 3) C.G. DE SEGURIDAD CIUDADANA (orden público, UIP; aquí se integra la UCSP de seguridad privada); 4) C.G. DE EXTRANJERÍA Y FRONTERAS (control de fronteras; BRIC — Brigada de Respuesta a la Inmigración Clandestina; UCER — repatriaciones; CIE); 5) C.G. DE POLICÍA CIENTÍFICA (criminalística, ADN, dactiloscopia). Mnemotecnia I·J·S·E·F. Además, de la DAO depende la DIVISIÓN DE OPERACIONES Y TRANSFORMACIÓN DIGITAL (incluye la Unidad Central de Ciberdelincuencia). OJO: NO existe una 'Comisaría General de Policía Internacional' — la cooperación internacional es una División que depende del Director General.",
                     "BRIGADA CENTRAL DE PROTECCIONES ESPECIALES (BCPE): integrada en la Comisaría General de Seguridad Ciudadana; encargada de la SEGURIDAD DE LOS TRASLADOS DE OBRAS DE ARTE de excepcional valor y de la protección de altas personalidades cuando se determine.",
                     "CENTRO NACIONAL DE COMUNICACIONES (CNC): incardinado en la UNIDAD DE PLANIFICACIÓN ESTRATÉGICA Y COORDINACIÓN. Coordina las comunicaciones operativas de la Policía Nacional.",
                     "ÁREA DE ASISTENCIA LETRADA (depende de la Subdirección General de RR.HH. Y Formación): tiene la competencia de la DEFENSA LEGAL de los miembros de la Policía Nacional por actuaciones derivadas de la prestación del servicio.",
@@ -7556,7 +7576,7 @@
                     "ÁMBITO de actuación (art. 11.1 LO 2/1986): la Policía Nacional ejerce sus funciones en las CAPITALES DE PROVINCIA y en los términos municipales y núcleos urbanos que el Gobierno determine. La Guardia Civil ejerce sus funciones en el RESTO del territorio nacional, su mar territorial y zonas martimas.",
                     "SUBSECRETARÍA DEL INTERIOR: representa al Ministerio; ejerce la jefatura del personal; dirige los servicios comunes. De ella dependen entre otras la SECRETARÍA GENERAL TÉCNICA y la Dirección General de POLÍTICA INTERIOR (procesos electorales, partidos políticos, Registro de Partidos).",
                     "SEGURIDAD PRIVADA (Ley 5/2014, de 4 abr): se considera ACTIVIDAD COMPLEMENTARIA Y SUBORDINADA respecto de la seguridad pública. Las FCS supervisan, inspeccionan y controlan a las empresas, personal y servicios de seguridad privada. Competencia administrativa: UNIDAD CENTRAL DE SEGURIDAD PRIVADA (UCSP) en la CGSC del CNP; en las CCAA con policías propias, sus unidades correspondientes.",
-                    "Truco examen: SES tiene 5 grandes DG (Policía, GC, Penitenciarias, Coordinación y Estudios, RRII y Extranjería). CITCO depende del SES, NO del DGP. BRIC = Extranjería y Fronteras. UIP = Seguridad Ciudadana. UDYCO = Policía Judicial. CNC = Planificación Estratégica. Escuela Nacional Policía = Ávila."
+                    "Truco examen: la SES tiene 4 DG (Policía, Guardia Civil, RR. Internacionales y Extranjería, y Coordinación y Estudios); Instituciones Penitenciarias NO cuelga de la SES, sino directamente del Ministro. Las Comisarías Generales son 5 (I·J·S·E·F), NO 6; 'Policía Internacional' no existe (es la División de Cooperación Internacional, directa del DGP). CITCO depende del SES, NO del DGP. BRIC = Extranjería y Fronteras. UIP = Seguridad Ciudadana. UDYCO = Policía Judicial. CNC = Planificación Estratégica. Escuela Nacional de Policía = Ávila."
                 ]
             },
             {
@@ -8949,11 +8969,11 @@
                 { q: "Régimen disciplinario — prescripciones (art. 97 EBEP)", a: "INFRACCIONES: muy graves prescriben a los 3 AÑOS, graves a los 2 AÑOS, leves a los 6 MESES. SANCIONES: las impuestas por faltas muy graves prescriben a los 3 años, las graves a los 2 años, las leves al año. CÓMPUTO: las infracciones desde su comisión; las sanciones desde la firmeza de la resolución. La Policía Nacional tiene su propio régimen disciplinario (LO 4/2010) con escala distinta." }
             ],
             13: [
-                { q: "Estructura orgánica del Ministerio del Interior (RD 734/2020)", a: "ÓRGANOS SUPERIORES: Ministro del Interior + Secretaría de Estado de Seguridad (SES). ÓRGANOS DIRECTIVOS dependientes de la SES: Dirección General de la Policía (DGP), Dirección General de la Guardia Civil (DGGC), Secretaría General de Instituciones Penitenciarias (SGIP, rango de Subsecretaría), Dirección General de Coordinación y Estudios, Dirección General de Relaciones Internacionales. Órganos dependientes del Ministro: Subsecretaría del Interior (incluye SG Técnica, Direcciones Generales de Política Interior, Tráfico, Protección Civil y Apoyo a Víctimas)." },
-                { q: "Dirección General de la Policía — rango y estructura (RD 734/2020)", a: "DGP: rango de SUBSECRETARÍA. Su titular es nombrado por RD del Consejo de Ministros a propuesta del Ministro del Interior; debe ser funcionario de carrera de cuerpo del grupo A1 con ≥ 5 años de servicios. Bajo el DGP penden: Dirección Adjunta Operativa (DAO, rango Director General; siempre funcionario del CNP de la Escala Superior) + 6 Comisarías Generales (Información, Política Judicial, Seguridad Ciudadana, Extranjería y Fronteras, Policía Científica, Policía Internacional) + Subdirección General de Recursos Humanos + Subdirección General de Logística e Innovación + Gabinete Técnico." },
-                { q: "Secretaría de Estado de Seguridad — funciones clave", a: "Órgano superior bajo la dependencia inmediata del Ministro. Dirige y coordina las FCS del Estado (CNP y Guardia Civil). Le corresponde la política de seguridad pública, la cooperación policial internacional, el régimen de la seguridad privada, las relaciones con las policías autonómicas y locales. Órgano clave: GABINETE DE COORDINACIÓN Y ESTUDIOS (apoya al Secretario de Estado). En él se integra el CITCO. El titular de la SES es SECRETARIO DE ESTADO (órgano superior, art. 55 Ley 40/2015)." },
+                { q: "Estructura orgánica del Ministerio del Interior (RD 207/2024, mod. RD 353/2025 y RD 328/2026)", a: "ÓRGANOS SUPERIORES: Ministro/a del Interior + Secretaría de Estado de Seguridad (SES), única Secretaría de Estado del Ministerio. Dependen DIRECTAMENTE del Ministro cuatro áreas: a) SES; b) Secretaría General de Instituciones Penitenciarias (rango de Subsecretaría); c) Secretaría General de Protección Civil y Emergencias (nueva, RD 328/2026); d) Subsecretaría del Interior. De la SES cuelgan 4 Direcciones Generales: DGP, DGGC, D.G. de Relaciones Internacionales y Extranjería y D.G. de Coordinación y Estudios. La Subsecretaría lleva la SG Técnica y las D.G. de Política Interior, Tráfico, Apoyo a Víctimas del Terrorismo y Protección Internacional. OJO: el RD 734/2020 está DEROGADO." },
+                { q: "Dirección General de la Policía — rango y estructura (RD 207/2024 + Orden INT/859/2023)", a: "DGP: rango de SUBSECRETARÍA. Su titular es nombrado por RD del Consejo de Ministros a propuesta del Ministro del Interior; debe ser funcionario de carrera del grupo A1 con ≥ 5 años de servicios. Bajo el DGP: la DIRECCIÓN ADJUNTA OPERATIVA (DAO, rango de Director General; siempre funcionario del CNP de la Escala Superior), la SG de Recursos Humanos y Formación, la SG de Logística e Innovación, el Gabinete Técnico y la División de Cooperación Internacional (Interpol/Europol/SIRENE, que depende DIRECTAMENTE del Director General). De la DAO cuelgan las 5 Comisarías Generales — Información, Policía Judicial, Seguridad Ciudadana, Extranjería y Fronteras y Policía Científica (I·J·S·E·F) — más la División de Operaciones y Transformación Digital. NO existe 'Comisaría General de Policía Internacional'." },
+                { q: "Secretaría de Estado de Seguridad — funciones clave", a: "Órgano superior bajo la dependencia inmediata del Ministro. Dirige y coordina las FCS del Estado (Policía Nacional y Guardia Civil). Le corresponde la política de seguridad pública, la cooperación policial internacional, el régimen de la seguridad privada y las relaciones con las policías autonómicas y locales. De ella dependen 4 Direcciones Generales (Policía, Guardia Civil, RR. Internacionales y Extranjería, y Coordinación y Estudios) y, con nivel de Subdirección General y dependencia DIRECTA del Secretario de Estado, el CITCO (Centro de Inteligencia contra el Terrorismo y el Crimen Organizado). El titular de la SES es SECRETARIO DE ESTADO (órgano superior, art. 55 Ley 40/2015)." },
                 { q: "Seguridad privada — Ley 5/2014 y RD 2364/1994", a: "Concepto: conjunto de actividades, servicios y medidas destinados a proteger personas y bienes, complementarios y subordinados a la seguridad pública. PRINCIPIOS: complementariedad y subordinación, integración, colaboración. EMPRESAS DE SEGURIDAD: precisa autorización e inscripción en registro. PERSONAL: vigilantes de seguridad y especialidades (explosivos, transporte de fondos), escoltas privados, guardas rurales, jefes y directores de seguridad, detectives privados. AUTORIDAD COMPETENTE: Secretaría de Estado de Seguridad (Dirección General de la Policía en su ámbito)." },
-                { q: "Tráfico, Protección Civil y Víctimas — órganos del Ministerio", a: "DIRECCIÓN GENERAL DE TRÁFICO (DGT): depende de la Subsecretaría del Interior (NO de la SES). Gestiona vigilancia y disciplina del tráfico (con la Agrupación de Tráfico de la Guardia Civil), formación y permisos. DG DE PROTECCIÓN CIVIL Y EMERGENCIAS: también bajo Subsecretaría. DG DE APOYO A VÍCTIMAS DEL TERRORISMO: también Subsecretaría. Truco: la SES tiene las FCS y la cooperación policial; la Subsecretaría tiene tráfico, protección civil, víctimas y política interior (procesos electorales)." }
+                { q: "Tráfico, Protección Civil y Víctimas — órganos del Ministerio", a: "DIRECCIÓN GENERAL DE TRÁFICO (DGT): depende de la SUBSECRETARÍA del Interior (NO de la SES). Gestiona vigilancia y disciplina del tráfico (con la Agrupación de Tráfico de la Guardia Civil), formación y permisos. También en la Subsecretaría: D.G. de Apoyo a Víctimas del Terrorismo y D.G. de Protección Internacional (asilo). CUIDADO (cambio del RD 328/2026): la PROTECCIÓN CIVIL ya NO está en la Subsecretaría — ahora existe una SECRETARÍA GENERAL DE PROTECCIÓN CIVIL Y EMERGENCIAS que depende directamente del Ministro, y de ella cuelga la D.G. de Protección Civil y Emergencias. Truco: la SES tiene las FCS y la cooperación policial; la Subsecretaría tiene Tráfico, Víctimas del Terrorismo, Protección Internacional y Política Interior (procesos electorales)." }
             ],
             14: [
                 { q: "FCS — cuáles son y de quién dependen (art. 2 LO 2/1986)", a: "a) FUERZAS Y CUERPOS DE SEGURIDAD DEL ESTADO: Cuerpo Nacional de Policía (civil) y Guardia Civil (instituto armado de naturaleza militar). Dependen del MINISTERIO DEL INTERIOR. La Guardia Civil depende también del Ministerio de DEFENSA en cumplimiento de misiones militares y conjuntamente de Interior y Defensa en materia de retribuciones, ascensos y destinos. b) CUERPOS DE POLICÍA DE LAS CCAA. c) CUERPOS DE POLICÍA LOCAL (dependientes de los municipios)." },
@@ -9545,9 +9565,9 @@
             ],
             13: [
                 { front: "¿Qué rango tiene el Director General de la Policía?", back: "Rango de SUBSECRETARÍA. Nombrado por Real Decreto del Consejo de Ministros a propuesta del Ministro del Interior. Debe ser funcionario de carrera del Grupo A1 con al menos 5 años de servicios." },
-                { front: "¿Qué órgano dirige operativamente la Policía Nacional bajo el DGP?", back: "La DIRECCIÓN ADJUNTA OPERATIVA (DAO), con rango de Director General. Su titular es SIEMPRE un funcionario del CNP perteneciente a la ESCALA SUPERIOR, categoría de Comisario Principal. De ella dependen las 6 Comisarías Generales." },
-                { front: "¿Cuáles son las 6 Comisarías Generales del CNP?", back: "1) Información, 2) Política Judicial, 3) Seguridad Ciudadana, 4) Extranjería y Fronteras, 5) Policía Científica, 6) Policía Internacional. Todas dependen orgánicamente de la DAO. Mnemotecnia: I-PJ-SC-EF-PC-PI." },
-                { front: "¿De qué órgano depende la Dirección General de Tráfico?", back: "De la SUBSECRETARÍA DEL INTERIOR, no de la Secretaría de Estado de Seguridad. Trampa frecuente: la SES tiene las FCS (DGP y DGGC) y la cooperación internacional; la Subsecretaría tiene Tráfico, Protección Civil, Apoyo a Víctimas del Terrorismo y Política Interior." },
+                { front: "¿Qué órgano dirige operativamente la Policía Nacional bajo el DGP?", back: "La DIRECCIÓN ADJUNTA OPERATIVA (DAO), con rango de Director General. Su titular es SIEMPRE un funcionario del CNP perteneciente a la ESCALA SUPERIOR, categoría de Comisario Principal. De ella dependen las 5 Comisarías Generales." },
+                { front: "¿Cuáles son las 5 Comisarías Generales del CNP?", back: "1) Información, 2) Policía Judicial, 3) Seguridad Ciudadana, 4) Extranjería y Fronteras, 5) Policía Científica. Todas dependen orgánicamente de la DAO (Orden INT/859/2023). La cooperación internacional (Interpol/Europol/SIRENE) NO es Comisaría General: es la División de Cooperación Internacional, que depende directamente del Director General. Mnemotecnia I·J·S·E·F: «Inspectores Juzgan Sospechosos En Forense»." },
+                { front: "¿De qué órgano depende la Dirección General de Tráfico?", back: "De la SUBSECRETARÍA DEL INTERIOR, no de la Secretaría de Estado de Seguridad. Trampa frecuente: la SES tiene las FCS (DGP y DGGC) y la cooperación internacional; la Subsecretaría tiene Tráfico, Apoyo a Víctimas del Terrorismo, Protección Internacional (asilo) y Política Interior. La Protección Civil pasó a una Secretaría General propia (RD 328/2026), ya NO cuelga de la Subsecretaría." },
                 { front: "¿Qué ley regula la seguridad privada y qué principios la rigen?", back: "LEY 5/2014, de 4 de abril, de Seguridad Privada. Principios: COMPLEMENTARIEDAD y SUBORDINACIón respecto a la seguridad pública, INTEGRACIÓN funcional y COLABORACIÓN permanente. La autoridad competente es la Secretaría de Estado de Seguridad y, en su ámbito, la DGP." },
                 { front: "¿Qué categorías de personal de seguridad privada existen?", back: "VIGILANTES DE SEGURIDAD (con especialidades: explosivos, transporte de fondos, vigilante de seguridad marítima). ESCOLTAS PRIVADOS. GUARDAS RURALES (con especialidades de campo y caza). JEFES Y DIRECTORES DE SEGURIDAD. DETECTIVES PRIVADOS (Ley 5/2014, art. 26 ss.)." }
             ],
@@ -10403,9 +10423,9 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             else lsDel("nota:" + n);
         }
 
-        // --- SRS Leitner: 5 boxes with progressive intervals ---
-        // Box 1 = today, 2 = 3d, 3 = 7d, 4 = 14d, 5 = 30d
-        const SRS_INTERVALS = [0, 1, 3, 7, 14, 30];
+        // --- SRS Leitner: 5 boxes with progressive intervals (days), indexed by box 1..5 ---
+        // Box 1 = same day (0d, re-drill until correct), 2 = 3d, 3 = 7d, 4 = 14d, 5 = 30d
+        const SRS_INTERVALS = [0, 0, 3, 7, 14, 30];
         function getSRS() { return lsGet("srs", {}); }
         function srsUpdate(qid, correct) {
             const s = getSRS();
@@ -10447,19 +10467,24 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             order: [],
             i: 0,
             flipped: false,
+            failed: [],
             stats: { bad: 0, doubt: 0, good: 0 }
         };
 
         function fcId(tema, idx) { return `fc:T${tema}:${idx}`; }
 
-        function startFlashcards(tema) {
+        function startFlashcards(tema, subsetIdx) {
             const cards = TEMA_FLASHCARDS[tema] || [];
             if (!cards.length) return;
+            // subsetIdx (optional): indices into `cards` to restrict the deck to —
+            // used by "repeat only the ones you failed". Empty/absent = full deck.
+            const useIdx = (subsetIdx && subsetIdx.length) ? subsetIdx.slice() : cards.map((_, i) => i);
             fcState.tema = tema;
             fcState.cards = cards;
-            fcState.order = cards.map((_, i) => i).sort(() => Math.random() - 0.5);
+            fcState.order = shuffle(useIdx);
             fcState.i = 0;
             fcState.flipped = false;
+            fcState.failed = [];
             fcState.stats = { bad: 0, doubt: 0, good: 0 };
             $("fcOverlay").classList.add("open");
             $("fcOverlay").setAttribute("aria-hidden", "false");
@@ -10479,6 +10504,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             // session finished
             if (fcState.i >= total) {
                 const s = fcState.stats;
+                const nFailed = fcState.failed.length;
                 body.innerHTML = `
                     <div class="fc-done">
                         <h3>¡Repaso completo!</h3>
@@ -10487,15 +10513,15 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                             <div><b style="color:#ffbb55">${s.doubt}</b><span class="muted">dudas</span></div>
                             <div><b style="color:#ff8888">${s.bad}</b><span class="muted">fallos</span></div>
                         </div>
-                        <button class="cards-start" id="fcRestart">↻ Repetir las que fallaste</button>
+                        <button class="cards-start" id="fcRestart">${nFailed ? `↻ Repetir las ${nFailed} que fallaste` : "↻ Repetir todo"}</button>
                     </div>`;
                 $("fcProgress").textContent = `${total}/${total}`;
                 document.querySelectorAll('#fcActions button').forEach(b => b.disabled = true);
                 const restart = $("fcRestart");
                 if (restart) restart.addEventListener("click", () => {
-                    // rebuild order keeping only the cards marked bad or doubt in this session
-                    // simpler: just relaunch full deck if no fail tracking — keep MVP simple
-                    startFlashcards(fcState.tema);
+                    // Repeat only the cards marked "fallo"/"duda" this session; if none,
+                    // relaunch the full deck.
+                    startFlashcards(fcState.tema, nFailed ? fcState.failed : null);
                 });
                 return;
             }
@@ -10537,6 +10563,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             // 'bad' and 'doubt' reset to box 1 (review soon); 'good' advances the box
             srsUpdate(id, kind === "good");
             fcState.stats[kind]++;
+            if (kind !== "good") fcState.failed.push(idx);  // track for "repeat failed"
             fcState.i++;
             fcState.flipped = false;
             renderFlashcard();
@@ -11755,8 +11782,10 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 examState.perQTimeMs = new Array(examState.qids.length).fill(0);
             }
             examState.qShownAt = 0;
-            // adjust elapsed for time-bound exams: don't extend the deadline beyond the original wall-clock budget.
-            // We track elapsedSec explicitly so closing the tab pauses the clock.
+            // Time-bound exams: rebase startedAt so the clock resumes from the elapsed
+            // time saved at pause, instead of counting the wall-clock time spent away
+            // from the app (which would otherwise instantly time out a long-paused exam).
+            examState.startedAt = Date.now() - (examState.elapsedSec || 0) * 1000;
             openExamUI();
         }
 
@@ -11895,6 +11924,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
       <span class="pos-mid">${st.idx + 1}/${st.qids.length}</span>
       <button id="btnNext" class="primary" ${st.idx === st.qids.length - 1 ? "disabled" : ""}>Siguiente →</button>
     </div>
+    <div class="kbd-hint">⌨ ${isReview ? "" : "<b>A/B/C</b> o <b>1/2/3</b> para responder · "}<b>←</b> <b>→</b> para navegar</div>
   `;
 
             // wire events. accumulateQTime() runs on every interaction that ends the
@@ -13191,7 +13221,9 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
 
             // Exam countdown + today's plan focus
             const todayD = new Date(); todayD.setHours(0, 0, 0, 0);
-            const examDays = Math.max(0, Math.ceil((parseYmd(PLAN_EXAM) - todayD) / 86400000));
+            // Honor the exam date configured in Ajustes; fall back to the plan's end date.
+            const examYmd = getSettings().examDate || PLAN_EXAM;
+            const examDays = Math.max(0, Math.ceil((parseYmd(examYmd) - todayD) / 86400000));
             const wIdx = planWeekIndexForDate(todayD);
             const curWeek = wIdx >= 0 && wIdx < PLAN_WEEKS.length ? PLAN_WEEKS[wIdx] : null;
             const dow = todayD.getDay() === 0 ? 6 : todayD.getDay() - 1;   // 0=Mon..6=Sun
@@ -13621,6 +13653,38 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         // Esc closes flashcards overlay
         window.addEventListener("keydown", (e) => {
             if (e.key === "Escape" && $("fcOverlay").classList.contains("open")) closeFlashcards();
+        });
+
+        // Keyboard shortcuts inside the exam runner (desktop). A/B/C or 1/2/3 pick an
+        // option; ←/→ move between questions. Ignored while typing in a field or with
+        // a modifier held; answer keys are inert in review mode (options are read-only).
+        const EXAM_KEY_TO_OPT = { a: 0, b: 1, c: 2, A: 0, B: 1, C: 2, "1": 0, "2": 1, "3": 2 };
+        window.addEventListener("keydown", (e) => {
+            const overlay = $("examOverlay");
+            if (!overlay || !overlay.classList.contains("open") || !examState) return;
+            const tag = (e.target && e.target.tagName) || "";
+            if (tag === "INPUT" || tag === "TEXTAREA" || (e.target && e.target.isContentEditable)) return;
+            if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+            if (e.key === "ArrowLeft") {
+                if (examState.idx > 0) { accumulateQTime(); examState.idx--; saveExam(); renderExamCurrent(); window.scrollTo(0, 0); }
+                e.preventDefault();
+                return;
+            }
+            if (e.key === "ArrowRight") {
+                if (examState.idx < examState.qids.length - 1) { accumulateQTime(); examState.idx++; saveExam(); renderExamCurrent(); window.scrollTo(0, 0); }
+                e.preventDefault();
+                return;
+            }
+            // Answering: not in review mode (options disabled) and only valid keys.
+            if (examState.isReview) return;
+            if (Object.prototype.hasOwnProperty.call(EXAM_KEY_TO_OPT, e.key)) {
+                accumulateQTime();
+                examState.answers[examState.idx] = EXAM_KEY_TO_OPT[e.key];
+                saveExam();
+                renderExamCurrent();
+                e.preventDefault();
+            }
         });
 
         // ====== STUDY PLAN ======
