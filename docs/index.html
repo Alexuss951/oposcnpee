@@ -21,6 +21,7 @@
             --bg: #0b1f3a;
             --panel: #102a4d;
             --panel2: #16365f;
+            --card: var(--panel);
             --line: #234a7a;
             --text: #eaf1fb;
             --muted: #9fb4d4;
@@ -36,6 +37,7 @@
             --A: #7ab8ff;
             --B: #7ad19a;
             --C: #ffb35a;
+            --bloq-ink: #0b1f3a;
             --nav-h: 60px;
             --side-w: 220px;
             --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -62,6 +64,7 @@
             --A: #1f6fd0;
             --B: #1f8a4c;
             --C: #b25b00;
+            --bloq-ink: #ffffff;
             --shadow-card: 0 1px 3px rgba(15, 28, 51, .08);
         }
 
@@ -116,6 +119,13 @@
             color: var(--accent2-ink)
         }
 
+        /* Foco visible solo al navegar con teclado (los inputs con :focus propio
+           ya indican foco con border-color) */
+        :focus-visible {
+            outline: 2px solid var(--accent2);
+            outline-offset: 2px
+        }
+
         /* ===== HEADER ===== */
         header {
             position: sticky;
@@ -159,8 +169,8 @@
             background: transparent;
             border: 1px solid var(--line);
             color: var(--text);
-            width: 38px;
-            height: 38px;
+            width: 42px;
+            height: 42px;
             border-radius: 9px;
             cursor: pointer;
             font-size: 16px;
@@ -489,33 +499,8 @@
             margin-bottom: 12px
         }
 
-        .home .hero .goal {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 13px;
-            color: var(--muted)
-        }
-
-        .home .hero .goal .bar {
-            flex: 1;
-            height: 8px;
-            background: var(--panel2);
-            border-radius: 999px;
-            overflow: hidden;
-            border: 1px solid var(--line)
-        }
-
-        .home .hero .goal .bar>div {
-            height: 100%;
-            background: linear-gradient(90deg, var(--accent2), var(--ok));
-            transition: width .4s
-        }
-
-        .home .hero .goal b {
-            color: var(--text);
-            font-weight: 600
-        }
+        /* (estilos del objetivo diario del hero: ver "Daily-goal progress on the hero"
+           en la sección SUPPLEMENTAL — la estructura antigua .goal>.bar ya no existe) */
 
         .home .recommend {
             background: var(--panel);
@@ -659,20 +644,20 @@
         }
 
         .srs-due .due-n.ok {
-            color: #4ade80;
+            color: var(--ok);
         }
 
         .srs-due .due-n.warn {
-            color: #fbbf24;
+            color: var(--warn);
         }
 
         .srs-due .due-n.bad {
-            color: #f87171;
+            color: var(--bad);
         }
 
         .srs-due .due-go {
             background: var(--accent);
-            color: #001018;
+            color: var(--accent-ink);
             border: 0;
             border-radius: 8px;
             padding: 10px 14px;
@@ -681,7 +666,7 @@
         }
 
         .srs-due .due-zero {
-            color: #4ade80;
+            color: var(--ok);
             font-weight: 700;
             font-size: 13px;
         }
@@ -730,30 +715,30 @@
 
         .srs-box .bx-fill {
             width: 100%;
-            background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+            background: var(--accent2);
             min-height: 2px;
             border-radius: 6px 6px 0 0;
             transition: height .3s ease;
         }
 
         .srs-box.b1 .bx-fill {
-            background: linear-gradient(180deg, #f87171, #ef4444);
+            background: var(--bad);
         }
 
         .srs-box.b2 .bx-fill {
-            background: linear-gradient(180deg, #fb923c, #f97316);
+            background: var(--mark);
         }
 
         .srs-box.b3 .bx-fill {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
+            background: var(--warn);
         }
 
         .srs-box.b4 .bx-fill {
-            background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+            background: var(--accent2);
         }
 
         .srs-box.b5 .bx-fill {
-            background: linear-gradient(180deg, #4ade80, #22c55e);
+            background: var(--ok);
         }
 
         .srs-box .bx-n {
@@ -1005,18 +990,18 @@
         }
 
         .bz-item .num.A {
-            background: rgba(96, 165, 250, .18);
-            color: #60a5fa
+            background: color-mix(in srgb, var(--A) 18%, transparent);
+            color: var(--A)
         }
 
         .bz-item .num.B {
-            background: rgba(167, 139, 250, .18);
-            color: #a78bfa
+            background: color-mix(in srgb, var(--B) 18%, transparent);
+            color: var(--B)
         }
 
         .bz-item .num.C {
-            background: rgba(74, 222, 128, .18);
-            color: #4ade80
+            background: color-mix(in srgb, var(--C) 18%, transparent);
+            color: var(--C)
         }
 
         .bz-item .info {
@@ -1059,18 +1044,18 @@
         }
 
         .bz-gloss .gloss-term .b.A {
-            background: rgba(96, 165, 250, .18);
-            color: #60a5fa
+            background: color-mix(in srgb, var(--A) 18%, transparent);
+            color: var(--A)
         }
 
         .bz-gloss .gloss-term .b.B {
-            background: rgba(167, 139, 250, .18);
-            color: #a78bfa
+            background: color-mix(in srgb, var(--B) 18%, transparent);
+            color: var(--B)
         }
 
         .bz-gloss .gloss-term .b.C {
-            background: rgba(74, 222, 128, .18);
-            color: #4ade80
+            background: color-mix(in srgb, var(--C) 18%, transparent);
+            color: var(--C)
         }
 
         .bz-gloss .gloss-ref {
@@ -1225,12 +1210,12 @@
         }
 
         .vs-then .up {
-            color: #4ade80;
+            color: var(--ok);
             font-weight: 700
         }
 
         .vs-then .down {
-            color: #f87171;
+            color: var(--bad);
             font-weight: 700
         }
 
@@ -1291,18 +1276,18 @@
         }
 
         .bloque-stats .bs-row.A .bs-label b {
-            background: rgba(120, 170, 255, .18);
-            color: #9ec5ff
+            background: color-mix(in srgb, var(--A) 18%, transparent);
+            color: var(--A)
         }
 
         .bloque-stats .bs-row.B .bs-label b {
-            background: rgba(170, 130, 255, .18);
-            color: #c4a8ff
+            background: color-mix(in srgb, var(--B) 18%, transparent);
+            color: var(--B)
         }
 
         .bloque-stats .bs-row.C .bs-label b {
-            background: rgba(255, 170, 120, .18);
-            color: #ffc89e
+            background: color-mix(in srgb, var(--C) 18%, transparent);
+            color: var(--C)
         }
 
         .bloque-stats .bs-track {
@@ -1423,7 +1408,7 @@
 
         .err-empty .primary {
             background: var(--accent);
-            color: #000;
+            color: var(--accent-ink);
             border: 0;
             padding: 10px 16px;
             border-radius: 8px;
@@ -1480,7 +1465,7 @@
 
         .err-chip.on {
             background: var(--accent);
-            color: #000;
+            color: var(--accent-ink);
             border-color: var(--accent);
             font-weight: 600
         }
@@ -1561,18 +1546,18 @@
         }
 
         .err-pill.A {
-            background: rgba(120, 170, 255, .18);
-            color: #9ec5ff
+            background: color-mix(in srgb, var(--A) 18%, transparent);
+            color: var(--A)
         }
 
         .err-pill.B {
-            background: rgba(170, 130, 255, .18);
-            color: #c4a8ff
+            background: color-mix(in srgb, var(--B) 18%, transparent);
+            color: var(--B)
         }
 
         .err-pill.C {
-            background: rgba(255, 170, 120, .18);
-            color: #ffc89e
+            background: color-mix(in srgb, var(--C) 18%, transparent);
+            color: var(--C)
         }
 
         .err-snippet {
@@ -1676,12 +1661,12 @@
 
         .err-opts .tag.ok {
             background: var(--ok);
-            color: #000
+            color: var(--bloq-ink)
         }
 
         .err-opts .tag.bad {
             background: var(--bad);
-            color: #fff
+            color: var(--bloq-ink)
         }
 
         .err-x {
@@ -1949,7 +1934,7 @@
             justify-content: center;
             font-weight: 700;
             font-size: 15px;
-            color: #0b1f3a;
+            color: var(--bloq-ink);
             flex-shrink: 0;
             line-height: 1
         }
@@ -2107,7 +2092,7 @@
 
         .detail-bar .read-toggle.on {
             background: var(--ok);
-            color: #0b1f3a;
+            color: var(--bloq-ink);
             border-color: var(--ok);
             font-weight: 600
         }
@@ -2653,18 +2638,18 @@
         }
 
         .fc-actions .fc-bad {
-            border-color: #cc4444;
-            color: #ff8888
+            border-color: var(--bad);
+            color: var(--bad)
         }
 
         .fc-actions .fc-doubt {
-            border-color: #cc9944;
-            color: #ffbb55
+            border-color: var(--warn);
+            color: var(--warn)
         }
 
         .fc-actions .fc-good {
-            border-color: #44aa66;
-            color: #66cc88
+            border-color: var(--ok);
+            color: var(--ok)
         }
 
         .fc-actions button:disabled {
@@ -2934,7 +2919,7 @@
             padding: 12px;
             text-align: left;
             cursor: pointer;
-            color: var(--ink)
+            color: var(--text)
         }
 
         .psico-cat-card:hover {
@@ -3004,7 +2989,7 @@
             font-size: 14px;
             line-height: 1.4;
             text-align: left;
-            color: var(--ink)
+            color: var(--text)
         }
 
         .psico-opt:hover:not(.disabled) {
@@ -3017,13 +3002,13 @@
         }
 
         .psico-opt.correct {
-            border-color: #16a34a;
-            background: rgba(22, 163, 74, .12)
+            border-color: var(--ok);
+            background: color-mix(in srgb, var(--ok) 12%, transparent)
         }
 
         .psico-opt.wrong {
-            border-color: #dc2626;
-            background: rgba(220, 38, 38, .12)
+            border-color: var(--bad);
+            background: color-mix(in srgb, var(--bad) 12%, transparent)
         }
 
         .psico-opt .letter {
@@ -3059,15 +3044,15 @@
         }
 
         .psico-results .score.ok {
-            color: #16a34a
+            color: var(--ok)
         }
 
         .psico-results .score.warn {
-            color: #f59e0b
+            color: var(--warn)
         }
 
         .psico-results .score.bad {
-            color: #dc2626
+            color: var(--bad)
         }
 
         .history {
@@ -3247,7 +3232,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #0b1f3a;
+            color: var(--bloq-ink);
             flex-shrink: 0
         }
 
@@ -3795,7 +3780,7 @@
 
         .exam-option.correct .letter {
             background: var(--ok);
-            color: #0b1f3a
+            color: var(--bloq-ink)
         }
 
         .exam-option.wrong {
@@ -3888,21 +3873,21 @@
         }
 
         .exam-tags .tag-btn.active.tag-ok {
-            background: #16a34a;
-            color: #fff;
-            border-color: #16a34a;
+            background: var(--ok);
+            color: var(--bloq-ink);
+            border-color: var(--ok);
         }
 
         .exam-tags .tag-btn.active.tag-warn {
-            background: #d97706;
-            color: #fff;
-            border-color: #d97706;
+            background: var(--warn);
+            color: var(--bloq-ink);
+            border-color: var(--warn);
         }
 
         .exam-tags .tag-btn.active.tag-hot {
-            background: #dc2626;
-            color: #fff;
-            border-color: #dc2626;
+            background: var(--bad);
+            color: var(--bloq-ink);
+            border-color: var(--bad);
         }
 
         /* Tag pill in marcadas list */
@@ -3916,18 +3901,18 @@
         }
 
         .marked-list .tag-pill.tag-ok {
-            background: rgba(22, 163, 74, .18);
-            color: #16a34a;
+            background: color-mix(in srgb, var(--ok) 18%, transparent);
+            color: var(--ok);
         }
 
         .marked-list .tag-pill.tag-warn {
-            background: rgba(217, 119, 6, .18);
-            color: #d97706;
+            background: color-mix(in srgb, var(--warn) 18%, transparent);
+            color: var(--warn);
         }
 
         .marked-list .tag-pill.tag-hot {
-            background: rgba(220, 38, 38, .18);
-            color: #dc2626;
+            background: color-mix(in srgb, var(--bad) 18%, transparent);
+            color: var(--bad);
         }
 
         .marked-filters {
@@ -4071,13 +4056,13 @@
 
         .palette button.right {
             background: var(--ok);
-            color: #0b1f3a;
+            color: var(--bloq-ink);
             border-color: var(--ok)
         }
 
         .palette button.bad {
             background: var(--bad);
-            color: #fff;
+            color: var(--bloq-ink);
             border-color: var(--bad)
         }
 
@@ -4345,18 +4330,18 @@
         }
 
         .bb-row.A .bb-k {
-            background: rgba(120, 170, 255, .18);
-            color: #9ec5ff
+            background: color-mix(in srgb, var(--A) 18%, transparent);
+            color: var(--A)
         }
 
         .bb-row.B .bb-k {
-            background: rgba(170, 130, 255, .18);
-            color: #c4a8ff
+            background: color-mix(in srgb, var(--B) 18%, transparent);
+            color: var(--B)
         }
 
         .bb-row.C .bb-k {
-            background: rgba(255, 170, 120, .18);
-            color: #ffc89e
+            background: color-mix(in srgb, var(--C) 18%, transparent);
+            color: var(--C)
         }
 
         .bb-nums b {
@@ -4609,15 +4594,15 @@
         }
 
         .home .countdown-card.hot {
-            border-left-color: #f87171
+            border-left-color: var(--bad)
         }
 
         .home .countdown-card.warm {
-            border-left-color: #fbbf24
+            border-left-color: var(--warn)
         }
 
         .home .countdown-card.today {
-            border-left-color: #4ade80
+            border-left-color: var(--ok)
         }
 
         .home .countdown-card.past {
@@ -4640,15 +4625,15 @@
         }
 
         .home .countdown-card.hot .cd-n {
-            color: #f87171
+            color: var(--bad)
         }
 
         .home .countdown-card.warm .cd-n {
-            color: #fbbf24
+            color: var(--warn)
         }
 
         .home .countdown-card.today .cd-n {
-            color: #4ade80
+            color: var(--ok)
         }
 
         .home .countdown-card .cd-lbl .cd-title {
@@ -4793,12 +4778,12 @@
         }
 
         .home .quote-card .qmeta .chip.streak {
-            color: #ffb86b;
-            border-color: rgba(255, 184, 107, .35)
+            color: var(--mark);
+            border-color: color-mix(in srgb, var(--mark) 35%, transparent)
         }
 
         .home .quote-card .qmeta .chip.streak b {
-            color: #ffb86b;
+            color: var(--mark);
             font-weight: 700;
             font-variant-numeric: tabular-nums
         }
@@ -4813,6 +4798,11 @@
             cursor: pointer;
             color: #ff7a8f;
             border-color: rgba(255, 122, 143, .35)
+        }
+
+        [data-theme="light"] .home .quote-card .qmeta .chip.favs {
+            color: #c2334d;
+            border-color: rgba(194, 51, 77, .35)
         }
 
         .home .quote-card .qmeta .chip.favs:hover {
@@ -5047,18 +5037,18 @@
         }
 
         .home .today-focus .focus-item .pill.A {
-            color: #93c5fd;
-            border-color: rgba(147, 197, 253, .35)
+            color: var(--A);
+            border-color: color-mix(in srgb, var(--A) 35%, transparent)
         }
 
         .home .today-focus .focus-item .pill.B {
-            color: #fbbf24;
-            border-color: rgba(251, 191, 36, .35)
+            color: var(--B);
+            border-color: color-mix(in srgb, var(--B) 35%, transparent)
         }
 
         .home .today-focus .focus-item .pill.C {
-            color: #f87171;
-            border-color: rgba(248, 113, 113, .35)
+            color: var(--C);
+            border-color: color-mix(in srgb, var(--C) 35%, transparent)
         }
 
         .home .today-focus .focus-item .txt {
@@ -5296,19 +5286,19 @@
             justify-content: center;
             font-weight: 600;
             font-size: 13px;
-            color: #1a1a1a
+            color: var(--bloq-ink)
         }
 
         ul.stats-list .num.A {
-            background: var(--bloqA)
+            background: var(--A)
         }
 
         ul.stats-list .num.B {
-            background: var(--bloqB)
+            background: var(--B)
         }
 
         ul.stats-list .num.C {
-            background: var(--bloqC)
+            background: var(--C)
         }
 
         ul.stats-list .info {
@@ -5344,8 +5334,8 @@
         }
 
         ul.stats-list .acc.mid {
-            color: #f59f00;
-            background: rgba(245, 159, 0, .12)
+            color: var(--warn);
+            background: color-mix(in srgb, var(--warn) 12%, transparent)
         }
 
         ul.stats-list .acc.bad {
@@ -5393,8 +5383,8 @@
         }
 
         ul.recent .nota.mid {
-            color: #f59f00;
-            background: rgba(245, 159, 0, .12)
+            color: var(--warn);
+            background: color-mix(in srgb, var(--warn) 12%, transparent)
         }
 
         ul.recent .nota.bad {
@@ -5861,7 +5851,6 @@
         .cal-nav .cal-title {
             font-weight: 700;
             font-size: 15px;
-            text-transform: capitalize;
         }
 
         .cal-nav button {
@@ -6105,7 +6094,6 @@
         .cal-day-detail h3 {
             margin: 0 0 6px;
             font-size: 16px;
-            text-transform: capitalize;
         }
 
         .cal-day-detail .day-sub {
@@ -12321,36 +12309,35 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         // Daily motivational quotes. Curated for an opositora — stoics, deep-work,
         // habits, study science. No empty inspirational fluff.
         const QUOTES = [
-            { q: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.", a: "Will Durant" },
-            { q: "You do not rise to the level of your goals. You fall to the level of your systems.", a: "James Clear" },
-            { q: "Every action you take is a vote for the type of person you wish to become.", a: "James Clear" },
-            { q: "Habits are the compound interest of self-improvement.", a: "James Clear" },
-            { q: "When you can’t do the impossible, do the merely difficult.", a: "James Clear" },
-            { q: "Be tolerant with others and strict with yourself.", a: "Marco Aurelio" },
-            { q: "Waste no more time arguing what a good person should be. Be one.", a: "Marco Aurelio" },
-            { q: "You have power over your mind — not outside events. Realize this, and you will find strength.", a: "Marco Aurelio" },
-            { q: "Difficulties strengthen the mind, as labor does the body.", a: "Séneca" },
-            { q: "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.", a: "Séneca" },
-            { q: "Sometimes even to live is an act of courage.", a: "Séneca" },
-            { q: "He who has a why to live for can bear almost any how.", a: "Friedrich Nietzsche" },
+            { q: "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.", a: "Will Durant" },
+            { q: "No subes al nivel de tus metas. Caes al nivel de tus sistemas.", a: "James Clear" },
+            { q: "Cada acción que haces es un voto por el tipo de persona en que quieres convertirte.", a: "James Clear" },
+            { q: "Los hábitos son el interés compuesto de la mejora personal.", a: "James Clear" },
+            { q: "Cuando no puedas hacer lo imposible, haz lo simplemente difícil.", a: "James Clear" },
+            { q: "Sé tolerante con los demás y estricta contigo misma.", a: "Marco Aurelio" },
+            { q: "No pierdas más tiempo discutiendo cómo debe ser una buena persona. Sé una.", a: "Marco Aurelio" },
+            { q: "Tienes poder sobre tu mente, no sobre los acontecimientos externos. Comprende esto y encontrarás la fuerza.", a: "Marco Aurelio" },
+            { q: "Las dificultades fortalecen la mente, como el trabajo fortalece el cuerpo.", a: "Séneca" },
+            { q: "No nos atrevemos porque las cosas sean difíciles: son difíciles porque no nos atrevemos.", a: "Séneca" },
+            { q: "A veces, hasta vivir es un acto de valentía.", a: "Séneca" },
             { q: "El que tiene un porqué para vivir puede soportar casi cualquier cómo.", a: "Friedrich Nietzsche" },
-            { q: "Discipline equals freedom.", a: "Jocko Willink" },
-            { q: "The successful warrior is the average man, with laser-like focus.", a: "Bruce Lee" },
-            { q: "Don’t let your bad days trick you into thinking you have a bad life.", a: "—" },
-            { q: "The greatest skill one can develop is decreasing the time between idea and execution.", a: "—" },
+            { q: "La disciplina es libertad.", a: "Jocko Willink" },
+            { q: "El guerrero de éxito es una persona normal con un enfoque láser.", a: "Bruce Lee" },
+            { q: "No dejes que un mal día te haga creer que tienes una mala vida.", a: "—" },
+            { q: "La mejor habilidad que puedes desarrollar es reducir el tiempo entre la idea y la ejecución.", a: "—" },
             { q: "Aferrarse es creer que solo existe el pasado. Soltar es saber que hay un futuro.", a: "—" },
             { q: "Tu marca es lo que la gente dice de ti cuando no estás en la sala.", a: "Jeff Bezos" },
             { q: "El que mucho abarca, poco aprieta. El que poco abarca y constante, lo aprieta todo.", a: "—" },
             { q: "La calidad de tu atención determina la calidad de tu vida.", a: "Cal Newport" },
-            { q: "Deep work is the ability to focus without distraction on a cognitively demanding task. It’s a skill that allows you to quickly master complicated information.", a: "Cal Newport" },
-            { q: "Motivation is what gets you started. Habit is what keeps you going.", a: "Jim Rohn" },
-            { q: "It’s not that I’m so smart, it’s just that I stay with problems longer.", a: "Albert Einstein" },
-            { q: "If you can’t fly, run. If you can’t run, walk. If you can’t walk, crawl. But by all means, keep moving.", a: "Martin Luther King Jr." },
+            { q: "El trabajo profundo es la capacidad de concentrarte sin distracción en una tarea cognitivamente exigente. Es la habilidad que permite dominar rápido información complicada.", a: "Cal Newport" },
+            { q: "La motivación es lo que te hace empezar. El hábito es lo que te mantiene.", a: "Jim Rohn" },
+            { q: "No es que sea muy listo, es que me quedo con los problemas más tiempo.", a: "Albert Einstein" },
+            { q: "Si no puedes volar, corre. Si no puedes correr, camina. Si no puedes caminar, gatea. Pero hagas lo que hagas, sigue avanzando.", a: "Martin Luther King Jr." },
             { q: "La constancia vence lo que la dicha no alcanza.", a: "—" },
             { q: "Lo que no se mide, no se mejora.", a: "Peter Drucker" },
-            { q: "Make the easy choice today so future you doesn’t inherit the hard one.", a: "—" },
-            { q: "You don’t have to be great to start, but you have to start to be great.", a: "Zig Ziglar" },
-            { q: "Don’t count the days. Make the days count.", a: "Muhammad Ali" },
+            { q: "Toma hoy la decisión difícil para que tu yo del futuro herede la fácil.", a: "—" },
+            { q: "No tienes que ser grande para empezar, pero tienes que empezar para ser grande.", a: "Zig Ziglar" },
+            { q: "No cuentes los días. Haz que los días cuenten.", a: "Muhammad Ali" },
             { q: "Las plazas se sacan por mérito propio, no por suerte ajena.", a: "—" },
             { q: "Cada hora de hoy es una pregunta menos que fallarás en octubre.", a: "—" },
             { q: "Estudiar cansado es entrenar la voluntad. Estudiar descansado es entrenar la mente. Ambos cuentan.", a: "—" },
@@ -12358,14 +12345,14 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             { q: "Una pregunta mal contestada hoy vale más que diez bien contestadas mañana — porque la corriges ahora.", a: "—" },
             { q: "La perseverancia es la virtud por la cual todas las demás dan fruto.", a: "Arturo Graf" },
             { q: "Lo difícil se vuelve fácil con la costumbre. Lo fácil se vuelve imposible sin ella.", a: "—" },
-            { q: "Talent hits a target no one else can hit; genius hits a target no one else can see.", a: "Arthur Schopenhauer" },
+            { q: "El talento acierta un blanco que nadie más puede acertar; el genio, uno que nadie más puede ver.", a: "Arthur Schopenhauer" },
             { q: "Si supiera lo que voy a estudiar mañana, hoy no me costaría tanto empezar.", a: "—" },
-            { q: "What we fear doing most is usually what we most need to do.", a: "Tim Ferriss" },
-            { q: "Action is the antidote to despair.", a: "Joan Baez" },
-            { q: "Hard choices, easy life. Easy choices, hard life.", a: "Jerzy Gregorek" },
+            { q: "Lo que más miedo nos da hacer suele ser lo que más necesitamos hacer.", a: "Tim Ferriss" },
+            { q: "La acción es el antídoto de la desesperanza.", a: "Joan Baez" },
+            { q: "Decisiones difíciles, vida fácil. Decisiones fáciles, vida difícil.", a: "Jerzy Gregorek" },
             { q: "El mejor momento para plantar un árbol fue hace veinte años. El segundo mejor momento es ahora.", a: "Proverbio chino" },
             { q: "No siempre podrás estudiar con ganas. Siempre podrás estudiar.", a: "—" },
-            { q: "Compete only with who you were yesterday.", a: "Jordan B. Peterson" },
+            { q: "Compite solo con quien fuiste ayer.", a: "Jordan B. Peterson" },
             { q: "La excelencia no es un acto, sino un hábito.", a: "Aristóteles" },
             { q: "Cuida lo que repites: en eso te conviertes.", a: "—" },
             { q: "La memoria es músculo. Se entrena recordando, no releyendo.", a: "—" },
@@ -12376,9 +12363,8 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             { q: "El que quiere hacer algo encuentra un medio. El que no quiere, encuentra una excusa.", a: "Proverbio árabe" },
             { q: "No hay viento favorable para el barco que no sabe a dónde va.", a: "Séneca" },
             { q: "El éxito es la suma de pequeños esfuerzos repetidos día tras día.", a: "Robert Collier" },
-            { q: "Energy and persistence conquer all things.", a: "Benjamin Franklin" },
-            { q: "Quality is not an act, it is a habit.", a: "Aristóteles" },
-            { q: "It always seems impossible until it’s done.", a: "Nelson Mandela" },
+            { q: "La energía y la persistencia conquistan todas las cosas.", a: "Benjamin Franklin" },
+            { q: "Siempre parece imposible hasta que se hace.", a: "Nelson Mandela" },
             { q: "Si quieres resultados distintos, no hagas siempre lo mismo.", a: "Albert Einstein" },
             { q: "La mejor forma de predecir el futuro es construirlo.", a: "Peter Drucker" },
             { q: "Concentra todos tus pensamientos en el trabajo que tienes delante. Los rayos del sol no queman hasta que se enfocan.", a: "Alexander Graham Bell" },
@@ -12386,26 +12372,25 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             { q: "No te compares con quien empezó antes. Compárate con quien fuiste ayer.", a: "—" },
             { q: "Empezar mal el día no obliga a terminarlo mal. Cualquier hora es buena para retomar.", a: "—" },
             { q: "El cerebro es un músculo: lo que no usas, lo pierdes. Lo que usas a diario, lo dominas.", a: "—" },
-            { q: "Don't wish it were easier; wish you were better.", a: "Jim Rohn" },
-            { q: "First, solve the problem. Then, write the code.", a: "John Johnson" },
+            { q: "No desees que sea más fácil; desea ser mejor.", a: "Jim Rohn" },
             { q: "El que estudia con sueño aprende a medias y olvida el doble.", a: "—" },
             { q: "La preparación previa al examen importa más que la inteligencia que llevas al examen.", a: "—" },
             { q: "Una hora de hoy vale tres de la semana del examen.", a: "—" },
             { q: "No estudias para aprobar. Estudias para ser inspectora. Lo primero es consecuencia, lo segundo es identidad.", a: "—" },
-            { q: "Show up on the days you don’t feel like it. That’s when the gap with the competition opens.", a: "—" },
-            { q: "Fall seven times, stand up eight.", a: "Proverbio japonés" },
-            { q: "If it is important, do it every day. If it is not important, don't do it at all.", a: "Dan Gable" },
+            { q: "Preséntate los días que no te apetece. Ahí es donde se abre la distancia con la competencia.", a: "—" },
+            { q: "Cae siete veces, levántate ocho.", a: "Proverbio japonés" },
+            { q: "Si es importante, hazlo todos los días. Si no es importante, no lo hagas en absoluto.", a: "Dan Gable" },
             { q: "No hay atajos para ningún lugar al que valga la pena ir.", a: "Beverly Sills" },
             { q: "La ambición sin disciplina es ansiedad. La disciplina sin ambición es rutina. Las dos juntas son resultado.", a: "—" },
             { q: "Lo único peor que no estudiar hoy es no estudiar mañana por culpa de no haber estudiado hoy.", a: "—" },
-            { q: "If you want to build a ship, don’t drum up the men to gather wood, divide the work, and give orders. Teach them to long for the endless immensity of the sea.", a: "Antoine de Saint-Exupéry" },
+            { q: "Si quieres construir un barco, no reúnas a la gente para buscar madera, repartir el trabajo y dar órdenes. Enséñales a anhelar la inmensidad infinita del mar.", a: "Antoine de Saint-Exupéry" },
             { q: "Hay dos formas de fracasar: no intentarlo, y abandonar a mitad. Las dos requieren más esfuerzo que continuar.", a: "—" },
             { q: "Un opositor que llora cansado un martes a las 19h, gana la plaza en octubre.", a: "—" },
             { q: "La memoria a largo plazo es una promesa que tu yo de hoy le hace a tu yo de octubre.", a: "—" },
             { q: "No tienes que querer estudiar. Solo tienes que sentarte y empezar. Las ganas vienen después, no antes.", a: "—" },
             { q: "Comparar tu día 30 con el día 200 de otro opositor es injusto. Compara tu día 30 con tu día 15.", a: "—" },
             { q: "Lo difícil no es el temario. Es sentarte cuando no quieres. Quien resuelve eso, aprueba.", a: "—" },
-            { q: "The expert in anything was once a beginner.", a: "Helen Hayes" },
+            { q: "El experto en cualquier cosa fue una vez principiante.", a: "Helen Hayes" },
             { q: "El miedo a fallar te frena más que cualquier fallo real.", a: "—" },
             { q: "Hoy no tienes que ser brillante. Solo tienes que estar presente.", a: "—" },
             { q: "Cuando dudes entre estudiar 15 min más o cerrar el libro, estudia 5 más. Negociar a la baja es la regla del cansancio sostenible.", a: "—" },
@@ -12414,7 +12399,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             { q: "Lo que hoy te cuesta una hora, en agosto te costará diez minutos. En octubre te saldrá automático.", a: "—" },
             { q: "La oposición no premia al más listo, premia al que sigue ahí en el km 18 de la maratón.", a: "—" },
             { q: "Si pudieras hablar contigo misma del 18 de octubre, ¿qué te diría que hicieras hoy?", a: "—" },
-            { q: "What you focus on expands. Focus on the work, not on the outcome.", a: "—" },
+            { q: "Aquello en lo que te concentras, crece. Concéntrate en el trabajo, no en el resultado.", a: "—" },
             { q: "El día más improductivo del estudio constante vale más que el día más brillante del estudio caótico.", a: "—" },
             { q: "Solo se gana cuando se renuncia a perder.", a: "—" },
             { q: "Tu única competencia real es la opositora que serás dentro de un mes si hoy no te sientas.", a: "—" }
@@ -13297,7 +13282,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         ${favList.length ? `<span class="chip favs" data-act="open-favs" title="Ver favoritas">♥ ${favList.length} ${favList.length === 1 ? "favorita" : "favoritas"}</span>` : ""}
       </div>
       <div class="by">
-        <span class="who">— ${escapeHtml(quote.a)}</span>
+        <span class="who">${quote.a && quote.a !== "—" ? `— ${escapeHtml(quote.a)}` : ""}</span>
         <span class="actions">
           <button class="fav ${favOn ? "on" : ""}" data-act="fav" title="${favOn ? "Quitar de favoritas" : "Guardar como favorita"}">${favOn ? "♥" : "♡"}</button>
           <button class="refresh" data-act="shuffle-quote" title="Otra frase">↻ Otra</button>
@@ -13313,7 +13298,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         </div>
         ${favList.length ? `<ul>
           ${favList.map(f => `<li>
-            <div class="qtext"><div class="q">“${escapeHtml(f.q)}”</div><div class="a">— ${escapeHtml(f.a)}</div></div>
+            <div class="qtext"><div class="q">“${escapeHtml(f.q)}”</div>${f.a && f.a !== "—" ? `<div class="a">— ${escapeHtml(f.a)}</div>` : ""}</div>
             <button class="rm" data-act="rm-fav" data-k="${escapeHtml(f.k)}" title="Quitar">×</button>
           </li>`).join("")}
         </ul>` : `<div class="empty">Aún no has guardado ninguna.</div>`}
@@ -14051,7 +14036,8 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 monthAnchor = today < planStart ? planStart : today;
                 monthAnchor = new Date(monthAnchor.getFullYear(), monthAnchor.getMonth(), 1);
             }
-            const monthLabel = monthAnchor.toLocaleDateString("es-ES", { month: "long", year: "numeric" });
+            const monthLabelRaw = monthAnchor.toLocaleDateString("es-ES", { month: "long", year: "numeric" });
+            const monthLabel = monthLabelRaw.charAt(0).toUpperCase() + monthLabelRaw.slice(1);
 
             const firstOfMonth = new Date(monthAnchor.getFullYear(), monthAnchor.getMonth(), 1);
             const dowMonFirst = (firstOfMonth.getDay() + 6) % 7;
@@ -14145,7 +14131,8 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             const host = $("dayDetail"); if (!host) return;
             const wIdx = planWeekIndexForDate(d);
             const week = (wIdx >= 0 && wIdx < PLAN_WEEKS.length) ? PLAN_WEEKS[wIdx] : null;
-            const dateLabel = d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+            const dateLabelRaw = d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+            const dateLabel = dateLabelRaw.charAt(0).toUpperCase() + dateLabelRaw.slice(1);
 
             let html = `<div class="cal-day-detail"><h3>${escapeHtml(dateLabel)}</h3>`;
 
