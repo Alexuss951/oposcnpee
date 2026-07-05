@@ -394,7 +394,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": null,
+      "tema": 56,
       "explicacion": ""
     },
     {
@@ -576,7 +576,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": null,
+      "tema": 29,
       "explicacion": ""
     },
     {
@@ -836,7 +836,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": null,
+      "tema": 68,
       "explicacion": ""
     },
     {
@@ -1083,7 +1083,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": null,
+      "tema": 56,
       "explicacion": ""
     },
     {
@@ -1148,7 +1148,7 @@
       ],
       "correcta": 1,
       "dificultad": "facil",
-      "tema": null,
+      "tema": 63,
       "explicacion": ""
     },
     {
@@ -1239,7 +1239,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": null,
+      "tema": 4,
       "explicacion": ""
     },
     {

@@ -134,7 +134,7 @@
       ],
       "correcta": 2,
       "dificultad": "facil",
-      "tema": null,
+      "tema": 8,
       "explicacion": ""
     },
     {
@@ -992,7 +992,7 @@
       ],
       "correcta": 0,
       "dificultad": "media",
-      "tema": null,
+      "tema": 52,
       "explicacion": ""
     },
     {
@@ -1044,7 +1044,7 @@
       ],
       "correcta": 1,
       "dificultad": "media",
-      "tema": null,
+      "tema": 56,
       "explicacion": ""
     },
     {
@@ -1057,7 +1057,7 @@
       ],
       "correcta": 2,
       "dificultad": "media",
-      "tema": null,
+      "tema": 56,
       "explicacion": ""
     },
     {
