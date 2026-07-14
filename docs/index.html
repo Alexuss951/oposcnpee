@@ -6317,7 +6317,7 @@
             font-size: 12.5px;
         }
 
-        /* === Fisico view (BOE Anexo I baremos) === */
+        /* === Fisico view — plan de entrenamiento (pruebas previstas oct 2026) === */
         #view-fisico {
             padding: 16px;
             max-width: 960px;
@@ -6358,11 +6358,6 @@
             padding: 3px 10px;
             font-size: 11.5px;
             color: var(--text);
-        }
-
-        .fis-hero .badges span.bad {
-            color: var(--bad);
-            border-color: var(--bad);
         }
 
         .fis-hero .badges span.ok {
@@ -6412,14 +6407,348 @@
             color: var(--warn);
         }
 
-        .fis-sum-card.bad .val {
-            color: var(--bad);
-        }
-
         .fis-sum-card.muted .val {
             color: var(--muted);
-            font-size: 15px;
-            padding-top: 5px;
+        }
+
+        /* --- fases --- */
+        .fis-fases {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        @media(min-width:720px) {
+            .fis-fases {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .fis-fase {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 12px 14px;
+            position: relative;
+        }
+
+        .fis-fase .fase-ic {
+            font-size: 20px;
+        }
+
+        .fis-fase h4 {
+            margin: 4px 0 2px;
+            font-size: 14px;
+        }
+
+        .fis-fase .rango {
+            font-size: 11.5px;
+            color: var(--muted);
+        }
+
+        .fis-fase p {
+            font-size: 12.5px;
+            color: var(--muted);
+            line-height: 1.5;
+            margin: 6px 0 0;
+        }
+
+        .fis-fase.now {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 1px var(--accent);
+        }
+
+        .fis-fase.now .aqui {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--accent);
+            color: #002;
+            font-size: 10.5px;
+            font-weight: 700;
+            border-radius: 999px;
+            padding: 2px 8px;
+        }
+
+        .fis-fase.past {
+            opacity: .75;
+        }
+
+        /* --- semana tipo --- */
+        .fis-puesta {
+            background: var(--panel2);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 10px 14px;
+            font-size: 13px;
+            line-height: 1.55;
+            margin-bottom: 10px;
+        }
+
+        .fis-day {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .fis-day.today {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 1px var(--accent);
+        }
+
+        .fis-day.done {
+            border-color: var(--ok);
+        }
+
+        .fis-day summary {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            padding: 12px 14px;
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .fis-day summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .fis-day summary::marker {
+            content: "";
+        }
+
+        .fis-day-ic {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+        .fis-day-head {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .fis-day-name {
+            font-size: 11.5px;
+            color: var(--muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .4px;
+        }
+
+        .fis-day-date {
+            text-transform: none;
+            font-weight: 400;
+        }
+
+        .fis-day-hoy {
+            background: var(--accent);
+            color: #002;
+            border-radius: 999px;
+            padding: 1px 7px;
+            font-size: 10px;
+            font-weight: 700;
+            margin-left: 4px;
+        }
+
+        .fis-day-title {
+            font-size: 14.5px;
+            font-weight: 700;
+        }
+
+        .fis-day-chip {
+            background: var(--panel2);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            border-radius: 999px;
+            padding: 1px 8px;
+            font-size: 10.5px;
+            font-weight: 600;
+            vertical-align: middle;
+        }
+
+        .fis-day-tag {
+            font-size: 12px;
+            color: var(--accent2);
+        }
+
+        .fis-day-state {
+            color: var(--ok);
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .fis-day-items {
+            margin: 0;
+            padding: 0 16px 4px 40px;
+            font-size: 13px;
+            line-height: 1.55;
+            color: var(--text);
+        }
+
+        .fis-day-items li {
+            margin: 4px 0;
+        }
+
+        .fis-item-sub {
+            display: block;
+            font-size: 11.5px;
+            color: var(--muted);
+            line-height: 1.45;
+            margin-top: 1px;
+        }
+
+        .fis-day-regla {
+            margin: 6px 14px;
+            padding: 8px 10px;
+            border-left: 3px solid var(--ok);
+            background: var(--panel2);
+            border-radius: 6px;
+            font-size: 12.5px;
+        }
+
+        .fis-day-note {
+            margin: 6px 14px 10px;
+            padding: 8px 10px;
+            border-left: 3px solid var(--accent2);
+            background: var(--panel2);
+            border-radius: 6px;
+            font-size: 12.5px;
+            color: var(--muted);
+        }
+
+        .fis-day-check {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            border-top: 1px solid var(--line);
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+            background: var(--panel2);
+        }
+
+        .fis-day-check input {
+            width: 20px;
+            height: 20px;
+            accent-color: var(--ok);
+        }
+
+        .fis-day-check.rest {
+            cursor: default;
+            color: var(--muted);
+            font-weight: 400;
+        }
+
+        .fis-day.done .fis-day-check {
+            color: var(--ok);
+        }
+
+        /* --- cronómetro --- */
+        .fis-chrono {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 14px 16px;
+        }
+
+        .fis-chrono-top {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .fis-chrono-display {
+            font-variant-numeric: tabular-nums;
+            font-size: 44px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .fis-chrono-display.flash {
+            color: var(--ok);
+            animation: fisFlash .3s 4;
+        }
+
+        @keyframes fisFlash {
+            50% {
+                opacity: .25;
+            }
+        }
+
+        .fis-chrono-modelabel {
+            font-size: 11.5px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .fis-chrono-btns {
+            display: flex;
+            gap: 8px;
+            margin: 10px 0 8px;
+        }
+
+        .fis-chrono-btns button {
+            border: 1px solid var(--line);
+            background: var(--panel2);
+            color: var(--text);
+            border-radius: 8px;
+            padding: 10px 16px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .fis-chrono-btns button.primary {
+            background: var(--accent);
+            color: #002;
+            border-color: var(--accent);
+        }
+
+        .fis-chrono-presets {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            flex-wrap: wrap;
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .fis-chrono-presets button {
+            border: 1px solid var(--line);
+            background: var(--bg);
+            color: var(--text);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12.5px;
+            cursor: pointer;
+        }
+
+        .fis-chrono-hint {
+            font-size: 11.5px;
+            color: var(--muted);
+            margin: 8px 0 0;
+            line-height: 1.5;
+        }
+
+        /* --- marcas --- */
+        .fis-marks-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        @media(min-width:720px) {
+            .fis-marks-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         .fis-test {
@@ -6427,7 +6756,6 @@
             border: 1px solid var(--line);
             border-radius: var(--radius);
             padding: 14px 16px;
-            margin-bottom: 14px;
             box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
         }
 
@@ -6435,7 +6763,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            margin-bottom: 6px;
+            margin-bottom: 2px;
             flex-wrap: wrap;
         }
 
@@ -6448,103 +6776,38 @@
             font-size: 16px;
         }
 
-        .fis-test-head .pill {
-            margin-left: auto;
-            background: var(--ok);
-            color: #002;
-            font-weight: 700;
-            padding: 3px 10px;
-            border-radius: 999px;
+        .fis-claim {
             font-size: 12px;
+            color: var(--accent2);
+            margin: 0 0 8px;
         }
 
-        .fis-test-desc {
-            color: var(--text);
-            font-size: 13px;
-            line-height: 1.5;
-            margin: 6px 0 10px;
-        }
-
-        .fis-test-desc b {
-            color: var(--text);
-        }
-
-        .fis-rules {
-            font-size: 12px;
-            color: var(--muted);
-            margin: 4px 0 10px;
-            padding-left: 18px;
-        }
-
-        .fis-rules li {
-            margin: 2px 0;
-        }
-
-        .fis-baremo {
+        .fis-spark {
             width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
-            margin: 6px 0 10px;
+            height: auto;
+            display: block;
+            margin: 4px 0;
         }
 
-        .fis-baremo th,
-        .fis-baremo td {
-            padding: 5px 8px;
-            border-bottom: 1px solid var(--line);
-            text-align: left;
-        }
-
-        .fis-baremo th {
-            font-size: 11.5px;
-            color: var(--muted);
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .fis-baremo td.pts {
-            font-weight: 700;
-            width: 60px;
+        .fis-spark-empty {
+            border: 1px dashed var(--line);
+            border-radius: 8px;
+            padding: 18px 12px;
             text-align: center;
-        }
-
-        .fis-baremo tr.goal {
-            background: rgba(102, 204, 136, .12);
-        }
-
-        .fis-baremo tr.goal td.pts {
-            color: var(--ok);
-        }
-
-        .fis-baremo tr.pass {
-            background: rgba(255, 187, 85, .08);
-        }
-
-        .fis-baremo tr.pass td.pts {
-            color: var(--warn);
-        }
-
-        .fis-baremo tr.elim td.pts {
-            color: var(--bad);
-        }
-
-        .fis-baremo tr.user-row {
-            outline: 2px solid var(--accent);
-            outline-offset: -2px;
-        }
-
-        .fis-baremo td.note {
-            font-size: 11.5px;
+            font-size: 12.5px;
             color: var(--muted);
+            margin: 4px 0;
         }
 
-        .fis-baremo tr.goal td.note {
-            color: var(--ok);
-            font-weight: 600;
+        .fis-stats {
+            font-size: 12.5px;
+            color: var(--muted);
+            line-height: 1.6;
+            margin: 6px 0;
         }
 
-        .fis-baremo tr.elim td.note {
-            color: var(--bad);
-            font-weight: 600;
+        .fis-stats b {
+            color: var(--text);
         }
 
         .fis-mark-form {
@@ -6596,13 +6859,20 @@
         }
 
         .fis-mark-hint.bad {
-            color: var(--bad);
+            color: var(--warn);
+        }
+
+        .fis-hist summary {
+            font-size: 12.5px;
+            color: var(--muted);
+            cursor: pointer;
+            margin-top: 8px;
         }
 
         .fis-marks-list {
             list-style: none;
             padding: 0;
-            margin: 10px 0 0;
+            margin: 6px 0 0;
         }
 
         .fis-marks-list li {
@@ -6629,30 +6899,8 @@
             min-width: 70px;
         }
 
-        .fis-marks-list .pts {
-            margin-left: auto;
-            padding: 2px 8px;
-            border-radius: 999px;
-            font-size: 11.5px;
-            font-weight: 700;
-        }
-
-        .fis-marks-list .pts.p10 {
-            background: var(--ok);
-            color: #002;
-        }
-
-        .fis-marks-list .pts.pmid {
-            background: var(--warn);
-            color: #002;
-        }
-
-        .fis-marks-list .pts.p0 {
-            background: var(--bad);
-            color: #fff;
-        }
-
         .fis-marks-list .del {
+            margin-left: auto;
             background: transparent;
             border: 0;
             color: var(--muted);
@@ -6662,13 +6910,110 @@
         }
 
         .fis-marks-list .del:hover {
-            color: var(--bad);
+            color: var(--warn);
         }
 
-        .fis-marks-empty {
-            color: var(--muted);
+        /* --- marcas oficiales (editables, vacías de serie) --- */
+        .fis-oficial {
+            background: var(--panel);
+            border: 1px dashed var(--line);
+            border-radius: var(--radius);
+            padding: 14px 16px;
+        }
+
+        .fis-oficial .of-hint {
             font-size: 12.5px;
+            color: var(--muted);
+            margin: 0 0 10px;
+            line-height: 1.55;
+        }
+
+        .fis-of-row {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+            flex-wrap: wrap;
             padding: 8px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .fis-of-row:last-of-type {
+            border-bottom: 0;
+        }
+
+        .fis-of-name {
+            min-width: 150px;
+            flex: 1;
+            font-size: 13.5px;
+            font-weight: 700;
+        }
+
+        .fis-of-row label {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            font-size: 11.5px;
+            color: var(--muted);
+        }
+
+        .fis-of-row input {
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 6px 10px;
+            color: var(--text);
+            font-size: 14px;
+            width: 110px;
+        }
+
+        .fis-oficial button {
+            margin-top: 10px;
+            background: var(--accent);
+            color: #002;
+            border: 0;
+            border-radius: 6px;
+            padding: 9px 16px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        /* --- microcopy flotante --- */
+        .fis-toast {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 86px;
+            background: var(--accent);
+            color: #002;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 11px 20px;
+            border-radius: 999px;
+            z-index: 1000;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, .35);
+            max-width: 88vw;
+            text-align: center;
+            animation: fisToastIn .25s ease-out, fisToastOut .35s ease-in 2.2s forwards;
+        }
+
+        @keyframes fisToastIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, 12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+
+        @keyframes fisToastOut {
+            to {
+                opacity: 0;
+                transform: translate(-50%, 8px);
+            }
         }
 
         .fis-section-title {
@@ -6678,37 +7023,6 @@
             text-transform: uppercase;
             letter-spacing: .5px;
             font-weight: 600;
-        }
-
-        .fis-routine {
-            background: var(--panel);
-            border: 1px solid var(--line);
-            border-radius: var(--radius);
-            padding: 12px 16px;
-            margin-bottom: 12px;
-        }
-
-        .fis-routine h4 {
-            margin: 0 0 6px;
-            font-size: 14px;
-        }
-
-        .fis-routine ul {
-            margin: 4px 0;
-            padding-left: 20px;
-            font-size: 13px;
-            color: var(--text);
-            line-height: 1.55;
-        }
-
-        .fis-routine ul li {
-            margin: 3px 0;
-        }
-
-        .fis-routine .muted {
-            font-size: 12px;
-            color: var(--muted);
-            margin-top: 6px;
         }
 
         .fis-source {
@@ -10590,7 +10904,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                                 name === "errores" ? "Cuaderno de errores — repasa lo que fallaste" :
                                     name === "ayuda" ? "Ayuda — cómo usar la app" :
                                         name === "busqueda" ? "Buscar — temas, tips, flashcards y glosario" :
-                                            name === "fisico" ? "Físico — 3 pruebas eliminatorias · objetivo 10/10" :
+                                            name === "fisico" ? "Físico — plan de entrenamiento · rumbo al 10 💪" :
                                                 "Tu panel de estudio";
             }
             // sync hash without scrolling
@@ -14561,409 +14875,643 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             });
         }
 
-        // ====== FISICO TAB (BOE-A-2025-16611, Anexo I-B — baremo mujeres) ======
-        // All baremo data is for WOMEN. lo/hi values are in the test's native unit
-        // (seconds for all three tests). hi=Infinity means "or worse" for lower-is-better tests.
-        // Source: BOE 11-ago-2025, Anexo I de la convocatoria, baremo Categoría B (mujeres).
-        const FISICO_TESTS = [
-            {
-                id: "agilidad",
-                icon: "🏃‍♀️",
-                name: "Circuito de agilidad",
-                unit: "seconds",
-                unitShort: "s",
-                lowerIsBetter: true,
-                desc: "Recorrido cronometrado con cambios de dirección, salto sobre potro y paso por debajo de vallas. Mide agilidad general, coordinación y potencia de piernas.",
-                rules: [
-                    "1 solo intento (2.º intento únicamente si el primero es NULO).",
-                    "Tiempo en segundos con una decimal.",
-                    "Calzado deportivo. Sin clavos.",
-                    "Sedes posibles: Alicante, Ávila (por defecto), Cádiz, León."
-                ],
-                goalLabel: "≤ 9,3 s",
-                failLabel: "≥ 12,8 s = eliminatorio",
-                scale: [
-                    { p: 10, lo: 0, hi: 9.3, label: "≤ 9,3 s", note: "OBJETIVO 10/10" },
-                    { p: 9, lo: 9.4, hi: 9.8, label: "9,4 – 9,8 s", note: "" },
-                    { p: 8, lo: 9.9, hi: 10.3, label: "9,9 – 10,3 s", note: "" },
-                    { p: 7, lo: 10.4, hi: 10.8, label: "10,4 – 10,8 s", note: "" },
-                    { p: 6, lo: 10.9, hi: 11.2, label: "10,9 – 11,2 s", note: "" },
-                    { p: 5, lo: 11.3, hi: 11.6, label: "11,3 – 11,6 s", note: "Aprobado (mínimo)" },
-                    { p: 4, lo: 11.7, hi: 12.0, label: "11,7 – 12,0 s", note: "" },
-                    { p: 3, lo: 12.1, hi: 12.3, label: "12,1 – 12,3 s", note: "" },
-                    { p: 2, lo: 12.4, hi: 12.5, label: "12,4 – 12,5 s", note: "" },
-                    { p: 1, lo: 12.6, hi: 12.7, label: "12,6 – 12,7 s", note: "" },
-                    { p: 0, lo: 12.8, hi: Infinity, label: "≥ 12,8 s", note: "ELIMINATORIO" }
-                ]
-            },
-            {
-                id: "barra",
-                icon: "💪",
-                name: "Flexión de brazos en barra (supina)",
-                unit: "seconds",
-                unitShort: "s",
-                lowerIsBetter: false,
-                desc: "Suspensión <b>mantenida</b> en la barra con <b>palmas hacia atrás (supinas)</b>, brazos flexionados y barbilla <b>por encima</b> de la barra. <b>Se cronometra el tiempo que aguantas en esa posición</b>; la prueba termina cuando la barbilla cae a la altura de la barra. No son repeticiones.",
-                rules: [
-                    "Salto inicial y agarre con palmas hacia ti (supino). Manos a la anchura de los hombros.",
-                    "Posición de partida: barbilla por encima de la barra, brazos flexionados, cuerpo sin apoyo.",
-                    "El cronómetro arranca al estabilizarse y se para cuando la barbilla toca o baja de la altura de la barra.",
-                    "No se permite balanceo ni patalear para subir."
-                ],
-                goalLabel: "≥ 95 s (1 min 35 s)",
-                failLabel: "≤ 35 s = 0 puntos",
-                scale: [
-                    { p: 10, lo: 95, hi: Infinity, label: "≥ 95 s  (1:35+)", note: "OBJETIVO 10/10" },
-                    { p: 9, lo: 86, hi: 94, label: "86 – 94 s", note: "" },
-                    { p: 8, lo: 78, hi: 85, label: "78 – 85 s", note: "" },
-                    { p: 7, lo: 70, hi: 77, label: "70 – 77 s", note: "" },
-                    { p: 6, lo: 63, hi: 69, label: "63 – 69 s", note: "" },
-                    { p: 5, lo: 57, hi: 62, label: "57 – 62 s", note: "Aprobado (mínimo)" },
-                    { p: 4, lo: 52, hi: 56, label: "52 – 56 s", note: "" },
-                    { p: 3, lo: 46, hi: 51, label: "46 – 51 s", note: "" },
-                    { p: 2, lo: 41, hi: 45, label: "41 – 45 s", note: "" },
-                    { p: 1, lo: 36, hi: 40, label: "36 – 40 s", note: "" },
-                    { p: 0, lo: 0, hi: 35, label: "≤ 35 s", note: "ELIMINATORIO" }
-                ]
-            },
-            {
-                id: "mil",
-                icon: "🏁",
-                name: "1000 metros lisos",
-                unit: "mmss",
-                unitShort: "mm:ss",
-                lowerIsBetter: true,
-                desc: "Carrera de 1000 m en pista plana y dura. Mide resistencia aeróbica.",
-                rules: [
-                    "1 solo intento. Salida en grupo.",
-                    "Calzado deportivo, sin zapatillas de clavos.",
-                    "Tiempo en minutos:segundos."
-                ],
-                goalLabel: "≤ 3:24",
-                failLabel: "≥ 4:46 = eliminatorio",
-                scale: [
-                    { p: 10, lo: 0, hi: 3 * 60 + 24, label: "≤ 3:24", note: "OBJETIVO 10/10" },
-                    { p: 9, lo: 3 * 60 + 25, hi: 3 * 60 + 33, label: "3:25 – 3:33", note: "" },
-                    { p: 8, lo: 3 * 60 + 34, hi: 3 * 60 + 42, label: "3:34 – 3:42", note: "" },
-                    { p: 7, lo: 3 * 60 + 43, hi: 3 * 60 + 51, label: "3:43 – 3:51", note: "" },
-                    { p: 6, lo: 3 * 60 + 52, hi: 4 * 60 + 0, label: "3:52 – 4:00", note: "" },
-                    { p: 5, lo: 4 * 60 + 1, hi: 4 * 60 + 9, label: "4:01 – 4:09", note: "Aprobado (mínimo)" },
-                    { p: 4, lo: 4 * 60 + 10, hi: 4 * 60 + 18, label: "4:10 – 4:18", note: "" },
-                    { p: 3, lo: 4 * 60 + 19, hi: 4 * 60 + 27, label: "4:19 – 4:27", note: "" },
-                    { p: 2, lo: 4 * 60 + 28, hi: 4 * 60 + 36, label: "4:28 – 4:36", note: "" },
-                    { p: 1, lo: 4 * 60 + 37, hi: 4 * 60 + 45, label: "4:37 – 4:45", note: "" },
-                    { p: 0, lo: 4 * 60 + 46, hi: Infinity, label: "≥ 4:46", note: "ELIMINATORIO" }
-                ]
-            }
+        // ====== FISICO — PLAN DE ENTRENAMIENTO (pruebas previstas oct 2026) ======
+        // Tres pruebas de la convocatoria: circuito de agilidad, barra (suspensión)
+        // y 1000 m. Los baremos oficiales NO van embebidos: se introducen a mano en
+        // "Marcas oficiales" cuando se publiquen en el BOE (referencia de la
+        // convocatoria anterior: BOE-A-2025-16611, Anexo I).
+        // Persistencia (prefijo opos-cnp:):
+        //   fisico:marks      {agilidad|barra|mil|fondo: [{d,v}]}  v en unidad nativa
+        //   fisico:sesiones   {"YYYY-MM-DD": 1}  sesiones completadas
+        //   fisico:oficial    {pruebaId: {m10, m5}}  strings tal cual se teclean
+        //   fisico:planstart  "YYYY-MM-DD"  lunes de la primera semana de uso
+        //   (fisico:marks conserva el formato de la versión anterior de esta vista)
+
+        const FIS_PRUEBAS = [
+            { id: "mil", icon: "🏃‍♀️", nombre: "Fondo · 1000 m", claim: "Tu mayor margen de progreso: cada semana sumas metros", unit: "mmss", lowerIsBetter: true, placeholder: "4:10", hint: "Formato m:ss (ej. 4:10).", oficial: true },
+            { id: "fondo", icon: "🌿", nombre: "Fondo · carrera continua", claim: "Los metros suaves de hoy son el ritmo de octubre", unit: "m", lowerIsBetter: false, placeholder: "3500", hint: "Metros seguidos corriendo (ej. 3500).", oficial: false },
+            { id: "agilidad", icon: "⚡", nombre: "Agilidad · circuito", claim: "Dominar los giros son segundos ganados", unit: "s", dec: 1, lowerIsBetter: true, placeholder: "11.5", hint: "Segundos con decimal (ej. 11.5).", oficial: true },
+            { id: "barra", icon: "💪", nombre: "Barra · suspensión", claim: "Tu punto fuerte: mantenlo brillando", unit: "s", dec: 0, lowerIsBetter: false, placeholder: "45", hint: "Segundos (ej. 45) o m:ss (ej. 1:05).", oficial: true }
         ];
 
-        // Suggested 8-week routine. Source: trainer-aimed at 10/10 in 3 BOE tests.
-        // Kept generic enough to fit any current baseline; mentioned in plan-estudio.md.
-        const FISICO_ROUTINE = [
-            {
-                day: "Lunes — Fuerza tren superior", items: [
-                    "Calentamiento 10 min (movilidad hombros + 5 min trote suave).",
-                    "Barra supina: 5 series progresivas de aguante máximo. Descanso 2 min entre series.",
-                    "Dominadas asistidas con goma elástica: 4 × 6.",
-                    "Remo con goma o mancuerna: 3 × 12.",
-                    "Plancha frontal: 3 × 45 s. Plancha lateral 3 × 30 s por lado.",
-                    "Estiramiento 5 min."
-                ]
-            },
-            {
-                day: "Martes — Velocidad y agilidad", items: [
-                    "Calentamiento 10 min + técnica de carrera (skipping, talones, tijeras) 5 min.",
-                    "Sprints 30 m: 6 series con recuperación completa.",
-                    "Cambios de dirección con conos en T: 5 × 2 vueltas.",
-                    "Salto al cajón / potro a 50–70 cm: 4 × 6.",
-                    "Vallas bajas paso por debajo (simulación circuito): 5 × 2 vueltas.",
-                    "Estiramiento."
-                ]
-            },
-            {
-                day: "Miércoles — Descanso activo", items: [
-                    "30–40 min caminata o bici suave.",
-                    "Movilidad de cadera y hombros 15 min.",
-                    "Si te apetece, natación suave."
-                ]
-            },
-            {
-                day: "Jueves — Fuerza tren inferior + core", items: [
-                    "Calentamiento 10 min.",
-                    "Sentadilla con peso: 4 × 8.",
-                    "Zancadas alternas: 3 × 10 por pierna.",
-                    "Peso muerto rumano: 3 × 10.",
-                    "Gemelos de pie: 3 × 15.",
-                    "Core circuito (plancha, hollow body, dead bug, mountain climbers): 3 vueltas de 40 s/10 s."
-                ]
-            },
-            {
-                day: "Viernes — 1000 m + interválico", items: [
-                    "Calentamiento 15 min (incluye 4 progresiones de 80 m).",
-                    "Serie A: 4 × 400 m al ritmo objetivo de 1000 m (1:22 cada 400 si objetivo 3:24). Descanso 2 min.",
-                    "Serie B: 6 × 200 m al ritmo objetivo (40 s cada 200). Descanso 1 min.",
-                    "Vuelta a la calma 10 min trote suave + estiramientos."
-                ]
-            },
-            {
-                day: "Sábado — Test simulado", items: [
-                    "Calentamiento completo 15 min.",
-                    "Una vez al mes: las 3 pruebas en orden y con descanso real (30 min entre cada una). Anota las marcas en esta app.",
-                    "Resto de sábados: foco en la prueba más floja de la última simulación.",
-                    "Cierre con estiramiento profundo 15 min."
-                ]
-            },
-            {
-                day: "Domingo — Descanso total", items: [
-                    "Cero entreno.",
-                    "Movilidad muy suave si hay agujetas.",
-                    "Dormir 8 h."
-                ]
-            }
+        const FIS_DIAS = [
+            { dia: "Lunes", icon: "🏃‍♀️", titulo: "Carrera A · series", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraA" },
+            { dia: "Martes", icon: "💪", titulo: "Barra + tren superior", tag: "Barra · tu punto fuerte: mantenlo brillando", tipo: "barra" },
+            { dia: "Miércoles", icon: "⚡", titulo: "Agilidad y giros", tag: "Agilidad · dominar los giros son segundos ganados", tipo: "agilidad" },
+            { dia: "Jueves", icon: "🧘‍♀️", titulo: "Descanso activo · movilidad 20’", tag: "La movilidad de hoy es la chispa de mañana", tipo: "activo" },
+            { dia: "Viernes", icon: "🌿", titulo: "Carrera B · base aeróbica", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraB" },
+            { dia: "Sábado", icon: "⏱️", titulo: "Simulacro · circuito + barra", tag: "Día de brillar: ensayo general con crono", tipo: "simulacro" },
+            { dia: "Domingo", icon: "😴", titulo: "Descanso", tag: "El descanso también entrena", tipo: "descanso" }
         ];
 
-        // Returns the scale row matching the given value, or null if value is invalid.
-        function fisScoreFor(test, value) {
-            if (value == null || isNaN(value)) return null;
-            for (const row of test.scale) {
-                if (value >= row.lo && value <= row.hi) return row;
-            }
-            return null;
+        const FIS_CHEERS = [
+            "¡Sesión hecha! 💪",
+            "¡Hecho! El plan avanza contigo 🚀",
+            "Cada sesión suma — y esta ya está ✔",
+            "Un paso más cerca del 10 🎯",
+            "¡Constancia pura! 🔥",
+            "Tu yo de octubre te lo va a agradecer ✨",
+            "Entrenar hoy es volar en octubre 🕊️",
+            "¡Brava! Otra sesión al saco 🎒"
+        ];
+
+        // --- fechas ---
+        function fisKey(d) {
+            return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+        }
+        function fisMonday(d) {
+            const x = new Date(d);
+            x.setHours(0, 0, 0, 0);
+            x.setDate(x.getDate() - (x.getDay() + 6) % 7);
+            return x;
+        }
+        function fisSemanaN() {
+            const raw = lsGet("fisico:planstart", null);
+            const start = raw ? new Date(raw + "T00:00:00") : fisMonday(new Date());
+            if (isNaN(start.getTime())) return 1;
+            return Math.max(1, Math.floor((fisMonday(new Date()) - start) / (7 * 86400000)) + 1);
         }
 
-        // Parse user input. Returns value in test's native unit (seconds), or NaN.
-        function fisParseInput(test, raw) {
+        // --- fases del plan (detectadas por fecha; el examen sale de Ajustes) ---
+        function fisFaseInfo() {
+            let examD = new Date((getSettings().examDate || "2026-10-15") + "T00:00:00");
+            if (isNaN(examD.getTime())) examD = new Date("2026-10-15T00:00:00");
+            const puestaIni = new Date(examD); puestaIni.setDate(puestaIni.getDate() - 13);
+            const espIni = new Date("2026-09-01T00:00:00");
+            const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+            const cur = hoy >= puestaIni ? "puesta" : hoy >= espIni ? "esp" : "base";
+            const fmtD = d => d.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
+            return {
+                cur, examD, puestaIni,
+                nombreCur: cur === "base" ? "Base 🌱" : cur === "esp" ? "Específica 🎯" : "Puesta a punto ✨",
+                fases: [
+                    { id: "base", ic: "🌱", nombre: "Base", rango: "ahora → 31 de agosto", txt: "Se construye el motor: kilómetros suaves, técnica de giros y fuerza general. Todo lo que siembras aquí florece en octubre." },
+                    { id: "esp", ic: "🎯", nombre: "Específica", rango: "septiembre", txt: "Todo se parece más a la prueba: series de 400 m, circuitos con crono y simulacros. Tu cuerpo ya sabe; ahora se afina." },
+                    { id: "puesta", ic: "✨", nombre: "Puesta a punto", rango: fmtD(puestaIni) + " → " + fmtD(examD) + " (últimas 2 semanas)", txt: "−40% de volumen (misma chispa, menos series), 2 simulacros y descanso total 48-72 h antes de la prueba. Frescura = marcas." }
+                ]
+            };
+        }
+
+        // --- contenido de cada sesión (plan cerrado: no inventar ejercicios) ---
+        // Cada item puede ser un string (autoexplicativo) o {t, s}: t = titular
+        // compacto, s = "cómo se hace" en una frase, para leer solo si hay duda.
+        function fisSesion(tipo, fase, semana) {
+            if (tipo === "carreraA") return {
+                items: [
+                    { t: "10’ de calentamiento suave.", s: "Trote muy tranquilo + movilidad de tobillos, rodillas y caderas." },
+                    fase === "base"
+                        ? { t: "8 × 200 m · recuperación 90” andando.", s: "Corre 200 m a ritmo vivo (exigente pero controlado), camina 90 segundos… y así hasta 8 veces." }
+                        : { t: "<b>6 × 400 m · recuperación 2’</b> — versión de septiembre.", s: "Corre 400 m a ritmo fuerte, descansa 2 minutos andando, y así hasta 6 veces." },
+                    { t: "Skipping alto y talones: 3 × 20 m.", s: "20 m corriendo subiendo mucho las rodillas + 20 m llevando los talones al glúteo; 3 veces cada uno." },
+                    { t: "5’ de vuelta a la calma.", s: "Trote muy suave o caminar, y estira lo que más hayas notado." }
+                ],
+                nota: fase === "base" ? "Desde septiembre las series pasan a 6 × 400 m: cada fase te pide un poco más porque ya puedes un poco más." : null
+            };
+            if (tipo === "barra") return {
+                items: [
+                    { t: "Suspensión isométrica: 4 × (tu máximo −10”) · recuperación 90”.", s: "Barbilla por encima de la barra y aguanta: si tu tope son 40”, haz series de 30”. Descansa 90” entre series." },
+                    { t: "Isométrico con codos flexionados: 4 × 8-20”.", s: "Aguanta a media subida, con los codos doblados en ángulo recto, entre 8 y 20 segundos." },
+                    { t: "Dominadas negativas (bajada en 5”): 4 × 3-5.", s: "Sube hasta arriba con salto o apoyo y baja frenando 5 segundos. Entre 3 y 5 bajadas por serie." },
+                    { t: "Remo invertido: 3 × 8-10.", s: "Bajo una barra baja o mesa firme, cuerpo recto e inclinado: tira con los brazos hasta llevar el pecho a la barra." },
+                    { t: "Paseo del granjero: 3 × 30 m.", s: "Camina 30 m con un peso bien cargado en cada mano (mancuernas o garrafas): agarre de acero." }
+                ],
+                nota: "El agarre crece descansando: deja siempre un día entre sesiones de agarre 😉."
+            };
+            if (tipo === "agilidad") return {
+                items: [
+                    { t: "Slalom 6 conos (2 m): × 6 · recuperación 45”.", s: "6 conos (o botellas) en línea, uno cada 2 m: zigzaguea entre ellos a tope. 6 pasadas." },
+                    { t: "Giros 180°/360° alrededor de poste: 8 por lado.", s: "Corre hacia el poste (o una silla), rodéalo girando media vuelta o una entera y sal acelerando. Clave: <b>mira a la salida antes de girar</b>." },
+                    { t: "5-10-5: × 5 · recuperación 60”.", s: "Tres marcas en línea separadas 5 m: desde el centro, corre 5 m a un lado, 10 m al otro y 5 m de vuelta al centro." },
+                    { t: "Escalera de agilidad: 4 pasadas.", s: "Pies rápidos, un apoyo en cada hueco. Sin escalera, vale dibujarla con tiza." },
+                    { t: "Sentadilla goblet: 3 × 10.", s: "Sentadilla sujetando una pesa o garrafa pegada al pecho." },
+                    { t: "Zancada lateral: 3 × 10 por lado.", s: "Paso grande hacia un lado flexionando esa rodilla; la otra pierna queda estirada." },
+                    { t: "Skater jumps: 3 × 8 por lado.", s: "Salta de lado a lado aterrizando sobre una sola pierna, como patinando." },
+                    { t: "Plancha 3 × 45” + plancha lateral 3 × 30” por lado.", s: "Cuerpo recto como una tabla apoyada en los antebrazos; en la lateral, de costado sobre un antebrazo." }
+                ],
+                nota: "Cada giro nuevo, en 3 pasos: andando → al 70% → con crono. Así se graba el patrón y los segundos caen solos."
+            };
+            if (tipo === "activo") return {
+                items: [
+                    "Movilidad 20’: cadera, hombros, tobillos y columna.",
+                    "Si apetece, paseo suave."
+                ],
+                nota: "Hoy tu cuerpo asimila lo entrenado — este descanso también es entrenamiento ✨."
+            };
+            if (tipo === "carreraB") {
+                const etapas = [
+                    { sem: "Semanas 1-2", txt: "8 × (3’ corriendo / 1’ andando)", como: "Alterna 3 minutos corriendo tranquila con 1 minuto andando, 8 veces (32’ en total)." },
+                    { sem: "Semanas 3-4", txt: "5 × (5’ corriendo / 1’ andando)", como: "Ya son 5 minutos corriendo por 1 andando, 5 veces (30’ en total)." },
+                    { sem: "Semana 5 en adelante", txt: "25-35’ continuos suaves + 4 progresivos de 60 m", como: "Corre seguido 25-35 minutos a ritmo cómodo (que puedas hablar mientras). Al acabar, 4 rectas de 60 m empezando muy suave y terminando a carrera viva, sin llegar al esprint." }
+                ];
+                const idx = semana <= 2 ? 0 : semana <= 4 ? 1 : 2;
+                return {
+                    items: etapas.map((e, i) => i === idx
+                        ? { t: `<b>${e.sem}: ${e.txt}</b> ← esta semana`, s: e.como }
+                        : `${e.sem}: ${e.txt}`),
+                    regla: "Lo suave, muy suave — la velocidad se entrena en las series."
+                };
+            }
+            if (tipo === "simulacro") return {
+                items: [
+                    { t: "Calentamiento completo 15’.", s: "Trote + movilidad + 2-3 aceleraciones cortas: llega al crono con el motor encendido." },
+                    { t: "Circuito de agilidad con crono: apunta el tiempo en «Tus marcas».", s: "Monta tu versión del circuito (slalom + giros) y hazla una sola vez a tope, como el día de la prueba." },
+                    { t: "Barra: intento máximo cronometrado — apúntalo también.", s: "Un solo intento, en frío tras descansar del circuito: cuelga, aguanta y apunta los segundos." },
+                    "Estiramientos suaves para cerrar."
+                ],
+                nota: "Ver tu progreso escrito es la mejor motivación: cada simulacro deja huella en la gráfica 📈."
+            };
+            return {
+                items: [
+                    "Cero entreno: hoy se recarga.",
+                    "Dormir 8 h es parte del plan."
+                ]
+            };
+        }
+
+        // --- sesiones completadas, racha y semanas cumplidas ---
+        function fisRacha() {
+            const ses = lsGet("fisico:sesiones", {});
+            const d = new Date(); d.setHours(0, 0, 0, 0);
+            // el día en curso aún sin marcar no corta la racha
+            if (!ses[fisKey(d)] && d.getDay() !== 0) d.setDate(d.getDate() - 1);
+            let racha = 0, hechas = 0;
+            for (let i = 0; i < 400; i++) {
+                if (ses[fisKey(d)]) { racha++; hechas++; }
+                else if (d.getDay() === 0) racha++; // el domingo se descansa y cuenta
+                else break;
+                d.setDate(d.getDate() - 1);
+            }
+            return hechas > 0 ? racha : 0;
+        }
+        function fisSemanasCumplidas() {
+            const ses = lsGet("fisico:sesiones", {});
+            const cuenta = mon => {
+                let c = 0;
+                for (let i = 0; i < 7; i++) {
+                    const d = new Date(mon); d.setDate(mon.getDate() + i);
+                    if (ses[fisKey(d)]) c++;
+                }
+                return c;
+            };
+            const mon = fisMonday(new Date());
+            if (cuenta(mon) < 4) mon.setDate(mon.getDate() - 7);
+            let semanas = 0;
+            while (cuenta(mon) >= 4 && semanas < 120) { semanas++; mon.setDate(mon.getDate() - 7); }
+            return semanas;
+        }
+
+        // --- marcas: parseo, formato y almacenamiento ---
+        function fisParse(unit, raw) {
             if (raw == null) return NaN;
             const s = String(raw).trim().replace(",", ".");
             if (!s) return NaN;
-            if (test.unit === "mmss") {
-                // Accept "m:ss", "m:ss.d", "mm:ss" or plain seconds.
-                if (s.includes(":")) {
-                    const parts = s.split(":");
-                    if (parts.length !== 2) return NaN;
-                    const m = parseInt(parts[0], 10);
-                    const sec = parseFloat(parts[1]);
-                    if (isNaN(m) || isNaN(sec)) return NaN;
-                    return m * 60 + sec;
-                }
-                return parseFloat(s);
-            }
-            if (test.unit === "seconds") {
-                // For "barra" also accept "m:ss".
-                if (s.includes(":")) {
-                    const parts = s.split(":");
-                    if (parts.length !== 2) return NaN;
-                    const m = parseInt(parts[0], 10);
-                    const sec = parseFloat(parts[1]);
-                    if (isNaN(m) || isNaN(sec)) return NaN;
-                    return m * 60 + sec;
-                }
-                return parseFloat(s);
+            if (s.includes(":")) {
+                const p = s.split(":");
+                if (p.length !== 2) return NaN;
+                const m = parseInt(p[0], 10), sec = parseFloat(p[1]);
+                if (isNaN(m) || isNaN(sec)) return NaN;
+                return m * 60 + sec;
             }
             return parseFloat(s);
         }
-
-        // Format a seconds value back to display string in the test's unit.
-        function fisFormat(test, value) {
-            if (value == null || isNaN(value)) return "—";
-            if (test.unit === "mmss") {
-                const m = Math.floor(value / 60);
-                const s = value - m * 60;
-                const sStr = s < 10 ? "0" + s.toFixed(s % 1 ? 1 : 0) : s.toFixed(s % 1 ? 1 : 0);
-                return m + ":" + sStr;
+        function fisFmt(prueba, v) {
+            if (v == null || isNaN(v)) return "—";
+            if (prueba.unit === "mmss") {
+                const tot = Math.round(v);
+                return Math.floor(tot / 60) + ":" + String(tot % 60).padStart(2, "0");
             }
-            if (test.id === "barra" && value >= 60) {
-                const m = Math.floor(value / 60);
-                const s = Math.round(value - m * 60);
-                return value.toFixed(0) + " s (" + m + ":" + (s < 10 ? "0" + s : s) + ")";
-            }
-            return (value % 1 ? value.toFixed(1) : value.toFixed(0)) + " " + test.unitShort;
+            if (prueba.unit === "m") return Math.round(v).toLocaleString("es-ES") + " m";
+            return v.toFixed(prueba.dec || 0).replace(".", ",") + " s";
+        }
+        function fisFmtDelta(prueba, v) {
+            v = Math.abs(v);
+            if (prueba.unit === "m") return Math.round(v).toLocaleString("es-ES") + " m";
+            if (prueba.unit === "mmss") return Math.round(v) + " s";
+            return v.toFixed(prueba.dec || 0).replace(".", ",") + " s";
+        }
+        function fisMarksFor(id) {
+            const all = lsGet("fisico:marks", {});
+            return all[id] || [];
+        }
+        function fisAddMark(id, v) {
+            const all = lsGet("fisico:marks", {});
+            if (!all[id]) all[id] = [];
+            all[id].push({ d: fisKey(new Date()), v });
+            all[id].sort((a, b) => b.d.localeCompare(a.d));
+            lsSet("fisico:marks", all);
         }
 
-        function fisGetMarks() { return lsGet("fisico:marks", { agilidad: [], barra: [], mil: [] }); }
-        function fisSetMarks(m) { lsSet("fisico:marks", m); }
-        function fisAddMark(testId, value) {
-            const all = fisGetMarks();
-            if (!all[testId]) all[testId] = [];
-            all[testId].push({ d: new Date().toISOString().slice(0, 10), v: value });
-            all[testId].sort((a, b) => b.d.localeCompare(a.d));
-            fisSetMarks(all);
+        // --- marcas oficiales (se rellenan a mano desde el BOE; vacías de serie) ---
+        function fisOficialRaw() { return lsGet("fisico:oficial", {}); }
+        function fisOficialGoals(prueba) {
+            const of = fisOficialRaw()[prueba.id] || {};
+            const p = k => { const v = fisParse(prueba.unit, of[k]); return isNaN(v) || v <= 0 ? null : v; };
+            return { m10: p("m10"), m5: p("m5") };
         }
-        function fisRemoveMark(testId, idx) {
-            const all = fisGetMarks();
-            if (!all[testId]) return;
-            all[testId].splice(idx, 1);
-            fisSetMarks(all);
+
+        // --- mini-gráfica SVG (sin librerías): arriba siempre es mejor ---
+        function fisSpark(prueba, marks, goals) {
+            const asc = [...marks].sort((a, b) => a.d.localeCompare(b.d));
+            if (!asc.length) return `<div class="fis-spark-empty">Apunta tu primera marca y estrena la gráfica 📈</div>`;
+            const W = 320, H = 88, padX = 8, padT = 12, padB = 16;
+            const innerW = W - padX * 2, innerH = H - padT - padB;
+            const vals = asc.map(m => m.v);
+            const domain = vals.slice();
+            if (goals.m10 != null) domain.push(goals.m10);
+            if (goals.m5 != null) domain.push(goals.m5);
+            let lo = Math.min(...domain), hi = Math.max(...domain);
+            if (lo === hi) { lo -= 1; hi += 1; }
+            const marg = (hi - lo) * 0.08;
+            lo -= marg; hi += marg;
+            const y = v => {
+                const t = (v - lo) / (hi - lo);
+                return prueba.lowerIsBetter ? padT + t * innerH : padT + (1 - t) * innerH;
+            };
+            const x = i => asc.length === 1 ? W / 2 : padX + i * (innerW / (asc.length - 1));
+            const best = prueba.lowerIsBetter ? Math.min(...vals) : Math.max(...vals);
+            const goalLine = (gv, color, label) => gv == null ? "" :
+                `<line x1="${padX}" y1="${y(gv).toFixed(1)}" x2="${W - padX}" y2="${y(gv).toFixed(1)}" stroke="${color}" stroke-dasharray="4 4" stroke-width="1"/>` +
+                `<text x="${W - padX}" y="${(y(gv) - 3).toFixed(1)}" text-anchor="end" font-size="9" fill="${color}">${label}</text>`;
+            let svg = `<svg class="fis-spark" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Progreso de ${escapeHtml(prueba.nombre)}">`;
+            svg += goalLine(goals.m10, "var(--ok)", "objetivo 10");
+            svg += goalLine(goals.m5, "var(--warn)", "apto");
+            if (asc.length > 1) {
+                const pts = asc.map((m, i) => x(i).toFixed(1) + "," + y(m.v).toFixed(1)).join(" ");
+                svg += `<polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+            }
+            asc.forEach((m, i) => {
+                const isLast = i === asc.length - 1;
+                svg += `<circle cx="${x(i).toFixed(1)}" cy="${y(m.v).toFixed(1)}" r="${isLast ? 4 : 3}" fill="${m.v === best ? "var(--ok)" : "var(--accent)"}"><title>${m.d} · ${fisFmt(prueba, m.v)}</title></circle>`;
+            });
+            svg += `<text x="${padX}" y="${H - 4}" font-size="9" fill="var(--muted)">${asc[0].d}</text>`;
+            if (asc.length > 1) svg += `<text x="${W - padX}" y="${H - 4}" text-anchor="end" font-size="9" fill="var(--muted)">${asc[asc.length - 1].d}</text>`;
+            svg += `<text x="${padX}" y="${padT - 3}" font-size="9" fill="var(--muted)">↑ mejor</text></svg>`;
+            return svg;
         }
-        function fisBestMark(test, marks) {
-            if (!marks || !marks.length) return null;
-            const vals = marks.map(m => m.v);
-            return test.lowerIsBetter ? Math.min(...vals) : Math.max(...vals);
+
+        // --- microcopy de refuerzo ---
+        function fisToast(msg) {
+            document.querySelectorAll(".fis-toast").forEach(t => t.remove());
+            const t = document.createElement("div");
+            t.className = "fis-toast";
+            t.textContent = msg;
+            document.body.appendChild(t);
+            setTimeout(() => t.remove(), 2700);
+        }
+        function fisCheer() {
+            const racha = fisRacha();
+            const msg = racha >= 2 && Math.random() < 0.5
+                ? `¡Racha de ${racha} días! 🔥`
+                : FIS_CHEERS[Math.floor(Math.random() * FIS_CHEERS.length)];
+            fisToast(msg);
+        }
+
+        // --- cronómetro (ascendente + cuentas atrás para recuperaciones) ---
+        const fisChr = { running: false, mode: "up", durMs: 0, t0: 0, accMs: 0, timer: null };
+        function fisChronoElapsed() { return fisChr.accMs + (fisChr.running ? Date.now() - fisChr.t0 : 0); }
+        function fisChronoFmt(ms) {
+            const t = Math.max(0, ms);
+            const m = Math.floor(t / 60000), s = Math.floor((t % 60000) / 1000), d = Math.floor((t % 1000) / 100);
+            return m + ":" + String(s).padStart(2, "0") + "." + d;
+        }
+        function fisChronoStop() {
+            fisChr.running = false;
+            if (fisChr.timer) { clearInterval(fisChr.timer); fisChr.timer = null; }
+        }
+        function fisBeep() {
+            try {
+                if (navigator.vibrate) navigator.vibrate([180, 90, 180]);
+                const AC = window.AudioContext || window.webkitAudioContext;
+                if (!AC) return;
+                const ctx = new AC();
+                const t0 = ctx.currentTime;
+                [0, 0.25].forEach(off => {
+                    const o = ctx.createOscillator(), g = ctx.createGain();
+                    o.connect(g); g.connect(ctx.destination);
+                    o.frequency.value = 880;
+                    g.gain.setValueAtTime(0.15, t0 + off);
+                    g.gain.exponentialRampToValueAtTime(0.001, t0 + off + 0.18);
+                    o.start(t0 + off); o.stop(t0 + off + 0.2);
+                });
+                setTimeout(() => ctx.close(), 700);
+            } catch { /* sin audio no pasa nada */ }
+        }
+        function fisChronoPaint() {
+            const el = $("fisChronoDisplay");
+            if (!el) return;
+            let ms, fin = false;
+            if (fisChr.mode === "down") {
+                ms = fisChr.durMs - fisChronoElapsed();
+                if (ms <= 0) { ms = 0; if (fisChr.running) fin = true; }
+            } else {
+                ms = fisChronoElapsed();
+            }
+            el.textContent = fisChronoFmt(ms);
+            const btn = $("fisChronoStart");
+            if (btn) btn.textContent = fisChr.running ? "⏸ Pausa" : "▶ Iniciar";
+            const modeEl = $("fisChronoMode");
+            if (modeEl) modeEl.textContent = fisChr.mode === "down" ? "cuenta atrás" : "cronómetro";
+            if (fin) {
+                fisChronoStop();
+                el.classList.add("flash");
+                setTimeout(() => { const e2 = $("fisChronoDisplay"); if (e2) e2.classList.remove("flash"); }, 1600);
+                fisBeep();
+                fisToast("¡Tiempo! Recuperación completa — a por la siguiente 🔔");
+            }
+        }
+        function fisChronoAction(act, sec) {
+            if (act === "startpause") {
+                if (fisChr.running) {
+                    fisChr.accMs += Date.now() - fisChr.t0;
+                    fisChronoStop();
+                } else {
+                    if (fisChr.mode === "down" && fisChr.durMs - fisChr.accMs <= 0) { fisChr.mode = "up"; fisChr.accMs = 0; }
+                    fisChr.t0 = Date.now();
+                    fisChr.running = true;
+                    if (!fisChr.timer) fisChr.timer = setInterval(fisChronoPaint, 100);
+                }
+            } else if (act === "reset") {
+                fisChronoStop();
+                fisChr.accMs = 0; fisChr.durMs = 0; fisChr.mode = "up";
+            } else if (act === "preset") {
+                fisChr.mode = "down";
+                fisChr.durMs = parseInt(sec, 10) * 1000;
+                fisChr.accMs = 0;
+                fisChr.t0 = Date.now();
+                fisChr.running = true;
+                if (!fisChr.timer) fisChr.timer = setInterval(fisChronoPaint, 100);
+            }
+            fisChronoPaint();
+        }
+
+        // --- sub-renders (cada interacción repinta solo su bloque) ---
+        function fisRenderStreak() {
+            const el = $("fisStreak"); if (!el) return;
+            const racha = fisRacha();
+            const semanas = fisSemanasCumplidas();
+            const ses = lsGet("fisico:sesiones", {});
+            const mon = fisMonday(new Date());
+            let hechasSemana = 0;
+            for (let i = 0; i < 6; i++) {
+                const d = new Date(mon); d.setDate(mon.getDate() + i);
+                if (ses[fisKey(d)]) hechasSemana++;
+            }
+            const dLeft = daysToExam();
+            el.innerHTML = `
+                <div class="fis-sum-card ${racha > 0 ? "ok" : "muted"}"><span class="lbl">Racha</span><span class="val">${racha > 0 ? racha + " 🔥" : "✨"}</span><span class="lbl">${racha === 1 ? "día seguido" : racha > 1 ? "días seguidos" : "hoy puede empezar"}</span></div>
+                <div class="fis-sum-card ${hechasSemana > 0 ? "ok" : "muted"}"><span class="lbl">Esta semana</span><span class="val">${hechasSemana}/6</span><span class="lbl">sesiones hechas</span></div>
+                <div class="fis-sum-card ${semanas > 0 ? "ok" : "muted"}"><span class="lbl">Semanas cumplidas</span><span class="val">${semanas > 0 ? semanas + " 🏆" : "—"}</span><span class="lbl">${semanas > 0 ? "seguidas (≥4 sesiones)" : "la primera, en marcha"}</span></div>
+                <div class="fis-sum-card"><span class="lbl">Pruebas físicas</span><span class="val">${dLeft != null ? dLeft : "—"}</span><span class="lbl">días · previstas oct 2026</span></div>`;
+        }
+
+        function fisRenderFases() {
+            const el = $("fisFases"); if (!el) return;
+            const f = fisFaseInfo();
+            const orden = ["base", "esp", "puesta"];
+            const curIdx = orden.indexOf(f.cur);
+            el.innerHTML = f.fases.map((fa, i) => `
+                <div class="fis-fase ${i === curIdx ? "now" : i < curIdx ? "past" : ""}">
+                    ${i === curIdx ? '<span class="aqui">Estás aquí 📍</span>' : ""}
+                    <span class="fase-ic">${fa.ic}</span>
+                    <h4>${fa.nombre}</h4>
+                    <span class="rango">${fa.rango}</span>
+                    <p>${fa.txt}</p>
+                </div>`).join("");
+        }
+
+        function fisRenderWeek() {
+            const el = $("fisWeek"); if (!el) return;
+            const ses = lsGet("fisico:sesiones", {});
+            const f = fisFaseInfo();
+            const semana = fisSemanaN();
+            const mon = fisMonday(new Date());
+            const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+            const hoyKey = fisKey(hoy);
+            let html = "";
+            if (f.cur === "puesta") {
+                html += `<div class="fis-puesta">✨ <b>Puesta a punto:</b> recorta ~40% el volumen (menos series, la misma chispa), haz 2 simulacros en estas 2 semanas y regálate 48-72 h de descanso total antes de la prueba. Llegar fresca es llegar volando.</div>`;
+            }
+            html += FIS_DIAS.map((d, i) => {
+                const fecha = new Date(mon); fecha.setDate(mon.getDate() + i);
+                const key = fisKey(fecha);
+                const hecha = !!ses[key];
+                const esHoy = key === hoyKey;
+                const futura = fecha > hoy;
+                const s = fisSesion(d.tipo, f.cur, semana);
+                const chip40 = f.cur === "puesta" && d.tipo !== "descanso" && d.tipo !== "activo" ? ' <span class="fis-day-chip">−40% volumen</span>' : "";
+                const fechaTxt = fecha.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
+                const check = d.tipo === "descanso"
+                    ? `<div class="fis-day-check rest">😌 Hoy se descansa — cuenta igual para la racha.</div>`
+                    : `<label class="fis-day-check"><input type="checkbox" data-fis-check="${key}" ${hecha ? "checked" : ""} ${futura ? "disabled" : ""}> ${hecha ? "Sesión completada ✔" : futura ? "Se marca el mismo día 😉" : "Sesión completada"}</label>`;
+                return `<div class="fis-day${esHoy ? " today" : ""}${hecha ? " done" : ""}">
+                    <details${esHoy ? " open" : ""}>
+                        <summary>
+                            <span class="fis-day-ic">${d.icon}</span>
+                            <span class="fis-day-head">
+                                <span class="fis-day-name">${d.dia} <span class="fis-day-date">${fechaTxt}</span>${esHoy ? ' <span class="fis-day-hoy">HOY</span>' : ""}</span>
+                                <span class="fis-day-title">${d.titulo}${chip40}</span>
+                                <span class="fis-day-tag">${d.tag}</span>
+                            </span>
+                            <span class="fis-day-state">${hecha ? "✔" : ""}</span>
+                        </summary>
+                        <ul class="fis-day-items">${s.items.map(it => typeof it === "string"
+                    ? `<li>${it}</li>`
+                    : `<li>${it.t}${it.s ? `<span class="fis-item-sub">${it.s}</span>` : ""}</li>`).join("")}</ul>
+                        ${s.regla ? `<div class="fis-day-regla">🌿 ${s.regla}</div>` : ""}
+                        ${s.nota ? `<div class="fis-day-note">💡 ${s.nota}</div>` : ""}
+                    </details>
+                    ${check}
+                </div>`;
+            }).join("");
+            el.innerHTML = html;
+        }
+
+        function fisRenderMarks() {
+            const el = $("fisMarks"); if (!el) return;
+            el.innerHTML = FIS_PRUEBAS.map(p => {
+                const marks = fisMarksFor(p.id);
+                const goals = p.oficial ? fisOficialGoals(p) : { m10: null, m5: null };
+                const vals = marks.map(m => m.v);
+                const best = vals.length ? (p.lowerIsBetter ? Math.min(...vals) : Math.max(...vals)) : null;
+                const last = marks[0] || null; // guardadas en orden descendente
+                const first = marks[marks.length - 1] || null;
+                let stats = "";
+                if (best != null) {
+                    stats += `🏅 Mejor: <b>${fisFmt(p, best)}</b> · Última: <b>${fisFmt(p, last.v)}</b> (${last.d})<br>`;
+                    if (marks.length > 1) {
+                        const gan = p.lowerIsBetter ? first.v - best : best - first.v;
+                        if (gan > 0) stats += (p.lowerIsBetter
+                            ? `Ya has recortado <b>${fisFmtDelta(p, gan)}</b> desde tu primera marca 🚀`
+                            : `Ya has sumado <b>${fisFmtDelta(p, gan)}</b> desde tu primera marca 🚀`) + "<br>";
+                    }
+                    if (goals.m10 != null) {
+                        const conseguida = p.lowerIsBetter ? best <= goals.m10 : best >= goals.m10;
+                        stats += conseguida
+                            ? "¡Marca de 10 conseguida! 🏆 Mantenla brillando."
+                            : `Objetivo 10: <b>${fisFmt(p, goals.m10)}</b> — a ${fisFmtDelta(p, best - goals.m10)}; cada semana lo acercas.`;
+                    } else if (p.oficial) {
+                        stats += "Cuando salga el BOE, apunta abajo la marca del 10 y aparecerá aquí como línea objetivo.";
+                    }
+                }
+                const hist = marks.length
+                    ? `<details class="fis-hist"><summary>Historial (${marks.length})</summary><ul class="fis-marks-list">${marks.map((m, i) =>
+                        `<li><span class="date">${m.d}</span><span class="val">${fisFmt(p, m.v)}</span><button class="del" data-fis-del="${p.id}" data-fis-idx="${i}" title="Quitar este registro">✕</button></li>`).join("")}</ul></details>`
+                    : "";
+                return `<div class="fis-test">
+                    <div class="fis-test-head"><span class="ic">${p.icon}</span><h3>${p.nombre}</h3></div>
+                    <p class="fis-claim">${p.claim}</p>
+                    ${fisSpark(p, marks, goals)}
+                    ${stats ? `<p class="fis-stats">${stats}</p>` : ""}
+                    <form class="fis-mark-form" data-fis-form="${p.id}">
+                        <label>Nueva marca
+                            <input type="text" name="value" placeholder="${p.placeholder}" autocomplete="off" inputmode="decimal">
+                        </label>
+                        <button type="submit">Apuntar 📈</button>
+                        <p class="fis-mark-hint" data-fis-hint="${p.id}">${p.hint}</p>
+                    </form>
+                    ${hist}
+                </div>`;
+            }).join("");
+        }
+
+        function fisRenderOficial() {
+            const el = $("fisOficial"); if (!el) return;
+            const of = fisOficialRaw();
+            el.innerHTML = `<form class="fis-oficial" data-fis-oficial="1">
+                <p class="of-hint">Estos campos vienen vacíos a propósito: cuando se publique la convocatoria en el BOE, copia aquí las marcas oficiales del Anexo I (referencia de la convocatoria anterior: <b>BOE-A-2025-16611</b>). La app las pintará como línea objetivo en tus gráficas.</p>
+                ${FIS_PRUEBAS.filter(p => p.oficial).map(p => {
+                const o = of[p.id] || {};
+                return `<div class="fis-of-row">
+                        <span class="fis-of-name">${p.icon} ${p.nombre}</span>
+                        <label>Marca para el 10<input type="text" data-of="${p.id}:m10" value="${escapeHtml(o.m10 || "")}" placeholder="${p.placeholder}" autocomplete="off"></label>
+                        <label>Marca para apto (5)<input type="text" data-of="${p.id}:m5" value="${escapeHtml(o.m5 || "")}" placeholder="${p.placeholder}" autocomplete="off"></label>
+                    </div>`;
+            }).join("")}
+                <button type="submit">Guardar marcas oficiales</button>
+            </form>`;
+        }
+
+        // --- eventos: una sola delegación sobre el host (sobrevive a repintados) ---
+        function fisBindHost(host) {
+            if (host.dataset.fisBound) return;
+            host.dataset.fisBound = "1";
+            host.addEventListener("click", e => {
+                const b = e.target.closest("button");
+                if (!b) return;
+                if (b.dataset.chrono) { fisChronoAction(b.dataset.chrono, b.dataset.sec); return; }
+                if (b.dataset.fisDel != null) {
+                    if (!confirm("¿Quitar este registro?")) return;
+                    const all = lsGet("fisico:marks", {});
+                    (all[b.dataset.fisDel] || []).splice(parseInt(b.dataset.fisIdx, 10), 1);
+                    lsSet("fisico:marks", all);
+                    fisRenderMarks();
+                }
+            });
+            host.addEventListener("change", e => {
+                const c = e.target;
+                if (!c.matches("input[data-fis-check]")) return;
+                const ses = lsGet("fisico:sesiones", {});
+                if (c.checked) ses[c.dataset.fisCheck] = 1;
+                else delete ses[c.dataset.fisCheck];
+                lsSet("fisico:sesiones", ses);
+                if (c.checked) fisCheer();
+                fisRenderWeek();
+                fisRenderStreak();
+            });
+            host.addEventListener("submit", e => {
+                const f = e.target;
+                if (f.matches("form[data-fis-form]")) {
+                    e.preventDefault();
+                    const id = f.dataset.fisForm;
+                    const p = FIS_PRUEBAS.find(t => t.id === id);
+                    const v = fisParse(p.unit, f.querySelector("input[name=value]").value);
+                    if (isNaN(v) || v <= 0) {
+                        const hint = host.querySelector(`[data-fis-hint="${id}"]`);
+                        if (hint) { hint.textContent = `Mmm, ese formato no me cuadra — prueba como “${p.placeholder}” 😉`; hint.classList.add("bad"); }
+                        return;
+                    }
+                    fisAddMark(id, v);
+                    fisToast("¡Marca apuntada! El progreso se ve 📈");
+                    fisRenderMarks();
+                } else if (f.matches("form[data-fis-oficial]")) {
+                    e.preventDefault();
+                    const of = fisOficialRaw();
+                    f.querySelectorAll("input[data-of]").forEach(inp => {
+                        const [id, k] = inp.dataset.of.split(":");
+                        if (!of[id]) of[id] = {};
+                        of[id][k] = inp.value.trim();
+                    });
+                    lsSet("fisico:oficial", of);
+                    fisToast("Marcas oficiales guardadas ✔");
+                    fisRenderMarks();
+                    fisRenderOficial();
+                }
+            });
         }
 
         function renderFisico() {
             const host = $("fisicoContent"); if (!host) return;
-            const allMarks = fisGetMarks();
-
-            // Summary cards: latest score per test + projected average.
-            const bestRows = FISICO_TESTS.map(t => {
-                const ms = allMarks[t.id] || [];
-                const best = fisBestMark(t, ms);
-                const row = best != null ? fisScoreFor(t, best) : null;
-                return { test: t, best, row };
-            });
-            let avg = null;
-            if (bestRows.every(r => r.row)) {
-                const sum = bestRows.reduce((a, b) => a + b.row.p, 0);
-                avg = sum / bestRows.length;
-            }
-            const avgClass = avg == null ? "muted" :
-                bestRows.some(r => r.row.p === 0) ? "bad" :
-                    avg >= 9 ? "ok" : avg >= 5 ? "warn" : "bad";
-            const avgText = avg == null ? "Registra una marca de cada prueba" :
-                bestRows.some(r => r.row.p === 0) ? "ELIMINATORIO" :
-                    avg.toFixed(2) + " / 10";
-
-            const summaryHtml = `
-                <div class="fis-summary">
-                    ${bestRows.map(r => {
-                const cls = r.row == null ? "muted" :
-                    r.row.p === 10 ? "ok" :
-                        r.row.p === 0 ? "bad" :
-                            r.row.p >= 5 ? "warn" : "bad";
-                const val = r.row == null ? "—" : r.row.p + "/10";
-                const sub = r.best != null ? fisFormat(r.test, r.best) : "sin marca";
-                return `<div class="fis-sum-card ${cls}">
-                            <span class="lbl">${escapeHtml(r.test.name.split(" ").slice(0, 2).join(" "))}</span>
-                            <span class="val">${val}</span>
-                            <span class="lbl">${escapeHtml(sub)}</span>
-                        </div>`;
-            }).join("")}
-                    <div class="fis-sum-card ${avgClass}">
-                        <span class="lbl">Nota media</span>
-                        <span class="val">${escapeHtml(avgText)}</span>
-                        <span class="lbl">media aritmética</span>
-                    </div>
-                </div>`;
-
-            const testsHtml = FISICO_TESTS.map(test => {
-                const marks = allMarks[test.id] || [];
-                const best = fisBestMark(test, marks);
-                const bestRow = best != null ? fisScoreFor(test, best) : null;
-                const baremoHtml = test.scale.map(row => {
-                    const isUser = bestRow && row.p === bestRow.p;
-                    let cls = "";
-                    if (row.p === 10) cls = "goal";
-                    else if (row.p === 5) cls = "pass";
-                    else if (row.p === 0) cls = "elim";
-                    if (isUser) cls += " user-row";
-                    return `<tr class="${cls.trim()}">
-                        <td class="pts">${row.p}</td>
-                        <td>${escapeHtml(row.label)}</td>
-                        <td class="note">${escapeHtml(row.note || "")}</td>
-                    </tr>`;
-                }).join("");
-
-                const marksListHtml = marks.length
-                    ? `<ul class="fis-marks-list">${marks.map((m, i) => {
-                        const r = fisScoreFor(test, m.v);
-                        const pts = r ? r.p : "—";
-                        const ptsCls = r && r.p === 10 ? "p10" : r && r.p === 0 ? "p0" : "pmid";
-                        return `<li>
-                            <span class="date">${escapeHtml(m.d)}</span>
-                            <span class="val">${escapeHtml(fisFormat(test, m.v))}</span>
-                            <span class="pts ${ptsCls}">${pts}/10</span>
-                            <button class="del" data-fis-del="${test.id}" data-fis-idx="${i}" title="Eliminar marca">✕</button>
-                        </li>`;
-                    }).join("")}</ul>`
-                    : `<p class="fis-marks-empty">Aún no hay marcas registradas. Apunta la primera y la app te dirá los puntos exactos.</p>`;
-
-                const placeholder = test.unit === "mmss" ? "3:24" : (test.id === "barra" ? "95 ó 1:35" : "9.3");
-
-                return `<div class="fis-test" id="fis-test-${test.id}">
-                    <div class="fis-test-head">
-                        <span class="ic">${test.icon}</span>
-                        <h3>${escapeHtml(test.name)}</h3>
-                        <span class="pill">10 → ${escapeHtml(test.goalLabel)}</span>
-                    </div>
-                    <p class="fis-test-desc">${test.desc}</p>
-                    <ul class="fis-rules">${test.rules.map(r => `<li>${escapeHtml(r)}</li>`).join("")}</ul>
-
-                    <table class="fis-baremo">
-                        <thead><tr><th>Pts</th><th>Marca (mujeres)</th><th>Nota</th></tr></thead>
-                        <tbody>${baremoHtml}</tbody>
-                    </table>
-
-                    <form class="fis-mark-form" data-fis-form="${test.id}">
-                        <label>Tu marca
-                            <input type="text" name="value" placeholder="${placeholder}" autocomplete="off" inputmode="decimal">
-                        </label>
-                        <button type="submit">Añadir marca</button>
-                        <p class="fis-mark-hint" data-fis-hint="${test.id}">${test.unit === "mmss" ? "Formato: m:ss (ej. 3:45) o segundos." :
-                        test.id === "barra" ? "Segundos enteros (ej. 95) o m:ss (ej. 1:35)." :
-                            "Segundos con una decimal (ej. 9.8)."
-                    }</p>
-                    </form>
-
-                    ${marksListHtml}
-                </div>`;
-            }).join("");
-
+            // fija el inicio del plan la primera vez (lunes de la semana actual)
+            if (!lsGet("fisico:planstart", null)) lsSet("fisico:planstart", fisKey(fisMonday(new Date())));
+            const f = fisFaseInfo();
+            const dLeft = daysToExam();
             host.innerHTML = `
                 <div class="fis-hero">
-                    <h2>💪 Prueba física — Inspector/a CNP</h2>
-                    <p><b>3 pruebas eliminatorias</b> en este orden: circuito de agilidad, flexión de brazos en barra supina y 1000 m lisos. Apto / no apto.</p>
-                    <p>Para ser declarada <b>apta</b>, la media de las tres notas debe ser <b>≥ 5</b> y ninguna prueba con un <b>0</b>. Aquí vamos a por <b>10/10 en las tres</b>.</p>
+                    <h2>💪 Preparación física — Inspectora CNP</h2>
+                    <p>Tres pruebas: <b>circuito de agilidad</b> · <b>barra</b> · <b>1000 m</b>. Previstas para <b>octubre de 2026</b> (fecha oficial pendiente de publicación en BOE).</p>
+                    <p>La fórmula es sencilla y es tuya: <b>constancia semanal + progresión + descanso</b>. Cada sesión te acerca al 10.</p>
                     <div class="badges">
-                        <span class="bad">0 en cualquiera = eliminada</span>
-                        <span>Media &lt; 5 = no apta</span>
-                        <span class="ok">Objetivo: 10/10 × 3 = 10,00</span>
-                        <span>Certificado médico colegiado obligatorio</span>
+                        <span class="ok">🎯 Foco de la semana: fondo — donde más vas a crecer</span>
+                        <span>📍 Fase actual: ${f.nombreCur}</span>
+                        ${dLeft != null ? `<span>🗓️ ${dLeft} días para brillar</span>` : ""}
+                        <span>🩺 Certificado médico: tenlo listo</span>
                     </div>
                 </div>
 
-                ${summaryHtml}
+                <div class="fis-summary" id="fisStreak"></div>
 
-                <div class="fis-section-title">Pruebas y baremos oficiales</div>
-                ${testsHtml}
+                <div class="fis-section-title">Las 3 fases del plan</div>
+                <div class="fis-fases" id="fisFases"></div>
 
-                <div class="fis-section-title">Rutina semanal sugerida</div>
-                ${FISICO_ROUTINE.map(d => `
-                    <div class="fis-routine">
-                        <h4>${escapeHtml(d.day)}</h4>
-                        <ul>${d.items.map(it => `<li>${escapeHtml(it)}</li>`).join("")}</ul>
-                    </div>`).join("")}
+                <div class="fis-section-title">Tu semana</div>
+                <div id="fisWeek"></div>
+
+                <div class="fis-section-title">Cronómetro</div>
+                <div class="fis-chrono" id="fisChrono">
+                    <div class="fis-chrono-top">
+                        <span class="fis-chrono-display" id="fisChronoDisplay">0:00.0</span>
+                        <span class="fis-chrono-modelabel" id="fisChronoMode">cronómetro</span>
+                    </div>
+                    <div class="fis-chrono-btns">
+                        <button type="button" class="primary" data-chrono="startpause" id="fisChronoStart">▶ Iniciar</button>
+                        <button type="button" data-chrono="reset" title="Poner a cero">↺ Cero</button>
+                    </div>
+                    <div class="fis-chrono-presets">
+                        <span>Cuenta atrás:</span>
+                        <button type="button" data-chrono="preset" data-sec="45">45”</button>
+                        <button type="button" data-chrono="preset" data-sec="60">60”</button>
+                        <button type="button" data-chrono="preset" data-sec="90">90”</button>
+                        <button type="button" data-chrono="preset" data-sec="120">2’</button>
+                    </div>
+                    <p class="fis-chrono-hint">45” recuperación del slalom · 60” del 5-10-5 · 90” de series de 200 m y barra · 2’ de series de 400 m. Para los isométricos de barra: ▶ y a sumar segundos.</p>
+                </div>
+
+                <div class="fis-section-title">Tus marcas — el progreso se ve 📈</div>
+                <div class="fis-marks-grid" id="fisMarks"></div>
+
+                <div class="fis-section-title">Marcas oficiales (Anexo I BOE-A-2025-16611)</div>
+                <div id="fisOficial"></div>
 
                 <div class="fis-source">
-                    Baremos extraídos del <b>BOE-A-2025-16611, Anexo I-B (categoría mujeres)</b> — Resolución de la convocatoria del proceso selectivo para la Escala Ejecutiva del CNP (BOE 11-ago-2025). Solo se incluye la tabla de mujeres porque es la que aplica a la opositora.
-                </div>
-            `;
-
-            // Bind add-mark forms.
-            host.querySelectorAll("form[data-fis-form]").forEach(form => {
-                form.addEventListener("submit", (e) => {
-                    e.preventDefault();
-                    const id = form.dataset.fisForm;
-                    const test = FISICO_TESTS.find(t => t.id === id);
-                    const raw = form.querySelector("input[name=value]").value;
-                    const v = fisParseInput(test, raw);
-                    const hint = host.querySelector(`[data-fis-hint="${id}"]`);
-                    if (isNaN(v) || v <= 0) {
-                        if (hint) { hint.textContent = "Marca no válida. Revisa el formato."; hint.classList.add("bad"); }
-                        return;
-                    }
-                    fisAddMark(id, v);
-                    renderFisico();
-                });
-            });
-            // Bind delete buttons.
-            host.querySelectorAll("button[data-fis-del]").forEach(btn => {
-                btn.addEventListener("click", () => {
-                    if (!confirm("¿Eliminar esta marca?")) return;
-                    fisRemoveMark(btn.dataset.fisDel, parseInt(btn.dataset.fisIdx, 10));
-                    renderFisico();
-                });
-            });
+                    Plan orientado a las tres pruebas de la convocatoria de la Escala Ejecutiva (circuito de agilidad · barra · 1000 m), previstas para <b>octubre de 2026</b> (fecha pendiente de publicación). Los baremos y marcas oficiales se publican en el BOE con cada convocatoria: introdúcelos arriba cuando salgan (referencia de la anterior: <b>BOE-A-2025-16611, Anexo I</b>).
+                </div>`;
+            fisRenderStreak();
+            fisRenderFases();
+            fisRenderWeek();
+            fisRenderMarks();
+            fisRenderOficial();
+            fisBindHost(host);
+            fisChronoPaint();
         }
 
         // ====== PSICOTECNICO ======
