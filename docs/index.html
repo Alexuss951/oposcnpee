@@ -7040,6 +7040,211 @@
             color: var(--accent2);
         }
 
+        /* --- entrenamiento guiado por voz (modo entrenadora) --- */
+        .fis-train-btn {
+            display: block;
+            margin: 12px 14px 4px;
+            background: var(--accent);
+            color: var(--accent-ink);
+            border: none;
+            border-radius: 999px;
+            padding: 10px 18px;
+            font-weight: 700;
+            font-size: 13.5px;
+            cursor: pointer;
+        }
+
+        #fisTrainOverlay {
+            position: fixed;
+            inset: 0;
+            z-index: 1400;
+            display: flex;
+            flex-direction: column;
+            background: var(--bg);
+            padding: 12px 14px calc(12px + var(--safe-bottom));
+        }
+
+        .fis-train-top {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .fis-train-title {
+            flex: 1;
+            min-width: 0;
+            font-weight: 700;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .fis-train-count {
+            font-size: 12px;
+            color: var(--muted);
+            white-space: nowrap;
+        }
+
+        .fis-train-top button {
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            color: var(--text);
+            border-radius: 8px;
+            padding: 6px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .fis-train-main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 12px;
+            margin: 12px 0;
+            padding: 18px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            background: var(--panel);
+            cursor: pointer;
+            user-select: none;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        #fisTrainOverlay[data-phase="work"] .fis-train-main {
+            border-color: var(--accent);
+        }
+
+        #fisTrainOverlay[data-phase="rest"] .fis-train-main {
+            border-color: var(--accent2);
+        }
+
+        #fisTrainOverlay[data-phase="done"] .fis-train-main {
+            border-color: var(--ok);
+        }
+
+        .fis-train-phase {
+            font-size: 12.5px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--muted);
+        }
+
+        #fisTrainOverlay[data-phase="work"] .fis-train-phase {
+            color: var(--accent);
+        }
+
+        #fisTrainOverlay[data-phase="rest"] .fis-train-phase {
+            color: var(--accent2);
+        }
+
+        #fisTrainOverlay[data-phase="done"] .fis-train-phase {
+            color: var(--ok);
+        }
+
+        .fis-train-name {
+            font-size: clamp(22px, 5.5vw, 34px);
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .fis-train-time {
+            font-size: clamp(56px, 20vw, 118px);
+            font-weight: 800;
+            line-height: 1;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .fis-train-time.urgent {
+            color: var(--warn);
+        }
+
+        .fis-train-sub {
+            font-size: 14px;
+            color: var(--muted);
+            line-height: 1.45;
+            max-width: 560px;
+        }
+
+        .fis-train-next {
+            font-size: 12.5px;
+            color: var(--muted);
+            opacity: .85;
+        }
+
+        .fis-train-donebtns {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 6px;
+        }
+
+        .fis-train-donebtns button {
+            border-radius: 999px;
+            padding: 11px 20px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid var(--line);
+            background: var(--panel2);
+            color: var(--text);
+        }
+
+        .fis-train-donebtns button.primary {
+            background: var(--ok);
+            border-color: var(--ok);
+            color: var(--accent-ink);
+        }
+
+        .fis-train-bar {
+            height: 6px;
+            border-radius: 999px;
+            background: var(--panel2);
+            overflow: hidden;
+        }
+
+        .fis-train-bar div {
+            height: 100%;
+            width: 0%;
+            background: var(--accent);
+            transition: width .2s linear;
+        }
+
+        #fisTrainOverlay[data-phase="rest"] .fis-train-bar div {
+            background: var(--accent2);
+        }
+
+        .fis-train-controls {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            padding-top: 12px;
+        }
+
+        .fis-train-controls button {
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            font-size: 22px;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            color: var(--text);
+            cursor: pointer;
+        }
+
+        .fis-train-controls #fisTrainPause {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--accent-ink);
+            font-size: 24px;
+        }
+
         /* =========================================================
            ESQUEMA TEMA 13 — organigrama integrado (namespaced #esq13)
            Todo va prefijado con #esq13 para aislarlo del resto de la app.
@@ -14885,6 +15090,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         //   fisico:sesiones   {"YYYY-MM-DD": 1}  sesiones completadas
         //   fisico:oficial    {pruebaId: {m10, m5}}  strings tal cual se teclean
         //   fisico:planstart  "YYYY-MM-DD"  lunes de la primera semana de uso
+        //   fisico:voz        bool — locutora del entrenamiento guiado
         //   (fisico:marks conserva el formato de la versión anterior de esta vista)
 
         const FIS_PRUEBAS = [
@@ -15244,6 +15450,424 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             fisChronoPaint();
         }
 
+        // --- entrenamiento guiado por voz (modo "entrenadora") ---
+        // Convierte la sesión del día en una secuencia de pasos guiados por
+        // locutora (speechSynthesis es-ES, funciona offline), con pitidos,
+        // cuenta atrás y pantalla siempre encendida (Wake Lock API).
+        // Tipos de paso: {ex, voz, dur}  ejercicio temporizado ·
+        // {ex, voz, manual:true}  se cierra tocando la pantalla (distancias
+        // y repeticiones) · {rest, name?, voz?}  recuperación con avisos.
+
+        const FIS_NUM = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez"];
+
+        function fisGuiada(tipo, fase, semana) {
+            const S = [];
+            const serie = (n, rest, mk) => { for (let i = 1; i <= n; i++) { S.push(mk(i, n)); if (rest) S.push({ rest }); } };
+            if (tipo === "carreraA") {
+                S.push({ ex: "Calentamiento 10’", dur: 600, voz: "Calentamiento: diez minutos de trote muy tranquilo, con movilidad de tobillos, rodillas y caderas." });
+                if (fase === "base") serie(8, 90, i => ({ ex: `200 m · serie ${i} de 8`, manual: true, voz: `Serie ${i} de 8: doscientos metros a ritmo vivo, exigente pero controlado. Toca la pantalla al terminar.` }));
+                else serie(6, 120, i => ({ ex: `400 m · serie ${i} de 6`, manual: true, voz: `Serie ${i} de 6: cuatrocientos metros a ritmo fuerte. Toca la pantalla al terminar.` }));
+                serie(3, 30, i => ({ ex: `Skipping alto · 20 m (${i}/3)`, manual: true, voz: "Skipping alto: veinte metros subiendo mucho las rodillas. Toca la pantalla al terminar." }));
+                serie(3, 30, i => ({ ex: `Talones al glúteo · 20 m (${i}/3)`, manual: true, voz: "Talones al glúteo: veinte metros llevando los talones al glúteo. Toca la pantalla al terminar." }));
+                S.push({ ex: "Vuelta a la calma 5’", dur: 300, voz: "Vuelta a la calma: cinco minutos muy suaves, trotando o andando, y estira lo que más hayas notado." });
+            } else if (tipo === "barra") {
+                serie(4, 90, i => ({ ex: `Suspensión isométrica (${i}/4)`, manual: true, voz: `Suspensión isométrica, serie ${i} de 4: barbilla por encima de la barra y aguanta tu máximo menos diez segundos. Toca la pantalla cuando sueltes.` }));
+                serie(4, 90, i => ({ ex: `Isométrico codos 90° (${i}/4)`, dur: 15, voz: "Isométrico con codos flexionados: aguanta a media subida, codos en ángulo recto." }));
+                serie(4, 90, i => ({ ex: `Dominadas negativas (${i}/4)`, manual: true, voz: "Dominadas negativas: sube con salto o apoyo y baja frenando cinco segundos. De tres a cinco bajadas. Toca la pantalla al terminar." }));
+                serie(3, 90, i => ({ ex: `Remo invertido (${i}/3)`, manual: true, voz: "Remo invertido: de ocho a diez repeticiones, cuerpo recto y pecho a la barra. Toca la pantalla al terminar." }));
+                serie(3, 60, i => ({ ex: `Paseo del granjero · 30 m (${i}/3)`, manual: true, voz: "Paseo del granjero: treinta metros con un peso bien cargado en cada mano. Toca la pantalla al terminar." }));
+            } else if (tipo === "agilidad") {
+                serie(6, 45, i => ({ ex: `Slalom 6 conos (${i}/6)`, manual: true, voz: `Slalom, pasada ${i} de 6: zigzaguea entre los conos a tope. Toca la pantalla al terminar.` }));
+                ["derecha", "izquierda"].forEach(lado => { S.push({ ex: `Giros 180°/360° · ${lado}`, manual: true, voz: `Giros alrededor del poste: ocho giros saliendo hacia la ${lado}. Mira a la salida antes de girar. Toca la pantalla al terminar.` }); S.push({ rest: 45 }); });
+                serie(5, 60, i => ({ ex: `5-10-5 (${i}/5)`, manual: true, voz: "Cinco, diez, cinco: desde el centro, cinco metros a un lado, diez al otro y cinco de vuelta. Toca la pantalla al terminar." }));
+                serie(4, 30, i => ({ ex: `Escalera de agilidad (${i}/4)`, manual: true, voz: "Escalera de agilidad: pies rápidos, un apoyo en cada hueco. Toca la pantalla al terminar." }));
+                serie(3, 60, i => ({ ex: `Sentadilla goblet ×10 (${i}/3)`, manual: true, voz: "Sentadilla goblet: diez repeticiones con la pesa pegada al pecho. Toca la pantalla al terminar." }));
+                serie(3, 60, i => ({ ex: `Zancada lateral ×10 por lado (${i}/3)`, manual: true, voz: "Zancada lateral: diez pasos grandes hacia cada lado, flexionando esa rodilla. Toca la pantalla al terminar." }));
+                serie(3, 45, i => ({ ex: `Skater jumps ×8 por lado (${i}/3)`, manual: true, voz: "Skaters: salta de lado a lado aterrizando sobre una sola pierna, como patinando. Ocho saltos por lado. Toca la pantalla al terminar." }));
+                serie(3, 30, i => ({ ex: `Plancha 45” (${i}/3)`, dur: 45, voz: "Plancha: cuerpo recto como una tabla, apoyada en los antebrazos." }));
+                ["derecho", "izquierdo"].forEach(lado => serie(3, 20, i => ({ ex: `Plancha lateral · ${lado} (${i}/3)`, dur: 30, voz: `Plancha lateral sobre el antebrazo ${lado}.` })));
+            } else if (tipo === "activo") {
+                ["cadera", "hombros", "tobillos", "columna"].forEach(z => S.push({ ex: `Movilidad · ${z} 5’`, dur: 300, voz: `Cinco minutos de movilidad de ${z}, con calma y sin llegar al dolor.` }));
+            } else if (tipo === "carreraB") {
+                const idx = semana <= 2 ? 0 : semana <= 4 ? 1 : 2;
+                if (idx < 2) {
+                    const n = idx === 0 ? 8 : 5, run = idx === 0 ? 180 : 300;
+                    for (let i = 1; i <= n; i++) {
+                        S.push({ ex: `Corre ${run / 60}’ · bloque ${i} de ${n}`, dur: run, voz: `Bloque ${i} de ${n}: ${run / 60 === 3 ? "tres" : "cinco"} minutos corriendo tranquila, a ritmo cómodo.` });
+                        if (i < n) S.push({ rest: 60, name: "Camina 1’", voz: "Ahora camina un minuto y recupera el aliento." });
+                    }
+                } else {
+                    S.push({ ex: "Carrera continua 25-35’", dur: 1800, voz: "Carrera continua suave, unos treinta minutos: a un ritmo al que podrías hablar." });
+                    serie(4, 45, i => ({ ex: `Progresivo 60 m (${i}/4)`, manual: true, voz: "Progresivo de sesenta metros: empieza muy suave y termina a carrera viva, sin llegar al esprint. Toca la pantalla al terminar." }));
+                }
+            } else if (tipo === "simulacro") {
+                S.push({ ex: "Calentamiento completo 15’", dur: 900, voz: "Calentamiento completo: quince minutos de trote, movilidad y dos o tres aceleraciones cortas." });
+                S.push({ ex: "Circuito de agilidad · a tope", manual: true, voz: "Circuito de agilidad con crono: una sola pasada a tope, como el día de la prueba. Toca la pantalla al terminar y apunta tu tiempo en tus marcas." });
+                S.push({ rest: 300, name: "Recuperación 5’", voz: "Descansa cinco minutos: recupera del todo antes de la barra." });
+                S.push({ ex: "Barra · intento máximo", manual: true, voz: "Barra: un solo intento máximo cronometrado. Cuelga, aguanta y toca la pantalla al soltar. Apunta los segundos." });
+                S.push({ ex: "Estiramientos 5’", dur: 300, voz: "Estiramientos suaves para cerrar la sesión." });
+            } else return null; // descanso: hoy no hay locutora 😴
+            while (S.length && S[S.length - 1].rest) S.pop();
+            return S.length ? S : null;
+        }
+
+        // --- voz (speechSynthesis) ---
+        function fisVozOn() { return !!lsGet("fisico:voz", true); }
+        function fisSay(text, opts) {
+            opts = opts || {};
+            if (!fisVozOn() || !("speechSynthesis" in window)) {
+                if (opts.onend) setTimeout(opts.onend, 600);
+                return;
+            }
+            try {
+                speechSynthesis.cancel();
+                const u = new SpeechSynthesisUtterance(text);
+                u.lang = "es-ES";
+                u.rate = 1.02;
+                const v = speechSynthesis.getVoices().find(x => /^es/i.test(x.lang));
+                if (v) u.voice = v;
+                if (opts.onend) {
+                    let fired = false;
+                    const fin = () => { if (!fired) { fired = true; opts.onend(); } };
+                    u.onend = fin; u.onerror = fin;
+                    setTimeout(fin, 1500 + 80 * text.length); // red de seguridad si el TTS se cuelga
+                }
+                speechSynthesis.speak(u);
+            } catch { if (opts.onend) opts.onend(); }
+        }
+
+        function fisTick() { // pitido corto para la cuenta atrás
+            try {
+                const AC = window.AudioContext || window.webkitAudioContext;
+                if (!AC) return;
+                const ctx = new AC();
+                const o = ctx.createOscillator(), g = ctx.createGain();
+                o.connect(g); g.connect(ctx.destination);
+                o.frequency.value = 660;
+                g.gain.setValueAtTime(0.12, ctx.currentTime);
+                g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
+                o.start(); o.stop(ctx.currentTime + 0.14);
+                setTimeout(() => ctx.close(), 300);
+            } catch { /* sin audio no pasa nada */ }
+        }
+
+        // --- estado y máquina de pasos ---
+        const fisTrain = { steps: null, i: 0, phase: "", running: false, endAt: 0, remainMs: 0, phaseMs: 0, startAt: 0, upMs: 0, timer: null, lastCue: null, run: 0, pending: null, wl: null, dayKey: null, futura: false, titulo: "", totalEx: 0, bound: false };
+
+        async function fisTrainLock() {
+            try {
+                if (navigator.wakeLock && !fisTrain.wl) {
+                    fisTrain.wl = await navigator.wakeLock.request("screen");
+                    fisTrain.wl.addEventListener("release", () => { fisTrain.wl = null; });
+                }
+            } catch { /* sin wake lock la sesión sigue igual */ }
+        }
+        function fisTrainUnlock() {
+            try { if (fisTrain.wl) { fisTrain.wl.release(); fisTrain.wl = null; } } catch { }
+        }
+
+        function fisTrainStep() { return fisTrain.steps ? fisTrain.steps[fisTrain.i] : null; }
+        function fisTrainNextEx() {
+            if (!fisTrain.steps) return null;
+            for (let j = fisTrain.i + 1; j < fisTrain.steps.length; j++) if (!fisTrain.steps[j].rest) return fisTrain.steps[j];
+            return null;
+        }
+
+        function fisTrainOpen(dayIdx) {
+            const f = fisFaseInfo(), semana = fisSemanaN(), d = FIS_DIAS[dayIdx];
+            const steps = fisGuiada(d.tipo, f.cur, semana);
+            if (!steps) return;
+            const mon = fisMonday(new Date());
+            const fecha = new Date(mon); fecha.setDate(mon.getDate() + dayIdx);
+            const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+            let n = 0;
+            steps.forEach(s => { if (!s.rest) s._n = ++n; });
+            Object.assign(fisTrain, { steps, i: 0, phase: "", running: true, pending: null, lastCue: null, dayKey: fisKey(fecha), futura: fecha > hoy, titulo: d.titulo, totalEx: n });
+            fisTrain.run++;
+            if ("speechSynthesis" in window) speechSynthesis.getVoices(); // precarga de voces (async en Chrome)
+            fisTrainBuild();
+            document.body.style.overflow = "hidden";
+            fisTrainLock();
+            if (!fisTrain.bound) {
+                fisTrain.bound = true;
+                document.addEventListener("visibilitychange", () => {
+                    if (document.visibilityState === "visible" && $("fisTrainOverlay") && fisTrain.steps) fisTrainLock();
+                });
+            }
+            fisTrainEnter();
+        }
+
+        function fisTrainBuild() {
+            let ov = $("fisTrainOverlay");
+            if (!ov) { ov = document.createElement("div"); ov.id = "fisTrainOverlay"; document.body.appendChild(ov); }
+            ov.innerHTML = `
+                <div class="fis-train-top">
+                    <span class="fis-train-title">🎙️ ${escapeHtml(fisTrain.titulo)}</span>
+                    <span class="fis-train-count" id="fisTrainCount"></span>
+                    <button type="button" id="fisTrainMute" title="Activar o silenciar la voz">${fisVozOn() ? "🔊" : "🔇"}</button>
+                    <button type="button" id="fisTrainClose" title="Salir del entrenamiento">✕</button>
+                </div>
+                <div class="fis-train-main" id="fisTrainMain">
+                    <span class="fis-train-phase" id="fisTrainPhase"></span>
+                    <span class="fis-train-name" id="fisTrainName"></span>
+                    <span class="fis-train-time" id="fisTrainTime"></span>
+                    <span class="fis-train-sub" id="fisTrainSub"></span>
+                    <span class="fis-train-next" id="fisTrainNext"></span>
+                    <div class="fis-train-donebtns" id="fisTrainDoneBtns" style="display:none">
+                        <button type="button" class="primary" id="fisTrainMarkDone">Marcar sesión como hecha ✔</button>
+                        <button type="button" id="fisTrainExit">Cerrar</button>
+                    </div>
+                </div>
+                <div class="fis-train-bar"><div id="fisTrainBarFill"></div></div>
+                <div class="fis-train-controls">
+                    <button type="button" data-tr="prev" title="Ejercicio anterior">⏮</button>
+                    <button type="button" data-tr="pause" id="fisTrainPause">⏸</button>
+                    <button type="button" data-tr="next" title="Saltar ejercicio">⏭</button>
+                </div>`;
+            $("fisTrainClose").addEventListener("click", () => {
+                if (fisTrain.phase !== "done" && !confirm("¿Salir del entrenamiento guiado?")) return;
+                fisTrainStop();
+            });
+            $("fisTrainMute").addEventListener("click", () => {
+                const on = !fisVozOn();
+                lsSet("fisico:voz", on);
+                if (!on && "speechSynthesis" in window) speechSynthesis.cancel();
+                $("fisTrainMute").textContent = on ? "🔊" : "🔇";
+                if (on) fisSay("Voz activada.");
+            });
+            $("fisTrainMain").addEventListener("click", () => {
+                const st = fisTrainStep();
+                if (!st || fisTrain.phase === "done") return;
+                if (fisTrain.phase === "announce") { fisTrain.run++; fisTrainPrep(); return; } // toque = saltar la explicación
+                if (fisTrain.phase === "work" && st.manual && fisTrain.running) { fisBeep(); fisTrainAdvance(); }
+            });
+            ov.querySelector(".fis-train-controls").addEventListener("click", e => {
+                const b = e.target.closest("button"); if (!b) return;
+                if (b.dataset.tr === "pause") fisTrainPauseToggle();
+                else if (b.dataset.tr === "next") fisTrainJump(+1);
+                else if (b.dataset.tr === "prev") fisTrainJump(-1);
+            });
+        }
+
+        function fisTrainEnter() {
+            const st = fisTrainStep();
+            fisTrain.lastCue = null;
+            fisTrain.pending = null;
+            if (!st) { fisTrainFinish(); return; }
+            if (st.rest) {
+                fisTrain.phase = "rest";
+                fisTrainStart(st.rest * 1000);
+                const next = fisTrainNextEx();
+                const durTxt = st.rest % 60 === 0 && st.rest >= 60 ? (st.rest === 60 ? "un minuto" : (st.rest / 60) + " minutos") : st.rest + " segundos";
+                fisSay((st.voz || `Descansa ${durTxt}.`) + (next ? ` Después: ${next.ex.replace(/·/g, ",")}.` : ""));
+            } else {
+                fisTrain.phase = "announce";
+                fisTrain.running = true;
+                fisTrainStopTimer();
+                fisTrainPaint();
+                const run = ++fisTrain.run;
+                const pre = st._n === 1 ? "Primer ejercicio" : "Siguiente ejercicio";
+                fisSay(`${pre}. ${st.voz}`, {
+                    onend: () => {
+                        if (run !== fisTrain.run || !fisTrain.steps) return;
+                        if (!fisTrain.running) { fisTrain.pending = "prep"; return; }
+                        fisTrainPrep();
+                    }
+                });
+            }
+        }
+
+        function fisTrainPrep() {
+            fisTrain.phase = "prep";
+            fisTrain.lastCue = null;
+            fisTrainStart(5000); // "¿Preparada?" + tres, dos, uno… ¡ya!
+            fisSay("¿Preparada?");
+        }
+
+        function fisTrainWork() {
+            const st = fisTrainStep();
+            fisTrain.phase = "work";
+            fisTrain.lastCue = null;
+            if (st.manual) {
+                fisTrain.startAt = Date.now();
+                fisTrain.upMs = 0;
+                fisTrain.running = true;
+                if (!fisTrain.timer) fisTrain.timer = setInterval(fisTrainTickFn, 200);
+                fisTrainPaint();
+            } else {
+                fisTrainStart(st.dur * 1000);
+            }
+        }
+
+        function fisTrainStart(ms) {
+            fisTrain.endAt = Date.now() + ms;
+            fisTrain.phaseMs = ms;
+            fisTrain.remainMs = ms;
+            fisTrain.running = true;
+            if (!fisTrain.timer) fisTrain.timer = setInterval(fisTrainTickFn, 200);
+            fisTrainPaint();
+        }
+        function fisTrainStopTimer() {
+            if (fisTrain.timer) { clearInterval(fisTrain.timer); fisTrain.timer = null; }
+        }
+
+        function fisTrainTickFn() {
+            if (!fisTrain.running || !fisTrain.steps) return;
+            const st = fisTrainStep(); if (!st) return;
+            if (fisTrain.phase === "work" && st.manual) {
+                fisTrain.upMs = Date.now() - fisTrain.startAt;
+                fisTrainPaint();
+                return;
+            }
+            if (fisTrain.phase === "announce") return;
+            const remain = fisTrain.endAt - Date.now();
+            if (remain <= 0) { fisTrainPhaseEnd(); return; }
+            const sec = Math.ceil(remain / 1000);
+            if (sec !== fisTrain.lastCue) { fisTrain.lastCue = sec; fisTrainCue(sec); }
+            fisTrainPaint();
+        }
+
+        function fisTrainCue(sec) {
+            const ph = fisTrain.phase;
+            const total = Math.round(fisTrain.phaseMs / 1000);
+            if (ph === "prep") {
+                if (sec >= 1 && sec <= 3) { fisSay(FIS_NUM[sec]); fisTick(); }
+            } else if (ph === "work") {
+                if (total >= 300 && sec === Math.round(total / 2)) fisSay("¡Vas por la mitad!");
+                else if (total >= 150 && sec === 60) fisSay("Queda un minuto.");
+                else if (total > 60 && sec === 30) fisSay("Treinta segundos.");
+                else if (total > 15 && sec === 10) fisSay("Quedan diez segundos, ¡aguanta!");
+                else if (sec >= 1 && sec <= 5) { fisSay(FIS_NUM[sec]); fisTick(); }
+            } else if (ph === "rest") {
+                if (total > 15 && sec === 10) fisSay("Diez segundos.");
+                else if (sec >= 1 && sec <= 3) { fisSay(FIS_NUM[sec]); fisTick(); }
+            }
+        }
+
+        function fisTrainPhaseEnd() {
+            if (fisTrain.phase === "prep") { fisSay("¡Ya!"); fisBeep(); fisTrainWork(); }
+            else { fisBeep(); fisTrainAdvance(); }
+        }
+
+        function fisTrainAdvance() {
+            fisTrain.i++;
+            fisTrainEnter();
+        }
+
+        function fisTrainJump(dir) {
+            if (!fisTrain.steps || fisTrain.phase === "done") return;
+            fisTrain.run++;
+            let j = fisTrain.i + dir;
+            while (j >= 0 && j < fisTrain.steps.length && fisTrain.steps[j].rest) j += dir;
+            if (j >= fisTrain.steps.length) { fisTrainFinish(); return; }
+            fisTrain.i = Math.max(0, j);
+            fisTrain.running = true;
+            fisTrainEnter();
+        }
+
+        function fisTrainPauseToggle() {
+            if (!fisTrain.steps || fisTrain.phase === "done") return;
+            if (fisTrain.running) {
+                fisTrain.running = false;
+                fisTrain.remainMs = Math.max(0, fisTrain.endAt - Date.now());
+                if (fisTrain.phase === "work" && fisTrainStep().manual) fisTrain.upMs = Date.now() - fisTrain.startAt;
+                if ("speechSynthesis" in window) speechSynthesis.cancel();
+            } else {
+                fisTrain.running = true;
+                if (fisTrain.pending === "prep") { fisTrain.pending = null; fisTrainPrep(); }
+                else if (fisTrain.phase === "work" && fisTrainStep().manual) fisTrain.startAt = Date.now() - fisTrain.upMs;
+                else if (fisTrain.phase === "announce") fisTrainEnter(); // relanza la explicación
+                else fisTrain.endAt = Date.now() + fisTrain.remainMs;
+            }
+            fisTrainPaint();
+        }
+
+        function fisTrainFinish() {
+            fisTrain.phase = "done";
+            fisTrain.running = false;
+            fisTrainStopTimer();
+            fisBeep();
+            fisSay("¡Entrenamiento completado! Gran trabajo. Recuerda estirar y beber agua.");
+            fisTrainPaint();
+        }
+
+        function fisTrainStop() {
+            fisTrain.run++;
+            fisTrain.steps = null;
+            fisTrainStopTimer();
+            if ("speechSynthesis" in window) speechSynthesis.cancel();
+            fisTrainUnlock();
+            const ov = $("fisTrainOverlay");
+            if (ov) ov.remove();
+            document.body.style.overflow = "";
+        }
+
+        function fisTrainFmt(ms) {
+            const s = Math.max(0, Math.ceil(ms / 1000));
+            return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
+        }
+
+        function fisTrainPaint() {
+            const ov = $("fisTrainOverlay"); if (!ov) return;
+            const st = fisTrainStep();
+            const ph = fisTrain.phase;
+            ov.dataset.phase = ph === "prep" || ph === "announce" ? "get" : ph;
+            const set = (id, v) => { const el = $(id); if (el) el.textContent = v; };
+            const done = ph === "done";
+            $("fisTrainDoneBtns").style.display = done ? "flex" : "none";
+            if (done) {
+                set("fisTrainPhase", "COMPLETADO 🎉");
+                set("fisTrainName", "¡Sesión terminada!");
+                set("fisTrainTime", "💪");
+                set("fisTrainSub", fisTrain.futura ? "Esta sesión era de un día futuro: se marca el mismo día 😉" : "Gran trabajo. Estira, hidrátate y márcala como hecha.");
+                set("fisTrainNext", "");
+                set("fisTrainCount", "");
+                $("fisTrainMarkDone").style.display = fisTrain.futura ? "none" : "";
+                $("fisTrainBarFill").style.width = "100%";
+                $("fisTrainPause").textContent = "⏸";
+                if (!$("fisTrainMarkDone").dataset.bound) {
+                    $("fisTrainMarkDone").dataset.bound = "1";
+                    $("fisTrainMarkDone").addEventListener("click", () => {
+                        const ses = lsGet("fisico:sesiones", {});
+                        ses[fisTrain.dayKey] = 1;
+                        lsSet("fisico:sesiones", ses);
+                        fisTrainStop();
+                        fisCheer();
+                        fisRenderWeek();
+                        fisRenderStreak();
+                    });
+                    $("fisTrainExit").addEventListener("click", fisTrainStop);
+                }
+                return;
+            }
+            if (!st) return;
+            const next = fisTrainNextEx();
+            const curN = st.rest ? (next ? next._n : fisTrain.totalEx) : st._n;
+            set("fisTrainCount", `Ejercicio ${curN} de ${fisTrain.totalEx}`);
+            set("fisTrainPhase", ph === "announce" ? "Atenta 👂" : ph === "prep" ? "¿Preparada?" : ph === "rest" ? "Descanso 😮‍💨" : st.manual ? "A tu ritmo" : "¡Dale! 🔥");
+            set("fisTrainName", st.rest ? (st.name || "Descanso") : st.ex);
+            const timeEl = $("fisTrainTime");
+            let t = "";
+            if (ph === "prep" || ph === "rest" || (ph === "work" && !st.manual)) {
+                const remain = fisTrain.running ? fisTrain.endAt - Date.now() : fisTrain.remainMs;
+                t = ph === "prep" ? String(Math.max(1, Math.ceil(remain / 1000))) : fisTrainFmt(remain);
+                timeEl.classList.toggle("urgent", ph !== "prep" && remain <= 5500);
+                $("fisTrainBarFill").style.width = Math.min(100, Math.max(0, 100 * (1 - remain / fisTrain.phaseMs))).toFixed(1) + "%";
+            } else if (ph === "work" && st.manual) {
+                t = fisTrainFmt(fisTrain.upMs);
+                timeEl.classList.remove("urgent");
+                $("fisTrainBarFill").style.width = "0%";
+            } else {
+                t = "🎧";
+                timeEl.classList.remove("urgent");
+                $("fisTrainBarFill").style.width = "0%";
+            }
+            set("fisTrainTime", t);
+            set("fisTrainSub", st.rest ? "Respira hondo y suelta brazos y piernas." : (st.voz || "") + (ph === "work" && st.manual ? " — toca la pantalla al terminar." : ""));
+            set("fisTrainNext", next && (st.rest || ph !== "announce") ? `Luego: ${next.ex}` : "");
+            $("fisTrainPause").textContent = fisTrain.running ? "⏸" : "▶";
+        }
+
         // --- sub-renders (cada interacción repinta solo su bloque) ---
         function fisRenderStreak() {
             const el = $("fisStreak"); if (!el) return;
@@ -15298,6 +15922,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 const esHoy = key === hoyKey;
                 const futura = fecha > hoy;
                 const s = fisSesion(d.tipo, f.cur, semana);
+                const guiada = !!fisGuiada(d.tipo, f.cur, semana);
                 const chip40 = f.cur === "puesta" && d.tipo !== "descanso" && d.tipo !== "activo" ? ' <span class="fis-day-chip">−40% volumen</span>' : "";
                 const fechaTxt = fecha.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
                 const check = d.tipo === "descanso"
@@ -15319,6 +15944,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                     : `<li>${it.t}${it.s ? `<span class="fis-item-sub">${it.s}</span>` : ""}</li>`).join("")}</ul>
                         ${s.regla ? `<div class="fis-day-regla">🌿 ${s.regla}</div>` : ""}
                         ${s.nota ? `<div class="fis-day-note">💡 ${s.nota}</div>` : ""}
+                        ${guiada ? `<button type="button" class="fis-train-btn" data-fis-train="${i}">🎙️ Entrenar con voz — sesión guiada</button>` : ""}
                     </details>
                     ${check}
                 </div>`;
@@ -15399,6 +16025,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 const b = e.target.closest("button");
                 if (!b) return;
                 if (b.dataset.chrono) { fisChronoAction(b.dataset.chrono, b.dataset.sec); return; }
+                if (b.dataset.fisTrain != null) { fisTrainOpen(parseInt(b.dataset.fisTrain, 10)); return; }
                 if (b.dataset.fisDel != null) {
                     if (!confirm("¿Quitar este registro?")) return;
                     const all = lsGet("fisico:marks", {});
