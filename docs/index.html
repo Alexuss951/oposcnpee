@@ -6485,6 +6485,104 @@
             margin-bottom: 10px;
         }
 
+        .fis-hoy {
+            background: var(--panel2);
+            border: 2px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 14px 16px;
+            margin-bottom: 14px;
+        }
+
+        .fis-hoy.done {
+            border-color: var(--ok);
+        }
+
+        .fis-hoy-label {
+            display: block;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        .fis-hoy.done .fis-hoy-label {
+            color: var(--ok);
+        }
+
+        .fis-hoy h3 {
+            margin: 4px 0 10px;
+            font-size: 19px;
+            color: var(--ink);
+        }
+
+        .fis-hoy-ic {
+            margin-right: 4px;
+        }
+
+        .fis-hoy-items {
+            margin: 0;
+            padding-left: 18px;
+            font-size: 13.5px;
+            line-height: 1.65;
+            color: var(--ink);
+        }
+
+        .fis-hoy-items li+li {
+            margin-top: 3px;
+        }
+
+        .fis-hoy-cambia {
+            background: var(--panel);
+            border-left: 3px solid var(--ok);
+            border-radius: 6px;
+            padding: 7px 11px;
+            margin-bottom: 10px;
+            font-size: 12.5px;
+            line-height: 1.5;
+            color: var(--muted);
+        }
+
+        .fis-hoy-cambia b {
+            color: var(--ink);
+        }
+
+        .fis-hoy-check,
+        .fis-hoy-rest {
+            display: block;
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        .fis-hoy-check {
+            cursor: pointer;
+        }
+
+        .fis-hoy-check input {
+            margin-right: 6px;
+        }
+
+        .fis-ciclo {
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            border-left: 3px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 9px 13px;
+            font-size: 12.5px;
+            line-height: 1.55;
+            margin-bottom: 10px;
+            color: var(--muted);
+        }
+
+        .fis-ciclo b {
+            color: var(--ink);
+        }
+
+        .fis-ciclo.descarga {
+            border-left-color: var(--ok);
+        }
+
         .fis-day {
             background: var(--panel);
             border: 1px solid var(--line);
@@ -6569,6 +6667,11 @@
             font-size: 10.5px;
             font-weight: 600;
             vertical-align: middle;
+        }
+
+        .fis-day-chip.nuevo {
+            border-color: var(--ok);
+            color: var(--ok);
         }
 
         .fis-day-tag {
@@ -15082,9 +15185,9 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
 
         // ====== FISICO — PLAN DE ENTRENAMIENTO (pruebas previstas oct 2026) ======
         // Tres pruebas de la convocatoria: circuito de agilidad, barra (suspensión)
-        // y 1000 m. Los baremos oficiales NO van embebidos: se introducen a mano en
-        // "Marcas oficiales" cuando se publiquen en el BOE (referencia de la
-        // convocatoria anterior: BOE-A-2025-16611, Anexo I).
+        // y 1000 m. Los baremos oficiales (Anexo I, mujeres) van embebidos por defecto
+        // en FIS_PRUEBAS.of — no cambian de una convocatoria a otra (BOE-A-2025-16611,
+        // Anexo I); la opositora puede sobrescribirlos a mano en "Marcas oficiales".
         // Persistencia (prefijo opos-cnp:):
         //   fisico:marks      {agilidad|barra|mil|fondo: [{d,v}]}  v en unidad nativa
         //   fisico:sesiones   {"YYYY-MM-DD": 1}  sesiones completadas
@@ -15093,20 +15196,23 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         //   fisico:voz        bool — locutora del entrenamiento guiado
         //   (fisico:marks conserva el formato de la versión anterior de esta vista)
 
+        // `of` = baremo oficial (Anexo I, mujeres) embebido por defecto: {m10, m5} en
+        // unidad nativa. Estas marcas no cambian con la convocatoria — se pintan de
+        // serie como línea objetivo; la opositora puede ajustarlas en "Marcas oficiales".
         const FIS_PRUEBAS = [
-            { id: "mil", icon: "🏃‍♀️", nombre: "Fondo · 1000 m", claim: "Tu mayor margen de progreso: cada semana sumas metros", unit: "mmss", lowerIsBetter: true, placeholder: "4:10", hint: "Formato m:ss (ej. 4:10).", oficial: true },
+            { id: "mil", icon: "🏃‍♀️", nombre: "Fondo · 1000 m", claim: "Tu mayor margen de progreso: cada semana sumas metros", unit: "mmss", lowerIsBetter: true, placeholder: "4:10", hint: "Formato m:ss (ej. 4:10).", oficial: true, of: { m10: "3:24", m5: "4:09" } },
             { id: "fondo", icon: "🌿", nombre: "Fondo · carrera continua", claim: "Los metros suaves de hoy son el ritmo de octubre", unit: "m", lowerIsBetter: false, placeholder: "3500", hint: "Metros seguidos corriendo (ej. 3500).", oficial: false },
-            { id: "agilidad", icon: "⚡", nombre: "Agilidad · circuito", claim: "Dominar los giros son segundos ganados", unit: "s", dec: 1, lowerIsBetter: true, placeholder: "11.5", hint: "Segundos con decimal (ej. 11.5).", oficial: true },
-            { id: "barra", icon: "💪", nombre: "Barra · suspensión", claim: "Tu punto fuerte: mantenlo brillando", unit: "s", dec: 0, lowerIsBetter: false, placeholder: "45", hint: "Segundos (ej. 45) o m:ss (ej. 1:05).", oficial: true }
+            { id: "agilidad", icon: "⚡", nombre: "Agilidad · circuito", claim: "Dominar los giros son segundos ganados", unit: "s", dec: 1, lowerIsBetter: true, placeholder: "11.5", hint: "Segundos con decimal (ej. 11.5).", oficial: true, of: { m10: "9,3", m5: "11,6" } },
+            { id: "barra", icon: "💪", nombre: "Barra · suspensión", claim: "Tu punto fuerte: mantenlo brillando", unit: "s", dec: 0, lowerIsBetter: false, placeholder: "45", hint: "Segundos (ej. 45) o m:ss (ej. 1:05).", oficial: true, of: { m10: "95", m5: "57" } }
         ];
 
         const FIS_DIAS = [
-            { dia: "Lunes", icon: "🏃‍♀️", titulo: "Carrera A · series", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraA" },
+            { dia: "Lunes", icon: "🏃‍♀️", titulo: "Carrera A · series del 1000", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraA" },
             { dia: "Martes", icon: "💪", titulo: "Barra + tren superior", tag: "Barra · tu punto fuerte: mantenlo brillando", tipo: "barra" },
             { dia: "Miércoles", icon: "⚡", titulo: "Agilidad y giros", tag: "Agilidad · dominar los giros son segundos ganados", tipo: "agilidad" },
             { dia: "Jueves", icon: "🧘‍♀️", titulo: "Descanso activo · movilidad 20’", tag: "La movilidad de hoy es la chispa de mañana", tipo: "activo" },
-            { dia: "Viernes", icon: "🌿", titulo: "Carrera B · base aeróbica", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraB" },
-            { dia: "Sábado", icon: "⏱️", titulo: "Simulacro · circuito + barra", tag: "Día de brillar: ensayo general con crono", tipo: "simulacro" },
+            { dia: "Viernes", icon: "🌿", titulo: "Carrera B · rodaje y umbral", tag: "Fondo · tu mayor margen de progreso: cada semana sumas metros", tipo: "carreraB" },
+            { dia: "Sábado", icon: "⏱️", titulo: "Simulacro con crono", tag: "Día de brillar: ensayo general con crono", tipo: "simulacro" },
             { dia: "Domingo", icon: "😴", titulo: "Descanso", tag: "El descanso también entrena", tipo: "descanso" }
         ];
 
@@ -15138,6 +15244,17 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             return Math.max(1, Math.floor((fisMonday(new Date()) - start) / (7 * 86400000)) + 1);
         }
 
+        // --- ciclo de carga: la estructura de la semana no cambia, la carga sí ---
+        // Ciclo de 4 semanas: bloques 1-3 suben (más largo / más específico) y el
+        // bloque 4 es DESCARGA. Un estímulo fijo deja de dar adaptaciones a las ~3
+        // semanas: por eso progresa la carga dentro de los mismos 7 días.
+        function fisBloque(semana) { return ((Math.max(1, semana) - 1) % 4) + 1; }
+        function fisEsDescarga(semana) { return fisBloque(semana) === 4; }
+        // 1 de cada 3 sábados el simulacro es COMPLETO y en el orden del examen
+        // (1º circuito · 2º barra · 3º 1000 m), que es el único momento en que se
+        // corre el 1000 entero — y encima cansada, como el día de la prueba.
+        function fisSimulacroCompleto(semana) { return Math.max(1, semana) % 3 === 0; }
+
         // --- fases del plan (detectadas por fecha; el examen sale de Ajustes) ---
         function fisFaseInfo() {
             let examD = new Date((getSettings().examDate || "2026-10-15") + "T00:00:00");
@@ -15162,40 +15279,67 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         // Cada item puede ser un string (autoexplicativo) o {t, s}: t = titular
         // compacto, s = "cómo se hace" en una frase, para leer solo si hay duda.
         function fisSesion(tipo, fase, semana) {
-            if (tipo === "carreraA") return {
-                items: [
-                    { t: "10’ de calentamiento suave.", s: "Trote muy tranquilo + movilidad de tobillos, rodillas y caderas." },
-                    fase === "base"
-                        ? { t: "8 × 200 m · recuperación 90” andando.", s: "Corre 200 m a ritmo vivo (exigente pero controlado), camina 90 segundos… y así hasta 8 veces." }
-                        : { t: "<b>6 × 400 m · recuperación 2’</b> — versión de septiembre.", s: "Corre 400 m a ritmo fuerte, descansa 2 minutos andando, y así hasta 6 veces." },
-                    { t: "Skipping alto y talones: 3 × 20 m.", s: "20 m corriendo subiendo mucho las rodillas + 20 m llevando los talones al glúteo; 3 veces cada uno." },
-                    { t: "5’ de vuelta a la calma.", s: "Trote muy suave o caminar, y estira lo que más hayas notado." }
-                ],
-                nota: fase === "base" ? "Desde septiembre las series pasan a 6 × 400 m: cada fase te pide un poco más porque ya puedes un poco más." : null
-            };
-            if (tipo === "barra") return {
-                items: [
-                    { t: "Suspensión isométrica: 4 × (tu máximo −10”) · recuperación 90”.", s: "Barbilla por encima de la barra y aguanta: si tu tope son 40”, haz series de 30”. Descansa 90” entre series." },
-                    { t: "Isométrico con codos flexionados: 4 × 8-20”.", s: "Aguanta a media subida, con los codos doblados en ángulo recto, entre 8 y 20 segundos." },
-                    { t: "Dominadas negativas (bajada en 5”): 4 × 3-5.", s: "Sube hasta arriba con salto o apoyo y baja frenando 5 segundos. Entre 3 y 5 bajadas por serie." },
-                    { t: "Remo invertido: 3 × 8-10.", s: "Bajo una barra baja o mesa firme, cuerpo recto e inclinado: tira con los brazos hasta llevar el pecho a la barra." },
-                    { t: "Paseo del granjero: 3 × 30 m.", s: "Camina 30 m con un peso bien cargado en cada mano (mancuernas o garrafas): agarre de acero." }
-                ],
-                nota: "El agarre crece descansando: deja siempre un día entre sesiones de agarre 😉."
-            };
-            if (tipo === "agilidad") return {
-                items: [
-                    { t: "Slalom 6 conos (2 m): × 6 · recuperación 45”.", s: "6 conos (o botellas) en línea, uno cada 2 m: zigzaguea entre ellos a tope. 6 pasadas." },
-                    { t: "Giros 180°/360° alrededor de poste: 8 por lado.", s: "Corre hacia el poste (o una silla), rodéalo girando media vuelta o una entera y sal acelerando. Clave: <b>mira a la salida antes de girar</b>." },
-                    { t: "5-10-5: × 5 · recuperación 60”.", s: "Tres marcas en línea separadas 5 m: desde el centro, corre 5 m a un lado, 10 m al otro y 5 m de vuelta al centro." },
-                    { t: "Escalera de agilidad: 4 pasadas.", s: "Pies rápidos, un apoyo en cada hueco. Sin escalera, vale dibujarla con tiza." },
-                    { t: "Sentadilla goblet: 3 × 10.", s: "Sentadilla sujetando una pesa o garrafa pegada al pecho." },
-                    { t: "Zancada lateral: 3 × 10 por lado.", s: "Paso grande hacia un lado flexionando esa rodilla; la otra pierna queda estirada." },
-                    { t: "Skater jumps: 3 × 8 por lado.", s: "Salta de lado a lado aterrizando sobre una sola pierna, como patinando." },
-                    { t: "Plancha 3 × 45” + plancha lateral 3 × 30” por lado.", s: "Cuerpo recto como una tabla apoyada en los antebrazos; en la lateral, de costado sobre un antebrazo." }
-                ],
-                nota: "Cada giro nuevo, en 3 pasos: andando → al 70% → con crono. Así se graba el patrón y los segundos caen solos."
-            };
+            const bloque = fisBloque(semana), descarga = fisEsDescarga(semana);
+            if (tipo === "carreraA") {
+                // Día específico del 1000: series largas al ritmo de la prueba. Crecen
+                // del bloque 1 al 3 (400 → 600 → «el 1000 partido») y descargan en el 4.
+                const serie = fase === "puesta"
+                    ? { t: "<b>3 × 400 m a ritmo objetivo</b> · recuperación 2’.", s: "Volumen recortado de puesta a punto: 3 repeticiones de 400 m al ritmo al que quieres correr el 1000, con 2 minutos andando entre ellas. Frescura, no fatiga." }
+                    : descarga
+                        ? { t: "<b>4 × 200 m sueltos</b> · recuperación 90”.", s: "Semana de descarga: 4 repeticiones de 200 m rápidas pero cómodas, sin apretar. Hoy el cuerpo asimila lo de las 3 semanas anteriores." }
+                        : bloque === 1
+                            ? { t: "<b>5 × 400 m a ritmo objetivo</b> · recuperación 2’.", s: "5 repeticiones de 400 m al ritmo al que quieres correr el 1000 el día del examen, con 2 minutos andando entre ellas." }
+                            : bloque === 2
+                                ? { t: "<b>3 × 600 m a ritmo objetivo</b> · recuperación 2’30”.", s: "3 repeticiones de 600 m al mismo ritmo objetivo. Más largas que la semana pasada: aquí se construye el aguante que pide el 1000." }
+                                : { t: "<b>El 1000 partido: 800 + 400 + 200 m</b> · recuperación 3’ y 2’.", s: "800 m a ritmo objetivo, 3 minutos andando; 400 m al mismo ritmo, 2 minutos andando; y 200 m finales a tope. Es el 1000 troceado: la sesión más específica del ciclo." };
+                return {
+                    items: [
+                        { t: "10’ de calentamiento suave.", s: "Trote muy tranquilo + movilidad de tobillos, rodillas y caderas." },
+                        serie,
+                        { t: "Skipping alto y talones: 3 × 20 m.", s: "20 m corriendo subiendo mucho las rodillas + 20 m llevando los talones al glúteo; 3 veces cada uno." },
+                        { t: "5’ de vuelta a la calma.", s: "Trote muy suave o caminar, y estira lo que más hayas notado." }
+                    ],
+                    nota: descarga
+                        ? "Semana de descarga: se baja el gas a propósito. La mejora no se produce entrenando, sino recuperando de lo entrenado 🌱."
+                        : "«Ritmo objetivo» = el ritmo al que quieres correr el 1000 el día del examen: ~1:40 cada 400 m para el apto (4:09) y ~1:22 para el 10 (3:24). Si no puedes sostenerlo en todas las repeticiones, es que ese ritmo aún es demasiado 😉."
+                };
+            }
+            if (tipo === "barra") {
+                // Punto fuerte de la opositora: progresión suave (4→5 series) y descarga.
+                const n = descarga ? 2 : bloque === 3 ? 5 : 4;
+                return {
+                    items: [
+                        { t: `Suspensión isométrica: ${n} × (tu máximo −10”) · recuperación 90”.`, s: "Barbilla por encima de la barra y aguanta: si tu tope son 40”, haz series de 30”. Descansa 90” entre series." },
+                        { t: `Isométrico con codos flexionados: ${n} × 8-20”.`, s: "Aguanta a media subida, con los codos doblados en ángulo recto, entre 8 y 20 segundos." },
+                        { t: `Dominadas negativas (bajada en 5”): ${n} × 3-5.`, s: "Sube hasta arriba con salto o apoyo y baja frenando 5 segundos. Entre 3 y 5 bajadas por serie." },
+                        { t: `Remo invertido: ${descarga ? 2 : 3} × 8-10.`, s: "Bajo una barra baja o mesa firme, cuerpo recto e inclinado: tira con los brazos hasta llevar el pecho a la barra." },
+                        { t: `Paseo del granjero: ${descarga ? 2 : 3} × 30 m.`, s: "Camina 30 m con un peso bien cargado en cada mano (mancuernas o garrafas): agarre de acero." }
+                    ],
+                    nota: descarga
+                        ? "Semana de descarga: la mitad de series y sin acercarte al fallo. El agarre crece justo en estas semanas 🌱."
+                        : "El agarre crece descansando: deja siempre un día entre sesiones de agarre 😉."
+                };
+            }
+            if (tipo === "agilidad") {
+                const sl = descarga ? 4 : bloque === 3 ? 8 : 6;      // pasadas de slalom
+                const gi = descarga ? 5 : bloque === 3 ? 10 : 8;     // giros por lado
+                const f = descarga ? 2 : 3;                          // series de fuerza
+                return {
+                    items: [
+                        { t: `Slalom 6 conos (2 m): × ${sl} · recuperación 45”.`, s: "6 conos (o botellas) en línea, uno cada 2 m: zigzaguea entre ellos a tope." },
+                        { t: `Giros 180°/360° alrededor de poste: ${gi} por lado.`, s: "Corre hacia el poste (o una silla), rodéalo girando media vuelta o una entera y sal acelerando. Clave: <b>mira a la salida antes de girar</b>." },
+                        { t: `5-10-5: × ${descarga ? 3 : 5} · recuperación 60”.`, s: "Tres marcas en línea separadas 5 m: desde el centro, corre 5 m a un lado, 10 m al otro y 5 m de vuelta al centro." },
+                        { t: `Escalera de agilidad: ${descarga ? 2 : 4} pasadas.`, s: "Pies rápidos, un apoyo en cada hueco. Sin escalera, vale dibujarla con tiza." },
+                        { t: `Sentadilla goblet: ${f} × 10.`, s: "Sentadilla sujetando una pesa o garrafa pegada al pecho." },
+                        { t: `Zancada lateral: ${f} × 10 por lado.`, s: "Paso grande hacia un lado flexionando esa rodilla; la otra pierna queda estirada." },
+                        { t: `Skater jumps: ${f} × 8 por lado.`, s: "Salta de lado a lado aterrizando sobre una sola pierna, como patinando." },
+                        { t: `Plancha ${f} × 45” + plancha lateral ${f} × 30” por lado.`, s: "Cuerpo recto como una tabla apoyada en los antebrazos; en la lateral, de costado sobre un antebrazo." }
+                    ],
+                    nota: descarga
+                        ? "Semana de descarga: menos pasadas y sin buscar el crono. Los giros se afinan igual, con la cabeza fresca 🌱."
+                        : "Cada giro nuevo, en 3 pasos: andando → al 70% → con crono. Así se graba el patrón y los segundos caen solos."
+                };
+            }
             if (tipo === "activo") return {
                 items: [
                     "Movilidad 20’: cadera, hombros, tobillos y columna.",
@@ -15204,34 +15348,88 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 nota: "Hoy tu cuerpo asimila lo entrenado — este descanso también es entrenamiento ✨."
             };
             if (tipo === "carreraB") {
-                const etapas = [
-                    { sem: "Semanas 1-2", txt: "8 × (3’ corriendo / 1’ andando)", como: "Alterna 3 minutos corriendo tranquila con 1 minuto andando, 8 veces (32’ en total)." },
-                    { sem: "Semanas 3-4", txt: "5 × (5’ corriendo / 1’ andando)", como: "Ya son 5 minutos corriendo por 1 andando, 5 veces (30’ en total)." },
-                    { sem: "Semana 5 en adelante", txt: "25-35’ continuos suaves + 4 progresivos de 60 m", como: "Corre seguido 25-35 minutos a ritmo cómodo (que puedas hablar mientras). Al acabar, 4 rectas de 60 m empezando muy suave y terminando a carrera viva, sin llegar al esprint." }
-                ];
-                const idx = semana <= 2 ? 0 : semana <= 4 ? 1 : 2;
-                return {
-                    items: etapas.map((e, i) => i === idx
-                        ? { t: `<b>${e.sem}: ${e.txt}</b> ← esta semana`, s: e.como }
-                        : `${e.sem}: ${e.txt}`),
+                // Semanas 1-4: construir el hábito de correr seguido. A partir de la 5,
+                // el rodaje alterna con UMBRAL (lo que más sube el techo aeróbico del
+                // 1000 en pocas semanas), y descarga en el bloque 4.
+                if (semana <= 2) return {
+                    items: [
+                        { t: "<b>8 × (3’ corriendo / 1’ andando)</b> — 32’ en total.", s: "Alterna 3 minutos corriendo tranquila con 1 minuto andando, 8 veces. Corre a ritmo cómodo: esto construye el hábito, no la velocidad." }
+                    ],
                     regla: "Lo suave, muy suave — la velocidad se entrena en las series."
                 };
+                if (semana <= 4) return {
+                    items: [
+                        { t: "<b>5 × (5’ corriendo / 1’ andando)</b> — 30’ en total.", s: "Ya son 5 minutos corriendo por cada minuto andando, 5 veces. Mismo ritmo cómodo de siempre, solo que aguantando más seguido." }
+                    ],
+                    regla: "Lo suave, muy suave — la velocidad se entrena en las series."
+                };
+                if (fase === "puesta") return {
+                    items: [{ t: "<b>20’ suaves + 4 progresivos de 60 m.</b>", s: "Trote cómodo 20 minutos y 4 rectas de 60 m empezando suave y acabando a carrera viva. Mantener la chispa sin gastar nada." }],
+                    regla: "Puesta a punto: llegar fresca vale más que cualquier entreno de estas 2 semanas ✨."
+                };
+                if (descarga) return {
+                    items: [{ t: "<b>20-25’ continuos muy suaves.</b>", s: "Trote cómodo y sin mirar el reloj: hoy solo se mueven las piernas para recuperar." }],
+                    regla: "Semana de descarga: si dudas entre suave y más suave, más suave 🌿."
+                };
+                if (bloque === 1) return {
+                    items: [
+                        { t: "<b>25-35’ continuos suaves.</b>", s: "Corre seguido a ritmo cómodo, ese al que podrías hablar mientras corres." },
+                        { t: "4 progresivos de 60 m.", s: "Al acabar, 4 rectas de 60 m empezando muy suave y terminando a carrera viva, sin llegar al esprint." }
+                    ],
+                    regla: "Lo suave, muy suave — la velocidad se entrena en las series."
+                };
+                return {
+                    items: [
+                        { t: "10’ suaves para entrar en calor.", s: "Trote muy tranquilo." },
+                        { t: "<b>12-15’ a ritmo umbral</b> — el tramo que más te sube el techo.", s: "Ritmo «cómodamente duro»: sostenible, pero solo podrías decir frases cortas. No es esprintar; es apretar y mantener." },
+                        { t: "5’ suaves para cerrar.", s: "Trote muy suave y estira." }
+                    ],
+                    regla: "El umbral es lo que hace que el 1000 deje de doler tanto en el minuto 3 🔥."
+                };
             }
-            if (tipo === "simulacro") return {
-                items: [
-                    { t: "Calentamiento completo 15’.", s: "Trote + movilidad + 2-3 aceleraciones cortas: llega al crono con el motor encendido." },
-                    { t: "Circuito de agilidad con crono: apunta el tiempo en «Tus marcas».", s: "Monta tu versión del circuito (slalom + giros) y hazla una sola vez a tope, como el día de la prueba." },
-                    { t: "Barra: intento máximo cronometrado — apúntalo también.", s: "Un solo intento, en frío tras descansar del circuito: cuelga, aguanta y apunta los segundos." },
-                    "Estiramientos suaves para cerrar."
-                ],
-                nota: "Ver tu progreso escrito es la mejor motivación: cada simulacro deja huella en la gráfica 📈."
-            };
+            if (tipo === "simulacro") {
+                // 1 de cada 3 semanas: los TRES ejercicios en el orden del examen
+                // (1º circuito · 2º barra · 3º 1000 m). El resto, técnico y submáximo:
+                // buscar el máximo de barra cada semana fatiga el agarre y aplana la gráfica.
+                if (fisSimulacroCompleto(semana)) return {
+                    items: [
+                        { t: "Calentamiento completo 15’.", s: "Trote + movilidad + 2-3 aceleraciones cortas: llega al crono con el motor encendido." },
+                        { t: "<b>1º Circuito de agilidad</b> con crono — apunta el tiempo.", s: "Monta tu versión del circuito (slalom + giros) y hazla una sola vez a tope, como el día de la prueba." },
+                        { t: "Recuperación 5’.", s: "Recupera del todo antes de la barra, igual que en el examen." },
+                        { t: "<b>2º Barra</b>: intento máximo cronometrado — apúntalo.", s: "Un solo intento: cuelga, aguanta y apunta los segundos." },
+                        { t: "Recuperación 8’.", s: "En el examen también pasa un rato entre la barra y la carrera." },
+                        { t: "<b>3º 1000 m cronometrado</b> — apunta el tiempo.", s: "El tercer ejercicio, corrido ya cansada, exactamente como el día de la prueba. Sal controlada: el error más caro es salir demasiado rápido." },
+                        "Estiramientos suaves para cerrar."
+                    ],
+                    nota: "Hoy es el día grande del ciclo: los 3 ejercicios en el orden real. Es la única sesión donde corres el 1000 entero y encima cansada — justo lo que decide la nota 🎯."
+                };
+                return {
+                    items: [
+                        { t: "Calentamiento completo 15’.", s: "Trote + movilidad + 2-3 aceleraciones cortas: llega al crono con el motor encendido." },
+                        { t: "Circuito de agilidad con crono: 2 pasadas — apunta la mejor.", s: "Monta tu versión del circuito (slalom + giros) y hazla a tope, descansando 3-4 minutos entre pasadas." },
+                        { t: "Barra: 3 series de (tu máximo −10”), <b>sin buscar el tope</b>.", s: "Tres aguantes controlados con 2 minutos de descanso. Hoy no se mide el máximo: se acumula trabajo de calidad." },
+                        "Estiramientos suaves para cerrar."
+                    ],
+                    nota: "El máximo de barra se mide en el simulacro completo, no cada semana: el agarre necesita semanas tranquilas para crecer 💪."
+                };
+            }
             return {
                 items: [
                     "Cero entreno: hoy se recarga.",
                     "Dormir 8 h es parte del plan."
                 ]
             };
+        }
+
+        // ¿La sesión de hoy cambia respecto a la misma sesión de la semana pasada?
+        // Se compara el contenido real para poder avisarla en la tarjeta del día: así
+        // nunca tiene que recordar en qué semana va ni qué hizo la vez anterior.
+        function fisCambiaEstaSemana(tipo, fase, semana) {
+            if (semana <= 1) return false;
+            try {
+                const hoy = fisSesion(tipo, fase, semana), antes = fisSesion(tipo, fase, semana - 1);
+                return JSON.stringify(hoy.items) !== JSON.stringify(antes.items);
+            } catch { return false; }
         }
 
         // --- sesiones completadas, racha y semanas cumplidas ---
@@ -15307,11 +15505,16 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             lsSet("fisico:marks", all);
         }
 
-        // --- marcas oficiales (se rellenan a mano desde el BOE; vacías de serie) ---
+        // --- marcas oficiales (baremo Anexo I, mujeres — embebido; ajustable a mano) ---
         function fisOficialRaw() { return lsGet("fisico:oficial", {}); }
+        // Valor guardado por la opositora si lo hay; si no, el baremo oficial por defecto.
+        function fisOficialVal(prueba, k) {
+            const saved = (fisOficialRaw()[prueba.id] || {})[k];
+            if (saved != null && String(saved).trim() !== "") return saved;
+            return (prueba.of || {})[k] || "";
+        }
         function fisOficialGoals(prueba) {
-            const of = fisOficialRaw()[prueba.id] || {};
-            const p = k => { const v = fisParse(prueba.unit, of[k]); return isNaN(v) || v <= 0 ? null : v; };
+            const p = k => { const v = fisParse(prueba.unit, fisOficialVal(prueba, k)); return isNaN(v) || v <= 0 ? null : v; };
             return { m10: p("m10"), m5: p("m5") };
         }
 
@@ -15464,9 +15667,19 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             const S = [];
             const serie = (n, rest, mk) => { for (let i = 1; i <= n; i++) { S.push(mk(i, n)); if (rest) S.push({ rest }); } };
             if (tipo === "carreraA") {
+                const bl = fisBloque(semana);
                 S.push({ ex: "Calentamiento 10’", dur: 600, voz: "Calentamiento: diez minutos de trote muy tranquilo, con movilidad de tobillos, rodillas y caderas." });
-                if (fase === "base") serie(8, 90, i => ({ ex: `200 m · serie ${i} de 8`, manual: true, voz: `Serie ${i} de 8: doscientos metros a ritmo vivo, exigente pero controlado. Toca la pantalla al terminar.` }));
-                else serie(6, 120, i => ({ ex: `400 m · serie ${i} de 6`, manual: true, voz: `Serie ${i} de 6: cuatrocientos metros a ritmo fuerte. Toca la pantalla al terminar.` }));
+                if (fase === "puesta") serie(3, 120, i => ({ ex: `400 m · serie ${i} de 3`, manual: true, voz: `Serie ${i} de 3: cuatrocientos metros a ritmo objetivo del mil. Volumen reducido, llegamos frescas. Toca la pantalla al terminar.` }));
+                else if (bl === 4) serie(4, 90, i => ({ ex: `200 m suelto · serie ${i} de 4`, manual: true, voz: `Serie ${i} de 4: doscientos metros rápidos pero cómodos. Es semana de descarga, no aprietes. Toca la pantalla al terminar.` }));
+                else if (bl === 1) serie(5, 120, i => ({ ex: `400 m · serie ${i} de 5`, manual: true, voz: `Serie ${i} de 5: cuatrocientos metros al ritmo al que quieres correr el mil. Toca la pantalla al terminar.` }));
+                else if (bl === 2) serie(3, 150, i => ({ ex: `600 m · serie ${i} de 3`, manual: true, voz: `Serie ${i} de 3: seiscientos metros a ritmo objetivo. Aguanta el ritmo hasta el final. Toca la pantalla al terminar.` }));
+                else {
+                    S.push({ ex: "800 m a ritmo objetivo", manual: true, voz: "El mil partido. Primero: ochocientos metros al ritmo al que quieres correr el mil. Toca la pantalla al terminar." });
+                    S.push({ rest: 180, name: "Recuperación 3’", voz: "Tres minutos andando." });
+                    S.push({ ex: "400 m a ritmo objetivo", manual: true, voz: "Ahora cuatrocientos metros al mismo ritmo. Toca la pantalla al terminar." });
+                    S.push({ rest: 120, name: "Recuperación 2’", voz: "Dos minutos andando." });
+                    S.push({ ex: "200 m a tope", manual: true, voz: "Y los doscientos finales a tope, vaciándote. Toca la pantalla al terminar." });
+                }
                 serie(3, 30, i => ({ ex: `Skipping alto · 20 m (${i}/3)`, manual: true, voz: "Skipping alto: veinte metros subiendo mucho las rodillas. Toca la pantalla al terminar." }));
                 serie(3, 30, i => ({ ex: `Talones al glúteo · 20 m (${i}/3)`, manual: true, voz: "Talones al glúteo: veinte metros llevando los talones al glúteo. Toca la pantalla al terminar." }));
                 S.push({ ex: "Vuelta a la calma 5’", dur: 300, voz: "Vuelta a la calma: cinco minutos muy suaves, trotando o andando, y estira lo que más hayas notado." });
@@ -15497,14 +15710,30 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                         if (i < n) S.push({ rest: 60, name: "Camina 1’", voz: "Ahora camina un minuto y recupera el aliento." });
                     }
                 } else {
-                    S.push({ ex: "Carrera continua 25-35’", dur: 1800, voz: "Carrera continua suave, unos treinta minutos: a un ritmo al que podrías hablar." });
-                    serie(4, 45, i => ({ ex: `Progresivo 60 m (${i}/4)`, manual: true, voz: "Progresivo de sesenta metros: empieza muy suave y termina a carrera viva, sin llegar al esprint. Toca la pantalla al terminar." }));
+                    const bl = fisBloque(semana);
+                    if (bl === 4 && fase !== "puesta") {
+                        S.push({ ex: "Continuo muy suave 20-25’", dur: 1320, voz: "Semana de descarga: veinte minutos de carrera continua muy suave, sin mirar el reloj. Hoy solo se mueven las piernas." });
+                    } else if (fase === "puesta" || bl === 1) {
+                        S.push({ ex: "Carrera continua 25-35’", dur: 1800, voz: "Carrera continua suave, unos treinta minutos: a un ritmo al que podrías hablar." });
+                        serie(4, 45, i => ({ ex: `Progresivo 60 m (${i}/4)`, manual: true, voz: "Progresivo de sesenta metros: empieza muy suave y termina a carrera viva, sin llegar al esprint. Toca la pantalla al terminar." }));
+                    } else {
+                        S.push({ ex: "Suave 10’", dur: 600, voz: "Diez minutos suaves para entrar en calor." });
+                        S.push({ ex: "Umbral 12-15’", dur: 840, voz: "Ahora el tramo importante: de doce a quince minutos a ritmo umbral. Cómodamente duro: sostenible, pero solo podrías decir frases cortas. Esto es lo que hará que el mil deje de doler tanto en el minuto tres." });
+                        S.push({ ex: "Suave 5’", dur: 300, voz: "Cinco minutos muy suaves para cerrar, y estira." });
+                    }
                 }
             } else if (tipo === "simulacro") {
                 S.push({ ex: "Calentamiento completo 15’", dur: 900, voz: "Calentamiento completo: quince minutos de trote, movilidad y dos o tres aceleraciones cortas." });
-                S.push({ ex: "Circuito de agilidad · a tope", manual: true, voz: "Circuito de agilidad con crono: una sola pasada a tope, como el día de la prueba. Toca la pantalla al terminar y apunta tu tiempo en tus marcas." });
-                S.push({ rest: 300, name: "Recuperación 5’", voz: "Descansa cinco minutos: recupera del todo antes de la barra." });
-                S.push({ ex: "Barra · intento máximo", manual: true, voz: "Barra: un solo intento máximo cronometrado. Cuelga, aguanta y toca la pantalla al soltar. Apunta los segundos." });
+                if (fisSimulacroCompleto(semana)) {
+                    S.push({ ex: "1º Circuito de agilidad · a tope", manual: true, voz: "Primer ejercicio: circuito de agilidad con crono, una sola pasada a tope, como el día de la prueba. Toca la pantalla al terminar y apunta tu tiempo." });
+                    S.push({ rest: 300, name: "Recuperación 5’", voz: "Descansa cinco minutos: recupera del todo antes de la barra." });
+                    S.push({ ex: "2º Barra · intento máximo", manual: true, voz: "Segundo ejercicio: barra, un solo intento máximo cronometrado. Cuelga, aguanta y toca la pantalla al soltar. Apunta los segundos." });
+                    S.push({ rest: 480, name: "Recuperación 8’", voz: "Ocho minutos de recuperación. En el examen también pasa un rato antes de la carrera." });
+                    S.push({ ex: "3º 1000 m cronometrado", manual: true, voz: "Tercer ejercicio: mil metros cronometrados, ya cansada, exactamente como el día de la prueba. Sal controlada, que el error más caro es salir demasiado rápido. Toca la pantalla al cruzar la meta y apunta tu tiempo." });
+                } else {
+                    serie(2, 210, i => ({ ex: `Circuito de agilidad · pasada ${i} de 2`, manual: true, voz: `Circuito de agilidad, pasada ${i} de dos, a tope. Toca la pantalla al terminar y apunta la mejor.` }));
+                    serie(3, 120, i => ({ ex: `Barra submáxima (${i}/3)`, manual: true, voz: `Barra, serie ${i} de tres: aguanta tu máximo menos diez segundos. Hoy no buscamos el tope. Toca la pantalla al soltar.` }));
+                }
                 S.push({ ex: "Estiramientos 5’", dur: 300, voz: "Estiramientos suaves para cerrar la sesión." });
             } else return null; // descanso: hoy no hay locutora 😴
             while (S.length && S[S.length - 1].rest) S.pop();
@@ -15915,6 +16144,30 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             if (f.cur === "puesta") {
                 html += `<div class="fis-puesta">✨ <b>Puesta a punto:</b> recorta ~40% el volumen (menos series, la misma chispa), haz 2 simulacros en estas 2 semanas y regálate 48-72 h de descanso total antes de la prueba. Llegar fresca es llegar volando.</div>`;
             }
+            // --- tarjeta "HOY": lo único que necesita mirar para saber qué le toca ---
+            // Se pinta desde aquí (y no en su propia función) para que el mismo
+            // repintado que dispara marcar una sesión la mantenga siempre en sync.
+            const elHoy = $("fisHoy");
+            if (elHoy) {
+                const dHoy = FIS_DIAS[(hoy.getDay() + 6) % 7];   // 0 = lunes
+                const sHoy = fisSesion(dHoy.tipo, f.cur, semana);
+                const hechaHoy = !!ses[hoyKey];
+                const cambia = fisCambiaEstaSemana(dHoy.tipo, f.cur, semana);
+                const fechaLarga = hoy.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
+                elHoy.innerHTML = `<div class="fis-hoy${hechaHoy ? " done" : ""}">
+                    <span class="fis-hoy-label">HOY · ${fechaLarga} · semana ${semana} del plan</span>
+                    <h3><span class="fis-hoy-ic">${dHoy.icon}</span> ${dHoy.titulo}</h3>
+                    ${cambia ? `<div class="fis-hoy-cambia">⚡ <b>Ojo, esto cambia hoy:</b> la sesión no es la misma que hiciste la semana pasada. Léela entera antes de salir.</div>` : ""}
+                    <ul class="fis-hoy-items">${sHoy.items.map(it => `<li>${typeof it === "string" ? it : it.t}</li>`).join("")}</ul>
+                    ${dHoy.tipo === "descanso"
+                        ? `<div class="fis-hoy-rest">😌 Hoy toca descansar — cuenta igual para la racha.</div>`
+                        : `<label class="fis-hoy-check"><input type="checkbox" data-fis-check="${hoyKey}" ${hechaHoy ? "checked" : ""}> ${hechaHoy ? "Sesión completada ✔ ¡bien hecho!" : "Marcar como completada"}</label>`}
+                </div>`;
+            }
+            const bloque = fisBloque(semana);
+            html += `<div class="fis-ciclo${fisEsDescarga(semana) ? " descarga" : ""}">${fisEsDescarga(semana)
+                ? `🌱 <b>Semana ${semana} · bloque 4 de 4: descarga.</b> Los días son los de siempre, pero hoy toca bajar el volumen a propósito. La mejora se produce asimilando las 3 semanas anteriores, no apretando una cuarta.`
+                : `📈 <b>Semana ${semana} · bloque ${bloque} de 4: subida.</b> La estructura de la semana no cambia nunca —eso es lo que crea el hábito—; lo que sube es la carga dentro de cada sesión. El bloque 4 será de descarga.`}</div>`;
             html += FIS_DIAS.map((d, i) => {
                 const fecha = new Date(mon); fecha.setDate(mon.getDate() + i);
                 const key = fisKey(fecha);
@@ -15924,6 +16177,8 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 const s = fisSesion(d.tipo, f.cur, semana);
                 const guiada = !!fisGuiada(d.tipo, f.cur, semana);
                 const chip40 = f.cur === "puesta" && d.tipo !== "descanso" && d.tipo !== "activo" ? ' <span class="fis-day-chip">−40% volumen</span>' : "";
+                const chipSim = d.tipo === "simulacro" && fisSimulacroCompleto(semana) ? ' <span class="fis-day-chip">3 pruebas · orden de examen</span>' : "";
+                const chipNuevo = fisCambiaEstaSemana(d.tipo, f.cur, semana) ? ' <span class="fis-day-chip nuevo">⚡ Cambia esta semana</span>' : "";
                 const fechaTxt = fecha.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
                 const check = d.tipo === "descanso"
                     ? `<div class="fis-day-check rest">😌 Hoy se descansa — cuenta igual para la racha.</div>`
@@ -15934,7 +16189,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                             <span class="fis-day-ic">${d.icon}</span>
                             <span class="fis-day-head">
                                 <span class="fis-day-name">${d.dia} <span class="fis-day-date">${fechaTxt}</span>${esHoy ? ' <span class="fis-day-hoy">HOY</span>' : ""}</span>
-                                <span class="fis-day-title">${d.titulo}${chip40}</span>
+                                <span class="fis-day-title">${d.titulo}${chipNuevo}${chipSim}${chip40}</span>
                                 <span class="fis-day-tag">${d.tag}</span>
                             </span>
                             <span class="fis-day-state">${hecha ? "✔" : ""}</span>
@@ -15976,7 +16231,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                             ? "¡Marca de 10 conseguida! 🏆 Mantenla brillando."
                             : `Objetivo 10: <b>${fisFmt(p, goals.m10)}</b> — a ${fisFmtDelta(p, best - goals.m10)}; cada semana lo acercas.`;
                     } else if (p.oficial) {
-                        stats += "Cuando salga el BOE, apunta abajo la marca del 10 y aparecerá aquí como línea objetivo.";
+                        stats += "Define abajo la marca del 10 y aparecerá aquí como línea objetivo.";
                     }
                 }
                 const hist = marks.length
@@ -16002,15 +16257,13 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
 
         function fisRenderOficial() {
             const el = $("fisOficial"); if (!el) return;
-            const of = fisOficialRaw();
             el.innerHTML = `<form class="fis-oficial" data-fis-oficial="1">
-                <p class="of-hint">Estos campos vienen vacíos a propósito: cuando se publique la convocatoria en el BOE, copia aquí las marcas oficiales del Anexo I (referencia de la convocatoria anterior: <b>BOE-A-2025-16611</b>). La app las pintará como línea objetivo en tus gráficas.</p>
+                <p class="of-hint">Ya rellenas con el <b>baremo oficial femenino</b> del Anexo I (<b>BOE-A-2025-16611</b>). Estas marcas no cambian de una convocatoria a otra, así que las pintamos de serie como línea objetivo en tus gráficas. Solo tócalas si en tu convocatoria salieran distintas.</p>
                 ${FIS_PRUEBAS.filter(p => p.oficial).map(p => {
-                const o = of[p.id] || {};
                 return `<div class="fis-of-row">
                         <span class="fis-of-name">${p.icon} ${p.nombre}</span>
-                        <label>Marca para el 10<input type="text" data-of="${p.id}:m10" value="${escapeHtml(o.m10 || "")}" placeholder="${p.placeholder}" autocomplete="off"></label>
-                        <label>Marca para apto (5)<input type="text" data-of="${p.id}:m5" value="${escapeHtml(o.m5 || "")}" placeholder="${p.placeholder}" autocomplete="off"></label>
+                        <label>Marca para el 10<input type="text" data-of="${p.id}:m10" value="${escapeHtml(fisOficialVal(p, "m10"))}" placeholder="${p.placeholder}" autocomplete="off"></label>
+                        <label>Marca para apto (5)<input type="text" data-of="${p.id}:m5" value="${escapeHtml(fisOficialVal(p, "m5"))}" placeholder="${p.placeholder}" autocomplete="off"></label>
                     </div>`;
             }).join("")}
                 <button type="submit">Guardar marcas oficiales</button>
@@ -16094,6 +16347,8 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                         <span>🩺 Certificado médico: tenlo listo</span>
                     </div>
                 </div>
+
+                <div id="fisHoy"></div>
 
                 <div class="fis-summary" id="fisStreak"></div>
 
