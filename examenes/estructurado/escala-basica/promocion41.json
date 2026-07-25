@@ -9,7 +9,7 @@
   "preguntas": [
     {
       "n": 1,
-      "enunciado": "El Tratado de Funcionamiento de la Unión Europea dispone que para ejercer las competen- cias de la Unión, las instituciones adoptarán:",
+      "enunciado": "El Tratado de Funcionamiento de la Unión Europea dispone que para ejercer las competencias de la Unión, las instituciones adoptarán:",
       "opciones": [
         "Reglamentos, directivas y decisiones.",
         "Reglamentos, directivas, decisiones, recomendaciones y dictámenes.",
@@ -89,8 +89,8 @@
       "n": 7,
       "enunciado": "¿Qué principio básico de actuación de los miembros de las Fuerzas y Cuerpos de Seguridad encuadraría dentro de la «Adecuación al ordenamiento jurídico»?",
       "opciones": [
-        "Actuar con integridad y dignidad. En particular, deberán de abstenerse de todo acto de corrup- ción y oponerse a él resueltamente.",
-        "Impedir, en el ejercicio de su actuación profesional, cualquier práctica abusiva, arbitraria o discri- minatoria que entrañe violencia física o moral.",
+        "Actuar con integridad y dignidad. En particular, deberán de abstenerse de todo acto de corrupción y oponerse a él resueltamente.",
+        "Impedir, en el ejercicio de su actuación profesional, cualquier práctica abusiva, arbitraria o discriminatoria que entrañe violencia física o moral.",
         "Los miembros de las Fuerzas y Cuerpos de Seguridad deberán identificarse debidamente como tales en el momento de efectuar la detención."
       ],
       "correcta": 0,
@@ -113,11 +113,11 @@
     },
     {
       "n": 9,
-      "enunciado": "Conforme dispone el Código Penal, es una de las circunstancias que atenúa la responsabi- lidad criminal:",
+      "enunciado": "Conforme dispone el Código Penal, es una de las circunstancias que atenúa la responsabilidad criminal:",
       "opciones": [
         "Obrar por causas o estímulos tan poderosos que hayan producido arrebato, obcecación u otro estado pasional de entidad semejante.",
         "Obrar superado por miedo insuperable.",
-        "El que al tiempo de cometer la infracción penal se halle en estado de intoxicación plena por el consumo de bebidas alcohólicas, drogas tóxicas, estupefacientes, sustancias psicotrópicas u otras que produzcan efectos análogos, siempre que no haya sido buscado con el propósito de cometerla o no se hubiese previsto o debido prever su comisión, o se halle bajo la influencia de un síndrome de absti- nencia, a causa de su dependencia de tales sustancias, que le impida comprender la ilicitud del hecho o actuar conforme a esa comprensión."
+        "El que al tiempo de cometer la infracción penal se halle en estado de intoxicación plena por el consumo de bebidas alcohólicas, drogas tóxicas, estupefacientes, sustancias psicotrópicas u otras que produzcan efectos análogos, siempre que no haya sido buscado con el propósito de cometerla o no se hubiese previsto o debido prever su comisión, o se halle bajo la influencia de un síndrome de abstinencia, a causa de su dependencia de tales sustancias, que le impida comprender la ilicitud del hecho o actuar conforme a esa comprensión."
       ],
       "correcta": 0,
       "dificultad": "facil",
@@ -126,7 +126,7 @@
     },
     {
       "n": 10,
-      "enunciado": "Según la Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgá- nica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía, ¿de quién depende la Brigada Central de Fraudes Informáticos?",
+      "enunciado": "Según la Orden INT/859/2023, de 21 de julio, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía, ¿de quién depende la Brigada Central de Fraudes Informáticos?",
       "opciones": [
         "De la Unidad de Investigación Tecnológica.",
         "De la Unidad Central de Ciberdelincuencia.",
@@ -152,7 +152,7 @@
     },
     {
       "n": 12,
-      "enunciado": "Dentro de los sistemas de seguridad en el vehículo, ¿Cuál no pertenece al sistema de se- guridad pasiva?",
+      "enunciado": "Dentro de los sistemas de seguridad en el vehículo, ¿Cuál no pertenece al sistema de seguridad pasiva?",
       "opciones": [
         "Control de tracción.",
         "Airbag.",
@@ -165,11 +165,11 @@
     },
     {
       "n": 13,
-      "enunciado": "¿Qué competencias, respecto al control y servicios privados de seguridad, de las expues- tas pueden ser desarrolladas en la comunidad autónoma de Cataluña por su policía autonómica?",
+      "enunciado": "¿Qué competencias, respecto al control y servicios privados de seguridad, de las expuestas pueden ser desarrolladas en la comunidad autónoma de Cataluña por su policía autonómica?",
       "opciones": [
-        "Ninguna, ya que el control y servicios privados de seguridad es competencia exclusiva de la Poli- cía Nacional.",
+        "Ninguna, ya que el control y servicios privados de seguridad es competencia exclusiva de la Policía Nacional.",
         "La habilitación de la uniformidad, distintivos y medios de defensa del personal de seguridad.",
-        "La inspección y sanción de los centros de formación del personal de seguridad privada que ten- gan su sede en la comunidad autónoma de Cataluña."
+        "La inspección y sanción de los centros de formación del personal de seguridad privada que tengan su sede en la comunidad autónoma de Cataluña."
       ],
       "correcta": 2,
       "dificultad": "media",
@@ -182,7 +182,7 @@
       "opciones": [
         "El Gobierna está sujeto a la Constitución y al resto del ordenamiento jurídico en toda su actuación.",
         "Todos los actos y omisiones del Gobierno están sometidos al control político de las Cortes Generales.",
-        "Los actos que constituyan una vía de hecho del Gobierno y de los órganos y autoridades regula- dos en la presente Ley son impugnables ante el Tribunal Constitucional."
+        "Los actos que constituyan una vía de hecho del Gobierno y de los órganos y autoridades regulados en la presente Ley son impugnables ante el Tribunal Constitucional."
       ],
       "correcta": 2,
       "dificultad": "dificil",
@@ -282,7 +282,7 @@
     },
     {
       "n": 22,
-      "enunciado": "Conforme a las publicaciones del Plan Nacional sobre Drogas, ¿Cuáles de las nuevas sus- tancias psicoactivas, asociadas a prácticas sexuales de riesgo, es un potente depresor del siste- ma nervioso central que inicialmente puede producir sensación de bienestar y euforia, es hidro- soluble y es conocido como «éxtasis líquido»?",
+      "enunciado": "Conforme a las publicaciones del Plan Nacional sobre Drogas, ¿Cuáles de las nuevas sustancias psicoactivas, asociadas a prácticas sexuales de riesgo, es un potente depresor del sistema nervioso central que inicialmente puede producir sensación de bienestar y euforia, es hidrosoluble y es conocido como «éxtasis líquido»?",
       "opciones": [
         "GHB.",
         "Ketamina.",
@@ -295,7 +295,7 @@
     },
     {
       "n": 23,
-      "enunciado": "El artículo 4 del Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Regla- mento de Armas, prohíbe la fabricación, importación, circulación, publicidad, compraventa, te- nencia y uso de las siguientes armas o de sus imitaciones:",
+      "enunciado": "El artículo 4 del Real Decreto 137/1993, de 29 de enero, por el que se aprueba el Reglamento de Armas, prohíbe la fabricación, importación, circulación, publicidad, compraventa, tenencia y uso de las siguientes armas o de sus imitaciones:",
       "opciones": [
         "Las ballestas.",
         "Las pistolas y revólveres que lleven adaptado un culatín.",
@@ -308,7 +308,7 @@
     },
     {
       "n": 24,
-      "enunciado": "Según las clases de empleados públicos que efectúa el artículo 8 del Real Decreto Legis- lativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, se clasifican en:",
+      "enunciado": "Según las clases de empleados públicos que efectúa el artículo 8 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, se clasifican en:",
       "opciones": [
         "Funcionario laboral fijo, funcionario eventual y funcionario fijo-discontinuo.",
         "Funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual.",
@@ -334,7 +334,7 @@
     },
     {
       "n": 26,
-      "enunciado": "Atendiendo a la Ley Orgánica 4/2015, de 30 marzo, de protección de la seguridad ciudada- na, al realizar un registro corporal externo se respetarán los principios de:",
+      "enunciado": "Atendiendo a la Ley Orgánica 4/2015, de 30 marzo, de protección de la seguridad ciudadana, al realizar un registro corporal externo se respetarán los principios de:",
       "opciones": [
         "Proporcionalidad, igualdad de trato, no discriminación e injerencia mínima.",
         "Necesidad, idoneidad, proporcionalidad, no discriminación.",
@@ -347,7 +347,7 @@
     },
     {
       "n": 27,
-      "enunciado": "Según dispone el artículo 14 del Real Decreto 39/1997, por el que se aprueba el Regla- mento de los Servicios de Prevención, el empresario deberá constituir un servicio de prevención propio cuando se trate de empresas que cuenten con más de:",
+      "enunciado": "Según dispone el artículo 14 del Real Decreto 39/1997, por el que se aprueba el Reglamento de los Servicios de Prevención, el empresario deberá constituir un servicio de prevención propio cuando se trate de empresas que cuenten con más de:",
       "opciones": [
         "150 trabajadores.",
         "250 trabajadores.",
@@ -360,7 +360,7 @@
     },
     {
       "n": 28,
-      "enunciado": "La Comisión Nacional para la Protección de las Infraestructuras Críticas se creó como ór- gano colegiado adscrito a:",
+      "enunciado": "La Comisión Nacional para la Protección de las Infraestructuras Críticas se creó como órgano colegiado adscrito a:",
       "opciones": [
         "Centro Nacional para la Protección de las Infraestructuras Críticas.",
         "A la Secretaría de Estado de Seguridad.",
@@ -373,7 +373,7 @@
     },
     {
       "n": 29,
-      "enunciado": "Un individuo que paseando por la calle se encuentra un juego de llaves en el que en el llavero pone su dirección, el hombre se presenta en la dirección indicada, abre la puerta con las llaves que se ha encontrado y sustrae un teléfono móvil de un valor de 400 euros, posteriormente cierra la puerta y abandona el lugar, esta persona ¿Qué delito estaría come- tiendo?",
+      "enunciado": "Un individuo que paseando por la calle se encuentra un juego de llaves en el que en el llavero pone su dirección, el hombre se presenta en la dirección indicada, abre la puerta con las llaves que se ha encontrado y sustrae un teléfono móvil de un valor de 400 euros, posteriormente cierra la puerta y abandona el lugar, esta persona ¿Qué delito estaría cometiendo?",
       "opciones": [
         "Delito de robo con fuerza en las cosas.",
         "Delito de hurto.",
@@ -389,7 +389,7 @@
       "enunciado": "¿A quién corresponde la función de actuar como Unidad Nacional de la Agencia de la Unión Europea para la Formación Policial (CEPOL)?",
       "opciones": [
         "La División de Formación y Perfeccionamiento de la Dirección General de la Policía.",
-        "La Unidad de Coordinación Internacional de la División de Cooperación Internacional de la Direc- ción General de la Policía.",
+        "La Unidad de Coordinación Internacional de la División de Cooperación Internacional de la Dirección General de la Policía.",
         "La Dirección General de Coordinación y Estudios."
       ],
       "correcta": 2,
@@ -451,7 +451,7 @@
     },
     {
       "n": 35,
-      "enunciado": "¿Cómo se denomina el fraude basado en la ingeniería social y en la suplantación de iden- tidad, que se realiza a través de llamadas telefónicas, donde el atacante suplanta la identidad de una empresa, organización o incluso de una persona de confianza, con el fin de obtener informa- ción personal de sus víctimas?",
+      "enunciado": "¿Cómo se denomina el fraude basado en la ingeniería social y en la suplantación de identidad, que se realiza a través de llamadas telefónicas, donde el atacante suplanta la identidad de una empresa, organización o incluso de una persona de confianza, con el fin de obtener información personal de sus víctimas?",
       "opciones": [
         "Smishing.",
         "Phishing.",
@@ -464,9 +464,9 @@
     },
     {
       "n": 36,
-      "enunciado": "La Dirección General de la Policía garantiza la vigilancia periódica de la salud de los fun- cionarios del Cuerpo Nacional de Policía. Los reconocimientos médicos establecidos para la pre- vención de los riesgos inherentes a la función policial serán:",
+      "enunciado": "La Dirección General de la Policía garantiza la vigilancia periódica de la salud de los funcionarios del Cuerpo Nacional de Policía. Los reconocimientos médicos establecidos para la prevención de los riesgos inherentes a la función policial serán:",
       "opciones": [
-        "Siempre de carácter voluntario y en todo caso se deberá optar por la realización de aquellos recono- cimientos o pruebas que causen las menores molestias al funcionario y que sean proporcionales al riesgo.",
+        "Siempre de carácter voluntario y en todo caso se deberá optar por la realización de aquellos reconocimientos o pruebas que causen las menores molestias al funcionario y que sean proporcionales al riesgo.",
         "Siempre de carácter obligatorio y la negativa injustificada a someterse a reconocimiento médico, prueba de alcoholemia o de detección de drogas tóxicas, estupefacientes o sustancias psicotrópicas, legítimamente ordenadas, a fin de constatar la capacidad psicofísica para prestar servicio, comportará una falta disciplinaria muy grave.",
         "Los reconocimientos médicos serán voluntarios, pudiendo resultar obligatorios en determinados casos."
       ],
@@ -480,7 +480,7 @@
       "enunciado": "Para adquirirse la condición de funcionario de carrera se debe cumplir unos requisitos de forma sucesiva. Conforme dispone el Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, ¿Cuál de las alternativas propuestas es el último de lo requisitos que debe cumplir para ser nombrado como tal?",
       "opciones": [
         "Nombramiento por el órgano o autoridad competente, que será publicado en el Diario Oficial correspondiente.",
-        "Acto de acatamiento de la Constitución, y, en su caso, del Estatuto de Autonomía correspondien- te y del resto del ordenamiento jurídico.",
+        "Acto de acatamiento de la Constitución, y, en su caso, del Estatuto de Autonomía correspondiente y del resto del ordenamiento jurídico.",
         "Toma de posesión dentro del plazo que se establezca.  8 PROMOCIÓN N.º 41 "
       ],
       "correcta": 2,
@@ -555,7 +555,7 @@
     },
     {
       "n": 43,
-      "enunciado": "¿Qué tipo de visado es aquel que habilita a una persona extranjera para trabajar por cuen- ta ajena hasta nueve meses es un período de doce meses consecutivos?",
+      "enunciado": "¿Qué tipo de visado es aquel que habilita a una persona extranjera para trabajar por cuenta ajena hasta nueve meses es un período de doce meses consecutivos?",
       "opciones": [
         "Visado de estancia.",
         "Visado de residencia y trabajo de temporada.",
@@ -570,9 +570,9 @@
       "n": 44,
       "enunciado": "La Ley /2014, de 4 de abril, de Seguridad Privada, regula las obligaciones generales de los despachos de detectives privados, entre los que se encuentra:",
       "opciones": [
-        "Facilitar de forma inmediata a la autoridad gubernativa o a las Fuerzas y Cuerpos de Seguridad competentes las informaciones sobre hechos administrativos de que tuvieren conocimiento en rela- ción con su trabajo.",
+        "Facilitar de forma inmediata a la autoridad gubernativa o a las Fuerzas y Cuerpos de Seguridad competentes las informaciones sobre hechos administrativos de que tuvieren conocimiento en relación con su trabajo.",
         "No informar a sus clientes sobre las incidencias relativas a los asuntos que les hubieren encargado.",
-        "Formalizar por escrito un contrato por cada servicio de investigación que les sea encargado, co- municando su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente en la forma que reglamentariamente se determine.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+        "Formalizar por escrito un contrato por cada servicio de investigación que les sea encargado, comunicando su celebración al Ministerio del Interior o, en su caso, al órgano autonómico competente en la forma que reglamentariamente se determine.  9  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
       "dificultad": "media",
@@ -581,7 +581,7 @@
     },
     {
       "n": 45,
-      "enunciado": "Aquel que con ánimo de lucro y valiéndose de alguna manipulación informática o artificio semejante, consigan una transferencia no consentida de cualquier activo patrimonial en perjui- cio de otro, estará cometiendo un delito de:",
+      "enunciado": "Aquel que con ánimo de lucro y valiéndose de alguna manipulación informática o artificio semejante, consigan una transferencia no consentida de cualquier activo patrimonial en perjuicio de otro, estará cometiendo un delito de:",
       "opciones": [
         "Estafa.",
         "Apropiación indebida.",
@@ -611,7 +611,7 @@
       "opciones": [
         "En ningún caso.",
         "Siempre que se hallen en el ejercicio de sus funciones.",
-        "Al efecto de su protección penal, cuando se cometa delito de atentado, empleando en su eje- cución armas de fuego, explosivos u otros medios de agresión de análoga peligrosidad, que puedan poner en peligro grave la integridad física de los mismos."
+        "Al efecto de su protección penal, cuando se cometa delito de atentado, empleando en su ejecución armas de fuego, explosivos u otros medios de agresión de análoga peligrosidad, que puedan poner en peligro grave la integridad física de los mismos."
       ],
       "correcta": 1,
       "dificultad": "facil",
@@ -648,9 +648,9 @@
       "n": 50,
       "enunciado": "Los vehículos celulares para el transporte de detenidos, presos y penados de hasta nueve plazas, incluido el conductor y escolta, deberán estar dotados de:",
       "opciones": [
-        "Un extintor de polvo de 6 kilogramos, situado de forma que sea fácilmente accesible a los miem- bros de la escolta.",
-        "Un extintor de polvo de 8 kilogramos, situado de forma que sea fácilmente accesible a los miem- bros de la escolta.",
-        "Un extintor de polvo de 12 kilogramos, situado de forma que sea fácilmente accesible a los miem- bros de la escolta."
+        "Un extintor de polvo de 6 kilogramos, situado de forma que sea fácilmente accesible a los miembros de la escolta.",
+        "Un extintor de polvo de 8 kilogramos, situado de forma que sea fácilmente accesible a los miembros de la escolta.",
+        "Un extintor de polvo de 12 kilogramos, situado de forma que sea fácilmente accesible a los miembros de la escolta."
       ],
       "correcta": 0,
       "dificultad": "media",
@@ -672,7 +672,7 @@
     },
     {
       "n": 52,
-      "enunciado": "Según dispone el artículo 10 de la Ley Orgánica 4/2010, de 20 de mayo, del Régimen disci- plinario del Cuerpo Nacional de Policía, la sanción de traslado forzoso puede imponerse:",
+      "enunciado": "Según dispone el artículo 10 de la Ley Orgánica 4/2010, de 20 de mayo, del Régimen disciplinario del Cuerpo Nacional de Policía, la sanción de traslado forzoso puede imponerse:",
       "opciones": [
         "Sólo por la comisión de una falta muy grave.",
         "Por la comisión de una falta grave o muy grave, en función de las circunstancias concurrentes.",
@@ -698,11 +698,11 @@
     },
     {
       "n": 54,
-      "enunciado": "Se impondrán las mismas penas del delito de atentado a quienes acometan, empleen vio- lencia o intimiden gravemente a:",
+      "enunciado": "Se impondrán las mismas penas del delito de atentado a quienes acometan, empleen violencia o intimiden gravemente a:",
       "opciones": [
-        "Personal de seguridad privada, debidamente identificado, que desarrolle actividades de seguri- dad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
-        "Bomberos que estuvieran interviniendo con ocasión de un siniestro, calamidad pública o situa- ción de emergencia, con la finalidad de atentar contra su integridad física.",
-        "Miembros del persona sanitario que estuvieran interviniendo con ocasión de un siniestro, cala- midad pública o situación de emergencia, con la finalizad de atenta contra su integridad física o moral."
+        "Personal de seguridad privada, debidamente identificado, que desarrolle actividades de seguridad privada en cooperación y bajo el mando de las Fuerzas y Cuerpos de Seguridad.",
+        "Bomberos que estuvieran interviniendo con ocasión de un siniestro, calamidad pública o situación de emergencia, con la finalidad de atentar contra su integridad física.",
+        "Miembros del persona sanitario que estuvieran interviniendo con ocasión de un siniestro, calamidad pública o situación de emergencia, con la finalizad de atenta contra su integridad física o moral."
       ],
       "correcta": 1,
       "dificultad": "facil",
@@ -711,7 +711,7 @@
     },
     {
       "n": 55,
-      "enunciado": "El Foro Social Mundial es un evento internacional que busca promover el diálogo y la re- flexión crítica sobre las alternativas al modelo económico neoliberal. Desde su primera edición, ha reunido movimientos sociales y organizaciones de todo el Mundo. ¿Dónde y el qué año se celebró el primer Foro Social Mundial?",
+      "enunciado": "El Foro Social Mundial es un evento internacional que busca promover el diálogo y la reflexión crítica sobre las alternativas al modelo económico neoliberal. Desde su primera edición, ha reunido movimientos sociales y organizaciones de todo el Mundo. ¿Dónde y el qué año se celebró el primer Foro Social Mundial?",
       "opciones": [
         "Bombay, India (2004).",
         "Porto Alegre, Brasil (2001).",
@@ -737,7 +737,7 @@
     },
     {
       "n": 57,
-      "enunciado": "Visitar los lugares donde se encuentren o pudieran encontrarse personas privadas de su libertad en cada Estado Parte y hacer recomendaciones a los Estados Partes en cuanto a la pro- tección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, constituye un mandato de:",
+      "enunciado": "Visitar los lugares donde se encuentren o pudieran encontrarse personas privadas de su libertad en cada Estado Parte y hacer recomendaciones a los Estados Partes en cuanto a la protección de las personas privadas de su libertad contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, constituye un mandato de:",
       "opciones": [
         "El Subcomité para la Prevención de la Tortura.",
         "Amnistía Internacional.",
@@ -789,7 +789,7 @@
     },
     {
       "n": 61,
-      "enunciado": "En virtud de los dispuesto en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, la situación en la que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situa- ción comparable, se considera:",
+      "enunciado": "En virtud de los dispuesto en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, la situación en la que se encuentra una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo, de manera menos favorable que otra en situación comparable, se considera:",
       "opciones": [
         "Discriminación interseccional por razón de sexo.",
         "Discriminación directa por razón de sexo.",
@@ -817,9 +817,9 @@
       "n": 63,
       "enunciado": "Respecto al delito de lesiones, ¿Cuál de las afirmaciones que se exponen es la correcta?",
       "opciones": [
-        "En los delitos de lesiones, si ha mediado consentimiento de la víctima menor de edad, se impon- drá la pena inferior en uno o dos grados.",
+        "En los delitos de lesiones, si ha mediado consentimiento de la víctima menor de edad, se impondrá la pena inferior en uno o dos grados.",
         "Se considerarán cometidas por imprudencia grave las lesiones causadas por el que conduzca un vehículo a motor a una velocidad superior en sesenta kilómetros por hora en vía urbana.",
-        "La provocación, la conspiración y la proposición para cometer un delito de lesiones no está pre- vista en el código penal."
+        "La provocación, la conspiración y la proposición para cometer un delito de lesiones no está prevista en el código penal."
       ],
       "correcta": 1,
       "dificultad": "facil",
@@ -828,7 +828,7 @@
     },
     {
       "n": 64,
-      "enunciado": "La tenencia de armas de fuego reglamentadas, careciendo de las licencias o permisos ne- cesarios, será castigada:",
+      "enunciado": "La tenencia de armas de fuego reglamentadas, careciendo de las licencias o permisos necesarios, será castigada:",
       "opciones": [
         "Más gravemente si se tratara de armas cortas.",
         "Se castigará con la misma pena, independientemente se trate de armas cortas o armas largas.",
@@ -841,7 +841,7 @@
     },
     {
       "n": 65,
-      "enunciado": "Conforme dispone el Real Decreto 865/2001, de 20 de julio, por el que se aprueba el Re- glamento de reconocimiento del estatuto de apátrida, cuando la solicitud de reconocimiento del estatuto de apátrida se inicie por el interesado, será presentada ante:",
+      "enunciado": "Conforme dispone el Real Decreto 865/2001, de 20 de julio, por el que se aprueba el Reglamento de reconocimiento del estatuto de apátrida, cuando la solicitud de reconocimiento del estatuto de apátrida se inicie por el interesado, será presentada ante:",
       "opciones": [
         "La Oficina de Asilo y Refugio.",
         "La Oficina de Asilo y Refugio o las Oficinas de Extranjería.",
@@ -854,7 +854,7 @@
     },
     {
       "n": 67,
-      "enunciado": "Conforme regula la Orden INT/2573/2015, los vehículos celulares para el transporte de deteni- dos, presos y penados de hasta nueve plazas, incluido el conductor y escolta irán provistos de una cli- matización que permita mantener una temperatura aproximada en los distintos habitáculos entre:",
+      "enunciado": "Conforme regula la Orden INT/2573/2015, los vehículos celulares para el transporte de detenidos, presos y penados de hasta nueve plazas, incluido el conductor y escolta irán provistos de una climatización que permita mantener una temperatura aproximada en los distintos habitáculos entre:",
       "opciones": [
         "15 ºC y 25ºC.",
         "18 ºC y 28ºC.",
@@ -906,7 +906,7 @@
     },
     {
       "n": 71,
-      "enunciado": "Según el artículo 55 de la Ley 40/2015 de Régimen Jurídico del Sector Público, se conside- ran órganos superiores en la organización central de la Administración General del Estado:",
+      "enunciado": "Según el artículo 55 de la Ley 40/2015 de Régimen Jurídico del Sector Público, se consideran órganos superiores en la organización central de la Administración General del Estado:",
       "opciones": [
         "Los Ministros, los Secretarios de Estado y los Subsecretarios.",
         "Los Ministros, los Secretarios de Estado y los Directores Generales.",
@@ -919,11 +919,11 @@
     },
     {
       "n": 72,
-      "enunciado": "Conforme figura en la Constitución Española, y concretamente en el artículo 162.1 a), es- tán legitimados para interponer el recurso de inconstitucionalidad:",
+      "enunciado": "Conforme figura en la Constitución Española, y concretamente en el artículo 162.1 a), están legitimados para interponer el recurso de inconstitucionalidad:",
       "opciones": [
         "Toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.",
         "El Defensor del Pueblo, el Ministerio Fiscal así como Jueces y Magistrados.",
-        "El Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos cole- giados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
+        "El Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.  13  ESCALA BÁSICA DE LA POLICÍA NACIONAL"
       ],
       "correcta": 2,
       "dificultad": "media",
@@ -958,7 +958,7 @@
     },
     {
       "n": 75,
-      "enunciado": "El nacimiento determina la personalidad, pero el concebido se tiene por nacido para to- dos los efectos que le sean favorables, siempre que nazca con las condiciones que expresa el Código Civil, concretamente en su artículo 30, que dice:",
+      "enunciado": "El nacimiento determina la personalidad, pero el concebido se tiene por nacido para todos los efectos que le sean favorables, siempre que nazca con las condiciones que expresa el Código Civil, concretamente en su artículo 30, que dice:",
       "opciones": [
         "Se reputará nacido el feto que tuviere figura humana y viviere veinticuatro horas enteramente desprendido del claustro materno.",
         "Para los efectos civiles, sólo se reputará nacido el feto que viviere veinticuatro horas enteramente deprendido del seno materno.",
@@ -971,7 +971,7 @@
     },
     {
       "n": 76,
-      "enunciado": "¿Qué organismo recogido en el RD 2/2006, de 16 de enero, por el que se establecen nor- mas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacio- nal de Policía tiene la función de promover iniciativas sobre métodos y procedimientos para la efectiva prevención de los riesgos, proponiendo la mejora de las condiciones o la corrección de la existentes?",
+      "enunciado": "¿Qué organismo recogido en el RD 2/2006, de 16 de enero, por el que se establecen normas sobre prevención de riesgos laborales en la actividad de los funcionarios del Cuerpo Nacional de Policía tiene la función de promover iniciativas sobre métodos y procedimientos para la efectiva prevención de los riesgos, proponiendo la mejora de las condiciones o la corrección de la existentes?",
       "opciones": [
         "La Comisión de seguridad y salud laboral policial.",
         "El Comité de seguridad y salud.",
@@ -984,7 +984,7 @@
     },
     {
       "n": 77,
-      "enunciado": "Tal y como figura en el artículo 5 del Instrumento de ratificación del Protocolo facul- tativo a la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degra- dantes, ¿de cuántos miembros estará compuesto el Subcomité para la Prevención, una vez que se haya registrado la quincuagésima ratificación del presente Protocolo o adhesión a él?",
+      "enunciado": "Tal y como figura en el artículo 5 del Instrumento de ratificación del Protocolo facultativo a la Convención contra la tortura y otros tratos o penas crueles, inhumanos o degradantes, ¿de cuántos miembros estará compuesto el Subcomité para la Prevención, una vez que se haya registrado la quincuagésima ratificación del presente Protocolo o adhesión a él?",
       "opciones": [
         "10 miembros.",
         "15 miembros.",
@@ -1010,11 +1010,11 @@
     },
     {
       "n": 79,
-      "enunciado": "Las infracciones tipificadas en la Ley Orgánica 4/2015 de protección de seguridad ciuda- dana se clasifican en muy graves, graves y leves. Entre las infracciones graves se encuentra:",
+      "enunciado": "Las infracciones tipificadas en la Ley Orgánica 4/2015 de protección de seguridad ciudadana se clasifican en muy graves, graves y leves. Entre las infracciones graves se encuentra:",
       "opciones": [
-        "La proyección de haces de luz, mediante cualquier tipo de dispositivo, sobre los pilotos o conduc- tores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes.",
+        "La proyección de haces de luz, mediante cualquier tipo de dispositivo, sobre los pilotos o conductores de medios de transporte que puedan deslumbrarles o distraer su atención y provocar accidentes.",
         "La celebración de espectáculos públicos o actividades recreativas quebrantando la prohibición o suspensión ordenada por al autoridad correspondiente por razones de seguridad pública.",
-        "La perturbación del desarrollo de una reunión o manifestación lícita, cuando no constituya infrac- ción penal."
+        "La perturbación del desarrollo de una reunión o manifestación lícita, cuando no constituya infracción penal."
       ],
       "correcta": 2,
       "dificultad": "media",
@@ -1023,7 +1023,7 @@
     },
     {
       "n": 80,
-      "enunciado": "¿Cuál de las siguientes leyes hace referencia a la Ley de promoción de la autonomía perso- nal y atención a las personas en situación de dependencia?",
+      "enunciado": "¿Cuál de las siguientes leyes hace referencia a la Ley de promoción de la autonomía personal y atención a las personas en situación de dependencia?",
       "opciones": [
         "Ley 39/2006.",
         "Ley 40/2006.",
@@ -1075,7 +1075,7 @@
     },
     {
       "n": 84,
-      "enunciado": "Según el artículo 16.2 de la LO 4/2015, de 30 de marzo, de protección de seguridad ciu- dadana, cuando no fuera posible la identificación por cualquier medio, los agentes, para impe- dir la comisión de un delito o al objeto de sancionar una infracción, podrán requerir a quienes no pudieran ser identificados que les acompañen a las dependencias policiales más próximas en las que se disponga de los medios adecuados para la práctica de esta diligencia, a los solo efectos de su identificación y por el tiempo estrictamente necesario, que en ningún caso podrá superar:",
+      "enunciado": "Según el artículo 16.2 de la LO 4/2015, de 30 de marzo, de protección de seguridad ciudadana, cuando no fuera posible la identificación por cualquier medio, los agentes, para impedir la comisión de un delito o al objeto de sancionar una infracción, podrán requerir a quienes no pudieran ser identificados que les acompañen a las dependencias policiales más próximas en las que se disponga de los medios adecuados para la práctica de esta diligencia, a los solo efectos de su identificación y por el tiempo estrictamente necesario, que en ningún caso podrá superar:",
       "opciones": [
         "6 horas.",
         "8 horas.",
@@ -1088,7 +1088,7 @@
     },
     {
       "n": 85,
-      "enunciado": "Android es un sistema operativo que se diseñó especialmente para ser utilizado en dispo- sitivos móviles ¿En qué sistema operativo está basado?",
+      "enunciado": "Android es un sistema operativo que se diseñó especialmente para ser utilizado en dispositivos móviles ¿En qué sistema operativo está basado?",
       "opciones": [
         "Windows.",
         "Núcleo Linux.",
@@ -1104,7 +1104,7 @@
       "enunciado": "Indique cuál de las siguientes frases está escrita correctamente:",
       "opciones": [
         "El reciclaje adecuado de deshechos electrónicos reduce la contaminación por metales pesados.",
-        "Tras un largo día de trabajo, finalmente se sentó en el sillón y pudo disfrutar agusto de la tranqui- lidad del hogar.",
+        "Tras un largo día de trabajo, finalmente se sentó en el sillón y pudo disfrutar agusto de la tranquilidad del hogar.",
         "La genialidad de Salvador Dalí es un caso aparte en la historia del arte."
       ],
       "correcta": 2,
@@ -1127,7 +1127,7 @@
     },
     {
       "n": 88,
-      "enunciado": "¿Cómo se denomina el sesgo cognitivo por el que un analista de inteligencia tiende a con- fiar más en la primera información que ha recibido para la toma posterior de decisiones en de- trimento de otras?",
+      "enunciado": "¿Cómo se denomina el sesgo cognitivo por el que un analista de inteligencia tiende a confiar más en la primera información que ha recibido para la toma posterior de decisiones en detrimento de otras?",
       "opciones": [
         "Sesgo de punto ciego.",
         "Sesgo de efecto anclaje.",
@@ -1142,9 +1142,9 @@
       "n": 89,
       "enunciado": "Señale cuál de las siguientes alternativas constituiría una agravante respecto del delito del descubrimiento y revelación de secretos, por parte de aquel que, sin consentimiento alguno, descubra los secretos o vulnere la intimidad de un tercero:",
       "opciones": [
-        "Se cometa por persona encargadas o responsables de los ficheros, soportes informáticos, electró- nicos o telemáticos, archivos o registros.",
-        "Aquel que, sin estar autorizado, se apodere, utilice o modifique, en perjuicio de un tercero, datos reservados de carácter personal o familiar de otro que se hallen registrados en ficheros o soportes in- formáticos, electrónicos o telemáticos, o en cualquier otro tipo de archivo o registro público.",
-        "Aquel que, sin estar autorizado, acceda por cualquier medio datos reservados de carácter perso- nal o los altere o utilice en perjuicio del titular de los datos o de un tercero."
+        "Se cometa por persona encargadas o responsables de los ficheros, soportes informáticos, electrónicos o telemáticos, archivos o registros.",
+        "Aquel que, sin estar autorizado, se apodere, utilice o modifique, en perjuicio de un tercero, datos reservados de carácter personal o familiar de otro que se hallen registrados en ficheros o soportes informáticos, electrónicos o telemáticos, o en cualquier otro tipo de archivo o registro público.",
+        "Aquel que, sin estar autorizado, acceda por cualquier medio datos reservados de carácter personal o los altere o utilice en perjuicio del titular de los datos o de un tercero."
       ],
       "correcta": 0,
       "dificultad": "media",
@@ -1153,7 +1153,7 @@
     },
     {
       "n": 90,
-      "enunciado": "De acuerdo con lo establecido en la Instrucción número 1/2024 de la Secretaría de Estado de Seguridad por la que se aprueba el «procedimiento integral de la detención policial», en rela- ción con el empleo de la fuerza en la detención, ¿Qué principio debe entenderse como «… la ne- cesidad o no de recurrir a la coacción física en la detención, de acuerdo con los datos conocidos sobre la situación y el sujeto en cuestión»? :",
+      "enunciado": "De acuerdo con lo establecido en la Instrucción número 1/2024 de la Secretaría de Estado de Seguridad por la que se aprueba el «procedimiento integral de la detención policial», en relación con el empleo de la fuerza en la detención, ¿Qué principio debe entenderse como «… la necesidad o no de recurrir a la coacción física en la detención, de acuerdo con los datos conocidos sobre la situación y el sujeto en cuestión»? :",
       "opciones": [
         "Oportunidad.",
         "Congruencia.",
@@ -1166,7 +1166,7 @@
     },
     {
       "n": 91,
-      "enunciado": "La Ley de Enjuiciamiento Criminal, en su artículo 588 septies a, dice que el juez competente podrá autorizar la utilización de datos de identificación y códigos, así como la instalación de un software, que permitan, de forma remota y telemática, el examen a distancia y sin conocimiento del titular o usuario del contenido de un ordenador, dispositivo electrónico, sistema informático, instrumento de almace- namiento masivo de datos informáticos o base de datos, en la investigación de los siguientes delitos :",
+      "enunciado": "La Ley de Enjuiciamiento Criminal, en su artículo 588 septies a, dice que el juez competente podrá autorizar la utilización de datos de identificación y códigos, así como la instalación de un software, que permitan, de forma remota y telemática, el examen a distancia y sin conocimiento del titular o usuario del contenido de un ordenador, dispositivo electrónico, sistema informático, instrumento de almacenamiento masivo de datos informáticos o base de datos, en la investigación de los siguientes delitos :",
       "opciones": [
         "Delitos contra menores o personas con capacidad modificada judicialmente.",
         "Delitos contra la libertad e indemnidad sexual.",
@@ -1192,7 +1192,7 @@
     },
     {
       "n": 93,
-      "enunciado": "¿Qué herramienta OSINT permite visualizar de manera gráfica las relaciones entre perso- nas, empresas, páginas web, documentos a partir de información pública?",
+      "enunciado": "¿Qué herramienta OSINT permite visualizar de manera gráfica las relaciones entre personas, empresas, páginas web, documentos a partir de información pública?",
       "opciones": [
         "Theharvester.",
         "Maltego.",
@@ -1218,7 +1218,7 @@
     },
     {
       "n": 95,
-      "enunciado": "Dentro de la Comisaría General de Seguridad Ciudadana, la Oficina Nacional de Deportes, encargada entre otras cosas, de todas las funciones relacionadas con la prevención de la violen- cia en el deporte, depende de:",
+      "enunciado": "Dentro de la Comisaría General de Seguridad Ciudadana, la Oficina Nacional de Deportes, encargada entre otras cosas, de todas las funciones relacionadas con la prevención de la violencia en el deporte, depende de:",
       "opciones": [
         "Secretaría General.",
         "Unidad Central de Coordinación Operativa y Técnica.",
@@ -1257,7 +1257,7 @@
     },
     {
       "n": 98,
-      "enunciado": "Según se establece en el artículo 167.1 de la Constitución Española, los proyectos de refor- ma constitucional deberán ser aprobados por:",
+      "enunciado": "Según se establece en el artículo 167.1 de la Constitución Española, los proyectos de reforma constitucional deberán ser aprobados por:",
       "opciones": [
         "Mayoría absoluta de cada una de las Cámaras.",
         "Mayoría de tres quintos de cada una de las Cámaras.",
@@ -1270,7 +1270,7 @@
     },
     {
       "n": 99,
-      "enunciado": "En el cumplimiento de sus funciones, los funcionarios adscritos a Unidades de Policía Ju- dicial dependen:",
+      "enunciado": "En el cumplimiento de sus funciones, los funcionarios adscritos a Unidades de Policía Judicial dependen:",
       "opciones": [
         "Orgánicamente del Ministerio del Interior.",
         "Orgánicamente del Ministerio de Justicia.",
@@ -1283,7 +1283,7 @@
     },
     {
       "n": 100,
-      "enunciado": "Conforme a lo dispuesto en la Orden INT/859/2003, por la que se desarrolla la estructura or- gánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía, ¿Qué Unidad de la División de Cooperación Internacional se constituye como punto de contacto nacional designado para el intercambio de datos post-hit de perfiles de ADN y datos dactiloscópicos?:",
+      "enunciado": "Conforme a lo dispuesto en la Orden INT/859/2003, por la que se desarrolla la estructura orgánica y funciones de los servicios centrales y territoriales de la Dirección General de la Policía, ¿Qué Unidad de la División de Cooperación Internacional se constituye como punto de contacto nacional designado para el intercambio de datos post-hit de perfiles de ADN y datos dactiloscópicos?:",
       "opciones": [
         "Oficina Central Nacional de Interpol.",
         "Unidad Nacional de Europol.",
