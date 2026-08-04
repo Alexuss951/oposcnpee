@@ -6583,6 +6583,73 @@
             border-left-color: var(--ok);
         }
 
+        .fis-weeknav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .fis-weeknav button {
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            color: var(--text);
+            border-radius: var(--radius);
+            padding: 7px 13px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .fis-weeknav button:hover:not(:disabled) {
+            border-color: var(--accent2);
+            color: var(--accent2);
+        }
+
+        .fis-weeknav button:disabled {
+            opacity: .4;
+            cursor: not-allowed;
+        }
+
+        .fis-weeknav button.hoy {
+            border-color: var(--accent);
+            color: var(--accent);
+            font-size: 12.5px;
+        }
+
+        .fis-weeknav-label {
+            flex: 1;
+            min-width: 140px;
+            text-align: center;
+            font-size: 13.5px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .fis-weeknav-label span {
+            display: block;
+            font-size: 11.5px;
+            font-weight: 500;
+            color: var(--muted);
+        }
+
+        .fis-ojeando {
+            background: var(--panel2);
+            border: 1px solid var(--line);
+            border-left: 3px solid var(--accent2);
+            border-radius: var(--radius);
+            padding: 9px 13px;
+            font-size: 12.5px;
+            line-height: 1.55;
+            margin-bottom: 10px;
+            color: var(--muted);
+        }
+
+        .fis-ojeando b {
+            color: var(--accent2);
+        }
+
         .fis-day {
             background: var(--panel);
             border: 1px solid var(--line);
@@ -15192,8 +15259,9 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         //   fisico:marks      {agilidad|barra|mil|fondo: [{d,v}]}  v en unidad nativa
         //   fisico:sesiones   {"YYYY-MM-DD": 1}  sesiones completadas
         //   fisico:oficial    {pruebaId: {m10, m5}}  strings tal cual se teclean
-        //   fisico:planstart  "YYYY-MM-DD"  lunes de la primera semana de uso
         //   fisico:voz        bool — locutora del entrenamiento guiado
+        //   (fisico:planstart quedó obsoleta: el inicio del plan es la constante
+        //    FIS_PLAN_START, para que todos los dispositivos vayan a la misma semana)
         //   (fisico:marks conserva el formato de la versión anterior de esta vista)
 
         // `of` = baremo oficial (Anexo I, mujeres) embebido por defecto: {m10, m5} en
@@ -15237,11 +15305,29 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             x.setDate(x.getDate() - (x.getDay() + 6) % 7);
             return x;
         }
+        // Lunes en que arrancó el plan. Es una CONSTANTE a propósito: cuando cada
+        // navegador la fijaba al abrirse por primera vez (en localStorage), el móvil
+        // y el portátil calculaban semanas distintas el mismo día y por tanto
+        // mostraban bloques de carga distintos — misma app, rutina aparentemente
+        // distinta. Al ser fija, todos los dispositivos van siempre sincronizados.
+        const FIS_PLAN_START = "2026-07-13";
         function fisSemanaN() {
-            const raw = lsGet("fisico:planstart", null);
-            const start = raw ? new Date(raw + "T00:00:00") : fisMonday(new Date());
+            const start = new Date(FIS_PLAN_START + "T00:00:00");
             if (isNaN(start.getTime())) return 1;
             return Math.max(1, Math.floor((fisMonday(new Date()) - start) / (7 * 86400000)) + 1);
+        }
+
+        // Semana que se está MIRANDO, en semanas relativas a la de hoy (0 = la actual).
+        // Es sólo navegación con las flechas y NO se persiste a propósito: al recargar
+        // —o al salir y volver a la vista— se vuelve siempre a la semana en curso, así
+        // que ningún dispositivo puede quedarse anclado en otra semana sin querer.
+        let fisWeekOffset = 0;
+        // Límites de la navegación: ni antes de la semana 1 del plan, ni más allá de
+        // la semana de la prueba.
+        function fisOffsetMin() { return 1 - fisSemanaN(); }
+        function fisOffsetMax() {
+            const ms = fisMonday(fisFaseInfo().examD) - fisMonday(new Date());
+            return Math.max(0, Math.round(ms / (7 * 86400000)));
         }
 
         // --- ciclo de carga: la estructura de la semana no cambia, la carga sí ---
@@ -15256,12 +15342,16 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         function fisSimulacroCompleto(semana) { return Math.max(1, semana) % 3 === 0; }
 
         // --- fases del plan (detectadas por fecha; el examen sale de Ajustes) ---
-        function fisFaseInfo() {
+        // `ref` = fecha desde la que se mira; por defecto, hoy. Se le pasa una fecha
+        // cuando la opositora navega a otra semana con las flechas: la fase que le
+        // corresponde a esa semana puede no ser la de hoy (asomarse a septiembre, por
+        // ejemplo, ya cae en Específica).
+        function fisFaseInfo(ref) {
             let examD = new Date((getSettings().examDate || "2026-10-15") + "T00:00:00");
             if (isNaN(examD.getTime())) examD = new Date("2026-10-15T00:00:00");
             const puestaIni = new Date(examD); puestaIni.setDate(puestaIni.getDate() - 13);
             const espIni = new Date("2026-09-01T00:00:00");
-            const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+            const hoy = ref ? new Date(ref) : new Date(); hoy.setHours(0, 0, 0, 0);
             const cur = hoy >= puestaIni ? "puesta" : hoy >= espIni ? "esp" : "base";
             const fmtD = d => d.toLocaleDateString("es-ES", { day: "numeric", month: "short" });
             return {
@@ -16135,11 +16225,15 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
         function fisRenderWeek() {
             const el = $("fisWeek"); if (!el) return;
             const ses = lsGet("fisico:sesiones", {});
-            const f = fisFaseInfo();
-            const semana = fisSemanaN();
-            const mon = fisMonday(new Date());
             const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
             const hoyKey = fisKey(hoy);
+            // La tarjeta "HOY" siempre habla de hoy, aunque se esté ojeando otra semana.
+            const semanaHoy = fisSemanaN(), fHoy = fisFaseInfo();
+            // La semana que se está mirando = la de hoy, desplazada por las flechas.
+            const mon = fisMonday(new Date()); mon.setDate(mon.getDate() + fisWeekOffset * 7);
+            const semana = semanaHoy + fisWeekOffset;
+            const f = fisFaseInfo(mon);
+            const ojeando = fisWeekOffset !== 0;
             let html = "";
             if (f.cur === "puesta") {
                 html += `<div class="fis-puesta">✨ <b>Puesta a punto:</b> recorta ~40% el volumen (menos series, la misma chispa), haz 2 simulacros en estas 2 semanas y regálate 48-72 h de descanso total antes de la prueba. Llegar fresca es llegar volando.</div>`;
@@ -16150,12 +16244,12 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
             const elHoy = $("fisHoy");
             if (elHoy) {
                 const dHoy = FIS_DIAS[(hoy.getDay() + 6) % 7];   // 0 = lunes
-                const sHoy = fisSesion(dHoy.tipo, f.cur, semana);
+                const sHoy = fisSesion(dHoy.tipo, fHoy.cur, semanaHoy);
                 const hechaHoy = !!ses[hoyKey];
-                const cambia = fisCambiaEstaSemana(dHoy.tipo, f.cur, semana);
+                const cambia = fisCambiaEstaSemana(dHoy.tipo, fHoy.cur, semanaHoy);
                 const fechaLarga = hoy.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
                 elHoy.innerHTML = `<div class="fis-hoy${hechaHoy ? " done" : ""}">
-                    <span class="fis-hoy-label">HOY · ${fechaLarga} · semana ${semana} del plan</span>
+                    <span class="fis-hoy-label">HOY · ${fechaLarga} · semana ${semanaHoy} del plan</span>
                     <h3><span class="fis-hoy-ic">${dHoy.icon}</span> ${dHoy.titulo}</h3>
                     ${cambia ? `<div class="fis-hoy-cambia">⚡ <b>Ojo, esto cambia hoy:</b> la sesión no es la misma que hiciste la semana pasada. Léela entera antes de salir.</div>` : ""}
                     <ul class="fis-hoy-items">${sHoy.items.map(it => `<li>${typeof it === "string" ? it : it.t}</li>`).join("")}</ul>
@@ -16164,9 +16258,25 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                         : `<label class="fis-hoy-check"><input type="checkbox" data-fis-check="${hoyKey}" ${hechaHoy ? "checked" : ""}> ${hechaHoy ? "Sesión completada ✔ ¡bien hecho!" : "Marcar como completada"}</label>`}
                 </div>`;
             }
+            // --- navegación entre semanas (flechas + volver a la semana en curso) ---
+            const dom = new Date(mon); dom.setDate(mon.getDate() + 6);
+            const rango = mon.getMonth() === dom.getMonth()
+                ? `${mon.getDate()}-${dom.getDate()} ${dom.toLocaleDateString("es-ES", { month: "short" })}`
+                : `${mon.toLocaleDateString("es-ES", { day: "numeric", month: "short" })} – ${dom.toLocaleDateString("es-ES", { day: "numeric", month: "short" })}`;
+            html += `<div class="fis-weeknav">
+                <button type="button" data-fis-week="-1" aria-label="Semana anterior" title="Semana anterior" ${fisWeekOffset <= fisOffsetMin() ? "disabled" : ""}>←</button>
+                <span class="fis-weeknav-label">Semana ${semana} del plan<span>${rango}${ojeando ? "" : " · esta semana"}</span></span>
+                <button type="button" data-fis-week="1" aria-label="Semana siguiente" title="Semana siguiente" ${fisWeekOffset >= fisOffsetMax() ? "disabled" : ""}>→</button>
+                ${ojeando ? `<button type="button" class="hoy" data-fis-week="0">↺ Semana actual</button>` : ""}
+            </div>`;
+            if (ojeando) {
+                html += `<div class="fis-ojeando">👀 <b>Estás ojeando ${fisWeekOffset > 0 ? "una semana futura" : "una semana pasada"}.</b> ${fisWeekOffset > 0
+                    ? "Es solo una vista previa de lo que te tocará: las sesiones se marcan el día que toca."
+                    : "Puedes marcar aquí una sesión que se te olvidara apuntar."} Pulsa «↺ Semana actual» para volver.</div>`;
+            }
             const bloque = fisBloque(semana);
             html += `<div class="fis-ciclo${fisEsDescarga(semana) ? " descarga" : ""}">${fisEsDescarga(semana)
-                ? `🌱 <b>Semana ${semana} · bloque 4 de 4: descarga.</b> Los días son los de siempre, pero hoy toca bajar el volumen a propósito. La mejora se produce asimilando las 3 semanas anteriores, no apretando una cuarta.`
+                ? `🌱 <b>Semana ${semana} · bloque 4 de 4: descarga.</b> Los días son los de siempre, pero toca bajar el volumen a propósito. La mejora se produce asimilando las 3 semanas anteriores, no apretando una cuarta.`
                 : `📈 <b>Semana ${semana} · bloque ${bloque} de 4: subida.</b> La estructura de la semana no cambia nunca —eso es lo que crea el hábito—; lo que sube es la carga dentro de cada sesión. El bloque 4 será de descarga.`}</div>`;
             html += FIS_DIAS.map((d, i) => {
                 const fecha = new Date(mon); fecha.setDate(mon.getDate() + i);
@@ -16199,7 +16309,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                     : `<li>${it.t}${it.s ? `<span class="fis-item-sub">${it.s}</span>` : ""}</li>`).join("")}</ul>
                         ${s.regla ? `<div class="fis-day-regla">🌿 ${s.regla}</div>` : ""}
                         ${s.nota ? `<div class="fis-day-note">💡 ${s.nota}</div>` : ""}
-                        ${guiada ? `<button type="button" class="fis-train-btn" data-fis-train="${i}">🎙️ Entrenar con voz — sesión guiada</button>` : ""}
+                        ${guiada && !ojeando ? `<button type="button" class="fis-train-btn" data-fis-train="${i}">🎙️ Entrenar con voz — sesión guiada</button>` : ""}
                     </details>
                     ${check}
                 </div>`;
@@ -16279,6 +16389,12 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
                 if (!b) return;
                 if (b.dataset.chrono) { fisChronoAction(b.dataset.chrono, b.dataset.sec); return; }
                 if (b.dataset.fisTrain != null) { fisTrainOpen(parseInt(b.dataset.fisTrain, 10)); return; }
+                if (b.dataset.fisWeek != null) {
+                    const d = parseInt(b.dataset.fisWeek, 10);
+                    fisWeekOffset = d === 0 ? 0 : Math.max(fisOffsetMin(), Math.min(fisOffsetMax(), fisWeekOffset + d));
+                    fisRenderWeek();
+                    return;
+                }
                 if (b.dataset.fisDel != null) {
                     if (!confirm("¿Quitar este registro?")) return;
                     const all = lsGet("fisico:marks", {});
@@ -16331,8 +16447,7 @@ const PREGUNTAS_META = {"total":1177,"sources":[{"key":"EE-ASC34","label":"Ascen
 
         function renderFisico() {
             const host = $("fisicoContent"); if (!host) return;
-            // fija el inicio del plan la primera vez (lunes de la semana actual)
-            if (!lsGet("fisico:planstart", null)) lsSet("fisico:planstart", fisKey(fisMonday(new Date())));
+            fisWeekOffset = 0;   // al entrar en la vista se vuelve siempre a la semana en curso
             const f = fisFaseInfo();
             const dLeft = daysToExam();
             host.innerHTML = `
