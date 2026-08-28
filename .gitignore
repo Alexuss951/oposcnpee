@@ -3,6 +3,7 @@
 AGENTS.md
 .vscode/
 .copilot/
+.claude/
 documentos/cuadernillos-imprimibles/
 
 # Local-only: scripts (parsers, one-shots, helpers)

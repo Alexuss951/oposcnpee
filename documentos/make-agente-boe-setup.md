@@ -2,7 +2,7 @@
 
 > Guía paso a paso para montar en **Make.com** un agente que vigila el BOE
 > diariamente y te envía email solo cuando se reforma una norma de tu
-> temario (Escala Ejecutiva, convocatoria [BOE-A-2025-16611](BOE-A-2025-16611.pdf)).
+> temario (Escala Ejecutiva, convocatoria [BOE-A-2026-15054](BOE-A-2026-15054.pdf)).
 >
 > Fuente de los IDs: [normativa-vigilancia-boe.md](normativa-vigilancia-boe.md)
 > Tiempo estimado de setup: **30 minutos**.
@@ -247,6 +247,7 @@ Para saber qué norma corresponde a cada ID cuando llegue el email:
 | `BOE-A-2010-8115` | LO 4/2010 régimen disciplinario CNP | T14 |
 | `BOE-A-2000-544` | LO 4/2000 Extranjería | T15-16 |
 | `BOE-A-2024-24099` | RD 1155/2024 Reglamento Extranjería | T15-16 |
+| `BOE-A-2026-8284` | RD 316/2026 modifica el Reglamento de Extranjería | T15-16 |
 | `BOE-A-2009-17242` | Ley 12/2009 Asilo | T17 |
 | `BOE-A-2014-3649` | Ley 5/2014 Seguridad Privada | T18 |
 | `BOE-A-2015-3442` | LO 4/2015 Seguridad Ciudadana | T19 |

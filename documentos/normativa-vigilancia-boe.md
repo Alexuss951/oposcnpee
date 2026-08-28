@@ -1,7 +1,7 @@
 # Normativa a vigilar en BOE — Oposición Escala Ejecutiva (Inspector/a) CNP
 
-> Convocatoria [BOE-A-2025-16611](BOE-A-2025-16611.pdf) · Examen previsto octubre 2026
-> Última actualización: revisa cada 3 meses.
+> Convocatoria vigente [BOE-A-2026-15054](BOE-A-2026-15054.pdf), publicada el 10-jul-2026 · La app estima el examen en octubre de 2026; fecha oficial pendiente
+> Última revisión de convocatoria y T15-16: 27-ago-2026. Revisa cada 3 meses y antes del examen.
 
 ---
 
@@ -25,7 +25,7 @@ añades, quitas o repriorizas una norma, sigue esta misma lógica.
 
 ### Paso 1 — Fuente primaria: el Anexo II de la convocatoria
 
-El temario oficial está en el **Anexo II** del [BOE-A-2025-16611](BOE-A-2025-16611.pdf)
+El temario oficial está en el **Anexo II** del [BOE-A-2026-15054](BOE-A-2026-15054.pdf)
 (transcrito íntegro en [ANEXO II.txt](ANEXO%20II.txt)). El Anexo II describe
 **materias**, no artículos. Por ejemplo el T19 dice:
 
@@ -310,16 +310,18 @@ norma ha sido modificada por…"*. Revisa esa sección una vez al mes en las
   - URL: https://www.boe.es/buscar/act.php?id=BOE-A-2000-544
 - **[CRÍTICA] RD 1155/2024 Reglamento Extranjería** *(NUEVO, en vigor 20-may-2025)* — `BOE-A-2024-24099`
   - URL: https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099
-  - ⚠️ Sustituye al RD 557/2011. Uno de los puntos más recientes y
-    candentes del temario. Vigila correcciones de erratas.
+  - ⚠️ Derogó y sustituyó al RD 557/2011. Estudiar siempre el texto consolidado.
+- **[CRÍTICA] RD 316/2026**, modifica el RD 1155/2024 — `BOE-A-2026-8284`
+  - URL: https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8284
+  - Modifica requisitos de arraigo y añade autorizaciones extraordinarias de plazo limitado. No confundirlas con las cinco modalidades ordinarias del artículo 125.
 - **[ALTA] RD 240/2007 régimen ciudadanos UE** — `BOE-A-2007-4184`
 - **[CRÍTICA] Ley 12/2009 derecho de asilo y protección subsidiaria** — `BOE-A-2009-17242`
   - URL: https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242
   - *Sin reglamento de desarrollo todavía; sigue aplicándose el RD 203/1995.
     Vigila: el reglamento nuevo está anunciado.*
 - **[ALTA] Pacto UE Migración y Asilo** (Reglamentos UE 2024/1351, 2024/1348, 2024/1356, 2024/1347) — DOUE 2024
-  - ⚠️ Aplicación junio 2026 → JUSTO ANTES del examen. Crítico vigilar la
-    trasposición/desarrollo nacional.
+  - ⚠️ Aplicación desde junio de 2026. Vigilar su aplicación práctica y el
+    desarrollo o adaptación nacional antes del examen.
 
 ### T18 · Seguridad privada
 
@@ -641,16 +643,16 @@ ficha consolidada.
 
 ## Notas finales
 
-1. El temario oficial ([BOE-A-2025-16611](BOE-A-2025-16611.pdf) Anexo II)
+1. El temario oficial ([BOE-A-2026-15054](BOE-A-2026-15054.pdf) Anexo II)
    **NO cita artículos concretos**, sólo materias. Los artículos listados
    arriba son los que históricamente caen en exámenes anteriores de Escala
    Ejecutiva (promociones 36-40) según los exámenes publicados en
    [examenes/](../examenes/).
 
 2. Si una norma se reforma **DESPUÉS** de la publicación de la convocatoria
-   (11-ago-2025) y **ANTES** del examen, el tribunal usa la redacción
+   (10-jul-2026) y **ANTES** del examen, el tribunal usa la redacción
    **VIGENTE el día del examen** salvo que las bases digan lo contrario.
-   Las bases de la convocatoria 2025 NO fijan una fecha de corte, por lo
+   Las bases de la convocatoria 2026 NO fijan una fecha de corte, por lo
    que toca estudiar siempre lo último.
 
 3. **Lo más probable que cambie antes de octubre 2026:**
@@ -663,4 +665,4 @@ ficha consolidada.
 
 4. **NO incluyo aquí** psicotécnicos, ortografía ni inglés/francés porque
    no son normativos y los baremos están en el Anexo I-A de la convocatoria
-   ([BOE-A-2025-16611](BOE-A-2025-16611.pdf)), que ya tienes localizada.
+   ([BOE-A-2026-15054](BOE-A-2026-15054.pdf)), que ya tienes localizada.

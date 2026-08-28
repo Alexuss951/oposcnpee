@@ -168,4 +168,4 @@ Plan en detalle: ver fase 5 de la app (pendiente de implementar) o documento sep
 - Temario y enlaces BOE: pestaña 📖 Temario (app).
 - Banco de preguntas (700): pestaña 📝 Exámenes (app).
 - Normativa actualizada: [recursos.md](recursos.md).
-- Convocatoria oficial: BOE-A-2025-16611 (11 ago 2025).
+- Convocatoria oficial vigente: BOE-A-2026-15054 (10 jul 2026).

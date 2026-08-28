@@ -47,6 +47,9 @@ Enlaces agrupados por bloque. Los enlaces tema a tema están en [temario.csv](te
 ### Extranjería y asilo (15-17)
 
 - LO 4/2000 Extranjería: https://www.boe.es/buscar/act.php?id=BOE-A-2000-544
+- RD 1155/2024, Reglamento de Extranjería consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099
+- RD 316/2026, modificación del Reglamento: https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8284
+- RD 240/2007, régimen de ciudadanos UE: https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184
 - Ley 12/2009 Asilo: https://www.boe.es/buscar/act.php?id=BOE-A-2009-17242
 - Portal Extranjería (Min. Inclusión): https://extranjeros.inclusion.gob.es/
 - ACNUR España: https://www.acnur.org/es-es
